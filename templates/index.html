@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <div class="bg-static"></div>
+    <div class="bg-moving">
+        <div><div></div></div>
+        <div><div><div></div></div></div>
+    </div>
+    <h1 class="title">
+        Trifecta Tech
+        <small>Foundation</small>
+    </h1>    
+</div>
+
+{% for article in section.pages %}
+<article>
+    <h2>{{ article.title }}</h2>
+    <span class="date">{{ article.date }}</span>
+    <div>
+        {{ article.content|safe }}
+    </div>
+</article>
+{% endfor %}
+
+{% endblock content %}
