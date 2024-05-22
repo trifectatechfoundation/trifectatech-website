@@ -1,0 +1,38 @@
+body {
+  background-color: var(--color-secondary-200);
+  font-family: var(--font-family);
+  font-size: var(--text-size-base);
+  line-height: var(--line-height);
+  color: var(--color-primary-400);
+}
+
+.hero {
+  padding-block: 2.25rem;
+  border-block-end: 1px solid var(--color-secondary-300);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  overflow: hidden;
+  
+  div {
+    position: relative;
+  }
+
+  div::after {
+    background-image: url('./static/ornament.svg');
+    // background-color: red;
+    content: '';
+    height: calc(100% - 0.25rem);
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    width: 100%;
+    margin-inline-start: 0.5rem;
+  }
+}

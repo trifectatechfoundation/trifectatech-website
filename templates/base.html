@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    {% block content %} {% endblock %}
+    <div class="container">
+      {% include "components/nav.html" %}
+      {% block content %} {% endblock %}
+    </div>
 </body>
 
 </html>

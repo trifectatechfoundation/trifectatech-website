@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1.5rem;
+
+  .logo svg {
+    height: 3rem;
+    width: 100%;
+  }
+}
