@@ -1,4 +1,8 @@
 .container {
-  width: min(calc(100% - 3rem), 90rem);
   margin-inline: auto;
+  width: min(calc(100% - 3rem), 26.75rem);
+}
+
+main > * + * {
+  margin-block-start: 2.25rem;
 }

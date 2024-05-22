@@ -1,0 +1,32 @@
+.team {
+  > * + * {
+    margin-block-start: 1.5rem;
+  }
+}
+
+.member {
+  align-items: center;
+  border: 1px solid var(--color-secondary-300);
+  display: flex;
+  gap: 0.75rem;
+  position: relative;
+
+  &::after {
+    background-image: url('ornament.svg');
+    rotate: 90deg;
+    content: '';
+    position: absolute;
+    width: 2.25rem;
+    height: 100%;
+    background-color: red;
+    right: 0;
+    translate: 50%;
+    opacity: 0.5;
+  }
+
+  .image {
+    aspect-ratio: 1;
+    background-color: var(--color-secondary-300);
+    width: 6rem;
+  }
+}

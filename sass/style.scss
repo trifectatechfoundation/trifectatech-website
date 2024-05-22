@@ -3,6 +3,10 @@
 @use './global/global';
 @use './global/layout';
 @use './global/root';
+@use './global/typography';
 
 @use './components/hero';
+@use './components/markdown';
 @use './components/nav';
+@use './components/paragraph';
+@use './components/team.scss';
