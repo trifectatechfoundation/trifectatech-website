@@ -1,7 +1,13 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-block: 1.5rem;
+  border-block-end: 1px solid var(--color-secondary-300);
+
+  .logo {
+    translate: -1.25rem;
+  }
 
   .logo svg {
     height: 3rem;

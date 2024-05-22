@@ -1,0 +1,28 @@
+.hero {
+  border-block-end: 1px solid var(--color-secondary-300);
+  padding-block: 2.25rem;
+
+  h1 {
+    font-size: var(--text-size-lg);
+    overflow: hidden;
+    white-space: nowrap;
+    
+    & div {
+      position: relative;
+  
+      &::after {
+        background-image: url('./ornament.svg');
+        background-repeat: repeat-x;
+        background-size: auto 100%;
+        content: '';
+        height: calc(100% - 0.5rem);
+        margin-inline-start: 0.5rem;
+        position: absolute;
+        top: 50%;
+        translate: 0 -50%;
+        width: 100%;
+        opacity: 0.5;
+      }
+    }
+  }
+}
