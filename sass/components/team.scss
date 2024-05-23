@@ -1,6 +1,6 @@
 .team {
   > * + * {
-    margin-block-start: 1.5rem;
+    margin-block-start: calc(var(--text-size-md) * var(--line-height));
   }
 }
 
@@ -12,7 +12,7 @@
   position: relative;
 
   &::after {
-    background-image: url('ornament-portrait.svg');
+    background-image: url('ornament-v2.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

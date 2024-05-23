@@ -5,5 +5,13 @@ h4,
 h5,
 h6 {
   line-height: var(--line-height-tight);
-  font-weight: 600;
+  font-weight:600;
+}
+
+h1 {
+  font-size: var(--text-size-xl);
+}
+
+h3 {
+  font-size: var(--text-size-lg);
 }
