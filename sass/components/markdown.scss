@@ -13,6 +13,11 @@
   }
 
   a {
-    text-decoration-color: var(--color-secondary-300);
+    text-decoration-color: var(--color-secondary-400);
+  }
+
+  strong,
+  b {
+    font-weight: 600;
   }
 }

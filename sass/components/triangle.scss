@@ -1,0 +1,25 @@
+.triangle {
+  position: relative;
+
+  p {
+    background-color: var(--color-secondary-200);
+    padding: 0.25rem;
+    position: absolute;
+
+    &.safe {
+      top: 0;
+      left: 50%;
+      translate: -50%;
+    }
+
+    &.open {
+      bottom: 0;
+      left: 0;
+    }
+
+    &.public {
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

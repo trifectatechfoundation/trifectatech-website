@@ -2,6 +2,14 @@
 
 {% block content %}
     {% include "components/hero.html" %}
+
+    <div class="triangle">
+        {{ load_data(path="static/triangle.svg") | safe }}
+        <p class="safe">Safe software</p>
+        <p class="open">Open source</p>
+        <p class="public">Public interest</p>
+    </div>
+
     <div class="paragraph markdown">
         <h3>Mission</h3>
         <p>Lorem ipsum dolor sit amet consectetur <a href="">adipisicing</a> elit. Officia laudantium dolor ratione vitae illo iusto est velit culpa! Porro iusto debitis, nesciunt magnam accusamus nisi quos quisquam sequi aliquid aperiam.</p>
