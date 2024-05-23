@@ -14,3 +14,7 @@ main {
     margin-block-start: 6rem;
   }
 }
+
+.flow > * + * {
+  margin-block-start: 1.5rem;
+}

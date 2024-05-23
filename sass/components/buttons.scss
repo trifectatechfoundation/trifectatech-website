@@ -1,0 +1,27 @@
+.btn {
+  align-items: center;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: inherit;
+  height: 3rem;
+  justify-content: center;
+  padding-inline: 1.5rem;
+  position: relative;
+  text-decoration: none;
+
+  &::after {
+    width: 100%;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    background-color: var(--color-primary-400);
+    z-index: -1;
+  }
+}
+
+.btn-primary {
+  background-color: var(--color-secondary-400);
+  color: var(--color-secondary-200);
+}

@@ -11,6 +11,25 @@
   }
 
   h1 {
-    position: relative;
+    span {
+      position: relative;
+
+      &::after {
+        aspect-ratio: 1;
+        background-image: url('ornament-v3.svg');
+        content: '';
+        height: 1.5rem;
+        margin-inline-start: 0.5rem;
+        position: absolute;
+        rotate: 90deg;
+        top: 50%;
+        translate: 0 -50%;
+
+        @media (min-width: 62rem) {
+          height: 2.25rem;
+          margin-inline-start: 0.75rem;
+        }
+      }
+    }    
   }
 }

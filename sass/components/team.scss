@@ -51,12 +51,6 @@
     }
   }
 
-  &:not(:first-child, :last-child)::after {
-    @media (min-width: 62rem) {
-      display: none;
-    }
-  }
-
   .image {
     aspect-ratio: 1;
     background-color: var(--color-secondary-400);
