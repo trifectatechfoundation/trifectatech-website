@@ -1,6 +1,13 @@
 .hero {
   border-block-end: 1px solid var(--color-secondary-400);
+  display: grid;
+  gap: 3rem;
   padding-block: 3rem;
+
+  @media (min-width: 62rem) {
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   h1 {
     position: relative;

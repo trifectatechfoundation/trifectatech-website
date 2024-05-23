@@ -23,5 +23,9 @@
   --line-height-tight: 1.125;
 
   --font-family: "Kumbh Sans", sans-serif;
+
+  @media (min-width: 62rem) {
+    --text-size-base: 1.125rem;
+  }
 }
 

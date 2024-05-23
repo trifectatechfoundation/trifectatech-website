@@ -3,6 +3,12 @@
   padding-block-end: 3rem;
   position: relative;
 
+  @media (min-width: 62rem) {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
   &::after {
     background-image: url('ornament.svg');
     background-position: center;
@@ -14,5 +20,11 @@
     position: absolute;
     translate: 0 50%;
     width: 100%;
+  }
+
+  > div {
+    @media (min-width: 62rem) {
+      grid-column: 4 / span 6;
+    }
   }
 }
