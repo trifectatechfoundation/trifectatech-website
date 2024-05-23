@@ -3,6 +3,7 @@
   display: grid;
   gap: 3rem;
   padding-block: 3rem;
+  background-color: var(--color-spri-300);
 
   @media (min-width: 62rem) {
     align-items: center;
@@ -26,7 +27,7 @@
         translate: 0 -50%;
 
         @media (min-width: 62rem) {
-          height: 2.25rem;
+          height: 3rem;
           margin-inline-start: 0.75rem;
         }
       }

@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 158.17"><polygon points="113 .83 1 150.17 225 150.17 113 .83" style="fill:none; stroke:#e69a8d; stroke-miterlimit:10;"/><polygon points="113 .83 1 150.17 225 150.17 113 .83" style="fill:none; stroke:#e69a8d; stroke-miterlimit:10;"/><path id="Path_69" d="M119,141.17v18s9-9,9-9l-9-9Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70" d="M122,141.17h-3s8.97,9.03,8.97,9.03l-8.97,8.97h3s9-9,9-9l-9-9Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-2" d="M107,141.17v18s9-9,9-9l-9-9Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-2" d="M110,141.17h-3s8.97,9.03,8.97,9.03l-8.97,8.97h3s9-9,9-9l-9-9Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-3" d="M95,141.17v18s9-9,9-9l-9-9Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-3" d="M98,141.17h-3s8.97,9.03,8.97,9.03l-8.97,8.97h3s9-9,9-9l-9-9Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-4" d="M155.64,72.03l14.4-10.8-12.6-1.8-1.8,12.6Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-4" d="M153.84,69.63l1.8,2.4,1.85-12.59,12.55,1.79-1.8-2.4-12.6-1.8-1.8,12.6Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-5" d="M162.84,81.63l14.4-10.8-12.6-1.8-1.8,12.6Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-5" d="M161.04,79.23l1.8,2.4,1.85-12.59,12.55,1.79-1.8-2.4-12.6-1.8-1.8,12.6Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-6" d="M170.04,91.23l14.4-10.8-12.6-1.8-1.8,12.6Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-6" d="M168.24,88.83l1.8,2.4,1.85-12.59,12.55,1.79-1.8-2.4-12.6-1.8-1.8,12.6Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-7" d="M56.72,61.23l14.4,10.8-1.8-12.6-12.6,1.8Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-7" d="M58.52,58.83l-1.8,2.4,12.61-1.75,1.79,12.55,1.8-2.4-1.8-12.6-12.6,1.8Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-8" d="M49.52,70.83l14.4,10.8-1.8-12.6-12.6,1.8Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-8" d="M51.32,68.43l-1.8,2.4,12.61-1.75,1.79,12.55,1.8-2.4-1.8-12.6-12.6,1.8Z" style="fill:#5f4b8b; stroke-width:0px;"/><path id="Path_69-9" d="M42.32,80.43l14.4,10.8-1.8-12.6-12.6,1.8Z" style="fill:#e69a8d; stroke-width:0px;"/><path id="Path_70-9" d="M44.12,78.03l-1.8,2.4,12.61-1.75,1.79,12.55,1.8-2.4-1.8-12.6-12.6,1.8Z" style="fill:#5f4b8b; stroke-width:0px;"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 226 163.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e69a8d;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #5f4b8b;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #e69a8d;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-3" points="113 .8 1 150.2 225 150.2 113 .8"/>
+  <polygon class="cls-3" points="113 .8 1 150.2 225 150.2 113 .8"/>
+  <g>
+    <path id="Path_69-2" data-name="Path 69-2" class="cls-1" d="M107,136.7v27l13.5-13.5-13.5-13.5Z"/>
+    <path id="Path_70-2" data-name="Path 70-2" class="cls-2" d="M111.5,136.7h-4.5l13.5,13.5-13.5,13.5h4.5l13.5-13.5-13.5-13.5Z"/>
+  </g>
+  <g>
+    <path id="Path_69-2-2" data-name="Path 69-2" class="cls-1" d="M161.9,84.1l19.1-19.1h-19.1v19.1Z"/>
+    <path id="Path_70-2-2" data-name="Path 70-2" class="cls-2" d="M158.7,80.9l3.2,3.2v-19.1h19.1l-3.2-3.2h-19.1v19.1Z"/>
+  </g>
+  <g>
+    <path id="Path_69-2-3" data-name="Path 69-2" class="cls-1" d="M72.6,80.9l-19.1-19.1v19.1h19.1Z"/>
+    <path id="Path_70-2-3" data-name="Path 70-2" class="cls-2" d="M69.4,84.1l3.2-3.2h-19.1v-19.1l-3.2,3.2v19.1h19.1Z"/>
+  </g>
+</svg>

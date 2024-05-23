@@ -3,8 +3,12 @@
 
   p {
     background-color: var(--color-secondary-200);
-    padding: 0.25rem;
     position: absolute;
+    text-align: center;
+
+    &:first-line {
+      font-weight: 600;
+    }
 
     &.safe {
       top: 0;
