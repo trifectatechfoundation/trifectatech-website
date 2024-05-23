@@ -9,4 +9,8 @@ main {
 
 .sections > * + * {
   margin-block-start: 3rem;
+
+  @media (min-width: 62rem) {
+    margin-block-start: 6rem;
+  }
 }

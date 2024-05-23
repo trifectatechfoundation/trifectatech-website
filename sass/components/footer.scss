@@ -2,4 +2,9 @@ footer {
   background-color: var(--color-secondary-400);
   margin-block-start: 3rem;
   padding-block: 3rem;
+
+  @media (min-width: 62rem) {
+    margin-block-start: 6rem;
+    padding-block: 4.5rem;
+  }
 }

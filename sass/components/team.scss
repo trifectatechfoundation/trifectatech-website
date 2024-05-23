@@ -15,10 +15,18 @@
 
 .member {
   align-items: center;
-  border: 1px solid var(--color-secondary-300);
+  border: 1px solid var(--color-secondary-400);
   display: flex;
   gap: 0.75rem;
   position: relative;
+
+  @media (min-width: 62rem) {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    text-align: center;
+  }
 
   &::after {
     background-image: url('ornament-v2.svg');
@@ -31,11 +39,45 @@
     width: 100%;
     right: 0;
     translate: 50%;
+
+    @media (min-width: 62rem) {
+      background-image: url('ornament.svg');
+      width: 100%;
+      height: 3rem;
+      right: auto;
+      left: 50%;
+      top: 0;
+      translate: -50% -50%;
+    }
+  }
+
+  &:not(:first-child, :last-child)::after {
+    @media (min-width: 62rem) {
+      display: none;
+    }
   }
 
   .image {
     aspect-ratio: 1;
-    background-color: var(--color-secondary-300);
+    background-color: var(--color-secondary-400);
     width: 6rem;
+
+    @media (min-width: 62rem) {
+      width: 9rem;
+      position: relative;
+    }
+
+    &::after {
+      @media (min-width: 62rem) {
+        background-color: var(--color-primary-400);
+        content: '';
+        height: 100%;
+        left: 8.33%;
+        position: absolute;
+        top: 8.33%;
+        width: 100%;
+        z-index: -1;
+      }
+    }
   }
 }
