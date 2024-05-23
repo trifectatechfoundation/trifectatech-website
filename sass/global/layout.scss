@@ -3,6 +3,10 @@
   width: min(calc(100% - 3rem), 26.75rem);
 }
 
-main > * + * {
+main {
+  overflow-x: hidden;
+}
+
+.sections > * + * {
   margin-block-start: 2.25rem;
 }

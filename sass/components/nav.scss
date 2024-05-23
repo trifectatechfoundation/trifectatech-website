@@ -1,9 +1,13 @@
 nav {
+  align-items: center;
+  background-color: var(--color-secondary-200);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  left: 0;
   padding-block: 1.5rem;
-  border-block-end: 1px solid var(--color-secondary-300);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
   .logo {
     translate: -1.25rem;

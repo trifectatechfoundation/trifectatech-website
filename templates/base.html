@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <div class="container">
-      {% include "components/nav.html" %}
-      <main>
-        {% block content %} {% endblock %}
-      </main>
+  {% include "components/nav.html" %}
+  <main>
+    <div class="container sections">
+      {% block content %} {% endblock %}
     </div>
+  </main>
+  <script src="/main.js"></script>
 </body>
-
 </html>

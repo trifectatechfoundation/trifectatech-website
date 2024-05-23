@@ -12,16 +12,16 @@
   position: relative;
 
   &::after {
-    background-image: url('ornament.svg');
-    rotate: 90deg;
+    background-image: url('ornament-portrait.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     content: '';
     position: absolute;
-    width: 2.25rem;
     height: 100%;
-    background-color: red;
+    width: 100%;
     right: 0;
     translate: 50%;
-    opacity: 0.5;
   }
 
   .image {

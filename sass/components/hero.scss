@@ -1,23 +1,30 @@
 .hero {
   border-block-end: 1px solid var(--color-secondary-300);
-  padding-block: 2.25rem;
+  padding-block-start: 1.5rem;
+  padding-block-end: 3rem;
 
   h1 {
     font-size: var(--text-size-xl);
     font-weight: 400;
     position: relative;
 
-    &::after {
+    span {
+      position: relative;
+    }
+
+    span::after {
       background-image: url('ornament.svg');
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: auto 100%;
       background-position: center left;
       content: '';
       display: inline-block;
-      height: 2rem;
+      height: 2.25rem;
       margin-inline-start: 0.5rem;
       position: absolute;
-      width: 6rem;
+      width: 100%;
+      top: 50%;
+      translate: 0 -50%;
     }
   }
 }
