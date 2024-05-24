@@ -5,6 +5,11 @@
 
 main {
   overflow-x: hidden;
+  padding-block-end: 3rem;
+
+  @media (min-width: 62rem) {
+    padding-block-end: 6rem;
+  }
 }
 
 .sections > * + * {
