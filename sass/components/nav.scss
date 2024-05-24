@@ -1,14 +1,17 @@
 nav {
-  align-items: center;
   background-color: var(--color-secondary-200);
   border-bottom: 1px solid var(--color-secondary-400);
-  display: flex;
-  justify-content: space-between;
   left: 0;
   padding-block: 1.5rem;
   position: sticky;
   top: 0;
   z-index: 1;
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+  }
 
   .logo {
     translate: -1.25rem;
