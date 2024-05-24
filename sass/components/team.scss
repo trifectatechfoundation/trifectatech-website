@@ -55,9 +55,16 @@
     display: none;
   }
 
+  .name {
+    font-size: var(--text-size-lg);
+    font-weight: 500;
+  }
+
   .image {
     aspect-ratio: 1;
     background-color: var(--color-secondary-400);
+    background-size: contain;
+    background-position: center;
     width: 6rem;
 
     @media (min-width: 62rem) {
@@ -76,6 +83,18 @@
         width: 100%;
         z-index: -1;
       }
+    }
+
+    &.erik {
+      background-image: url('erik.jpg');
+    }
+
+    &.hugo {
+      background-image: url('hugo.jpg');
+    }
+
+    &.marlon {
+      background-image: url('marlon.jpg');
     }
   }
 }

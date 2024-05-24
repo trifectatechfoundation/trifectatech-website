@@ -30,10 +30,19 @@ footer {
 
   .logo {
     grid-column: span 4;
+    translate: -1.25rem;
+
+    @media (min-width: 62rem) {
+      translate: -2rem;
+    }
 
     svg {
-      height: 4.5rem;
+      height: 3rem;
       width: auto;
+
+      @media (min-width: 62rem) {
+        height: 4.5rem;
+      }
     }
   }
 
