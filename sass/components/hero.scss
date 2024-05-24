@@ -1,0 +1,37 @@
+.hero {
+  background-color: var(--color-spri-300);
+  border-block-end: 1px solid var(--color-secondary-400);
+  padding-block: 3rem;
+  
+  @media (min-width: 62rem) {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    padding-block: 6rem;
+  }
+
+  h1 {
+    grid-column: 3 / span 8;
+
+    span {
+      position: relative;
+
+      &::after {
+        aspect-ratio: 1;
+        background-image: url('ornament-v3.svg');
+        content: '';
+        height: 1.75rem;
+        margin-inline-start: 0.5rem;
+        position: absolute;
+        rotate: 90deg;
+        top: 50%;
+        translate: 0 -50%;
+
+        @media (min-width: 62rem) {
+          height: 3.25rem;
+          margin-inline-start: 0.75rem;
+        }
+      }
+    }    
+  }
+}

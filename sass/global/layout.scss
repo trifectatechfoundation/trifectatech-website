@@ -1,0 +1,25 @@
+.container {
+  margin-inline: auto;
+  width: min(calc(100% - 3rem), 75rem);
+}
+
+main {
+  overflow-x: hidden;
+  padding-block-end: 3rem;
+
+  @media (min-width: 62rem) {
+    padding-block-end: 6rem;
+  }
+}
+
+.sections > * + * {
+  margin-block-start: 3rem;
+
+  @media (min-width: 62rem) {
+    margin-block-start: 6rem;
+  }
+}
+
+.flow > * + * {
+  margin-block-start: 1.5rem;
+}

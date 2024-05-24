@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--line-height-tight);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: var(--text-size-xl);
+
+  @media (min-width: 62rem) {
+    font-size: var(--text-size-3xl);
+  }
+}
+
+h3 {
+  font-size: var(--text-size-lg);
+}
+
+strong,
+b {
+  font-weight: 500;
+}

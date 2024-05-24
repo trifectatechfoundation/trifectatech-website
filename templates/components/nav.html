@@ -1,0 +1,16 @@
+<nav>
+  <div class="container">
+    <a class="logo" href="/">
+      {{ load_data(path="static/logo.svg") | safe }}
+    </a>
+    <div class="hamburger">
+      {{ load_data(path="static/bars.svg") | safe }}
+    </div>
+    <div class="menu">
+      <div>
+        <a href="/about">About</a>
+        <a href="/mission">Mission</a>
+      </div>
+    </div>
+  </div>
+</nav>

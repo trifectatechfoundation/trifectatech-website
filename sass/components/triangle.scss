@@ -1,0 +1,31 @@
+.triangle {
+  position: relative;
+
+  p {
+    background-color: var(--color-secondary-200);
+    position: absolute;
+    text-align: center;
+
+    &:first-line {
+      font-weight: 600;
+    }
+
+    &.safe {
+      top: 0;
+      left: 50%;
+      translate: -50%;
+    }
+
+    &.open {
+      bottom: 0;
+      left: 0;
+      translate: 0 -50%
+    }
+
+    &.public {
+      bottom: 0;
+      right: 0;
+      translate: 0 -50%
+    }
+  }
+}

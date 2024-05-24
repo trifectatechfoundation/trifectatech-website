@@ -1,0 +1,52 @@
+footer {
+  background-color: var(--color-secondary-400);
+  // margin-block-start: 3rem;
+  padding-block: 3rem;
+  position: relative;
+  z-index: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    height: 0.5rem;
+    width: calc(100% - 0.5rem);
+    top: 0;
+    left: 0;
+    translate: 0 -100%;
+    background-color: var(--color-primary-400);
+    z-index: 1;
+  }
+
+  @media (min-width: 62rem) {
+    // margin-block-start: 6rem;
+    padding-block: 4.5rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+  }
+
+  .logo {
+    grid-column: span 4;
+    translate: -1.25rem;
+
+    @media (min-width: 62rem) {
+      translate: -2rem;
+    }
+
+    svg {
+      height: 3rem;
+      width: auto;
+
+      @media (min-width: 62rem) {
+        height: 4.5rem;
+      }
+    }
+  }
+
+  .contact {
+    grid-column: span 8;
+  }
+}

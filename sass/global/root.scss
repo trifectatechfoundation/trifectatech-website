@@ -1,0 +1,31 @@
+:root {
+  --color-primary-400-rgb: 95, 75, 139;
+  --color-secondary-200-rgb: 253, 245, 244;
+  --color-secondary-300-rgb: 245, 215, 221;
+  --color-secondary-400-rgb: 230, 154, 141;
+
+  --color-primary-400: rgb(var(--color-primary-400-rgb));
+  --color-secondary-400: rgb(var(--color-secondary-400-rgb));
+  --color-secondary-300: rgb(var(--color-secondary-300-rgb));
+  --color-secondary-200: rgb(var(--color-secondary-200-rgb));
+ 
+  --text-size-ratio: 1.414;
+  --text-size-base: 1rem;
+
+  --text-size-sm: 0.75rem;
+  --text-size-md: var(--text-size-base);
+  --text-size-lg: calc(var(--text-size-md) * var(--text-size-ratio));
+  --text-size-xl: calc(var(--text-size-lg) * var(--text-size-ratio));
+  --text-size-2xl: calc(var(--text-size-xl) * var(--text-size-ratio));
+  --text-size-3xl: calc(var(--text-size-2xl) * var(--text-size-ratio));
+
+  --line-height: 1.5;
+  --line-height-tight: 1.125;
+
+  --font-family: "Kumbh Sans", sans-serif;
+
+  @media (min-width: 62rem) {
+    --text-size-base: 1.125rem;
+  }
+}
+

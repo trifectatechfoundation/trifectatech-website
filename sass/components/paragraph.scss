@@ -1,0 +1,35 @@
+.paragraph {
+  border-block-end: 1px solid var(--color-secondary-400);
+  padding-block-end: 3rem;
+  position: relative;
+
+  @media (min-width: 62rem) {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(12, 1fr);
+    padding-block-end: 6rem;
+  }
+
+  &::after {
+    background-image: url('ornament.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    bottom: 0;
+    content: '';
+    height: 1.5rem;
+    position: absolute;
+    translate: 0 50%;
+    width: 100%;
+
+    @media (min-width: 62rem) {
+      height: 3rem;
+    }
+  }
+
+  > div {
+    @media (min-width: 62rem) {
+      grid-column: 4 / span 6;
+    }
+  }
+}
