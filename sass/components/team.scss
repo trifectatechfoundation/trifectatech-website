@@ -19,6 +19,7 @@
   display: flex;
   gap: 0.75rem;
   position: relative;
+  padding: 0.5rem;
 
   @media (min-width: 62rem) {
     flex-direction: column;
@@ -52,12 +53,17 @@
   }
 
   &:not(:first-child, :last-child)::after {
-    display: none;
+    @media (min-width: 62rem) {
+      display: none;
+    }
   }
 
   .name {
-    font-size: var(--text-size-lg);
     font-weight: 500;
+    
+    @media (min-width: 62rem) {
+      font-size: var(--text-size-lg);
+    }
   }
 
   .image {
