@@ -51,6 +51,10 @@
     }
   }
 
+  &:not(:first-child, :last-child)::after {
+    display: none;
+  }
+
   .image {
     aspect-ratio: 1;
     background-color: var(--color-secondary-400);
