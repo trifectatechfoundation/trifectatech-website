@@ -20,7 +20,7 @@
         aspect-ratio: 1;
         background-image: url('ornament-v3.svg');
         content: '';
-        height: 3.25rem;
+        height: 1.75rem;
         margin-inline-start: 0.5rem;
         position: absolute;
         rotate: 90deg;
@@ -28,6 +28,7 @@
         translate: 0 -50%;
 
         @media (min-width: 62rem) {
+          height: 3.25rem;
           margin-inline-start: 0.75rem;
         }
       }
