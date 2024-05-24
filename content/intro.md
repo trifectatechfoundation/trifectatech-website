@@ -26,5 +26,5 @@ The Netherlands
 
 +31 24 30 10 484  
 info@trifectatech.org  
-CoC/KvK: 93645546  
+CoC 93645546  
 
