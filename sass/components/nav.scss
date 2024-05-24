@@ -14,23 +14,6 @@ nav {
     position: relative;
   }
 
-  .logo {
-    translate: -1.25rem;
-
-    @media (min-width: 62rem) {
-      translate: -2rem;
-    }
-
-    svg {
-      height: 3rem;
-      width: 100%;
-
-      @media (min-width: 62rem) {
-        height: 4.5rem;
-      }
-    }
-  }
-
   .hamburger {
     align-items: center;
     aspect-ratio: 1;

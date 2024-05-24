@@ -1,5 +1,10 @@
 .triangle {
   position: relative;
+  margin-block-start: 1.5rem;
+
+  @media (min-width: 62rem) {
+    margin-block-start: 4.5rem;
+  }
 
   p {
     background-color: var(--color-secondary-200);
@@ -7,7 +12,7 @@
     text-align: center;
 
     &:first-line {
-      font-weight: 600;
+      font-weight: 500;
     }
 
     &.safe {

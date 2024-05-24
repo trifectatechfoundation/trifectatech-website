@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #e69a8d;
+        fill: var(--color-secondary-400);
       }
 
       .cls-1, .cls-2 {
@@ -11,18 +11,17 @@
       }
 
       .cls-2 {
-        fill: #5f4b8b;
+        fill: var(--color-primary-400);
       }
 
       .cls-3 {
         fill: none;
-        stroke: #e69a8d;
+        stroke: var(--color-secondary-400);
         stroke-miterlimit: 10;
       }
     </style>
   </defs>
-  <polygon class="cls-3" points="113 .8 1 150.2 225 150.2 113 .8"/>
-  <polygon class="cls-3" points="113 .8 1 150.2 225 150.2 113 .8"/>
+  <polygon vector-effect="non-scaling-stroke" class="cls-3" points="113 .8 1 150.2 225 150.2 113 .8"/>
   <g>
     <path id="Path_69-2" data-name="Path 69-2" class="cls-1" d="M107,136.7v27l13.5-13.5-13.5-13.5Z"/>
     <path id="Path_70-2" data-name="Path 70-2" class="cls-2" d="M111.5,136.7h-4.5l13.5,13.5-13.5,13.5h4.5l13.5-13.5-13.5-13.5Z"/>
