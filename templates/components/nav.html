@@ -1,8 +1,6 @@
 <nav>
   <div class="container">
-    <a class="logo" href="/">
-      {{ load_data(path="static/logo.svg") | safe }}
-    </a>
+    {% include "components/logo.html" %}
     <div class="hamburger">
       {{ load_data(path="static/bars.svg") | safe }}
     </div>
