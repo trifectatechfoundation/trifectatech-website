@@ -29,7 +29,15 @@ footer {
     }
   }
 
+  .logo {
+    @media (min-width: 62rem) {
+      grid-column: span 3;
+    }
+  }
+
   .contact {
-    grid-column: span 8;
+    @media (min-width: 62rem) {
+      grid-column: span 9;
+    }
   }
 }
