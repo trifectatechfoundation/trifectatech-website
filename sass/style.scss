@@ -18,10 +18,10 @@
 .logo {
   color: inherit;
   font-size: var(--text-size-md);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
-  text-decoration: none;
   position: relative;
+  text-decoration: none;
 
   @media (min-width: 62rem) {
     font-size: var(--text-size-lg);
@@ -30,12 +30,18 @@
   &::before {
     aspect-ratio: 1;
     background-image: url('ornament-v3.svg');
+    background-repeat: no-repeat;
     background-size: contain;
     content: '';
-    left: -0.5rem;
+    left: -0.25rem;
     position: absolute;
-    top: 0rem;
+    top: 0.125rem;
     translate: -100%;
-    width: 1rem;
+    width: 0.8125rem;
+    
+    @media (min-width: 62rem) {
+      width: 1.25rem;
+    }
   }
 }
+

@@ -1,18 +1,23 @@
 .triangle {
-  position: relative;
+  margin-inline: auto;
   margin-block-start: 1.5rem;
-
+  position: relative;
+  width: 100%;
+  
   @media (min-width: 62rem) {
+    max-width: 66.66%;
     margin-block-start: 4.5rem;
   }
 
   p {
+    border: 1px solid var(--color-secondary-400);
     background-color: var(--color-secondary-200);
+    padding: 0.5rem;
     position: absolute;
     text-align: center;
 
     &:first-line {
-      font-weight: 500;
+      font-weight: 600;
     }
 
     &.safe {
@@ -24,13 +29,11 @@
     &.open {
       bottom: 0;
       left: 0;
-      translate: 0 -50%
     }
 
     &.public {
       bottom: 0;
       right: 0;
-      translate: 0 -50%
     }
   }
 }
