@@ -12,6 +12,13 @@
   position: relative;
   text-decoration: none;
 
+
+}
+
+.btn-primary {
+  background-color: var(--color-secondary-400);
+  color: var(--color-primary-400);
+
   &::after {
     width: 100%;
     content: '';
@@ -22,11 +29,6 @@
     background-color: var(--color-primary-400);
     z-index: -1;
   }
-}
-
-.btn-primary {
-  background-color: var(--color-secondary-400);
-  color: var(--color-primary-400);
 }
 
 .btn-secondary {
