@@ -1,14 +1,23 @@
 .btn {
+  --shadow: 0.5rem;
   align-items: center;
+  border: 1px solid transparent;
   display: inline-flex;
   font-family: inherit;
   font-size: inherit;
+  font-weight: 600;
   height: 3rem;
   justify-content: center;
   padding-inline: 1.5rem;
-  text-decoration: none;
   position: relative;
-  border: 1px solid transparent;
+  text-decoration: none;
+
+
+}
+
+.btn-primary {
+  background-color: var(--color-secondary-400);
+  color: var(--color-primary-400);
 
   &::after {
     width: 100%;
@@ -20,11 +29,6 @@
     background-color: var(--color-primary-400);
     z-index: -1;
   }
-}
-
-.btn-primary {
-  background-color: var(--color-secondary-400);
-  color: var(--color-secondary-200);
 }
 
 .btn-secondary {

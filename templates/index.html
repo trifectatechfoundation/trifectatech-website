@@ -10,12 +10,26 @@
             </p>
         </div>
         <div class="triangle">
-            {{ load_data(path="static/triangle.svg") | safe }}            
-            <p class="safe">Safe <br /> Software</p>
-            <p class="open">Open <br /> Source</p>
-            <p class="public">Public <br /> Interest</p>
+            <div>
+                {{ load_data(path="static/triangle.svg") | safe }}            
+                <p class="safe">Safe <br /> Software</p>
+                <p class="open">Open <br /> Source</p>
+                <p class="public">Public <br /> Interest</p>
+            </div>
         </div>
     </div>
+
+    {# <div class="paragraph">
+        <div class="quote">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            <div>
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore pariatur, libero explicabo enim consequatur.</div>
+                <div class="cite">First name, last name</div>
+            </div>
+        </div>
+    </div> #}
+
     <div class="projects">
         <div class="items">
             <div class="project">
@@ -48,7 +62,29 @@
             <p>
                 The foundation is governed by the founders and owners of Tweede golf and functions as the home for their non-profit projects.<br />
                 Erik Jonkers (chair), Hugo van de Pol (secretary) and Marlon Baeten (treasurer) are the board of the foundation.</p>
-            <a href="/about" class="btn btn-primary">More...</a>
+            <a href="/about" class="btn btn-primary">
+                <div class="triangle-ornament top"></div>
+                <div class="triangle-ornament bottom"></div>
+                More...
+            </a>
         </div>
     </div>
+
+    {# <div class="paragraph">
+        <div>
+            <ul class="blog">
+                <li>
+                    <div>
+                        <div class="meta">
+                            <span class="date">May 19 2024</span>
+                            <span class="tag">ntpd-rs</span>
+                        </div>
+                        <h3>On Rust, Memory Safety, and Open Source Infrastructure</h3>
+                    </div>
+                    <a href="" class="btn btn-secondary">Test</a>
+                    
+                </li>
+            </ul>
+        </div>
+    </div> #}
 {% endblock content %}
