@@ -28,12 +28,12 @@
   }
 
   &:has(.quote) {
-    border-block-end: 0;
-    padding-block-end: 0;
+    // border-block-end: 0;
+    // padding-block-end: 0;
 
-    &::after {
-      display: none;
-    }
+    // &::after {
+    //   display: none;
+    // }
   }
 
   > div {

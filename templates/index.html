@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block meta_content %}
+<title>Home - Trifecta Tech Foundation</title>
+{% endblock meta_content %}
+
 {% block content %}
 {% include "components/hero.html" %}
 <div class="paragraph">
@@ -20,22 +24,9 @@
     </div>
 </div>
 
-{# <div class="paragraph">
-    <div class="quote">
-        <div class="triangle-ornament top"></div>
-        <div class="triangle-ornament bottom"></div>
-        <div>
-            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore pariatur, libero explicabo enim
-                consequatur.</div>
-            <div class="cite">First name, last name</div>
-        </div>
-    </div>
-</div> #}
-
-
 <div class="projects">
     <div class="items">
-        <h2>Projects</h2>
+        <h2>Our projects</h2>
         <div class="project">
             <div class="triangle-ornament top"></div>
             <div class="triangle-ornament bottom"></div>
@@ -62,18 +53,24 @@
         </div>
     </div>
 </div>
+
 <div class="paragraph">
-    <div class="markdown">
-        <h2>Who we are</h2>
-        <p>
-            The foundation is governed by the founders and owners of Tweede golf and functions as the home for their
-            non-profit projects.<br />
-            Erik Jonkers (chair), Hugo van de Pol (secretary) and Marlon Baeten (treasurer) are the board of the
-            foundation.</p>
-        <a href="/about" class="btn btn-primary">
+    <div class="quote">
+        <div class="triangle-ornament top"></div>
+        <div class="triangle-ornament bottom"></div>
+        <div>
+            <div>
+                We believe that software must become safer; that this is paramount in critical infrastructure; and that
+                Rust is an outstanding choice of technology for this purpose.
+            </div>
+            <!-- div class="cite">First name, last name</div -->
+        </div>
+    </div>
+    <div>
+        <a href="/tech" class="btn btn-secondary">
             <div class="triangle-ornament top"></div>
             <div class="triangle-ornament bottom"></div>
-            More...
+            Our technology
         </a>
     </div>
 </div>
@@ -93,7 +90,7 @@
                     <h3>A safe Internet requires secure time</h3>
                     <p><br />The internet has a hole at the bottom of its trust stack, and we need to do something about
                         it. In particular, the internet needs secure time synchronization to fortify the security of our
-                        digital world. 
+                        digital world.
                         <strong>Read more ...</strong>
                     </p>
                 </a>
@@ -114,49 +111,32 @@
                     </p>
                 </a>
             </li>
-            <li>
-                <a class="card-link" href="https://www.memorysafety.org/blog/fedora-linux-for-ntp-and-sudo/">
-                    <div class="meta">
-                        <span class="date">May 9, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">sudo-rs</span><span class="tag">source:
-                            Prossimo</span>
-                    </div>
-                    <h3>Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs</h3>
-                    <p><br />Memory safe NTP and sudo are now in Fedora Linux.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link"
-                    href="https://www.sidn.nl/en/news-and-blogs/rust-makes-dns-and-time-software-more-secure">
-
-                    <div class="meta">
-                        <span class="date">April 17, 2024</span>
-                        <span class="tag">Pendulum</span><span class="tag">source: SIDN</span>
-                    </div>
-                    <h3>Rust makes DNS and time software more secure</h3>
-                    <p><br />SIDN writes about vital software for critical internet infrastructure reimplemented in
-                        memory safe languages. The article lists sudo-rs and Pendulum as prime examples of employing
-                        Rust for Rust for critical software.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/98/sovereign-tech-fund-invests-in-pendulum">
-                    <div class="meta">
-                        <span class="date">Aug 10, 2023</span>
-                        <span class="tag">Pendulum</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>Sovereign Tech Fund invests in Pendulum</h3>
-                    <p><br />Sovereign Tech Fund will support our effort to build modern and memory-safe implementations
-                        of the Network Time Protocol (NTP) and the Precision Time Protocol (PTP).
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
         </ul>
     </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            More news
+        </a>
+    </div>
 </div>
+
+<div class="paragraph">
+    <div class="markdown">
+        <h2>Who we are</h2>
+        <p>
+            The Tricecta Tech Foundation was founded in April of 2024 by Erik Jonkers (chair), Hugo van de Pol
+            (secretary) and Marlon Baeten (treasurer) as the long-term home for the
+            non-profit work orginating from Tweede golf.
+        </p>
+            <a href="/about" class="btn btn-primary">
+                <div class="triangle-ornament top"></div>
+                <div class="triangle-ornament bottom"></div>
+                More about us
+            </a>
+    </div>
+</div>
+
+
 {% endblock content %}
