@@ -3,15 +3,6 @@
     margin-block-start: calc(var(--text-size-md) * var(--line-height));
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: var(--text-size-lg);
-  }
-
   a {
     text-decoration-color: var(--color-secondary-400);
   }

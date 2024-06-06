@@ -16,6 +16,14 @@ h1 {
   }
 }
 
+h2 {
+  font-size: var(--text-size-xl);
+
+  @media (min-width: 62rem) {
+    font-size: var(--text-size-xl);
+  }
+}
+
 h3 {
   font-size: var(--text-size-lg);
 }

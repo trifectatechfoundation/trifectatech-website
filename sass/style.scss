@@ -52,6 +52,19 @@
     padding: 1.5rem;
     position: relative;
 
+    a.card-link {
+      text-decoration: none;
+
+      strong:last-of-type {
+        display: block;
+        text-decoration: underline;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+
     &::after {
       content: '';
       background-color: var(--color-primary-400);
