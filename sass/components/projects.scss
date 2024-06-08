@@ -30,6 +30,13 @@
       margin-bottom: 1.5rem;
     }
 
+    &.ecosystem {
+      margin-block-start: 3rem;
+      @media (min-width: 62rem) {
+        margin-block-start: 4.5rem;
+      }
+    }
+
     display: grid;
     gap: 1.5rem;
     
