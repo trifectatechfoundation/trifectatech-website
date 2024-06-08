@@ -50,6 +50,7 @@
   position: relative;
   font-style: italic;
   font-size: var(--text-size-lg);
+  margin-block-end: 1.5rem;
 
   @media (min-width: 62rem) {
     padding: 3rem;

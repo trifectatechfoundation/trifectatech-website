@@ -131,3 +131,30 @@
     margin-block-start: 4.5rem;
   }
 }
+
+.funders {
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    margin-block-end: 1.5rem;
+  }
+
+  ul > li {
+    padding: 0.5rem 2rem;
+      position: relative;
+  }
+  
+  li::before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 1rem 1rem 1rem;
+      border-color: transparent var(--color-secondary-400) transparent transparent;
+      top: 0.75rem;
+      left: -1rem;
+  }
+}

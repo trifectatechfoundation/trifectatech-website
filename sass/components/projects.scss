@@ -3,6 +3,20 @@
   padding-block-end: 3rem;
   position: relative;
 
+  .project-title {
+    @media (min-width: 62rem) {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      padding-block-end: 1.5rem;
+    }
+
+    margin-block-start: 3rem;
+
+    @media (min-width: 62rem) {
+      margin-block-start: 6rem;
+    }
+  }
+
   @media (min-width: 62rem) {
     padding-block-end: 6rem;
   }
@@ -23,19 +37,19 @@
       height: 3rem;
     }
   }
+  
+  h2 {
+    grid-column: 4 / span 6;
+    margin-bottom: 1.5rem;
+  }
 
+  &.ecosystem {
+    margin-block-start: 3rem;
+    @media (min-width: 62rem) {
+      margin-block-start: 4.5rem;
+    }
+  }
   .items {
-    h2 {
-      grid-column: 4 / span 6;
-      margin-bottom: 1.5rem;
-    }
-
-    &.ecosystem {
-      margin-block-start: 3rem;
-      @media (min-width: 62rem) {
-        margin-block-start: 4.5rem;
-      }
-    }
 
     display: grid;
     gap: 1.5rem;
