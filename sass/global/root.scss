@@ -24,11 +24,17 @@
 
   --font-family: "Kumbh Sans", sans-serif;
 
+  --ornament-logo: url('ornament-logo.svg');
+  --ornament-separator: url('ornament-separator.svg');
+
   @media (min-width: 62rem) {
     --text-size-base: 1.125rem;
   }
 
   @media (prefers-color-scheme: dark) {
+    --ornament-logo: url('ornament-logo-dark.svg');
+    --ornament-separator: url('ornament-separator-dark.svg');  
+
     --color-primary-400-rgb: 255,235,210;
     --color-secondary-400-rgb: 255,163,100;
     --color-secondary-200-rgb: 39,50,72;

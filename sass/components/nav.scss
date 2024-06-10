@@ -48,6 +48,12 @@ nav {
       transition-duration: 250ms;
       transition-timing-function: ease-in;
       transition-property: rotate;
+
+      path {
+        @media (prefers-color-scheme: dark) {
+          fill: var(--color-secondary-200);
+        }
+      }
     }
   }
 

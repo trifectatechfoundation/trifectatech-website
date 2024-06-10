@@ -18,7 +18,7 @@
 
       &::after {
         aspect-ratio: 1;
-        background-image: url('ornament-v3.svg');
+        background-image: var(--ornament-logo);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

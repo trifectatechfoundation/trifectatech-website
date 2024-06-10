@@ -11,7 +11,7 @@
   }
 
   &::after {
-    background-image: url('ornament.svg');
+    background-image: var(--ornament-separator);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -27,15 +27,6 @@
     }
   }
 
-  &:has(.quote) {
-    // border-block-end: 0;
-    // padding-block-end: 0;
-
-    // &::after {
-    //   display: none;
-    // }
-  }
-
   > div {
     @media (min-width: 62rem) {
       grid-column: 4 / span 6;
@@ -46,12 +37,15 @@
 .quote {
   --shadow: 0.5rem;
   background-color: var(--color-secondary-400);
+  font-size: var(--text-size-lg);
+  font-style: italic;
+  margin-block-end: 1.5rem;
   padding: 1.5rem;
   position: relative;
-  font-style: italic;
-  font-size: var(--text-size-lg);
-  margin-block-end: 1.5rem;
-  color: var(--color-secondary-200);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-secondary-200);
+  }
 
   @media (min-width: 62rem) {
     padding: 3rem;
@@ -59,7 +53,7 @@
 
   &::before {
     aspect-ratio: 1;
-    background-image: url('ornament-v3.svg');
+    background-image: var(--ornament-logo);
     background-repeat: no-repeat;
     background-size: contain;
     content: '';
@@ -83,6 +77,10 @@
     left: 0.5rem;
     top: -0.5rem;
     z-index: -1;
+  }
+
+  .btn {
+    margin-block-start: 1.5rem;
   }
 
   .triangle-ornament {
