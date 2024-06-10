@@ -27,5 +27,11 @@
   @media (min-width: 62rem) {
     --text-size-base: 1.125rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    --color-primary-400-rgb: 255,235,210;
+    --color-secondary-400-rgb: 255,163,100;
+    --color-secondary-200-rgb: 39,50,72;
+  }
 }
 
