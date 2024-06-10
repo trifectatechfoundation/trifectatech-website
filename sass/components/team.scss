@@ -16,7 +16,7 @@
 .member {
   align-items: flex-start;
   border: 1px solid var(--color-primary-400);
-  background-color: white;
+  background-color: var(--color-secondary-200);
   display: flex;
   gap: 0.75rem;
   position: relative;

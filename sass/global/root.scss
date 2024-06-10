@@ -31,13 +31,22 @@
     --text-size-base: 1.125rem;
   }
 
-  @media (prefers-color-scheme: dark) {
+  &.dark {    
     --ornament-logo: url('ornament-logo-dark.svg');
     --ornament-separator: url('ornament-separator-dark.svg');  
 
     --color-primary-400-rgb: 255,235,210;
     --color-secondary-400-rgb: 255,163,100;
     --color-secondary-200-rgb: 39,50,72;
+
+    --color-primary-400: rgb(var(--color-primary-400-rgb));
+    --color-secondary-400: rgb(var(--color-secondary-400-rgb));
+    --color-secondary-300: rgb(var(--color-secondary-300-rgb));
+    --color-secondary-200: rgb(var(--color-secondary-200-rgb));
+
+    --color-bars-icon: var(--color-secondary-200);
+    --color-quote: var(--color-secondary-200);
+    --color-footer: var(--color-secondary-200);
+    --color-text-button: var(--color-secondary-200);
   }
 }
-

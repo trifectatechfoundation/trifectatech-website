@@ -15,11 +15,7 @@
 
 .btn-primary {
   background-color: var(--color-secondary-400);
-  color: var(--color-primary-400);
-
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-secondary-200);
-  }
+  color: var(--color-text-button);
 
   &::after {
     width: 100%;

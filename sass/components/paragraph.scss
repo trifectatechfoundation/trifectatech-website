@@ -37,15 +37,12 @@
 .quote {
   --shadow: 0.5rem;
   background-color: var(--color-secondary-400);
+  color: var(--color-quote);
   font-size: var(--text-size-lg);
   font-style: italic;
   margin-block-end: 1.5rem;
   padding: 1.5rem;
   position: relative;
-
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-secondary-200);
-  }
 
   @media (min-width: 62rem) {
     padding: 3rem;
