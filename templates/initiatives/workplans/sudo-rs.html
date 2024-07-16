@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+<title>Privilige boundary - Trifecta Tech Foundation</title>
+{% endblock meta_content %}
+
+{% block content %}
+<div class="hero">
+    <h1><span>Sudo-rs workplan</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+        <a href="/initiatives/privilege-boundary" class="btn btn-secondary"><< Privilege boundary</a>
+    </div>
+</div>
+{% endblock %}

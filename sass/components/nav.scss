@@ -112,7 +112,7 @@ nav {
     translate: 0 100%;
     background-color: var(--color-secondary-200);
     width: 100%;
-    max-width: 12rem;
+    max-width: 16rem;
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -132,13 +132,17 @@ nav {
       padding-block: 0.75rem;
       text-decoration: none;
 
-      &:not(:first-child) {
+      &:not(:first-child, .subitem) {
         border-block-start: 1px solid var(--color-primary-400);
       }
 
       &:hover {
         font-weight: bold;
       }
+    }
+
+    a.subitem {
+      padding-left: 1rem;
     }
   }
 }

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+<title>Privilige boundary - Trifecta Tech Foundation</title>
+{% endblock meta_content %}
+
+{% block content %}
+<div class="hero">
+    <h1><span>Privilege boundary</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+        <h3>Blog and news</h3>
+        <ul class="blog">
+            <li>
+                <a class="card-link" href="https://www.memorysafety.org/blog/reducing-dependencies-in-sudo/">
+                    <div class="meta">
+                        <span class="date">Mar 7, 2024</span>
+                        <span class="tag">sudo-rs</span><span class="tag">ntpd-rs</span><span class="tag">source: Prossimo</span>
+                    </div>
+                    <h3>Sudo-rs dependencies: when less is better</h3>
+                    <p><br />Trifecta Tech Foundation maintainer Ruben Nijveld offers his perspective here on one of the greatest challenges we faced when developing software that can be widely adopted: Rust crate dependencies.
+                        <strong>Read more ...</strong>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a class="card-link" href="https://arstechnica.com/information-technology/2023/05/two-core-unix-like-utilities-sudo-and-su-are-getting-rewrites-in-rust/">
+                    <div class="meta">
+                        <span class="date">May 1, 2023</span>
+                        <span class="tag">sudo-rs</span><span class="tag">source: Ars Technica</span>
+                    </div>
+                    <h3>Two core Unix-like utilities, sudo and su, are getting rewrites in Rust</h3>
+                    <p><br />Two of the most fundamental tools of the modern Unix-like command line, sudo and su, are being rewritten in the modern language Rust as part of a wider effort to get critical but aging infrastructure pieces replaced by memory-safe counterparts.
+                        <strong>Read more ...</strong>
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            All news
+        </a>
+    </div>
+</div>
+{% endblock %}

@@ -133,16 +133,14 @@
   }
 }
 
-.funders {
+ul, ul::not(.blog)  {
+  margin-block-end: 1.5rem;
+  
   img {
     max-width: 100%;
   }
 
-  ul {
-    margin-block-end: 1.5rem;
-  }
-
-  ul > li {
+  > li {
     padding: 0.5rem 2rem;
       position: relative;
   }
