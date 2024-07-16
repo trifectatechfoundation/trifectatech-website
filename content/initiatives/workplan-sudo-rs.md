@@ -1,5 +1,5 @@
 +++
-title = "Workplan sudo-rs"
+title = "Work plan sudo-rs"
 slug = "workplan-sudo-rs"
 template = "initiatives/workplans/sudo-rs.html"
 +++

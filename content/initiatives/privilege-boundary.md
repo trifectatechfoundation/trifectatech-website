@@ -12,9 +12,9 @@ that powers the Internet.
 Sudo-rs is a sudo alternative that doesn't suffer from memory safety vulnerabilities and is
 designed to minimize attack surface.
 
-### Workplans
+### Work plan
 
-See <a href="/initiatives/workplan-sudo-rs">the sudo-rs workplan</a>
+See <a href="/initiatives/workplan-sudo-rs">the sudo-rs workplan</a>.
 
 ### Links
 
