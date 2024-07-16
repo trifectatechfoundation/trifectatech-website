@@ -133,13 +133,15 @@
   }
 }
 
-ul, ul::not(.blog)  {
-  margin-block-end: 1.5rem;
-  
+.markdown {
   img {
     max-width: 100%;
   }
+}
 
+.markdown ul:not(.blog) {
+  margin-block-end: 1.5rem;
+  
   > li {
     padding: 0.5rem 2rem;
       position: relative;

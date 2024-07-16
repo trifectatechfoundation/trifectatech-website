@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+<title>Time synchronization - Trifecta Tech Foundation</title>
+{% endblock meta_content %}
+
+{% block content %}
+<div class="hero">
+    <h1><span>Time synchronization</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+        <h3>Blog and news</h3>
+        <ul class="blog">
+            <li>
+                More soon
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            All news
+        </a>
+    </div>
+</div>
+{% endblock %}
