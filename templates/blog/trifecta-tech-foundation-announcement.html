@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+<title>Announcement Trifecta Tech Foundation: Open infrastructure software in the public interest</title>
+{% endblock meta_content %}
+
+{% block content %}
+<div class="paragraph markdown">
+    <div>
+        <br />
+        <ul class="blog">
+            <li>        
+                    <div class="meta">
+                        <span class="date">July 15, 2024</span>
+                        <span class="tag">Author: Erik Jonkers</span><span class="tag">source: Trifecta Tech Foundation</span>
+                    </div>
+                    {{ page.content | safe }}      
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            All news and blogs
+        </a>
+    </div>
+</div>
+{% endblock content %}

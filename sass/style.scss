@@ -46,7 +46,7 @@
 }
 
 .blog {
-  li {
+  > li {
     --shadow: 0.5rem;
     background-color: var(--color-secondary-200);
     padding: 1.5rem;
