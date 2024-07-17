@@ -12,21 +12,21 @@ The Internet, and our vital systems for water, energy, and communication, requir
 
 Trifecta Tech Foundation's mission is to contribute to safe and secure software we can all use, by developing and maintaining digital commons, open-source software and open standards for these vital systems.
 
+### Our work
+
+We currently work on and maintain infrastructure software in three areas:
+
+- [Time synchronization](/initiatives/time-synchronization/)
+- [Privilege boundary](/initiatives/privilege-boundary/)
+- [Data compression](/initiatives/data-compression/)
+
+We are strong supporters of the ecosystem our projects heavily rely on, the Rust programming language. More on our technology: [trifectatech.org/tech](https://trifectatech.org/tech/).
+
 ### About
 
 The Trifecta Tech Foundation was founded in April of 2024 by Erik Jonkers (chair), Hugo van de Pol (secretary) and Marlon Baeten (treasurer) as the long-term home for the open-source infrastructure work originating from [Tweede golf](https://tweedegolf.nl/en).
 
 More about us and our maintainers: [trifectatech.org/about](https://trifectatech.org/about/)
-
-### Our work
-
-We currently work on and maintain infrastructure software in three areas:
-
-- Time synchronization
-- Privilege boundary
-- Data compression
-
-We are strong supporters of the ecosystem our projects heavily rely on, the Rust programming language. More on our technology: [trifectatech.org/tech](https://trifectatech.org/tech/).
 
 ### History
 
