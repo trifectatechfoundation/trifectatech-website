@@ -20,7 +20,7 @@ We currently work on and maintain infrastructure software in three areas:
 - [Privilege boundary](/initiatives/privilege-boundary/)
 - [Data compression](/initiatives/data-compression/)
 
-We are strong supporters of the ecosystem our projects heavily rely on, the Rust programming language. More on our technology: [trifectatech.org/tech](https://trifectatech.org/tech/).
+We are strong supporters of the ecosystem that our projects heavily rely on, the Rust programming language. More on our technology: [trifectatech.org/tech](https://trifectatech.org/tech/).
 
 ### About
 
