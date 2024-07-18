@@ -38,7 +38,13 @@ footer {
 
   .contact {
     @media (min-width: 62rem) {
-      grid-column: span 9;
+      grid-column: span 4;
+    }
+  }
+
+  .socials {
+    @media (min-width: 62rem) {
+      grid-column: span 4;
     }
   }
 }
