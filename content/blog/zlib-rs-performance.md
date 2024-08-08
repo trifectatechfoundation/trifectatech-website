@@ -172,3 +172,9 @@ Caveats apply: these results are on my specific x86_64 linux machine with AVX2 a
 From the start of the zlib-rs project, we've been very mindful of performance. The architecture of the library is already geared towards performance (e.g. by doing all allocations up-front), and the zlib-ng implementation has SIMD implementation of bottlenecks that we were able to adopt. 
 
 Still, it is encouraging that this effort has paid of, and that we are effectively on-par with zlib-ng. There is still more work to do though: zlib-ng has made some recent further improvements, we suspect better data layout could give us further gains, and there are more instruction sets to support.
+
+--- 
+
+### Support us
+
+We need your financial backing to maintain our software and start new projects. Please get in touch with us via donate@trifectatech.org, if you are interested in financially supporting us. More: [trifectatech.org/support](https://trifectatech.org/support/)

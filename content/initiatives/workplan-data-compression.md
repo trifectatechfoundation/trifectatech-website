@@ -8,8 +8,6 @@ template = "initiatives/workplans/data-compression.html"
 
 Current projects in this initiative include zlib, bzip2, xz and zstd.
 
----
-
 **zlib milestones:**
 
 - **Implement remaining functions:** the current zlib-rs project misses some functions that are rarely used in practice, but must be provided to be a proper drop-in replacement. The missing functions are tracked in [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
@@ -46,4 +44,3 @@ Target funding `xz`: XXX.XXX,-
 
 Target funding `zstd`: XXX.XXX,-
 
----
