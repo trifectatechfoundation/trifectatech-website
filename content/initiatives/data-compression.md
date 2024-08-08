@@ -19,7 +19,7 @@ Our initiative aims to create memory-safe implementations of compression librari
 
 For zlib, we've created an initial implementation based on zlib-ng, called `zlib-rs`, with a focus on maintaining excellent performance while introducing memory safety. The initial development of `zlib-rs` was started and partly funded by [Prossimo](https://www.memorysafety.org/initiative/zlib/).
 
-In April 2024, an early release of zlib-rs was [integrated with flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29).
+In April 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29).
 
 ### What's Next
 
@@ -35,14 +35,10 @@ The total funding target for this initiative is € 495.000,-
 
 ### Workplan
 
-More soon!
-
-<!-- For per project details, see [the workplan](/initiatives/workplan-data-compression). -->
+For per project details, see [the workplan](/initiatives/workplan-data-compression).
 
 ### Links
 
 - [video] [Implementing zlib in Rust](https://www.youtube.com/watch?v=mvzHQdCLkOY&list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7&index=11)
 - [zlib-rs GitHub Repository](https://github.com/memorysafety/zlib-rs/)
 - [zlib-rs Prossimo initiative](https://www.memorysafety.org/initiative/zlib/)
-
-        
