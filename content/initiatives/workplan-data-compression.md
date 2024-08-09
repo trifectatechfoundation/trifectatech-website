@@ -10,8 +10,8 @@ Current projects in this initiative include zlib, bzip2, xz and zstd.
 
 **zlib milestones:**
 
-- **Implement remaining functions:** the current zlib-rs project misses some functions that are rarely used in practice, but must be provided to be a proper drop-in replacement. The missing functions are tracked in [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
-- **Performance optimization:** to strengthen our adoption story, we aim to match zlib-ng performance for both compression and decompression. On standard x86_64 processors, we are within a couple percent of this goal. This work item includes completing or implementing SIMD support for the neon (aarch64), and SSE and avx-512 (x86_64) instruction sets.
+- **performance optimization:** to strengthen our adoption story, we aim to match zlib-ng performance for both compression and decompression. On standard x86_64 processors, we are within a couple percent of this goal. This work item includes completing or implementing SIMD support for the neon (aarch64), and SSE and avx-512 (x86_64) instruction sets.
+- **implement remaining functions:** the current zlib-rs project misses some functions that are rarely used in practice, but must be provided to be a proper drop-in replacement. The missing functions are tracked in [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
 - **a dynamic library:** the `libz-rs` dynamic library defines an interface identical to `libz`, and is a drop-in replacement for that library.
 
 Target funding `zlib`: &euro; 175.000,-

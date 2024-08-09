@@ -8,12 +8,12 @@ template = "initiatives/data-compression.html"
 
 Compression algorithms are used in a vast number of protocols and file formats throughout all of computing. Implemented in C, these libraries encounter regular security issues despite receiving extensive industry-wide scrutiny.
 
-Our initiative aims to create memory-safe implementations of compression libraries:
+Our initiative aims to create **memory-safe** implementations of compression libraries:
 
-- **bzip2**: a file compression program that uses the Burrows–Wheeler algorithm
-- **zlib**: A widely-used compression library, used primarily on the web to provide gzip compression to the text/html/js/css we send around.
-- **xz**: A compression format that provides very good compression, but relatively slow. Commonly used for large file downloads.
-- **zstd**: A modern successor to zlib, providing better compression faster. 
+- **zlib**: a widely-used compression library, used primarily on the web to provide gzip compression to the text/html/js/css we send around.
+- **bzip2**: a file compression program that is widely deployed and supported e.g. as part of zip.
+- **xz**: a compression format that provides very good compression, but relatively slow. Commonly used for large file downloads.
+- **zstd**: a modern successor to zlib, providing better compression faster. 
 
 ### What We've Done
 
@@ -27,9 +27,10 @@ We're currently seeking funding to complete work necessary to make the initial i
 
 The high level goals for the four projects are:
 
-- provide a pure rust implementation to rust users
-- provide a compatible dynamic library that has compiled rust code inside
-- provide on par performance
+- provide on-par performance with C/C++ counterparts
+- provide a dynamic library that is a drop-in replacement, but has compiled memory-safe rust code inside
+- dramatically reduce attack surface through memory safety, improved tooling and a robust build system
+- provide a pure rust implementation to rust users that integrates with the existing ecosystem
 
 The total funding target for this initiative is € 495.000,-   
 
