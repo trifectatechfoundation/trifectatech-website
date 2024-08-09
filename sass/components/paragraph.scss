@@ -15,7 +15,7 @@
   hr {
     position: relative;
     display: block;
-    height: 3rem;
+    height: 2rem;
     border: 0;
   }
 
@@ -48,6 +48,14 @@
 
     @media (min-width: 62rem) {
       height: 3rem;
+    }
+  }
+
+  hr::after {
+    height: 1rem;
+    
+    @media (min-width: 62rem) {
+      height: 2rem;
     }
   }
 
