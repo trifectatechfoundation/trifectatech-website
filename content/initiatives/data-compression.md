@@ -4,29 +4,42 @@ slug = "data-compression"
 template = "initiatives/data-compression.html"
 +++
 
-### Data compression
+### Building a data compression ecosystem
 
 Compression algorithms are used in a vast number of protocols and file formats throughout all of computing. Implemented in C, these libraries encounter regular security issues despite receiving extensive industry-wide scrutiny.
 
-Our project plans to create memory-safe implementations of compression libraries bzip2, zlib, xz, and zstd.
+Our initiative aims to create **memory-safe** implementations of compression libraries:
 
-### Project status
+- **zlib**: a widely-used compression library, used primarily on the web to provide gzip compression to the text/html/js/css we send around.
+- **bzip2**: a file compression program that is widely deployed and supported e.g. as part of zip.
+- **xz**: a compression format that provides very good compression, but relatively slow. Commonly used for large file downloads.
+- **zstd**: a modern successor to zlib, providing better compression faster. 
 
-More soon.
+### What We've Done
 
-### Future work
+For zlib, we've created an initial implementation based on zlib-ng, called `zlib-rs`, with a focus on maintaining excellent performance while introducing memory safety. The initial development of `zlib-rs` was started and partly funded by [Prossimo](https://www.memorysafety.org/initiative/zlib/).
 
-We currenly seek support for the new initiative "zlib, xz and zstd: building a data compression ecosystem". Funding target: € 395.000,-.
+In April 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29).
 
-Support us? See [trifecta.org/support](/support).
+### What's Next
+
+We're currently seeking funding to complete work necessary to make the initial implementation of `zlib` ready for production, and to start work on bzip2, xz and zstd. 
+
+The high level goals for the four projects are:
+
+- provide on-par performance with C/C++ counterparts
+- provide a dynamic library that is a drop-in replacement, but has compiled memory-safe rust code inside
+- dramatically reduce attack surface through memory safety, improved tooling and a robust build system
+- provide a pure rust implementation to rust users that integrates with the existing ecosystem
+
+The total funding target for this initiative is € 495.000,-   
 
 ### Workplan
 
-More soon.
+For per project details, see [the workplan](/initiatives/workplan-data-compression).
 
 ### Links
 
+- [video] [Implementing zlib in Rust](https://www.youtube.com/watch?v=mvzHQdCLkOY&list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7&index=11)
 - [zlib-rs GitHub Repository](https://github.com/memorysafety/zlib-rs/)
 - [zlib-rs Prossimo initiative](https://www.memorysafety.org/initiative/zlib/)
-
-        

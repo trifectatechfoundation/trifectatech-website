@@ -4,8 +4,6 @@ slug = "trifecta-tech-foundation-announcement"
 template = "blog/trifecta-tech-foundation-announcement.html"
 +++
 
-### Trifecta Tech Foundation: Open infrastructure software in the public interest
-
 Today, we are proud to announce the Trifecta Tech Foundation. 
 
 The Internet, and our vital systems for water, energy, and communication, require safe software. 
