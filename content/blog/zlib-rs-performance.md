@@ -6,7 +6,7 @@ template = "blog/current-zlib-rs-performance.html"
 
 Our [`zlib-rs`](https://github.com/memorysafety/zlib-rs) project implements a drop-in replacement for `libz.so`, a dynamic library that is widely used to perform gzip (de)compression.
 
-Of course `zlib-rs` is written in rust, and while we aim for a safe implementation, a crucial aspect of making this project succesful is solid performance. The original zlib implementation does not make good use of modern hardware, and the bar for zlib performance is set by the [`zlib-ng`](https://github.com/zlib-ng/zlib-ng) fork of zlib. It drops some legacy support, and makes good use of modern CPU capabilities like SIMD instructions. It is not uncommon for zlib-ng to be 2X faster than stock zlib.
+Of course, `zlib-rs` is written in rust, and while we aim for a safe implementation, a crucial aspect of making this project successful is solid performance. The original zlib implementation does not make good use of modern hardware, and the bar for zlib performance is set by the [`zlib-ng`](https://github.com/zlib-ng/zlib-ng) fork of zlib. It drops some legacy support, and makes good use of modern CPU capabilities like SIMD instructions. It is not uncommon for zlib-ng to be 2X faster than stock zlib.
 
 In order to be an attractive alternative to zlib, and make some system administrator go through the process of using our implementation, we must at least be close in performance to zlib-ng. In this post we'll see how the implementation performs today, and how we actually (try to) measure that performance.
 
@@ -50,7 +50,7 @@ fn main() {
 
 The `compress_ng` and `compress_rs` functions are equivalent, except that they import the implementation of their respective library. Both are linked in statically.
 
-The zlib-rs implementation relies heavily on instructions that are specific to your CPU. To make make use of these instructions, and let the compiler optimize with the assumption that the instructions will exist, it is important to pass the `target-cpu=native` flag. The most convenient way of specifying this flag is in a `.cargo/config.toml` file like so:
+The zlib-rs implementation relies heavily on instructions that are specific to your CPU. To make use of these instructions, and let the compiler optimize with the assumption that the instructions will exist, it is important to pass the `target-cpu=native` flag. The most convenient way of specifying this flag is in a `.cargo/config.toml` file like so:
 
 ```toml
 [build]
@@ -165,7 +165,7 @@ Benchmark 2 (9 runs): ./target/release/examples/blogpost-compress 9 rs silesia-s
 
 That's a lot of numbers. For users, the most important number is the wall time, where contrary to intuition zlib-rs is on-par with zlib-ng for the highest compression level, but much worse for the lowest compression level. That just reflects where we've spent our time so far: a lot of time has gone into compression level 9 where we already do well, almost none has gone into level 1 where we currently do comparatively poorly.
 
-Note that the `instructions` number is structurally much higher for rust code, even when that is not reflected in the wall time. Most of this increase is bounds checks: these are comparisions branches that are always predicted correctly, so they have little runtime cost, but do count towards the number of executed instructions.
+Note that the `instructions` number is structurally much higher for rust code, even when that is not reflected in the wall time. Most of this increase is bounds checks: these are comparisons branches that are always predicted correctly, so they have little runtime cost, but do count towards the number of executed instructions.
 
 For completeness, here is a benchmark of decompression speed
 
