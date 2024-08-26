@@ -12,7 +12,7 @@ Our initiative aims to create **memory-safe** implementations of compression lib
 
 - **zlib**: a widely-used compression library, used primarily on the web to provide gzip compression to the text/html/js/css we send around.
 - **bzip2**: a file compression program that is widely deployed and supported e.g. as part of zip.
-- **xz**: a compression format that provides very good compression, but relatively slow. Commonly used for large file downloads.
+- **xz**: a compression format that provides very good compression, but is comparatively slow. Commonly used for large file downloads.
 - **zstd**: a modern successor to zlib, providing better compression faster. 
 
 ### What We've Done
