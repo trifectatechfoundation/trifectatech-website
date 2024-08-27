@@ -1,33 +1,33 @@
 +++
-title = "Work plan sudo-rs"
+title = "Roadmap sudo-rs"
 slug = "workplan-sudo-rs"
 template = "initiatives/workplans/sudo-rs.html"
 +++
 
-### Upcoming Milestones
+### Future Roadmap
 
-**Milestone 3: Deployability (First Release)**
+**Improved Compatibility**
 
-* Improve usability by implementing commonly used feature flags and configuration options (such as sudo -l, and various reasonable configuration options)
+* Support for often-used configuration options in /etc/sudoers
+* Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis.
+* Improved environment handling (SETENV)
+* Port sudo and su to BSD (FreeBSD, MacOS, NetBSD)
+
+**Usability Enhancements**
+
+* Enhanced password prompt that display more of the security context
 * Support reading the doas configuration file
-* Implement visudo
-* More complete user facing documentation, including a migration guide
-* First public release of sudo and su aimed at single-user systems
+* A migration guide and FAQ for users
 
-**Milestone 4: Enterprise features (Second Release)**
+**Enterprise features**
 
-* Security features for multi-user systems (e.g. NOEXEC)
-* Audit trail logging
-* Hostname matching for sudoers
-* Support for more than 16 user groups (group_file plugin)
-
-**Milestone 5 - Hardening (Third Release)**
-
-* Support for other Linux distributions than Debian/Ubuntu (i.e. Fedora-based ones)
-* SELinux and AppArmor support
+* Preventing shell escapes (NOEXEC, NOINTERCEPT)
 * sudoedit implementation
+* Improved audit trails (i.e. session recording)
+* SELinux support
+* AppArmor support
 
-### Completed Milestones
+### Completed Milestones in the Initial Development Phase
 
 **Milestone 0: Preparation**
 
@@ -54,3 +54,11 @@ more efficient command execution
 * Wider configuration feature flag support
 * User facing documentation
 * Credential caching
+
+**Milestone 3: Deployability**
+
+* Improve usability by implementing commonly used feature flags and configuration options (such as sudo -l, and various reasonable configuration options)
+* Implement visudo
+* More complete user facing documentation
+* First public release of sudo and su aimed at single-user systems
+* Support for other Linux distributions than Debian/Ubuntu (i.e. Fedora-based ones)

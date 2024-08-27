@@ -14,13 +14,13 @@ designed to minimize attack surface.
 
 ### Project status
 
-Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. The project is under development to expand platform support and add new features.
+Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. The project is under development to add cross-platform support and improve compatibility with the original sudo utility.
 
 We'd like to thank Todd Miller, maintainer of the original sudo utility, for his advice and guidance on our implementation.
 
-### Work plan
+### Roadmap
 
-See <a href="/initiatives/workplan-sudo-rs">the sudo-rs workplan</a>.
+See <a href="/initiatives/workplan-sudo-rs">the sudo-rs roadmap</a>.
 
 ### Links
 
