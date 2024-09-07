@@ -3,6 +3,22 @@
   border-block-end: 1px solid var(--color-secondary-400);
   padding-block-end: 3rem;
 
+  .partners-title {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+
+    h2 {
+      grid-column: 1 / span 12;
+    }
+
+    @media (min-width: 62rem) {
+      h2 {
+        grid-column: 4 / span 6;
+      }
+    }
+  }
+
   >*+* {
     margin-block-start: calc(0.5 * var(--text-size-md) * var(--line-height));
   }
@@ -42,27 +58,26 @@
   gap: 0.75rem;
   position: relative;
   padding: 0rem;
-  margin-top: 0rem;
+  margin-top: 0.5rem;
 
   @media (min-width: 62rem) {
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-block: 3rem;
+    padding-block: 2rem;
     padding-inline: 1.5rem;
     text-align: center;
   }
 
   .image {
-    aspect-ratio: 1;
-    // background-color: var(--color-secondary-400);
+    min-height: 3rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 5rem;
 
     @media (min-width: 62rem) {
-      width: 8rem;
+      width: 7rem;
       position: relative;
     }
 
@@ -88,6 +103,31 @@
 
     &.ngi-zero-entrust {
       background-image: url('/funders/ngi-zero-entrust.svg');
+    }
+
+    &.cisco {
+      background-image: url('/funders/cisco.svg');
+    }
+
+    &.aws {
+      background-image: url('/funders/aws.svg');
+      width: 3.5rem;  
+    }
+
+    &.rustfoundation {
+      background-image: url('/funders/rustfoundation.png');
+    }
+
+    &.rustedu {
+      background-image: url('/funders/rustedu.svg');
+    }
+
+    &.tweedegolf {
+      background-image: url('/funders/tweedegolf.svg');
+    }
+
+    &.chainguard {
+      background-image: url('/funders/chainguard.svg');
     }
   }
 }
