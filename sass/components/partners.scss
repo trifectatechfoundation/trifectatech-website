@@ -1,0 +1,93 @@
+.partners {
+  position: relative;
+  border-block-end: 1px solid var(--color-secondary-400);
+  padding-block-end: 3rem;
+
+  >*+* {
+    margin-block-start: calc(0.5 * var(--text-size-md) * var(--line-height));
+  }
+
+  &::after {
+    background-image: url('ornament-separator.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    bottom: 0;
+    content: '';
+    height: 1.5rem;
+    position: absolute;
+    translate: 0 50%;
+    width: 100%;
+
+    @media (min-width: 62rem) {
+      height: 3rem;
+    }
+  }
+}
+
+.funders {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (min-width: 62rem) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.funder {
+  align-items: flex-start;
+  background-color: var(--color-secondary-200);
+  display: flex;
+  gap: 0.75rem;
+  position: relative;
+  padding: 0rem;
+  margin-top: 0rem;
+
+  @media (min-width: 62rem) {
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    text-align: center;
+  }
+
+  .image {
+    aspect-ratio: 1;
+    // background-color: var(--color-secondary-400);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 5rem;
+
+    @media (min-width: 62rem) {
+      width: 8rem;
+      position: relative;
+    }
+
+    &.prossimo {
+      background-image: url('/funders/prossimo.svg');
+    }
+
+    &.nlnetfoundation {
+      background-image: url('/funders/nlnetfoundation.png');
+    }
+
+    &.stf {
+      background-image: url('/funders/stf.svg');
+    }
+
+    &.sidnfonds {
+      background-image: url('/funders/sidnfonds.png');
+    }
+
+    &.ngi-assure {
+      background-image: url('/funders/ngi-assure.svg');
+    }
+
+    &.ngi-zero-entrust {
+      background-image: url('/funders/ngi-zero-entrust.svg');
+    }
+  }
+}
