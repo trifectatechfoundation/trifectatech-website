@@ -12,30 +12,30 @@ It is available for anyone who wants to teach Rust. Teach-rs is modular; it enab
 
 ### Project status
 
-Teach-rs is ready to use! Universities in TODO.... are among many institutions that have used it.
+Teach-rs is ready to use! Universities in Slovakia, Belgium, Romania and the US are among institutions that have already used it.
 
-The project has received support from Rust Edu in the past, and continues to collaborate with Rust Edu to improve and expand the course materials.
+The project has received support from [Rust Edu](https://rust-edu.org/) in the past, and continues to collaborate with Rust Edu to improve and expand the course materials.
 
 ### Future work
 
-TODO Work on teach-rs continues:
+Work on teach-rs continues:
 
 - New additions to the tracks and modules
-- Maintenance of the course material
-- Improved tooling
-- Adoption work
+- Tooling: create and improve the tooling necessary to use and contribute to teach-rs 
+- Documentation: improving documentation quality and availability
+- Visibility: improving the visibility of teach-rs to potential users and contributors by giving guest lectures and creating promotional content, a talk, workshop, and blog posts.
 
 Support us? See [trifecta.org/support](/support).
 
 ### Links
 
 - [GitHub - teach-rs](https://github.com/trifectatechfoundation/teach-rs)
-- [TODO Talk at RustNL](#)
+- [video] [Talk at RustNL 2024 - Oxidizing Education - Henk Oordt](https://www.youtube.com/watch?v=KwZM0lSTvyk)
 
 ### History
 
-The project was created by Tweede golf in 2022, and was initially called "Rust 101". The early development of the course started in 2022 by Henk Oordt and others at Tweede golf. The project received financial support from TODO Bratislava and TODO Rust Edu.
+The project was created by Tweede golf in 2022, and was initially called "Rust 101". The early development of the course started in 2022 by Henk Oordt and others at Tweede golf. The project received financial support from Slovak University of Technology (STU) in Bratislava, Slovakia and Rust Edu.
 
 In 2023 the project changed it's name to teach-rs, and in 2024 it moved from Tweede golf to Trifecta Tech Foundation, as its long-term home.
 
-A list of contributors and sponsors can be found in the project's [TODO README](#).
+A list of contributors and sponsors can be found in the project's [README](https://github.com/trifectatechfoundation/teach-rs/blob/main/README.md).
