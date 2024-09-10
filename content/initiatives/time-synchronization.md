@@ -19,7 +19,8 @@ More on Pendulum's [GitHub](https://github.com/pendulum-project).
 
 ### Future work
 
-We currenly seek support for the new initiative "Secure time for a safe internet". Funding target: € 425.000,-.
+We currenly seek support for the new project "Secure time for a safe internet". The goals of the project are detailed in [this blog post](https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time).  
+Funding target: € 425.000,-.  
 
 Support us? See [trifecta.org/support](/support).
 
