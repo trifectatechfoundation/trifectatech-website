@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+<title>{{ page.title | safe }} - Trifecta Tech Foundation</title>
+{% endblock meta_content %}
+
+{% block content %}
+<div class="hero">
+    <h1>Education: <span>teach-rs</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+    </div>
+</div>
+<div class="partners">
+    <div class="partners-title">
+        <h2>Funders & supporters</h2>
+    </div>
+    <div class="funders">
+        <a class="card-link" href="https://rust-edu.org/">
+            <div class="funder">
+                <div class="image rustedu"></div>
+            </div>
+        </a>
+        <a class="card-link" href="https://tweedegolf.nl">
+            <div class="funder">
+                <div class="image tweedegolf"></div>
+            </div>
+        </a>
+        <a class="card-link" href="https://foundation.rust-lang.org/">
+            <div class="funder">
+                <div class="image rustfoundation"></div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        <h2>Blog and news</h2>
+        <ul class="blog-list">
+            <li>
+                <a class="card-link" href="https://tweedegolf.nl/en/blog/127/want-more-rust-break-the-cycle">
+                    <div class="meta">
+                        <span class="date">June 17, 2024</span>
+                        <span class="tag">teach-rs</span><span class="tag">education</span><span class="tag">source:
+                            Tweede golf</span>
+                    </div>
+                    <h3>Want more Rust? Break the cycle!</h3>
+                    <p>How? By oxidizing education. That's right: introduce Rust in higher education making sure more students enter the job market.<br />
+                        <strong>Read more ...</strong>
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            All news
+        </a>
+    </div>
+</div>
+{% endblock %}
