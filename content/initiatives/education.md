@@ -12,7 +12,7 @@ It is available for anyone who wants to teach Rust. Teach-rs is modular; it enab
 
 ### Project status
 
-Teach-rs is ready to use! Universities in Slovakia, Belgium, Romania and the US are among institutions that have already used it.
+Teach-rs is ready to use! Universities in Slovakia, Belgium, Romania and the US are among institutions that have used it.
 
 The project has received support from [Rust Edu](https://rust-edu.org/) in the past, and continues to collaborate with Rust Edu to improve and expand the course materials.
 
@@ -21,9 +21,9 @@ The project has received support from [Rust Edu](https://rust-edu.org/) in the p
 Work on teach-rs continues:
 
 - New additions to the tracks and modules
-- Tooling: create and improve the tooling necessary to use and contribute to teach-rs 
+- Create and improve tooling to use and contribute to teach-rs 
 - Documentation: improving documentation quality and availability
-- Visibility: improving the visibility of teach-rs to potential users and contributors by giving guest lectures and creating promotional content, a talk, workshop, and blog posts.
+- Visibility: improving the visibility of teach-rs to potential users and contributors
 
 Support us? See [trifecta.org/support](/support).
 
