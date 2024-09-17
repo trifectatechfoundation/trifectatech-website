@@ -36,6 +36,6 @@ Support us? See [trifecta.org/support](/support).
 
 The project was created by Tweede golf in 2022, and was initially called "Rust 101". The early development of the course started in 2022 by Henk Oordt and others at Tweede golf. The project received financial support from Slovak University of Technology (STU) in Bratislava, Slovakia and Rust Edu.
 
-In 2023 the project changed it's name to teach-rs, and in 2024 it moved from Tweede golf to Trifecta Tech Foundation, as its long-term home.
+In 2023 the project changed its name to teach-rs, and in 2024 it moved from Tweede golf to Trifecta Tech Foundation, as its long-term home.
 
 A list of contributors and sponsors can be found in the project's [README](https://github.com/trifectatechfoundation/teach-rs/blob/main/README.md).
