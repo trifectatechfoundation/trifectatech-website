@@ -19,12 +19,12 @@ Current projects in this initiative include zlib, bzip2, xz and zstd.
 - **audit** a third party security audit
 - **first stable release** 
 
-Target funding for "Stable release zlib-rs": &euro; 175.000,-
+Funding target "Stable release zlib-rs": &euro; 175.000,-
 
 **Other work**
 
 - **above par performance:** further performance optimizations and above par performance
-- **wasm optimizations:** SIMD optimizations for Webassembly. Target funding `wasm optimizations`: &euro; 20.000,-
+- **wasm optimizations:** SIMD optimizations for Webassembly. Funding target "wasm optimizations": &euro; 20.000,-
 
 ---
 
@@ -34,7 +34,7 @@ Target funding for "Stable release zlib-rs": &euro; 175.000,-
 - **a dynamic library:** the `libbz2-rs` dynamic library defines an interface identical to `libbz2`, and is a drop-in replacement for that library. It produces byte-for-byte identical output for identical input.
 - **a binary**: the `bzip2` binary is written in safe rust and provides bzip2 (de)compression functionality on the command line. 
 
-Target funding `bzip2`: &euro; 45.000,-
+Funding target bzip2: &euro; 45.000,-
 
 ---
 
@@ -43,7 +43,7 @@ Target funding `bzip2`: &euro; 45.000,-
 - **a rust crate** that implements multi-threaded compression and decompression, and can be integrated with the rust [`xz2`](https://crates.io/crates/xz2) crate.
 - **a dynamic library:** the `liblzma-rs` dynamic library defines an interface identical to `liblzma`, and is a drop-in replacement for that library. 
 
-Target funding `xz`: &euro; 100.000,-
+Funding target xz: &euro; 100.000,-
 
 ---
 
@@ -52,5 +52,5 @@ Target funding `xz`: &euro; 100.000,-
 - **a rust crate** that implements decompression and multi-threaded compression, and can be integrated with the rust [`zstd`](https://crates.io/crates/zstd) crate.
 - **a dynamic library:** the `libzstd-rs` dynamic library defines an interface identical to `libzstd`, and is a drop-in replacement for that library. 
 
-Target funding `zstd`: &euro; 175.000,-
+Funding target `zstd`: &euro; 175.000,-
 
