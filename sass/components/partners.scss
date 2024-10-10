@@ -148,4 +148,11 @@
       background-image: url('/memberships/linuxfoundation.svg');
     }
   }
+
+  .image {
+    &.openinfra {
+      min-height: 3.25rem;
+      background-image: url('/memberships/openinfra.png');
+    }
+  }
 }
