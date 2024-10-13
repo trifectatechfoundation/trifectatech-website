@@ -21,9 +21,11 @@ For zlib, we've created an initial implementation based on zlib-ng, called `zlib
 
 In April 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29).
 
+The development of `bzip2` started Oct 2024.
+
 ### What's Next
 
-We're currently seeking funding to complete work necessary to make the initial implementation of `zlib` ready for production, and to start work on bzip2, xz and zstd. 
+We're currently seeking funding to complete work necessary to make the initial implementation of `zlib` ready for production and to start work on xz and zstd. 
 
 The high level goals for the four projects are:
 
@@ -32,7 +34,11 @@ The high level goals for the four projects are:
 - dramatically reduce attack surface through memory safety, improved tooling and a robust build system
 - provide a pure rust implementation to rust users that integrates with the existing ecosystem
 
-The total funding target for this initiative is € 495.000,-   
+**Funding status "Data compression"**
+
+| funded | % | funders  |
+|---|---|---|
+| &euro; 60.000 of 495.000 | 12% | NLnet Foundation (bzip2), Devolutions (zlib), Chainguard (zlib) |
 
 ### Workplan
 

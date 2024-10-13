@@ -200,3 +200,27 @@
       left: -1rem;
   }
 }
+
+.markdown table {
+
+  margin-block-start: 0.25rem;
+  
+  
+  td, th {
+    font-size: 0.8rem;
+    border-width: 0px 1px;
+    border-style: dotted;
+    border-color: gray;
+    text-align: center;
+    padding: 4px 0.5rem;
+  }
+  
+  th {
+    font-style: italic;
+    border-width: 0px 1px 1px 1px;
+  }
+
+  td:nth-child(1) {
+    min-width: 3.5rem;
+  }
+}
