@@ -41,7 +41,7 @@
     background-size: auto 100%;
     bottom: 0;
     content: '';
-    height: 1.5rem;
+    height: 2rem;
     position: absolute;
     translate: 0 50%;
     width: 100%;
@@ -52,7 +52,6 @@
   }
 
   hr::after {
-    height: 1rem;
     
     @media (min-width: 62rem) {
       height: 2rem;
