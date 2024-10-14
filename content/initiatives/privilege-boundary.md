@@ -14,7 +14,10 @@ designed to minimize attack surface.
 
 ### Project status
 
-Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. The project is under development to add cross-platform support and improve compatibility with the original sudo utility.
+Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
+It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux.
+
+Current development includes increasing cross-platform support and improve compatibility with the original sudo utility.
 
 We'd like to thank Todd Miller, maintainer of the original sudo utility, for his advice and guidance on our implementation.
 
