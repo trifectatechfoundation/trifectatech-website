@@ -34,11 +34,11 @@ The high level goals for the four projects are:
 - dramatically reduce attack surface through memory safety, improved tooling and a robust build system
 - provide a pure rust implementation to rust users that integrates with the existing ecosystem
 
-**Funding status "Data compression"**
+**Project status "Data compression"**
 
-| funded | % | funders  |
+| status | funding target | funded | 
 |---|---|---|
-| &euro; 60.000 of 495.000 | 12% | NLnet Foundation (bzip2), Devolutions (zlib), Chainguard (zlib) |
+| in progress | &euro; 495.000 | 12% |
 
 ### Workplan
 
