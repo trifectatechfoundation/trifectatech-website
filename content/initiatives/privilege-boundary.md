@@ -15,7 +15,7 @@ designed to minimize attack surface.
 ### Project status
 
 Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
-It has since been packaged for Debian, Fedora and Ubuntu and adopted by security focussed OSes such as Wolfi OS.
+It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux.
 
 Current development includes increasing cross-platform support and improve compatibility with the original sudo utility.
 

@@ -9,6 +9,8 @@ template = "initiatives/workplans/sudo-rs.html"
 * Port sudo and su to FreeBSD
 * Improve compatibility with the original sudo utility
 * Support for often-used configuration options in /etc/sudoers
+* Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis.
+* Improved environment handling (SETENV)
 
 This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/).
 
@@ -16,9 +18,7 @@ This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/).
 
 **Improved Compatibility**
 
-* Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis.
-* Improved environment handling (SETENV)
-* Port sudo and su to BSD (MacOS, NetBSD)
+* Port sudo and su to other platforms (MacOS, NetBSD, ...)
 
 **Usability Enhancements**
 
