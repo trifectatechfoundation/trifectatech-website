@@ -2,6 +2,8 @@
 title = "Current zlib-rs performance"
 slug = "current-zlib-rs-performance"
 template = "blog/current-zlib-rs-performance.html"
+[taxonomies]
+label=["zlib-rs", "data-compression"]
 +++
 
 Our [`zlib-rs`](https://github.com/memorysafety/zlib-rs) project implements a drop-in replacement for `libz.so`, a dynamic library that is widely used to perform gzip (de)compression.

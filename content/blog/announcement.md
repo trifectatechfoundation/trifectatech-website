@@ -2,6 +2,8 @@
 title = "Trifecta Tech Foundation: Open infrastructure software in the public interest"
 slug = "trifecta-tech-foundation-announcement"
 template = "blog/trifecta-tech-foundation-announcement.html"
+[taxonomies]
+label=["announcement"]
 +++
 
 Today, we are proud to announce the Trifecta Tech Foundation. 
