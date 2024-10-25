@@ -2,6 +2,8 @@
 title = "Education - teach-rs"
 slug = "education"
 template = "initiatives/education.html"
+[taxonomies]
+label=["education"]
 +++
 
 ### A modular university course teaching Rust
