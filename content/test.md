@@ -5,7 +5,7 @@ template = "test.html"
 [taxonomies]
 label = ["education"]
 [extra]
-categories = "aap"
+terms = ["education", "announcement"]
 +++
 
 

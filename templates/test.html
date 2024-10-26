@@ -7,12 +7,31 @@
 </h1>
 {{page.content | safe}}
 
+<ul>
+  {% for c in page.extra.terms %}
+    <li>{{loop.index}}. {{c}}</li>
+  {% endfor %}
+</ul>
 
-{% set categories = get_taxonomy_term(kind="label", term="education") %}
 
-{% for page in categories.pages %}
-  {{loop.index}}. {{page.content}}
-{% endfor %}
+<hr/>
+
+
+ul>
+  {% for term in page.extra.terms %}
+  <h3>{{term}}</h3>
+  {% set categories = get_taxonomy_term(kind="label", term=term) %}
+  <ul>
+    {% for page in categories.pages %}
+      <li>{{loop.index}}. {{page.title}}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</ul>
+
+
+
+
 
 
 
