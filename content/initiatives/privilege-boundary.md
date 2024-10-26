@@ -2,6 +2,8 @@
 title = "Privilege boundary"
 slug = "privilege-boundary"
 template = "initiatives/privilege-boundary.html"
+[extra]
+funders = [1,0,4,5,10]
 +++
 
 ### Sudo-rs

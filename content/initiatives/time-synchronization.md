@@ -2,6 +2,8 @@
 title = "Time synchronization"
 slug = "time-synchronization"
 template = "initiatives/time-synchronization.html"
+[extra]
+funders = [7,1,0,2,5,6,10]
 +++
 
 ### Time synchronization

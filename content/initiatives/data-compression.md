@@ -2,6 +2,9 @@
 title = "Data compression"
 slug = "data-compression"
 template = "initiatives/data-compression.html"
+[extra]
+funders = [12, 1, 9, 10, 0, 4]
+
 +++
 
 ### Building a data compression ecosystem

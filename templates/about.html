@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block meta_content %}
-<title>About - Trifecta Tech Foundation</title>
+<title>{{page.title}}</title>
 {% endblock meta_content %}
 
 {% block content %}
@@ -77,10 +77,9 @@
 </div>
 
 <div class="team">
-  <h2>Maintainers (loop)</h2>
-  {% set page = get_page(path="members.md") %}
+  <h2>Maintainers</h2>
   <div class="members">    
-    {% for member in page.extra.members %}
+    {% for member in page.extra.maintainers %}
       <div class="member">
         <div class="image {{member.image}}"></div>
         <div>
@@ -94,122 +93,12 @@
             {% endfor %}
           </div>
           <a href={{member.github}} target="_blank" class="btn btn-secondary">GitHub</a>
-          </div>
+        </div>
       </div>
     {% endfor %}
   </div>
 </div>
 
-
-<div class="team">
-  <h2>Maintainers</h2>
-  <div class="members">
-    <div class="member">
-      <div class="image ruben"></div>
-      <div>
-        <p class="name">Ruben Nijveld</p>
-        <p>ruben@trifectatech.org</p>
-        <p>Software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span> <span class="tag">sudo-rs</span>
-        </div>
-        <a href="https://github.com/rnijveld" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image david"></div>
-      <div>
-        <p class="name">David Venhoek</p>
-        <p>david@trifectatech.org</p>
-        <p>Security software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/davidv1992" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image henk"></div>
-      <div>
-        <p class="name">Henk Oordt</p>
-        <p>hd@oordt.dev</p>
-        <p>Embedded software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">teach-rs</span>
-        </div>
-        <a href="https://github.com/hdoordt" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image marc"></div>
-      <div>
-        <p class="name">Marc Schoolderman</p>
-        <p>marc@trifectatech.org</p>
-        <p>Software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">sudo-rs</span> <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/squell" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image folkert"></div>
-      <div>
-        <p class="name">Folkert de Vries</p>
-        <p>folkert@trifectatech.org</p>
-        <p>Systems software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/folkertdev" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image dion"></div>
-      <div>
-        <p class="name">Dion Dokter</p>
-        <p>dion@trifectatech.org</p>
-        <p>Embedded Software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/diondokter" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image marlonp"></div>
-      <div>
-        <p class="name">Marlon Peeters</p>
-        <p>marlonpeeters@trifectatech.org</p>
-        <p>Software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/cikzh" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image tamme"></div>
-      <div>
-        <p class="name">Tamme Dittrich</p>
-        <p>tamme@trifectatech.org</p>
-        <p>Software engineer</p>
-        <br />
-        <div class="meta meta-about">
-          <span class="tag">Pendulum</span>
-        </div>
-        <a href="https://github.com/tdittr" target="_blank" class="btn btn-secondary">GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="team">
   <h2>Board</h2>
   <p>
@@ -218,30 +107,16 @@
     non-profit work originating from <a href="https://tweedegolf.nl">Tweede golf</a>.
   </p>
   <div class="members">
+    {% for member in page.extra.board %}
     <div class="member">
-      <div class="image erik"></div>
+      <div class="image {{member.image}}"></div>
       <div>
-        <p class="name">Erik Jonkers</p>
-        <p>erik@trifectatech.org</p>
-        <p>Chair</p>
+        <p class="name">{{member.name}}</p>
+        <p>{{member.email}}</p>
+        <p>{{member.role}}</p>
       </div>
     </div>
-    <div class="member">
-      <div class="image hugo"></div>
-      <div>
-        <p class="name">Hugo van de Pol</p>
-        <p>hugo@trifectatech.org</p>
-        <p>Secretary</p>
-      </div>
-    </div>
-    <div class="member">
-      <div class="image marlon"></div>
-      <div>
-        <p class="name">Marlon Baeten</p>
-        <p>marlon@trifectatech.org</p>
-        <p>Treasurer</p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 {% endblock %}

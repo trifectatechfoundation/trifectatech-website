@@ -6,6 +6,9 @@
 
 {% block content %}
 {% include "components/hero.html" %}
+{% set page = get_page(path = "home.md") %}
+{% set data = get_page(path = "data.md") %}
+
 <div class="paragraph">
     <div class="markdown why">
         <h2>Why</h2>
@@ -35,76 +38,14 @@
         <h2>Funders & supporters</h2>
     </div>
     <div class="funders">
-        <a class="card-link" href="https://nlnet.nl">
+        {% for index in page.extra.funders %}
+        {% set funder = data.extra.funders[index] %}
+        <a class="card-link" href="{{funder.url}}">
             <div class="funder">
-                <div class="image nlnetfoundation"></div>
+                <div class="image {{funder.image}}"></div>
             </div>
         </a>
-        <a class="card-link" href="https://memorysafety.org">
-            <div class="funder">
-                <div class="image prossimo"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://sidnfonds.nl">
-            <div class="funder">
-                <div class="image sidnfonds"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://aws.amazon.com/">
-            <div class="funder">
-                <div class="image aws"></div>
-            </div>
-        </a> -->
-        <a class="card-link" href="https://nlnet.nl/core/">
-            <div class="funder">
-                <div class="image ngi-zero-core"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://nlnet.nl/entrust/">
-            <div class="funder">
-                <div class="image ngi-zero-entrust"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://nlnet.nl/assure/">
-            <div class="funder">
-                <div class="image ngi-assure"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://sovereigntechfund.de">
-            <div class="funder">
-                <div class="image stf"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://rust-edu.org/">
-            <div class="funder">
-                <div class="image rustedu"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://chainguard.dev">
-            <div class="funder">
-                <div class="image chainguard"></div>
-            </div>
-        </a> -->
-        <a class="card-link" href="https://tweedegolf.nl">
-            <div class="funder">
-                <div class="image tweedegolf"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://foundation.rust-lang.org/">
-            <div class="funder">
-                <div class="image rustfoundation"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://devolutions.net/">
-            <div class="funder">
-                <div class="image devolutions"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://cisco.com">
-            <div class="funder">
-                <div class="image cisco"></div>
-            </div>
-        </a> -->
+        {% endfor %}
     </div>
 </div>
 

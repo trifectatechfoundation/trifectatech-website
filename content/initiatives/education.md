@@ -4,6 +4,8 @@ slug = "education"
 template = "initiatives/education.html"
 [taxonomies]
 label=["education"]
+[extra]
+funders = [8,10,11]
 +++
 
 ### A modular university course teaching Rust

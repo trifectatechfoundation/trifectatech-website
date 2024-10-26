@@ -5,6 +5,7 @@
 {% endblock meta_content %}
 
 {% block content %}
+{% set data = get_page(path = "data.md") %}
 <div class="hero">
     <h1>Privilege <span>boundary</span></h1>
 </div>
@@ -18,36 +19,14 @@
         <h2>Funders & supporters</h2>
     </div>
     <div class="funders">
-        <a class="card-link" href="https://memorysafety.org">
+        {% for index in page.extra.funders %}
+        {% set funder = data.extra.funders[index] %}
+        <a class="card-link" href="{{funder.url}}">
             <div class="funder">
-                <div class="image prossimo"></div>
+                <div class="image {{funder.image}}"></div>
             </div>
         </a>
-        <a class="card-link" href="https://nlnet.nl">
-            <div class="funder">
-                <div class="image nlnetfoundation"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://aws.amazon.com/">
-            <div class="funder">
-                <div class="image aws"></div>
-            </div>
-        </a> -->
-        <a class="card-link" href="https://nlnet.nl/core/">
-            <div class="funder">
-                <div class="image ngi-zero-core"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://nlnet.nl/entrust/">
-            <div class="funder">
-                <div class="image ngi-zero-entrust"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://tweedegolf.nl">
-            <div class="funder">
-                <div class="image tweedegolf"></div>
-            </div>
-        </a>
+        {% endfor %}
     </div>
 </div>
 <div class="paragraph">
