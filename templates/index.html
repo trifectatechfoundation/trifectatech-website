@@ -39,75 +39,13 @@
     <div class="project-title">
         <h2>Infrastructure projects</h2>
     </div>
-    <div class="items">
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Time synchronization</h3>
-                <p>
-                    Reliable, securely synchronized time is a building block for the Internet and other critical
-                    infrastructure.
-                </p>
-                <p>
-                    Project Pendulum builds modern implementations of the Network Time Protocol and Precision Time
-                    Protocol and creates open services that boost secure time synchronization.
-                </p>
-                <a href="/initiatives/time-synchronization" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Privilege boundary</h3>
-                <p>
-                    The sudo and su utilities mediate a critical privilege boundary on almost every open-source
-                    operating system that powers the Internet.
-                </p>
-                <p>
-                    Sudo-rs is a sudo alternative that doesn't suffer from memory safety vulnerabilities and is
-                    designed to minimize attack surface.
-                </p>
-                <a href="/initiatives/privilege-boundary" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Data compression</h3>
-                <p>
-                    Compression algorithms are used in a vast number of protocols and file formats throughout all
-                    of computing.
-                    Implemented in C, these libraries encounter regular security issues despite receiving extensive
-                    industry-wide scrutiny.
-                </p>
-                <p>
-                    Our project plans to create memory-safe implementations of compression libraries bzip2, zlib, xz,
-                    and zstd.
-                </p>
-                <a href="/initiatives/data-compression" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-    </div>
+    {% set data = page.extra.projects_infrastructure %}
+    {% include "components/projects.html" %}
     <div class="project-title">
         <h2>Ecosystem projects</h2>
     </div>
-    <div class="items">
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow markdown">
-                <h3>Education</h3>
-                <p>
-                    Teach-rs is a university course for computer science students, introducing the Rust Programming
-                    Language, and is available for anyone who wants to teach Rust.
-                </p>
-                <a href="/initiatives/education" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-    </div>
+    {% set data = page.extra.projects_ecosystem %}
+    {% include "components/projects.html" %}
 </div>
 
 <div class="paragraph">
