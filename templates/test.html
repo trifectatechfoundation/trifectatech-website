@@ -20,7 +20,7 @@
 ul>
   {% for term in page.extra.terms %}
   <h3>{{term}}</h3>
-  {% set categories = get_taxonomy_term(kind="label", term=term) %}
+  {% set categories = get_taxonomy_term(kind="tags", term=term) %}
   <ul>
     {% for page in categories.pages %}
       <li>{{loop.index}}. {{page.title}}</li>

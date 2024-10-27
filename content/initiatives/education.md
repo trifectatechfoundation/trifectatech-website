@@ -2,8 +2,10 @@
 title = "Education - teach-rs"
 slug = "education"
 template = "initiatives/education.html"
+
 [taxonomies]
-label=["education"]
+tags=["education"]
+
 [extra]
 funders = [8,10,11]
 +++

@@ -11,186 +11,24 @@
 <div class="paragraph markdown">
     <div>
         <ul class="blog-list">
+            {% for page in page.extra.blogposts %}
+            {% set post = get_page(path="./blog/" ~ page ~ ".md") %}
             <li>
-                <a class="card-link" href="ISPCS paper: Estimating noise for clock-synchronizing Kalman filters">
+                <a class="card-link" href="{{post.extra.link}}">
                     <div class="meta">
-                        <span class="date">Oct 4, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">Statime</span><span class="tag">source: Tweede golf</span>
+                        <span class="date">{{post.date}}</span>
+                        {% for tag in post.taxonomies.tags %}
+                            <span class="tag">{{tag}}</span>
+                        {% endfor %}
+                        <span class="tag">source: {{post.extra.source}}</span>
                     </div>
-                    <h3>ISPCS paper: Estimating noise for clock-synchronizing Kalman filters</h3>
-                    <p><br />Our Statime project now provides strong synchronization performance and accurate synchronization error estimates. David's paper, soon to be published by the IEEE, describes our Kalman-based approach.
+                    <h3>{{post.title}}</h3>
+                    <p><br />{{post.extra.excerpt}}
                         <strong>Read more ...</strong>
                     </p>
                 </a>
             </li>
-            <li>
-                <a class="card-link" href="/blog/current-zlib-rs-performance">
-                    <div class="meta">
-                        <span class="date">Aug 8, 2024</span>
-                        <span class="tag">zlib-rs</span><span class="tag">data compression</span><span class="tag">source: Trifecta Tech Foundation</span>
-                    </div>
-                    <h3>Current zlib-rs performance</h3>
-                    <p><br />A crucial aspect of making zlib-rs successful is solid performance. In this post we'll see how the implementation performs today, and how we measure that performance.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://www.memorysafety.org/blog/trifecta-tech-foundation-sudo-su/">
-                    <div class="meta">
-                        <span class="date">Jul 17, 2024</span>
-                        <span class="tag">sudo-rs</span><span class="tag">source: Prossimo</span>
-                    </div>
-                    <h3>A new home for memory safe sudo/su</h3>
-                    <p><br />Today we're pleased to announce that an open source memory safe implementation of sudo/su — sudo-rs — has a new long-term home at the Trifecta Tech Foundation.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="/blog/trifecta-tech-foundation-announcement">
-                    <div class="meta">
-                        <span class="date">July 15, 2024</span>
-                        <span class="tag">announcement</span><span class="tag">source: Trifecta Tech Foundation</span>
-                    </div>
-                    <h3>Trifecta Tech Foundation: Open infrastructure software in the public interest</h3>
-                    <p><br />Today, we are proud to announce the Trifecta Tech Foundation.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://letsencrypt.org/2024/06/24/ntpd-rs-deployment">
-                    <div class="meta">
-                        <span class="date">Jun 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Let’s Encrypt</span>
-                    </div>
-                    <h3>More Memory Safety for Let’s Encrypt: Deploying ntpd-rs</h3>
-                    <p><br />When we look at the general security posture of Let’s Encrypt, one of the things that worries us most is how much of the operating system and network infrastructure is written in unsafe languages like C and C++.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time">
-                    <div class="meta">
-                        <span class="date">May 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>A safe Internet requires secure time</h3>
-                    <p><br />The internet has a hole at the bottom of its trust stack, and we need to do something about
-                        it. In particular, the internet needs secure time synchronization to fortify the security of our
-                        digital world.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link"
-                    href="https://www.sovereigntechfund.de/news/on-rust-memory-safety-open-source-infrastructure">
-
-                    <div class="meta">
-                        <span class="date">May 19, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Sovereign Tech Fund</span>
-                    </div>
-                    <h3>On Rust, Memory Safety, and Open Source Infrastructure</h3>
-                    <p><br />Addressing memory safety in critical infrastructure is a complex issue with multiple
-                        approaches. The Sovereign Tech Fund supports several initiatives, including Pendulum's memory
-                        safe Network Time Protocol, that is highlighted in this article.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://www.memorysafety.org/blog/fedora-linux-for-ntp-and-sudo/">
-                    <div class="meta">
-                        <span class="date">May 9, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">sudo-rs</span><span class="tag">source:
-                            Prossimo</span>
-                    </div>
-                    <h3>Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs</h3>
-                    <p><br />Memory safe NTP and sudo are now in Fedora Linux.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link"
-                    href="https://www.sidn.nl/en/news-and-blogs/rust-makes-dns-and-time-software-more-secure">
-
-                    <div class="meta">
-                        <span class="date">April 17, 2024</span>
-                        <span class="tag">Pendulum</span><span class="tag">source: SIDN</span>
-                    </div>
-                    <h3>Rust makes DNS and time software more secure</h3>
-                    <p><br />SIDN writes about vital software for critical internet infrastructure reimplemented in
-                        memory safe languages. The article lists sudo-rs and Pendulum as prime examples of employing
-                        Rust for Rust for critical software.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://www.memorysafety.org/blog/reducing-dependencies-in-sudo/">
-                    <div class="meta">
-                        <span class="date">Mar 7, 2024</span>
-                        <span class="tag">sudo-rs</span><span class="tag">source: Prossimo</span>
-                    </div>
-                    <h3>Sudo-rs dependencies: when less is better</h3>
-                    <p><br />Trifecta Tech Foundation maintainer Ruben Nijveld offers his perspective here on one of the greatest challenges we faced when developing software that can be widely adopted: Rust crate dependencies.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/98/sovereign-tech-fund-invests-in-pendulum">
-                    <div class="meta">
-                        <span class="date">Aug 10, 2023</span>
-                        <span class="tag">Pendulum</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>Sovereign Tech Fund invests in Pendulum</h3>
-                    <p><br />Sovereign Tech Fund will support our effort to build modern and memory-safe implementations
-                        of the Network Time Protocol (NTP) and the Precision Time Protocol (PTP).
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://ferrous-systems.com/blog/testing-sudo-rs/">
-                    <div class="meta">
-                        <span class="date">June 28, 2023</span>
-                        <span class="tag">sudo-rs</span><span class="tag">source: Ferrous Systems</span>
-                    </div>
-                    <h3>Testing sudo-rs and improving sudo along the way</h3>
-                    <p><br />Faced with the task of re-implementing sudo, one of the questions that came up early on was: how do we verify that sudo-rs behaves just like the original sudo?
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/91/reimplementing-sudo-in-rust">
-                    <div class="meta">
-                        <span class="date">May 17, 2023</span>
-                        <span class="tag">sudo-rs</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>Re-implementing Sudo in Rust</h3>
-                    <p><br />A drop-in replacement for all common modern use cases of sudo.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://arstechnica.com/information-technology/2023/05/two-core-unix-like-utilities-sudo-and-su-are-getting-rewrites-in-rust/">
-                    <div class="meta">
-                        <span class="date">May 1, 2023</span>
-                        <span class="tag">sudo-rs</span><span class="tag">source: Ars Technica</span>
-                    </div>
-                    <h3>Two core Unix-like utilities, sudo and su, are getting rewrites in Rust</h3>
-                    <p><br />Two of the most fundamental tools of the modern Unix-like command line, sudo and su, are being rewritten in the modern language Rust as part of a wider effort to get critical but aging infrastructure pieces replaced by memory-safe counterparts.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>       
+            {% endfor %}
         </ul>
     </div>
 </div>

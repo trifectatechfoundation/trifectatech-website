@@ -2,9 +2,14 @@
 title = "Current zlib-rs performance"
 slug = "current-zlib-rs-performance"
 template = "blog/current-zlib-rs-performance.html"
+date = "2024-08-08"
+
 [taxonomies]
-label=["zlib-rs", "data-compression"]
+tags = ["zlib-rs", "data compression"] 
+
 [extra]
+link = "/blog/current-zlib-rs-performance"
+source = "Trifecta Tech Foundation"
 excerpt = "A crucial aspect of making zlib-rs successful is solid performance. In this post we'll see how the implementation performs today, and how we measure that performance."
 +++
 

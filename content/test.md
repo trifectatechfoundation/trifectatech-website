@@ -2,8 +2,10 @@
 title = "Test"
 slug = "test"
 template = "test.html"
+
 [taxonomies]
-label = ["education"]
+tags = ["education"]
+
 [extra]
 terms = ["education", "announcement"]
 +++

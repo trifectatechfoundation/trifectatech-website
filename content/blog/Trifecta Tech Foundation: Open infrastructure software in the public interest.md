@@ -2,8 +2,15 @@
 title = "Trifecta Tech Foundation: Open infrastructure software in the public interest"
 slug = "trifecta-tech-foundation-announcement"
 template = "blog/trifecta-tech-foundation-announcement.html"
+date = 2024-07-15
+
 [taxonomies]
-label=["announcement"]
+tags=["announcement"]
+
+[extra]
+link = "/blog/trifecta-tech-foundation-announcement"
+source = "Trifecta Tech Foundation"
+excerpt = "Today, we are proud to announce the Trifecta Tech Foundation."
 +++
 
 Today, we are proud to announce the Trifecta Tech Foundation. 
