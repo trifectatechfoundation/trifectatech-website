@@ -8,6 +8,9 @@ tags=["education"]
 
 [extra]
 funders = [8,10,11]
+blogposts = [
+    "Want more Rust? Break the cycle!"
+]
 +++
 
 ### A modular university course teaching Rust

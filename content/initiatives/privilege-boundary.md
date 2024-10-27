@@ -2,9 +2,23 @@
 title = "Privilege boundary"
 slug = "privilege-boundary"
 template = "initiatives/privilege-boundary.html"
+
 [extra]
 funders = [1,0,4,5,10]
+blogposts = [
+    "A new home for memory safe sudo",
+    "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
+    "Sudo-rs dependencies: when less is better",
+    "Testing sudo-rs and improving sudo along the way",
+    "Re-implementing Sudo in Rust",
+    "Two core Unix-like utilities, sudo and su, are getting rewrites in Rust"
+]
 +++
+
+
+
+
+
 
 ### Sudo-rs
 

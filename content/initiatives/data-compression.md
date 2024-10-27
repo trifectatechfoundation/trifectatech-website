@@ -2,9 +2,14 @@
 title = "Data compression"
 slug = "data-compression"
 template = "initiatives/data-compression.html"
+
 [extra]
 funders = [12, 1, 9, 10, 0, 4]
-
+blogposts = [
+    "Current zlib-rs performance",
+    "flate2 release v1.0.29 with new `zlib-rs` feature",
+    "xz incident shows the need for structural change"
+]
 +++
 
 ### Building a data compression ecosystem

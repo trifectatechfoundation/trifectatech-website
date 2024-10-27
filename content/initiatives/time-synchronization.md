@@ -2,8 +2,16 @@
 title = "Time synchronization"
 slug = "time-synchronization"
 template = "initiatives/time-synchronization.html"
+
 [extra]
 funders = [7,1,0,2,5,6,10]
+blogposts = [
+    "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
+    "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
+    "A safe Internet requires secure time",
+    "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
+    "Sovereign Tech Fund invests in Pendulum"
+]
 +++
 
 ### Time synchronization

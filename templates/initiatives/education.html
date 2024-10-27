@@ -14,39 +14,13 @@
         {{ page.content | safe }}
     </div>
 </div>
-<div class="partners">
-    <div class="partners-title">
-        <h2>Funders & supporters</h2>
-    </div>
-    <div class="funders">
-        {% for index in page.extra.funders %}
-        {% set funder = data.extra.funders[index] %}
-        <a class="card-link" href="{{funder.url}}">
-            <div class="funder">
-                <div class="image {{funder.image}}"></div>
-            </div>
-        </a>
-        {% endfor %}
-    </div>
-</div>
+
+{% include "components/funders.html" %}
+
 <div class="paragraph">
     <div class="markdown">
         <h2>Blog and news</h2>
-        <ul class="blog-list">
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/127/want-more-rust-break-the-cycle">
-                    <div class="meta">
-                        <span class="date">June 17, 2024</span>
-                        <span class="tag">teach-rs</span><span class="tag">education</span><span class="tag">source:
-                            Tweede golf</span>
-                    </div>
-                    <h3>Want more Rust? Break the cycle!</h3>
-                    <p>How? By oxidizing education. That's right: introduce Rust in higher education making sure more students enter the job market.<br />
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-        </ul>
+        {% include "components/bloglist.html" %}
     </div>
     <div>
         <a href="/news" class="btn btn-primary">

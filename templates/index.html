@@ -33,21 +33,7 @@
     </div>
 </div>
 
-<div class="partners">
-    <div class="partners-title">
-        <h2>Funders & supporters</h2>
-    </div>
-    <div class="funders">
-        {% for index in page.extra.funders %}
-        {% set funder = data.extra.funders[index] %}
-        <a class="card-link" href="{{funder.url}}">
-            <div class="funder">
-                <div class="image {{funder.image}}"></div>
-            </div>
-        </a>
-        {% endfor %}
-    </div>
-</div>
+{% include "components/funders.html" %}
 
 <div class="projects">
     <div class="project-title">
@@ -144,76 +130,7 @@
         <h2>Recent news and blogs</h2>
     </div>
     <div>
-        <ul class="blog-list">
-            <li>
-                <a class="card-link" href="ISPCS paper: Estimating noise for clock-synchronizing Kalman filters">
-                    <div class="meta">
-                        <span class="date">Oct 4, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">Statime</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>ISPCS paper: Estimating noise for clock-synchronizing Kalman filters</h3>
-                    <p><br />Our Statime project now provides strong synchronization performance and accurate synchronization error estimates. David's paper, soon to be published by the IEEE, describes our Kalman-based approach.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="/blog/trifecta-tech-foundation-announcement">
-                    <div class="meta">
-                        <span class="date">July 15, 2024</span>
-                        <span class="tag">announcement</span><span class="tag">source: Trifecta Tech Foundation</span>
-                    </div>
-                    <h3>Trifecta Tech Foundation: Open infrastructure software in the public interest</h3>
-                    <p><br />Today, we are proud to announce the Trifecta Tech Foundation.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://letsencrypt.org/2024/06/24/ntpd-rs-deployment">
-                    <div class="meta">
-                        <span class="date">Jun 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Let’s Encrypt</span>
-                    </div>
-                    <h3>More Memory Safety for Let’s Encrypt: Deploying ntpd-rs</h3>
-                    <p><br />When we look at the general security posture of Let’s Encrypt, one of the things that
-                        worries us most is how much of the operating system and network infrastructure is written in
-                        unsafe languages like C and C++.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time">
-                    <div class="meta">
-                        <span class="date">May 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>A safe Internet requires secure time</h3>
-                    <p><br />The internet has a hole at the bottom of its trust stack, and we need to do something about
-                        it. In particular, the internet needs secure time synchronization to fortify the security of our
-                        digital world.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link"
-                    href="https://www.sovereigntechfund.de/news/on-rust-memory-safety-open-source-infrastructure">
-
-                    <div class="meta">
-                        <span class="date">May 19, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Sovereign Tech Fund</span>
-                    </div>
-                    <h3>On Rust, Memory Safety, and Open Source Infrastructure</h3>
-                    <p><br />Addressing memory safety in critical infrastructure is a complex issue with multiple
-                        approaches. The Sovereign Tech Fund supports several initiatives, including Pendulum's memory
-                        safe Network Time Protocol, that is highlighted in this article.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-        </ul>
+        {% include "components/bloglist.html" %}
     </div>
     <div>
         <a href="/news" class="btn btn-primary">
