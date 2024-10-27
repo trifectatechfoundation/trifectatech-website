@@ -3,9 +3,6 @@ title = "Education - teach-rs"
 slug = "education"
 template = "initiatives/education.html"
 
-[taxonomies]
-tags=["education"]
-
 [extra]
 funders = [8,10,11]
 blogposts = [

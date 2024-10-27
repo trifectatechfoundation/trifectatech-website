@@ -12,7 +12,10 @@
             <br />
             <div class="meta">
                 <span class="date">July 15, 2024</span>
-                <span class="tag">Author: Erik Jonkers</span><span class="tag">source: Trifecta Tech Foundation</span>
+                <span class="tag">Author: Erik Jonkers</span>
+                {% set url = get_taxonomy_url(kind="tags", name="announcement") %}
+                <span class="tag"><a href="{{url}}">announcement</a></span>
+                <span class="tag">source: Trifecta Tech Foundation</span>            
             </div>
             <div class="blog-body">
                 {{ page.content | safe }}

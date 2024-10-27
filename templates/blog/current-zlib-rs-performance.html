@@ -13,7 +13,10 @@
             <div class="meta">
                 <span class="date">Aug 8, 2024</span>
                 <span class="tag">Author: Folkert de Vries</span>
-                <span class="tag">zlib-rs</span><span class="tag">data compression</span>
+                {% set url = get_taxonomy_url(kind="tags", name="zlib-rs") %}
+                <span class="tag"><a href="{{url}}">zlib-rs</a></span>
+                {% set url = get_taxonomy_url(kind="tags", name="data compression") %}
+                <span class="tag"><a href="{{url}}">data compression</a></span>
             </div>
             <div class="blog-body">          
                 {{ page.content | safe }}      

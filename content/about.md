@@ -4,6 +4,13 @@ slug = "about"
 template = "about.html"
 
 [extra]
+
+members = [
+    {image = "openssf", link = "https://openssf.org"},
+    {image = "linuxfoundation", link = "https://linuxfoundation.org"},
+    {image = "openinfra", link = "https://openinfra.dev"},
+]
+
 maintainers = [
     {name = "Ruben Nijveld", image="ruben", email = "ruben@trifecta.org", role = "Software engineer", tags = ["Pendulum", "sudo-rs"], github = "https://github.com/rnijveld"},
     {name = "David Venhoek", image="david", email = "david@trifecta.org", role = "Security software engineer", tags = ["Pendulum"], github = "https://github.com/davidv1992"},

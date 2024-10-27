@@ -4,7 +4,7 @@ slug = "test"
 template = "test.html"
 
 [taxonomies]
-tags = ["education"]
+# tags = ["education"]
 
 [extra]
 terms = ["education", "announcement"]
@@ -12,3 +12,5 @@ terms = ["education", "announcement"]
 
 
 ### Hee hallo dit is Test 1!!!
+
+{{ blog_link(post = page.title) }}
