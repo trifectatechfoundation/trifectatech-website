@@ -8,7 +8,11 @@
   <meta name="theme-color" content="#ffffff">
   
   {% block meta_content %}
-  <title>Trifecta Tech Foundation</title>
+  {% if page.title -%}
+    <title>{{page.title}}</title>
+  {% else -%}
+    <title>Trifecta Tech Foundation</title>
+  {% endif -%}
   {% endblock meta_content %}
   
   <link rel="stylesheet" href="/style.css"/>

@@ -7,6 +7,7 @@
 </h1>
 {{page.content | safe}}
 
+
 <ul>
   {% for c in page.extra.terms %}
     <li>{{loop.index}}. {{c}}</li>
@@ -17,7 +18,7 @@
 <hr/>
 
 
-ul>
+<ul>
   {% for term in page.extra.terms %}
   <h3>{{term}}</h3>
   {% set categories = get_taxonomy_term(kind="tags", term=term) %}
@@ -31,6 +32,7 @@ ul>
 
 
 
+{{ __tera_context }}
 
 
 

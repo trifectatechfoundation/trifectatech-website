@@ -35,13 +35,14 @@
     <h3>We're a proud member of</h3>
   </div>
   <div class="funders">
-    {% for member in page.extra.members %}
+    {% set members = load_data(path = "data/members.json") -%}
+    {% for member in members -%}
     <a class="card-link" href="{{member.link}}">
       <div class="funder membership">
         <div class="image {{member.image}}"></div>
       </div>
     </a>
-    {% endfor %}
+    {% endfor -%}
   </div>
 </div>
 
@@ -72,7 +73,8 @@
 <div class="team">
   <h2>Maintainers</h2>
   <div class="members">    
-    {% for member in page.extra.maintainers %}
+    {% set maintainers = load_data(path = "data/maintainers.json") -%}
+    {% for member in maintainers -%}
       <div class="member">
         <div class="image {{member.image}}"></div>
         <div>
@@ -81,9 +83,9 @@
           <p>{{member.role}}</p>
           <br />
           <div class="meta meta-about">
-            {% for tag in member.tags %}
+            {% for tag in member.tags -%}
               <span class="tag">{{tag}}</span>
-            {% endfor %}
+            {% endfor -%}
           </div>
           <a href={{member.github}} target="_blank" class="btn btn-secondary">GitHub</a>
         </div>
@@ -100,7 +102,8 @@
     non-profit work originating from <a href="https://tweedegolf.nl">Tweede golf</a>.
   </p>
   <div class="members">
-    {% for member in page.extra.board %}
+    {% set board = load_data(path = "data/board.json") -%}
+    {% for member in board -%}
     <div class="member">
       <div class="image {{member.image}}"></div>
       <div>
@@ -109,7 +112,7 @@
         <p>{{member.role}}</p>
       </div>
     </div>
-    {% endfor %}
+    {% endfor -%}
   </div>
 </div>
 {% endblock %}

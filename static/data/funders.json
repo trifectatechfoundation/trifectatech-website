@@ -1,0 +1,72 @@
+[
+    {
+        "index": 0,
+        "image": "nlnetfoundation",
+        "url": "https://nlnet.nl"
+    },
+    {
+        "index": 1,
+        "image": "prossimo",
+        "url": "https://memorysafety.org"
+    },
+    {
+        "index": 2,
+        "image": "sidnfonds",
+        "url": "https://sidnfonds.nl"
+    },
+    {
+        "index": 3,
+        "image": "aws",
+        "url": "https://aws.amazon.com"
+    },
+    {
+        "index": 4,
+        "image": "ngi-zero-core",
+        "url": "https://nlnet.nl/core"
+    },
+    {
+        "index": 5,
+        "image": "ngi-zero-entrust",
+        "url": "https://nlnet.nl/entrust"
+    },
+    {
+        "index": 6,
+        "image": "ngi-assure",
+        "url": "https://nlnet.nl/assure"
+    },
+    {
+        "index": 7,
+        "image": "stf",
+        "url": "https://sovereigntechfund.de"
+    },
+    {
+        "index": 8,
+        "image": "rustedu",
+        "url": "https://rust-edu.org"
+    },
+    {
+        "index": 9,
+        "image": "chainguard",
+        "url": "https://chainguard.dev"
+    },
+    {
+        "index": 10,
+        "image": "tweedegolf",
+        "url": "https://tweedegolf.nl"
+    },
+    {
+        "index": 11,
+        "image": "rustfoundation",
+        "url": "https://foundation.rust-lang.org"
+    },
+    {
+        "index": 12,
+        "image": "devolutions",
+        "url": "https://devolutions.net"
+    },
+    {
+        "index": 13,
+        "image": "cisco",
+        "url": "https://cisco.com"
+    }
+]

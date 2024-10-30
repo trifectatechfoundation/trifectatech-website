@@ -1,10 +1,11 @@
+{% set funders = load_data(path = "data/funders.json") %}
 <div class="partners">
     <div class="partners-title">
         <h2>Funders & supporters</h2>
     </div>
     <div class="funders">
         {% for index in page.extra.funders %}
-        {% set funder = data.extra.funders[index] %}
+        {% set funder = funders[index] %}
         <a class="card-link" href="{{funder.url}}">
             <div class="funder">
                 <div class="image {{funder.image}}"></div>
