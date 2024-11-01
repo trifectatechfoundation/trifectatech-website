@@ -1,20 +1,12 @@
 {% extends "base.html" %}
 
-{% block meta_content %}
-<title>{{ page.title | safe }}</title>
-{% endblock meta_content %}
-
 {% block content %}
 <div class="paragraph blog markdown">
     <div class="blog-item">
         <article>
             <h1>{{ page.title | safe }}</h1>
             <br />
-            <div class="meta">
-                <span class="date">Aug 8, 2024</span>
-                <span class="tag">Author: Folkert de Vries</span>
-                <span class="tag">zlib-rs</span><span class="tag">data compression</span>
-            </div>
+            {% include "components/blogpost_metablock.html" %}
             <div class="blog-body">          
                 {{ page.content | safe }}      
             </div>

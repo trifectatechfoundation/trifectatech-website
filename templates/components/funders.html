@@ -1,0 +1,19 @@
+{% set funders = load_data(path = "data/funders.json") %}
+<div class="partners">
+    <div class="partners-title">
+        <h2>Funders & supporters</h2>
+    </div>
+    <div class="funders">
+        {% for name in page.extra.funders %}
+            {% for funder in funders %}
+                {% if funder.image == name %}
+                <a class="card-link" href="{{funder.url}}">
+                    <div class="funder">
+                        <div class="image {{funder.image}}"></div>
+                    </div>
+                </a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

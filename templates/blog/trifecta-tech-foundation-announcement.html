@@ -1,19 +1,12 @@
 {% extends "base.html" %}
 
-{% block meta_content %}
-<title>{{ page.title | safe }}</title>
-{% endblock meta_content %}
-
 {% block content %}
 <div class="paragraph markdown">
     <div class="blog-item">
         <article>
             <h1>{{ page.title | safe }}</h1>
             <br />
-            <div class="meta">
-                <span class="date">July 15, 2024</span>
-                <span class="tag">Author: Erik Jonkers</span><span class="tag">source: Trifecta Tech Foundation</span>
-            </div>
+            {% include "components/blogpost_metablock.html" %}
             <div class="blog-body">
                 {{ page.content | safe }}
             </div>

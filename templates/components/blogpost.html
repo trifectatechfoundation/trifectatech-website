@@ -1,0 +1,8 @@
+{%  set page = post -%}
+<a class="card-link" href="{{post.extra.link}}">
+    {% include "components/blogpost_metablock.html" -%}
+    <h3>{{post.title}}</h3>
+    <p><br />{{post.extra.excerpt}}
+        <strong>Read more ...</strong>
+    </p>
+</a>

@@ -2,6 +2,16 @@
 title = "Current zlib-rs performance"
 slug = "current-zlib-rs-performance"
 template = "blog/current-zlib-rs-performance.html"
+authors = ["Folkert de Vries"]
+date = "2024-08-08"
+
+[taxonomies]
+tags = ["zlib-rs", "data compression"] 
+
+[extra]
+link = "/blog/current-zlib-rs-performance"
+source = "Trifecta Tech Foundation"
+excerpt = "A crucial aspect of making zlib-rs successful is solid performance. In this post we'll see how the implementation performs today, and how we measure that performance."
 +++
 
 Our [`zlib-rs`](https://github.com/memorysafety/zlib-rs) project implements a drop-in replacement for `libz.so`, a dynamic library that is widely used to perform gzip (de)compression.

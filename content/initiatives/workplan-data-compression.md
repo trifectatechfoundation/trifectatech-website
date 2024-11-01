@@ -1,7 +1,7 @@
 +++
 title = "Work plan Data compression"
 slug = "workplan-data-compression"
-template = "initiatives/workplans/data-compression.html"
+template = "initiatives/workplans/data_compression.html"
 +++
 
 ## Workplan data compression

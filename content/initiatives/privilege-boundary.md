@@ -2,7 +2,30 @@
 title = "Privilege boundary"
 slug = "privilege-boundary"
 template = "initiatives/privilege-boundary.html"
+
+[extra]
+funders = [
+    "prossimo",
+    "nlnetfoundation",
+    "ngi-zero-core",
+    "ngi-zero-entrust",
+    "tweedegolf"
+]
+
+blogposts = [
+    "A new home for memory safe sudo",
+    "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
+    "Sudo-rs dependencies: when less is better",
+    "Testing sudo-rs and improving sudo along the way",
+    "Re-implementing Sudo in Rust",
+    "Two core Unix-like utilities, sudo and su, are getting rewrites in Rust"
+]
 +++
+
+
+
+
+
 
 ### Sudo-rs
 
@@ -23,7 +46,7 @@ We'd like to thank Todd Miller, maintainer of the original sudo utility, for his
 
 ### Roadmap
 
-See <a href="/initiatives/workplan-sudo-rs">the sudo-rs roadmap</a>.
+See <a href="/initiatives/workplans/sudo-rs">the sudo-rs roadmap</a>.
 
 ### Links
 

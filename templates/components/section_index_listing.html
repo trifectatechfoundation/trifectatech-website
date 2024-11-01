@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="paragraph markdown">
+    <div>
+        <h2>{{ section.extra.heading }}</h2>
+    </div>
+    <div>
+        <ul>
+            {% for page in section.pages %}
+            <li>
+                {% if section.title == "List of blog posts" %}
+                    <a href="{{page.extra.link}}"><strong>{{page.title}}</strong></a>
+                {% else %}
+                    <a href="{{page.path}}"><strong>{{page.title}}</strong></a>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

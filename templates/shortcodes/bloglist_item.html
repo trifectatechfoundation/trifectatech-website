@@ -1,0 +1,13 @@
+<a class="card-link" href="{{post.extra.link}}">
+    <div class="meta">
+        <span class="date">{{post.date}}</span>
+        {% for tag in post.taxonomies.tags %}
+            <span class="tag">{{tag}}</span>
+        {% endfor %}
+        <span class="tag">source: {{post.extra.source}}</span>
+    </div>
+    <h3>{{post.title}}</h3>
+    <p><br />{{post.extra.excerpt}}
+        <strong>Read more ...</strong>
+    </p>
+</a>

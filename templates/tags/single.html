@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="paragraph markdown">
+    <div>
+        <h2>Blog posts with tag `{{term.name}}`</h2>
+    </div>
+    <div>
+
+    <ul class="blog-list">
+    {% for post in term.pages %}
+        <li>{% include "components/blogpost.html" %}</li>
+    {% endfor %}
+    </ul>
+</div>
+
+
+{% endblock %}

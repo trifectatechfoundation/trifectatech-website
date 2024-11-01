@@ -1,11 +1,9 @@
 {% extends "base.html" %}
 
-{% block meta_content %}
-<title>Home - Trifecta Tech Foundation</title>
-{% endblock meta_content %}
-
 {% block content %}
 {% include "components/hero.html" %}
+{% set page = section %}
+
 <div class="paragraph">
     <div class="markdown why">
         <h2>Why</h2>
@@ -30,157 +28,19 @@
     </div>
 </div>
 
-<div class="partners">
-    <div class="partners-title">
-        <h2>Funders & supporters</h2>
-    </div>
-    <div class="funders">
-        <a class="card-link" href="https://nlnet.nl">
-            <div class="funder">
-                <div class="image nlnetfoundation"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://memorysafety.org">
-            <div class="funder">
-                <div class="image prossimo"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://sidnfonds.nl">
-            <div class="funder">
-                <div class="image sidnfonds"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://aws.amazon.com/">
-            <div class="funder">
-                <div class="image aws"></div>
-            </div>
-        </a> -->
-        <a class="card-link" href="https://nlnet.nl/core/">
-            <div class="funder">
-                <div class="image ngi-zero-core"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://nlnet.nl/entrust/">
-            <div class="funder">
-                <div class="image ngi-zero-entrust"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://nlnet.nl/assure/">
-            <div class="funder">
-                <div class="image ngi-assure"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://sovereigntechfund.de">
-            <div class="funder">
-                <div class="image stf"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://rust-edu.org/">
-            <div class="funder">
-                <div class="image rustedu"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://chainguard.dev">
-            <div class="funder">
-                <div class="image chainguard"></div>
-            </div>
-        </a> -->
-        <a class="card-link" href="https://tweedegolf.nl">
-            <div class="funder">
-                <div class="image tweedegolf"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://foundation.rust-lang.org/">
-            <div class="funder">
-                <div class="image rustfoundation"></div>
-            </div>
-        </a>
-        <a class="card-link" href="https://devolutions.net/">
-            <div class="funder">
-                <div class="image devolutions"></div>
-            </div>
-        </a>
-        <!-- <a class="card-link" href="https://cisco.com">
-            <div class="funder">
-                <div class="image cisco"></div>
-            </div>
-        </a> -->
-    </div>
-</div>
+{% include "components/funders.html" %}
 
 <div class="projects">
     <div class="project-title">
         <h2>Infrastructure projects</h2>
     </div>
-    <div class="items">
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Time synchronization</h3>
-                <p>
-                    Reliable, securely synchronized time is a building block for the Internet and other critical
-                    infrastructure.
-                </p>
-                <p>
-                    Project Pendulum builds modern implementations of the Network Time Protocol and Precision Time
-                    Protocol and creates open services that boost secure time synchronization.
-                </p>
-                <a href="/initiatives/time-synchronization" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Privilege boundary</h3>
-                <p>
-                    The sudo and su utilities mediate a critical privilege boundary on almost every open-source
-                    operating system that powers the Internet.
-                </p>
-                <p>
-                    Sudo-rs is a sudo alternative that doesn't suffer from memory safety vulnerabilities and is
-                    designed to minimize attack surface.
-                </p>
-                <a href="/initiatives/privilege-boundary" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow">
-                <h3>Data compression</h3>
-                <p>
-                    Compression algorithms are used in a vast number of protocols and file formats throughout all
-                    of computing.
-                    Implemented in C, these libraries encounter regular security issues despite receiving extensive
-                    industry-wide scrutiny.
-                </p>
-                <p>
-                    Our project plans to create memory-safe implementations of compression libraries bzip2, zlib, xz,
-                    and zstd.
-                </p>
-                <a href="/initiatives/data-compression" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-    </div>
+    {% set data = page.extra.projects_infrastructure %}
+    {% include "components/projects.html" %}
     <div class="project-title">
         <h2>Ecosystem projects</h2>
     </div>
-    <div class="items">
-        <div class="project">
-            <div class="triangle-ornament top"></div>
-            <div class="triangle-ornament bottom"></div>
-            <div class="flow markdown">
-                <h3>Education</h3>
-                <p>
-                    Teach-rs is a university course for computer science students, introducing the Rust Programming
-                    Language, and is available for anyone who wants to teach Rust.
-                </p>
-                <a href="/initiatives/education" class="btn btn-secondary">More...</a>
-            </div>
-        </div>
-    </div>
+    {% set data = page.extra.projects_ecosystem %}
+    {% include "components/projects.html" %}
 </div>
 
 <div class="paragraph">
@@ -203,76 +63,7 @@
         <h2>Recent news and blogs</h2>
     </div>
     <div>
-        <ul class="blog-list">
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/138/ispcs-paper-estimating-noise-for-clock-synchronizing-kalman-filters">
-                    <div class="meta">
-                        <span class="date">Oct 4, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">Statime</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>ISPCS paper: Estimating noise for clock-synchronizing Kalman filters</h3>
-                    <p><br />Our Statime project now provides strong synchronization performance and accurate synchronization error estimates. David's paper, soon to be published by the IEEE, describes our Kalman-based approach.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="/blog/trifecta-tech-foundation-announcement">
-                    <div class="meta">
-                        <span class="date">July 15, 2024</span>
-                        <span class="tag">announcement</span><span class="tag">source: Trifecta Tech Foundation</span>
-                    </div>
-                    <h3>Trifecta Tech Foundation: Open infrastructure software in the public interest</h3>
-                    <p><br />Today, we are proud to announce the Trifecta Tech Foundation.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://letsencrypt.org/2024/06/24/ntpd-rs-deployment">
-                    <div class="meta">
-                        <span class="date">Jun 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Let’s Encrypt</span>
-                    </div>
-                    <h3>More Memory Safety for Let’s Encrypt: Deploying ntpd-rs</h3>
-                    <p><br />When we look at the general security posture of Let’s Encrypt, one of the things that
-                        worries us most is how much of the operating system and network infrastructure is written in
-                        unsafe languages like C and C++.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link" href="https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time">
-                    <div class="meta">
-                        <span class="date">May 24, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Tweede golf</span>
-                    </div>
-                    <h3>A safe Internet requires secure time</h3>
-                    <p><br />The internet has a hole at the bottom of its trust stack, and we need to do something about
-                        it. In particular, the internet needs secure time synchronization to fortify the security of our
-                        digital world.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a class="card-link"
-                    href="https://www.sovereigntechfund.de/news/on-rust-memory-safety-open-source-infrastructure">
-
-                    <div class="meta">
-                        <span class="date">May 19, 2024</span>
-                        <span class="tag">ntpd-rs</span><span class="tag">source: Sovereign Tech Fund</span>
-                    </div>
-                    <h3>On Rust, Memory Safety, and Open Source Infrastructure</h3>
-                    <p><br />Addressing memory safety in critical infrastructure is a complex issue with multiple
-                        approaches. The Sovereign Tech Fund supports several initiatives, including Pendulum's memory
-                        safe Network Time Protocol, that is highlighted in this article.
-                        <strong>Read more ...</strong>
-                    </p>
-                </a>
-            </li>
-        </ul>
+        {% include "components/bloglist.html" %}
     </div>
     <div>
         <a href="/news" class="btn btn-primary">

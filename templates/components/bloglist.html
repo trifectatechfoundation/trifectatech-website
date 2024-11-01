@@ -1,0 +1,11 @@
+<ul class="blog-list">
+    {% set pages = page.extra.blogposts %}
+    {% for page in pages %}
+    {% set post = get_page(path="./blog/" ~ page ~ ".md") %}
+    {% set no_tag_link = true %}
+    {% set no_author = true %}
+    <li>
+        {% include "components/blogpost.html" %}
+    </li>
+    {% endfor %}
+</ul>

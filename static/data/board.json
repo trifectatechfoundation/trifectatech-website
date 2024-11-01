@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Erik Jonkers",
+        "image": "erik",
+        "email": "erik@trifecta.org",
+        "role": "Chair"
+    },
+    {
+        "name": "Hugo van de Pol",
+        "image": "hugo",
+        "email": "hugo@trifecta.org",
+        "role": "Secretary"
+    },
+    {
+        "name": "Marlon Baeten",
+        "image": "marlon",
+        "email": "marlon@trifecta.org",
+        "role": "Treasurer"
+    }
+]

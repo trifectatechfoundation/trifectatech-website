@@ -2,6 +2,17 @@
 title = "Education - teach-rs"
 slug = "education"
 template = "initiatives/education.html"
+
+[extra]
+funders = [
+    "rustedu",
+    "tweedegolf",
+    "rustfoundation"
+]
+
+blogposts = [
+    "Want more Rust? Break the cycle!"
+]
 +++
 
 ### A modular university course teaching Rust

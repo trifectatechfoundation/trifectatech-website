@@ -1,0 +1,22 @@
+<div class="team">
+    <h2>Board</h2>
+    <p>
+      The Trifecta Tech Foundation was founded in April of 2024 by Erik Jonkers (chair), Hugo van de Pol (secretary) and
+      Marlon Baeten (treasurer) as the long-term home for the
+      non-profit work originating from <a href="https://tweedegolf.nl">Tweede golf</a>.
+    </p>
+    <div class="members">
+      {% set board = load_data(path = "data/board.json") -%}
+      {% for member in board -%}
+      <div class="member">
+        <div class="image {{member.image}}"></div>
+        <div>
+          <p class="name">{{member.name}}</p>
+          <p>{{member.email}}</p>
+          <p>{{member.role}}</p>
+        </div>
+      </div>
+      {% endfor -%}
+    </div>
+  </div>
+  

@@ -1,5 +1,5 @@
 +++
-title = "Tech"
+title = "Technology"
 slug = "tech"
 template = "tech.html"
 +++

@@ -1,7 +1,23 @@
 +++
 title = "Data compression"
 slug = "data-compression"
-template = "initiatives/data-compression.html"
+template = "initiatives/data_compression.html"
+
+[extra]
+funders = [
+    "devolutions", 
+    "prossimo", 
+    "chainguard", 
+    "tweedegolf", 
+    "nlnetfoundation", 
+    "ngi-zero-core"
+]
+
+blogposts = [
+    "Current zlib-rs performance",
+    "flate2 release v1.0.29 with new `zlib-rs` feature",
+    "xz incident shows the need for structural change"
+]
 +++
 
 ### Building a data compression ecosystem
@@ -42,7 +58,7 @@ The high level goals for the four projects are:
 
 ### Workplan
 
-For per project details, see [the workplan](/initiatives/workplan-data-compression).
+For per project details, see [the workplan](/initiatives/workplans/data-compression).
 
 ### Links
 
