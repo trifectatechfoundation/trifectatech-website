@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
-  
+
   {% block meta_content %}
   {% if page.title -%}
-    <title>{{page.title}}</title>
+    <title>{{page.title}} - Trifecta Tech Foundation</title>
+  {% elif section.title -%}
+    <title>{{section.title}} - Trifecta Tech Foundation</title>
   {% else -%}
     <title>Trifecta Tech Foundation</title>
   {% endif -%}

@@ -1,4 +1,8 @@
 +++
 title = "List of blog posts"
-template = "blog/index.html"
+template = "components/section_index_listing.html"
+sort_by = "date"
+
+[extra]
+heading = "List of all blog posts"
 +++

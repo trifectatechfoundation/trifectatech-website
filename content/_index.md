@@ -1,10 +1,22 @@
 +++
-title = "all content"
-page_template = "index.html"
+title = "Home - Trifecta Tech Foundation"
+template = "index.html"
 
 [extra]
 
-funders = [0,1,2,4,5,6,7,8,10,11,12]
+funders = [
+    "nlnetfoundation",
+    "prossimo",
+    "sidnfonds",
+    "ngi-zero-core",
+    "ngi-zero-entrust",
+    "ngi-assure",
+    "stf",
+    "rustedu",
+    "tweedegolf",
+    "rustfoundation",
+    "devolutions"
+]
 
 blogposts = [
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",

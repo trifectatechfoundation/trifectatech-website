@@ -4,13 +4,16 @@
         <h2>Funders & supporters</h2>
     </div>
     <div class="funders">
-        {% for index in page.extra.funders %}
-        {% set funder = funders[index] %}
-        <a class="card-link" href="{{funder.url}}">
-            <div class="funder">
-                <div class="image {{funder.image}}"></div>
-            </div>
-        </a>
+        {% for name in page.extra.funders %}
+            {% for funder in funders %}
+                {% if funder.image == name %}
+                <a class="card-link" href="{{funder.url}}">
+                    <div class="funder">
+                        <div class="image {{funder.image}}"></div>
+                    </div>
+                </a>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
     </div>
 </div>

@@ -4,7 +4,12 @@ slug = "education"
 template = "initiatives/education.html"
 
 [extra]
-funders = [8,10,11]
+funders = [
+    "rustedu",
+    "tweedegolf",
+    "rustfoundation"
+]
+
 blogposts = [
     "Want more Rust? Break the cycle!"
 ]

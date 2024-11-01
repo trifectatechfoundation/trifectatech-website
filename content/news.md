@@ -1,5 +1,5 @@
 +++
-title = "News"
+title = "News and blog"
 slug = "news"
 template = "news.html"
 

@@ -1,5 +1,5 @@
 +++
-title = "About - Trifecta Tech Foundation"
+title = "About"
 slug = "about"
 template = "about.html"
 +++

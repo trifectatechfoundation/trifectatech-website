@@ -1,0 +1,16 @@
+<div class="partners">
+    <div class="partners-title">
+      <h3>We're a proud member of</h3>
+    </div>
+    <div class="funders">
+      {% set members = load_data(path = "data/members.json") -%}
+      {% for member in members -%}
+      <a class="card-link" href="{{member.link}}">
+        <div class="funder membership">
+          <div class="image {{member.image}}"></div>
+        </div>
+      </a>
+      {% endfor -%}
+    </div>
+  </div>
+  

@@ -4,7 +4,14 @@ slug = "privilege-boundary"
 template = "initiatives/privilege-boundary.html"
 
 [extra]
-funders = [1,0,4,5,10]
+funders = [
+    "prossimo",
+    "nlnetfoundation",
+    "ngi-zero-core",
+    "ngi-zero-entrust",
+    "tweedegolf"
+]
+
 blogposts = [
     "A new home for memory safe sudo",
     "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
@@ -39,7 +46,7 @@ We'd like to thank Todd Miller, maintainer of the original sudo utility, for his
 
 ### Roadmap
 
-See <a href="/initiatives/workplan-sudo-rs">the sudo-rs roadmap</a>.
+See <a href="/initiatives/workplans/sudo-rs">the sudo-rs roadmap</a>.
 
 ### Links
 

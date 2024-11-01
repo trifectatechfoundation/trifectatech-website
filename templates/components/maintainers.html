@@ -1,0 +1,25 @@
+<div class="team">
+    <h2>Maintainers</h2>
+    <div class="members">    
+      {% set maintainers = load_data(path = "data/maintainers.json") -%}
+      {% for member in maintainers -%}
+        <div class="member">
+          <div class="image {{member.image}}"></div>
+          <div>
+            <p class="name">{{member.name}}</p>
+            <p>{{member.email}}</p>
+            <p>{{member.role}}</p>
+            <br />
+            <div class="meta meta-about">
+              {% for tag in member.tags -%}
+                <span class="tag">{{tag}}</span>
+              {% endfor -%}
+            </div>
+            <a href={{member.github}} target="_blank" class="btn btn-secondary">GitHub</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  

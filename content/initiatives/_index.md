@@ -1,4 +1,8 @@
 +++
-title = "blog"
-# template = "base.html"
+title = "List of initiatives"
+template = "components/section_index_listing.html"
+# sort_by = "date"
+
+[extra]
+heading = "List of all initiatives"
 +++

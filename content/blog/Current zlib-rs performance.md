@@ -2,6 +2,7 @@
 title = "Current zlib-rs performance"
 slug = "current-zlib-rs-performance"
 template = "blog/current-zlib-rs-performance.html"
+authors = ["Folkert de Vries"]
 date = "2024-08-08"
 
 [taxonomies]

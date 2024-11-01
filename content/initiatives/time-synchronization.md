@@ -4,7 +4,17 @@ slug = "time-synchronization"
 template = "initiatives/time-synchronization.html"
 
 [extra]
-funders = [7,1,0,2,5,6,10]
+
+funders = [
+    "stf",
+    "prossimo",
+    "nlnetfoundation",
+    "sidnfonds",
+    "ngi-zero-entrust",
+    "ngi-assure",
+    "tweedegolf"
+]
+
 blogposts = [
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",

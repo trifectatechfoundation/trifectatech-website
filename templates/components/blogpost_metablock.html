@@ -1,0 +1,21 @@
+<div class="meta">
+    <span class="date">{{page.date}}</span>
+    {% if no_author -%}
+    {% else -%}
+        {% set length = page.authors | length -%}
+        {% if length == 1 -%}
+            <span class="tag">Author: {{page.authors[0]}}</span>
+        {% elif length  > 1 -%}
+            <span class="tag">Authors: {{page.authors}}</span>
+        {% endif -%}
+    {% endif -%}
+    {% for tag in page.taxonomies.tags -%}
+        {% if no_tag_link -%}
+            <span class="tag">{{tag}}</span>
+        {% else -%}
+            {% set url = get_taxonomy_url(kind="tags", name=tag) -%}
+            <span class="tag"><a href="{{url}}">{{tag}}</a></span>
+        {% endif -%}
+    {% endfor -%}
+    <span class="tag">source: {{page.extra.source}}</span>            
+</div>

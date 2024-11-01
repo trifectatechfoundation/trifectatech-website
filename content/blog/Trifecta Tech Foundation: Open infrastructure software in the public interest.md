@@ -3,6 +3,7 @@ title = "Trifecta Tech Foundation: Open infrastructure software in the public in
 slug = "trifecta-tech-foundation-announcement"
 template = "blog/trifecta-tech-foundation-announcement.html"
 date = 2024-07-15
+authors = ["Erik Jonkers"]
 
 [taxonomies]
 tags=["announcement"]
