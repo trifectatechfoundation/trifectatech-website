@@ -10,7 +10,6 @@
         {% endif -%}
     {% endif -%}
     {% for tag in page.taxonomies.tags -%}
-        {% set no_tag_link = true %}
         {% if no_tag_link -%}
             <span class="tag">{{tag}}</span>
         {% else -%}
