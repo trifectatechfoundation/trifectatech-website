@@ -2,10 +2,10 @@
 
 
 {% block content %}
-{% set firstWord = page.title | split(pat=" ") | first | safe -%}
-{% set otherWords = page.title | replace(from = firstWord, to = "") | safe -%}
+{% set lastWord = page.title | split(pat=" ") | last | safe -%}
+{% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
 <div class="hero">
-    <h1>{{ firstWord }} <span>{{ otherWords }}</span></h1>
+    <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
 </div>
 <div class="paragraph">
     <div class="markdown">

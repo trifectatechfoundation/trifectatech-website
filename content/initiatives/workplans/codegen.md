@@ -1,9 +1,11 @@
 +++
-
-title = "Workplan: Make Rust Faster Than C"
+title = "Make Rust Faster Than C"
 slug = "codegen"
-template = "initiatives/workplans/codegen.html"
+template = "initiatives/workplans/workplan.html"
 
+[extra]
+backLink = "/initiatives/codegen"
+backTitle = "Make Rust Faster Than C"
 +++
 
 ## Workplan

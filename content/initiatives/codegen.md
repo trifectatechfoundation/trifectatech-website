@@ -1,7 +1,7 @@
 +++
 title = "Making Rust faster than C"
 slug = "codegen"
-template = "initiatives/codegen.html"
+template = "initiatives/initiative.html"
 
 [extra]
 funders = [
