@@ -1,7 +1,7 @@
 +++
 title = "Data compression"
 slug = "data-compression"
-template = "initiatives/data_compression.html"
+template = "initiatives/initiative.html"
 
 [extra]
 funders = [

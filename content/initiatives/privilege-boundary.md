@@ -1,7 +1,7 @@
 +++
 title = "Privilege boundary"
 slug = "privilege-boundary"
-template = "initiatives/privilege-boundary.html"
+template = "initiatives/initiative.html"
 
 [extra]
 funders = [

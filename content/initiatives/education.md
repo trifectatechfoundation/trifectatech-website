@@ -1,7 +1,7 @@
 +++
 title = "Education - teach-rs"
 slug = "education"
-template = "initiatives/education.html"
+template = "initiatives/initiative.html"
 
 [extra]
 funders = [

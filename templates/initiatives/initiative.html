@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 
+
 {% block content %}
+{% set firstWord = page.title | split(pat=" ") | first | safe -%}
+{% set otherWords = page.title | replace(from = firstWord, to = "") | safe -%}
 <div class="hero">
-    <h1><span>Data compression</span></h1>
+    <h1>{{ firstWord }} <span>{{ otherWords }}</span></h1>
 </div>
 <div class="paragraph">
     <div class="markdown">
@@ -12,6 +15,8 @@
 
 {% include "components/funders.html" %}
 
+{% set length = page.extra.blogposts | length -%}
+{% if length > 0 -%}
 <div class="paragraph">
     <div class="markdown">
         <h2>Blog and news</h2>
@@ -25,4 +30,6 @@
         </a>
     </div>
 </div>
+{% endif -%}
+
 {% endblock %}
