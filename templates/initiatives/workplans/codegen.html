@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <h1>Workplan: Make Rust faster <span>than C</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+        <a href="/initiatives/codegen" class="btn btn-secondary"><< Make Rust faster than C</a>
+    </div>
+</div>
+{% endblock %}
