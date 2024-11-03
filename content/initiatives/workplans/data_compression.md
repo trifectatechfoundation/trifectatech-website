@@ -1,17 +1,17 @@
 +++
 
-title = "Data compression workplan"
+title = "Data compression"
 slug = "data-compression"
-template = "initiatives/workplans/data_compression.html"
+template = "initiatives/workplans/workplan.html"
 
+[extra]
+backLink = "/initiatives/data-compression"
+backTitle = "Data compression"
 +++
-
-## Workplan data compression
 
 Current projects in this initiative include zlib, bzip2, xz and zstd.
 
 ### zlib
-
 
 **Stable release zlib-rs**
 

@@ -2,12 +2,12 @@
 
 {% block content %}
 <div class="hero">
-    <h1>Sudo-rs <span>workplan</span></h1>
+    <h1>{{ page.title | safe }}: <span>workplan</span></h1>
 </div>
 <div class="paragraph">
     <div class="markdown">
         {{ page.content | safe }}
-        <a href="/initiatives/privilege-boundary" class="btn btn-secondary"><< Privilege boundary</a>
+        <a href={{ page.extra.backLink }} class="btn btn-secondary"><< {{ page.extra.backTitle }}</a>
     </div>
 </div>
 {% endblock %}

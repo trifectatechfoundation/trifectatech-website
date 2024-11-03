@@ -1,7 +1,11 @@
 +++
-title = "Sudo-rs workplan"
+title = "Sudo-rs"
 slug = "sudo-rs"
-template = "initiatives/workplans/sudo-rs.html"
+template = "initiatives/workplans/workplan.html"
+
+[extra]
+backLink = "/initiatives/privilege-boundary"
+backTitle = "Privilege boundary"
 +++
 
 ### Current work

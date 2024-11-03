@@ -1,7 +1,7 @@
 +++
 title = "Time synchronization"
 slug = "time-synchronization"
-template = "initiatives/time-synchronization.html"
+template = "initiatives/initiative.html"
 
 [extra]
 
