@@ -15,6 +15,7 @@
     <div>
 
     <ul class="blog-list">
+    {% set no_tag_link = true %}    
     {% for post in term.pages %}
         <li>{% include "components/blogpost.html" %}</li>
     {% endfor %}
