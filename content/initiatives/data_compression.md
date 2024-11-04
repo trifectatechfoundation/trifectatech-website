@@ -14,6 +14,7 @@ funders = [
 ]
 
 blogposts = [
+    "Trifecta Tech Foundation is the new home for memory safe zlib",
     "Current zlib-rs performance",
     "flate2 release v1.0.29 with new `zlib-rs` feature",
     "xz incident shows the need for structural change"

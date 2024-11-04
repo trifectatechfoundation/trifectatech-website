@@ -71,7 +71,7 @@
   }
 }
 
-.quote {
+.quote, blockquote {
   --shadow: 0.5rem;
   background-color: var(--color-secondary-400);
   color: var(--color-quote);
@@ -145,4 +145,9 @@
     font-weight: 300;
     margin-block-start: 0.5rem;
   }
+}
+
+blockquote {
+  font-size: var(--text-size-md);
+  font-weight: 400;
 }
