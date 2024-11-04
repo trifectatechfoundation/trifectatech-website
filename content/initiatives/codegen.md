@@ -14,7 +14,7 @@ blogposts = [
 
 ### Making Rust faster than C
 
-Rust, being a systems language, should be best in class for performance-critical software. While the performance difference with C is small, it currenly blocks Rust alternatives from being adopted.
+Rust, being a systems language, should be best in class for performance-critical software. While the performance difference with C is small, it currently blocks Rust implementations from being adopted.
 
 Our mission is to make critical infrastructure software safer. For that to happen in all relevant areas, performance considerations must to be removed as a blocking counter-argument.
 
