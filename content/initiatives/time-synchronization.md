@@ -16,6 +16,7 @@ funders = [
 ]
 
 blogposts = [
+    "Enabling pools in NTS",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
     "A safe Internet requires secure time",
