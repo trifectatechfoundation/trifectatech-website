@@ -10,38 +10,30 @@ backTitle = "Make Rust Faster Than C"
 
 ## Workplan
 
-### Milestone 1: Stabilize RFC & create plan   
+### Milestone 1: State machine codegen
 
-**Stabilize state machine codegen**
+- stabilize RFC
+- Rust compiler RFC implementation
+- identify projects that can benefit from the state machine RFC
 
-- Work on RFC updates 
-- Rust compiler implementation
+Effort: 4 person-weeks
 
-**Ecosystem research** 
+### Milestone 2: Identify performance bottle-necks
 
-- research the performance challenges in key projects (for example: Rav1d, Servo, RfL, Serde, (TODO: check) NVMe, c2rust)
-- in the process: identify projects that can benefit from the state machine RFC
+- research the performance challenges in key projects (for example: Rav1d, Servo, RfL, Serde, NVMe, c2rust, ripgrep)
+- talk to expert project members to document direction and botte-necks
+- contribute to Rust's documentation on these topics
+- find examples in key projects where the backend optimizes unreliably
 
-**Performance & MIR optimizations research**
+Effort: 8 person-weeks
 
-(TODO maybe mention: MIR opts used for compiler opts, not focussed on codegen for rust programs)
-(TODO maybe mention: MIR opts overhaul ideas)
+### Milestone 3: Create coordinated plan
 
-- build a knowledge base of current performance optimizations and considerations
-- contribute to Rust's documentation of performance optimizations and considerations
-- research current state of MIR opts 
-- create a plan for Milestone 2
+Effort: 12-16 person-weeks
 
-### Milestone 2: MIR optimizations
+### Milestone 4: Execute the plan
 
-- prepare a coordinated effort
-- implement the plan
-- low hanging fruit
-- contribute state machine performance improvements to other projects
-- create a plan for Milestone 3
+- execute the plan
+- be faster than C
 
-### Milstones 3: TODO
-
-TODO work items
-
-TODO Mention: work with the project and ecosystem.
+Effort: 1-2 person-years
