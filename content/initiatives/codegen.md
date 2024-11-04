@@ -30,7 +30,7 @@ The proof is in the eating: zlib-rs build using the PoC is **5% faster**.
 
 While we haven't tested other projects, we expect improved codegen is possible for all parsers, interpreters and networking protocols (etc) that make significant use of (TODO: specify type) state machines; in the range of (TODO: realistic range?) 0.5% to 5%.
 
-We want to acknowledge the work done in the Zig ecosystem (todo: link) that inspired our proposal. We'd also like to extend gratitude to [Tweede golf](https://tweedegolf.nl) to support the initial effort. 
+We want to acknowledge the [work done in the Zig ecosystem](https://github.com/ziglang/zig/pull/21257) that inspired our proposal. We'd also like to extend gratitude to [Tweede golf](https://tweedegolf.nl) to support the initial effort. 
 
 ### What's next
 
