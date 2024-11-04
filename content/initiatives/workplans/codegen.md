@@ -12,18 +12,17 @@ backTitle = "Make Rust Faster Than C"
 
 ### Milestone 1: State machine codegen
 
-- stabilize RFC
-- Rust compiler RFC implementation
-- identify projects that can benefit from the state machine RFC
+- Merge [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
+- Implement RFC 3720 in the rust compiler
+- identify popular rust projects that benefit from RFC 3720
 
 Effort: 4 person-weeks
 
-### Milestone 2: Identify performance bottle-necks
+### Milestone 2: Identify performance bottlenecks
 
-- research the performance challenges in key projects (for example: Rav1d, Servo, RfL, Serde, NVMe, c2rust, ripgrep)
-- talk to expert project members to document direction and botte-necks
-- contribute to Rust's documentation on these topics
-- find examples in key projects where the backend optimizes unreliably
+- research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, ripgrep)
+- talk to expert project members to document direction and bottlenecks of improving the backend
+- find and document examples in key projects where the backend optimizes poorly
 
 Effort: 8 person-weeks
 
