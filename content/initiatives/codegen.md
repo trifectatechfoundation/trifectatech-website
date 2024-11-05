@@ -16,15 +16,15 @@ blogposts = [
 
 Rust, being a systems language, should be best in class for performance-critical software. 
 
-While the performance difference with C is small, it currently blocks Rust implementations from being adopted. No one will enter a challenging migration to end up with a 1% performance drop or with +2% battery drain.
+While the performance difference with C is small, it currently blocks Rust implementations from being widely adopted. Why go through challenging migration only to end up with a 1% performance drop or with +2% additional battery drain.
 
-Our mission is to make critical infrastructure software safer. Performance considerations must be removed as a blocking counter-argument for that to happen.
+Our mission is to make critical infrastructure software safer. Performance considerations must be removed as a blocking counter-argument for adoption in performance-sensitive projects, where the impact is highest.
 
 This initiative exists to contribute to change, to change Rust's performance story with the ultimate goal of making it faster than C.
 
 ### What we've done
 
-Our work on [zlib-rs](/initiatives/data-compression/) led us on the path to improving the performance of state machines. Complex state machines are niche but foundational to many programs, such as parsers, interpreters, and networking protocols.
+Our work on [zlib-rs](/initiatives/data-compression/) put us on the path to improving the performance of state machines. Complex state machines are niche but foundational to many programs, such as parsers, interpreters, and networking protocols.
 
 Folkert de Vries wrote an [RFC](https://github.com/rust-lang/rfcs/pull/3720) to improve code generation for state machines and bjorn3 implemented a [proof of concept in the Rust compiler](https://github.com/trifectatechfoundation/rust/tree/labeled-match).
 
