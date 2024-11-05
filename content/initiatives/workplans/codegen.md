@@ -14,25 +14,29 @@ backTitle = "Make Rust Faster Than C"
 
 - Merge [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
 - Implement RFC 3720 in the rust compiler
-- identify popular rust projects that benefit from RFC 3720
+- Identify popular rust projects that benefit from RFC 3720
 
 Effort: 4 person-weeks
 
 ### Milestone 2: Identify performance bottlenecks
 
-- research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, ripgrep)
-- talk to expert project members to document direction and bottlenecks of improving the backend
-- find and document examples in key projects where the backend optimizes poorly
+- Research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, rav1d, ripgrep)
+- Talk to expert rust project members to document direction and bottlenecks of improving the backend
+- Find and document examples in key projects where the backend optimizes poorly
 
-Effort: 8 person-weeks
+Effort: 6 person-weeks 
 
-### Milestone 3: Create coordinated plan
+### Milestone 3: Create plan
 
-Effort: 12-16 person-weeks
+- Create a coordinated plan
+- Get commitment of team members, contributers and backers
+- Secure funding for execution
+
+Effort estimate: 6-12 person-weeks
 
 ### Milestone 4: Execute the plan
 
-- execute the plan
-- be faster than C
+- Execute the plan
+- Be faster than C
 
-Effort: 1-2 person-years
+Effort estimate: 1-2 person-years
