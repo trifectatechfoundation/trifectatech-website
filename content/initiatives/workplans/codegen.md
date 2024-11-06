@@ -8,7 +8,7 @@ backLink = "/initiatives/codegen"
 backTitle = "Make Rust Faster Than C"
 +++
 
-## Workplan
+## Draft Work plan
 
 ### Milestone 1: State machine codegen
 
@@ -26,7 +26,9 @@ Effort: 4 person-weeks
 
 Effort: 6 person-weeks 
 
-### Milestone 3: Create plan
+### Draft Milestone 3: Create plan
+
+*We're in the process of gathering input to make this milestone more specific. This includes understanding prior work and ideas, and balancing expected effort and expected reward.*
 
 - Create a coordinated plan
 - Get commitment of team members, contributers and backers
@@ -34,7 +36,7 @@ Effort: 6 person-weeks
 
 Effort estimate: 6-12 person-weeks
 
-### Milestone 4: Execute the plan
+### Draft Milestone 4: Execute the plan
 
 - Execute the plan
 - Be faster than C

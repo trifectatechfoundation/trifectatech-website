@@ -56,7 +56,7 @@ The high level goals for the four projects are:
 |---|---|---|
 | in progress | &euro; 495.000 | 12% |
 
-### Workplan
+### Work plan
 
 For per project details, see [the workplan](/initiatives/workplans/data-compression).
 

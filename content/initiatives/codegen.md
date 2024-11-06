@@ -34,9 +34,11 @@ We want to acknowledge the [work done in the Zig ecosystem](https://github.com/z
 
 ### What's next
 
-A significant coordinated effort is needed to reach the goal of making Rust faster than C. 
+The improvements the RFC gives are niche. What it does show is that there is room for improvement. While outperforming C by 5% might be unlikely, even a shift from -2% to +2% would significantly change Rust's story and, more importantly, its impact.
 
-We are working on a plan and seeking funding to support this initiative. Have a look at our [preliminary workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
+These improvements are achievable if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
+
+A significant coordinated effort is needed to reach the goal of making Rust faster than C. We are working on a plan and seeking funding to support this initiative. Have a look at our [preliminary workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
 
 Meanwhile, we will continue to work on stabilizing the RFC as a first step in the right direction.
 
