@@ -19,6 +19,7 @@ funders = [
 ]
 
 blogposts = [
+    "Trifecta Tech Foundation is the new home for memory safe zlib",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
     "Trifecta Tech Foundation: Open infrastructure software in the public interest",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
