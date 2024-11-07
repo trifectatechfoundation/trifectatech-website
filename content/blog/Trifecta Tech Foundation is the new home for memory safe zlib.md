@@ -30,7 +30,7 @@ Trifecta Tech Foundation is already the long-term home of two other Prossimo ini
 "When the Tweede golf team suggested having zlib-rs become part of Trifecta Tech Foundation's [data compression initiative](https://trifectatech.org/initiatives/data-compression/), it was an easy decision to make on our end", Josh Aas, Head of Prossimo, says. "Trifecta Tech Foundation is backed by the team from Tweede golf and we know that they are good stewards of open source while also being leading experts in writing in memory safe languages".
 
 > “The zlib compression method has grown in importance over its 30 year history such that today it handles a great deal of media compression. We're proud to work with Trifecta Tech Foundation to introduce a memory safe and high performance zlib implementation that can help serve the Internet for years to come.”  
-Josh Aas, Head of ISRG's Prossimo project
+-- Josh Aas, Head of ISRG's Prossimo project
 
 Trifecta Tech Foundation aims to mature the zlib-rs project and support its maintainers. Zlib-rs will be part of the Foundation’s data compression initiative that includes four compression libraries: [zlib, bzip2, zstd and xz](https://trifectatech.org/initiatives/data-compression/).
 
