@@ -34,6 +34,7 @@ projects_infrastructure = [
 ]
 
 projects_ecosystem = [
+    "Make Rust faster than C",
     "Education",
 ]
 +++

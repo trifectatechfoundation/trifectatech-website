@@ -13,6 +13,8 @@ source = "Trifecta Tech Foundation"
 excerpt = "The Network Time Protocol is the last major security gap in universally used Internet protocols. Pools of secure time servers (NTS) are the solution; what is an NTS pool and how can we build them?"
 +++
 
+We previously talked about how [secure time is required for a safe internet](https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time). We mentioned how we want to increase the adoption of NTS, the secure time synchronization standard built on top of NTP. For this, we proposed to develop a public NTS pool. In this article, we expand on what pooling is, and what is required to enable an NTS pool.
+
 ## What is pooling?
 
 The NTP protocol is set up as a hierarchy of servers. At the top of this hierarchy are the stratum one servers, directly connected to highly precise clocks, such as atomic clocks or precise GPS antennas. Stratum two servers then connect to stratum one servers to get their time indirectly. This hierarchy can continue down to 16 levels. In practice though most computers use stratum three or four.
