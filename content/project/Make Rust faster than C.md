@@ -1,6 +1,6 @@
 +++
 
-title = "Make Rust faster than C"
+title = "Making Rust faster than C"
 
 [extra]
 link = "/initiatives/codegen"
