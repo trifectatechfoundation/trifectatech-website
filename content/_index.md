@@ -30,7 +30,8 @@ blogposts = [
 projects_infrastructure = [
     "Time synchronization",
     "Privilege boundary",
-    "Data compression"
+    "Data compression",
+    "OpenADR"
 ]
 
 projects_ecosystem = [
