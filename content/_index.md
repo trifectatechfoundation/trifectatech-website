@@ -31,7 +31,7 @@ projects_infrastructure = [
     "Time synchronization",
     "Privilege boundary",
     "Data compression",
-    "OpenADR"
+    "Automated demand response"
 ]
 
 projects_ecosystem = [
