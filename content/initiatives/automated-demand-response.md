@@ -50,7 +50,7 @@ If you are interested in funding this work, please get in touch with us via <a h
 
 ### Links
 
-- [November 2024 LF Energy announcement](todo)
+- [November 2024 LF Energy announcement](https://lfenergy.org/rust-implementation-of-openadr-3-0-becomes-part-of-openleadr/)
 - [Project's GitHub repository](https://github.com/OpenLEADR/openleadr-rs) (called openleadr-rs)
 - [LF Energy OpenLEADR website](https://openleadr.org/)
 - [LF Energy OpenLEADR project page](https://lfenergy.org/projects/openleadr/)
