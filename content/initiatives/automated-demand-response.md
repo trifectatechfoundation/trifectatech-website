@@ -49,7 +49,7 @@ After inital funding by ElaadNL and Tweede golf in 2024, the project is currentl
 **During 2025:**
 + Ongoing development and maintenance
 + Continued community building and contributor support
-+ Additional releases when new (minor) versions of the OpenADR starndard are published
++ Additional releases when new (minor) versions of the OpenADR standard are published
 + Preparing for a first long term support release
 
 If you are interested in funding this work, please get in touch with us via <a href="mailto:donate@trifectatech.org">donate@trifectatech.org</a> and request the project's sponsorship prospectus.
