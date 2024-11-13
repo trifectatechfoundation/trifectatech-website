@@ -33,7 +33,7 @@ Written in [Rust](https://www.rust-lang.org/), our implementation is fast, light
 
 To enable global collaboration and ensure neutral governance, in October 2024 the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project, that was already hosting an OpenADR 2.0b implementation written in Python.
 
-The reponsitory for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs).
+The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs).
 
 ### Current Status
 
