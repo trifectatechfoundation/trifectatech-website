@@ -3,7 +3,13 @@ title = "Automated Demand Reponse"
 slug = "automated-demand-response"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["infrastructure"]
+
 [extra]
+
+summary = "<p>With the rise of renewable energy resources and ongoing electrification, automated demand response plays a crucial role in optimizing the use of our electricity grid.</p><p>This project is building a modern, open-source Rust implementation of OpenADR 3.0, the latest version of the OpenADR standard.</p>"
+
 funders = [
  "tweedegolf",   
  "elaadnl",
