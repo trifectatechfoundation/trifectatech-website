@@ -26,15 +26,4 @@ blogposts = [
     "A safe Internet requires secure time",
     "On Rust, Memory Safety, and Open Source Infrastructure"
 ]
-
-projects_infrastructure = [
-    "Time synchronization",
-    "Privilege boundary",
-    "Data compression"
-]
-
-projects_ecosystem = [
-    "Make Rust faster than C",
-    "Education",
-]
 +++

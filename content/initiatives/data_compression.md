@@ -3,7 +3,12 @@ title = "Data compression"
 slug = "data-compression"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["infrastructure"]
+
 [extra]
+summary = "<p>Compression algorithms are used in a vast number of protocols and file formats throughout all of computing.Implemented in C, these libraries encounter regular security issues despite receiving extensive industry-wide scrutiny.</p><p>Our project plans to create memory-safe implementations of compression libraries bzip2, zlib, xz, and zstd.</p>"
+
 funders = [
     "devolutions", 
     "prossimo", 
