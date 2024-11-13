@@ -23,7 +23,7 @@ blogposts = [
 
 With the rise of renewable energy resources and ongoing electrification, automated demand response plays a crucial role in optimizing the use of our electricity grid. 
 
-This project is building a modern, open-source Rust implementation of OpenADR 3.0, the latest version of OpenADR, the automated demand response standard that's being developed by the [OpenADR Alliance](https://www.openadr.org/).
+This project is building a modern, open-source implementation of OpenADR 3.0, the latest version of OpenADR, the automated demand response standard that's being developed by the [OpenADR Alliance](https://www.openadr.org/).
 
 Written in [Rust](https://www.rust-lang.org/), our implementation is fast, lightweight, reliable, and can be used in many different environments. It will be an important building block for a multitude of digital products and services required for the further electrification of our energy systems and the energy transition.
 
