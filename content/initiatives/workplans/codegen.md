@@ -15,8 +15,8 @@ backTitle = "Make Rust Faster Than C"
 - Merge [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
 - Implement RFC 3720 in the rust compiler
 - Identify popular rust projects that benefit from RFC 3720
-- Add experimental support for this RFC to c2rust 
-- Benchmark a freshly translated bzip2: 1) with the original c2rust, 2) the patched c2rust, and measure the result
+- Add experimental support for RFC 3720 to [c2rust](https://c2rust.com/)
+- Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
 Timeline: Nov 2024 - Mar 2025 / Effort: 6 person-weeks
 
@@ -24,25 +24,23 @@ Timeline: Nov 2024 - Mar 2025 / Effort: 6 person-weeks
 
 - Research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, rav1d, ripgrep)
 - Talk to expert rust project members to document direction and bottlenecks of improving the backend
-- TODO Find, using c2rust experiments, examples in key projects where the backend optimizes poorly
-- TODO Document examples in key projects where the backend optimizes poorly
+- Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
+- Document current cases where rustc generates suboptimal code (or fix the issues, if these straightforward)
 
-Timeline: Jan 2025 - Mar 2025 / Effort: 6 person-weeks 
+Timeline: Jan 2025 - Mar 2025 / Effort: 6 person-weeks
 
 ### Milestone 3: Experiments for improved codegen
 
-The documented projects identified in Milestone 2 are cases where the compiler backend could be generating substantially better code but isn't. In this milestone we will run experiments to find improvements for code generation for those cases.
-TODO Expected areas of work are MIR to MIR optimizations, missing annotations for LLVM, ..., ...
+The documented projects identified in Milestone 2 are cases where the compiler backend could be generating substantially better code. In this milestone we will run experiments to find improvements for code generation for those cases. Our effort will mostly focus on MIR to MIR optimizations and providing more (accurate) information to LLVM.
 
-- TODO define, run, benchmark experiments
-- TODO diagnose problems, e.g. for LLVM, and submit issues
-- TODO create documentation on possible improvements that are blocked by ...
-- TODO submit patches for low-hanging fruit improvements
+- file LLVM issues if the issue is really an LLVM one (we suspect that LLVM overfits on clang output today)
+- document improvements that are blocked on open questions in rustc
+- submit PRs for rustc issues that can be fixed without (much) coordination
 
-Timeline: Apr 2025 - Jun 2025 / Effort: 8 person-weeks 
+Timeline: Apr 2025 - Jun 2025 / Effort: 8 person-weeks
 
 
-## Phase 2 
+## Phase 2
 
 The work of Phase 1 will inform the next steps for this effort. We expect phase 2 will focus on high-reward improvements that require a larger, coordinated effort and collaboration.
 
@@ -52,9 +50,9 @@ The steps in organizing this phase include at least:
 
 - Create a coordinated plan
 - Get commitment of team members, contributers and backers
-- Secure funding for execution
+- Secure funding
 - Execute the plan
 - Be faster than C ⚡
 
-Timeline estimate: Oct 2025 - Dec 2026  
+Timeline estimate: Oct 2025 - Dec 2026
 Effort estimate: 2 person-years
