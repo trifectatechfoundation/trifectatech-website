@@ -3,7 +3,12 @@ title = "Data compression"
 slug = "data-compression"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["infrastructure"]
+
 [extra]
+summary = "<p>Compression algorithms are used in a vast number of protocols and file formats throughout all of computing.Implemented in C, these libraries encounter regular security issues despite receiving extensive industry-wide scrutiny.</p><p>Our project plans to create memory-safe implementations of compression libraries bzip2, zlib, xz, and zstd.</p>"
+
 funders = [
     "devolutions", 
     "prossimo", 
@@ -14,6 +19,7 @@ funders = [
 ]
 
 blogposts = [
+    "Trifecta Tech Foundation is the new home for memory safe zlib",
     "Current zlib-rs performance",
     "flate2 release v1.0.29 with new `zlib-rs` feature",
     "xz incident shows the need for structural change"

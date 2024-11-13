@@ -3,7 +3,13 @@ title = "Making Rust faster than C"
 slug = "codegen"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["ecosystem"]
+
 [extra]
+
+summary = "<p>Our mission is to make critical infrastructure software safer. For that to happen in all relevant areas, performance considerations must be removed as a blocking counter-argument to the memory safe language Rust.</p>"
+
 funders = [
     "tweedegolf"
 ]

@@ -3,7 +3,11 @@ title = "Time synchronization"
 slug = "time-synchronization"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["infrastructure"]
+
 [extra]
+summary = "<p>Reliable, securely synchronized time is a building block for the Internet and other critical infrastructure.</p><p>Project Pendulum builds modern implementations of the Network Time Protocol and Precision Time Protocol and creates open services that boost secure time synchronization.</p>"
 
 funders = [
     "stf",
@@ -16,6 +20,7 @@ funders = [
 ]
 
 blogposts = [
+    "Enabling pools in NTS",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
     "A safe Internet requires secure time",

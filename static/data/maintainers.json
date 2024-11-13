@@ -47,6 +47,7 @@
         "email": "folkert@trifecta.org",
         "role": "Systems software engineer",
         "tags": [
+            "zlib-rs",
             "Pendulum"
         ],
         "github": "https://github.com/folkertdev"
@@ -78,6 +79,16 @@
         "role": "Software engineer",
         "tags": [
             "Pendulum"
+        ],
+        "github": "https://github.com/tdittr"
+    },
+    {
+        "name": "Björn",
+        "image": "bjorn",
+        "email": "bjorn@trifecta.org",
+        "role": "Systems software engineer",
+        "tags": [
+            "zlib-rs"
         ],
         "github": "https://github.com/tdittr"
     }
