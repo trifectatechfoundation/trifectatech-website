@@ -1,5 +1,5 @@
 +++
-title = "Automated Demand Reponse"
+title = "Automated Demand Response"
 slug = "automated-demand-response"
 template = "initiatives/initiative.html"
 
