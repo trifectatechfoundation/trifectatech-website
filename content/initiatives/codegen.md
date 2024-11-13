@@ -43,9 +43,9 @@ The improvements of RFC 3720 are only relevant for specific programs, but it sho
 
 The gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
 
-A significant coordinated effort is needed to make Rust faster than C; we by no means think that we can do this alone. We are working on a plan and are seeking both input as well as funding to support our effort for this initiative. Have a look at our [preliminary workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
+A significant coordinated effort is needed to make Rust faster than C; we by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
 
-While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
+We are preparing a plan and are seeking both input as well as funding to support our effort for this initiative. Have a look at our [preliminary workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
 
 Meanwhile, we will continue to work on stabilizing the RFC as a first step.
 
