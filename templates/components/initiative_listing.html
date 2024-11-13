@@ -1,0 +1,23 @@
+<div class="projects">
+    {% set categories = get_taxonomy(kind="category") %}
+    {% set infrastructureItems = categories.items | filter(attribute="name", value="infrastructure") | first %}
+    {% set ecosystemItems = categories.items | filter(attribute="name", value="ecosystem") | first %}
+
+    <div class="project-title">
+        <h2>Infrastructure projects</h2>
+    </div>
+    <div class="items">
+        {% for initiative in infrastructureItems.pages %}
+        {% include "components/initiative_item_summary.html" %}
+        {% endfor %}
+    </div>
+
+    <div class="project-title">
+        <h2>Ecosystem projects</h2>
+    </div>
+    <div class="items">
+        {% for initiative in ecosystemItems.pages %}
+        {% include "components/initiative_item_summary.html" %}
+        {% endfor %}
+    </div>
+</div>

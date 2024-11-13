@@ -1,6 +1,6 @@
 +++
 title = "List of initiatives"
-template = "components/section_index_listing.html"
+template = "initiatives/initiatives.html"
 # sort_by = "date"
 
 [extra]

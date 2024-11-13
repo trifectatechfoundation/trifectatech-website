@@ -1,0 +1,10 @@
+{% set url = "/initiatives/" ~ initiative.slug %}
+<div class="project">
+    <div class="triangle-ornament top"></div>
+    <div class="triangle-ornament bottom"></div>
+    <div class="flow">
+        <h3>{{initiative.title}}</h3>
+        {{initiative.extra.summary | safe}}
+        <div><a href="{{url}}" class="btn btn-secondary">More...</a></div>
+    </div>
+</div>

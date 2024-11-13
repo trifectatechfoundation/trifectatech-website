@@ -30,18 +30,7 @@
 
 {% include "components/funders.html" %}
 
-<div class="projects">
-    <div class="project-title">
-        <h2>Infrastructure projects</h2>
-    </div>
-    {% set data = page.extra.projects_infrastructure %}
-    {% include "components/projects.html" %}
-    <div class="project-title">
-        <h2>Ecosystem projects</h2>
-    </div>
-    {% set data = page.extra.projects_ecosystem %}
-    {% include "components/projects.html" %}
-</div>
+{% include "components/initiative_listing.html" %}
 
 <div class="paragraph">
     <div class="quote">
@@ -88,6 +77,5 @@
         </a>
     </div>
 </div>
-
 
 {% endblock content %}
