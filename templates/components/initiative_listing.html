@@ -7,7 +7,7 @@
         <h2 >Infrastructure projects</h2>
     </div>
     <div class="items">
-        {% for initiative in infrastructureItems.pages %}
+        {% for initiative in infrastructureItems.pages | reverse %}
         {% include "components/initiative_item_summary.html" %}
         {% endfor %}
     </div>
