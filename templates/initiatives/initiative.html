@@ -1,16 +1,10 @@
 {% extends "base.html" %}
 
-
 {% block content %}
 {% set lastWord = page.title | split(pat=" ") | last | safe -%}
 {% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
 <div class="hero">
     <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
-</div>
-<div class="paragraph">
-    <div class="markdown">
-        {{ page.extra.summary | safe }}
-    </div>
 </div>
 <div class="paragraph">
     <div class="markdown">
