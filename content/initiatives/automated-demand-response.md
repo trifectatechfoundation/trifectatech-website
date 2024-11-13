@@ -31,26 +31,26 @@ Written in [Rust](https://www.rust-lang.org/), our implementation is fast, light
 
 [Tweede golf](https://tweedegolf.nl/en) started development in June 2024 with initial funding from [ElaadNL](https://elaad.nl/en/), the Knowledge & Innovation center for the joint Dutch grid operators that researches and tests smart and sustainable charging of electric vehicles.
 
-To enable global collaboration and ensure neutral governance, in October 2024 the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project, that was already hosting an OpenADR 2.0b implementation written in Python.
+To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024. OpenLEADR were already hosting an OpenADR 2.0b implementation written in Python.
 
 The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs).
 
 ### Current Status
 
-Currently (November 2024) the project is seeing its first external contributions and is almost ready to do a first field-test-ready release, for which we're seeking funding.
+Currently (November 2024) the project is seeing its first external contributions and is almost ready for a field-test-ready release, for which we're seeking funding.
 
 ### What's Next
 
 After inital funding by ElaadNL and Tweede golf in 2024, the project is currently (November 2204) **seeking a total of EUR 40.000 in funding** for:
 
 **In Dec 2024 / Jan 2025:**
-+ Doing a first field-test-ready release 
++ The first field-test-ready release 
 
 **During 2025:**
 + Ongoing development and maintenance
 + Continued community building and contributor support
 + Additional releases when new (minor) versions of the OpenADR standard are published
-+ Preparing for a first long term support release
++ Preparing for a long-term support release
 
 If you are interested in funding this work, please get in touch with us via <a href="mailto:donate@trifectatech.org">donate@trifectatech.org</a> and request the project's sponsorship prospectus.
 
