@@ -3,7 +3,12 @@ title = "Education - teach-rs"
 slug = "education"
 template = "initiatives/initiative.html"
 
+[taxonomies]
+category = ["ecosystem"]
+
 [extra]
+summary = "<p>Teach-rs is a university course for computer science students, introducing the Rust Programming Language, and is available for anyone who wants to teach Rust.</p>"
+
 funders = [
     "rustedu",
     "tweedegolf",

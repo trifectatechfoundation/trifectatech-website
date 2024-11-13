@@ -16,6 +16,9 @@ taxonomies = [
     # {name = "pendulum"},
     # {name = "statime"},
     # {name = "data-compression"},
+    {name = "category", render = false},
+    # {name = "infrastructure"},
+    # {name = "ecosystem"},
 ]
 
 [markdown]

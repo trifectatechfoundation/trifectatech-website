@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block meta_content %}
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h1><span>Our work</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        <p>
+            We develop and maintain four <a href="#infrastructure">infrastructure projects</a> for vital systems, and we run two <a href="#ecosystem">ecosystem initiatives</a>.
+        </p>
+    </div>
+</div>
+
+{% include "components/initiative_listing.html" %}
+
+{% endblock content %}
