@@ -8,26 +8,30 @@ backLink = "/initiatives/codegen"
 backTitle = "Make Rust Faster Than C"
 +++
 
-## Work plan - phase 1
+## Work plan - Phase 1
 
 ### Milestone 1: State machine codegen
 
 - Merge [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
 - Implement RFC 3720 in the rust compiler
-- Identify popular rust projects that benefit from RFC 3720
+- Identify key rust projects that benefit from RFC 3720
 - Add experimental support for RFC 3720 to [c2rust](https://c2rust.com/)
 - Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
-Timeline: Nov 2024 - Mar 2025 / Effort: 6 person-weeks
+Timeline: Nov 2024 - Mar 2025  
+Effort: 6 person-weeks  
+Status: *pending funding*
 
 ### Milestone 2: Identify performance bottlenecks
 
 - Research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, rav1d, ripgrep)
 - Talk to expert rust project members to document direction and bottlenecks of improving the backend
 - Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
-- Document current cases where rustc generates suboptimal code (or fix the issues, if these straightforward)
+- Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
 
-Timeline: Jan 2025 - Mar 2025 / Effort: 6 person-weeks
+Timeline: Jan 2025 - Mar 2025  
+Effort: 6 person-weeks  
+Status: *pending funding*
 
 ### Milestone 3: Experiments for improved codegen
 
@@ -37,8 +41,9 @@ The documented projects identified in Milestone 2 are cases where the compiler b
 - document improvements that are blocked on open questions in rustc
 - submit PRs for rustc issues that can be fixed without (much) coordination
 
-Timeline: Apr 2025 - Jun 2025 / Effort: 8 person-weeks
-
+Timeline: Apr 2025 - Jun 2025  
+Effort: 8 person-weeks  
+Status: *pending funding*
 
 ## Phase 2
 
@@ -54,5 +59,5 @@ The steps in organizing this phase include at least:
 - Execute the plan
 - Be faster than C ⚡
 
-Timeline estimate: Oct 2025 - Dec 2026
+Timeline estimate: Oct 2025 - Dec 2026  
 Effort estimate: 2 person-years
