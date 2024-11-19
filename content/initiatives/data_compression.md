@@ -19,6 +19,7 @@ funders = [
 ]
 
 blogposts = [
+    "The fastest WASM zlib",
     "Trifecta Tech Foundation is the new home for memory safe zlib",
     "Current zlib-rs performance",
     "flate2 release v1.0.29 with new `zlib-rs` feature",
