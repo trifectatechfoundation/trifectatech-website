@@ -212,16 +212,21 @@
     border-style: dotted;
     border-color: gray;
     text-align: center;
-    padding: 4px 0.5rem;
+    padding: 8px 0.75rem;
   }
   
   th {
+    font-weight: bold;
     font-style: italic;
     border-width: 0px 1px 1px 1px;
   }
 
   td:nth-child(1) {
     min-width: 3.5rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: #eee;
   }
 }
 
