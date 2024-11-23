@@ -19,8 +19,7 @@ backTitle = "Make Rust Faster Than C"
 - Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
 Timeline: Nov 2024 - Mar 2025  
-Effort: 6 person-weeks  
-Status: *pending funding*
+Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 2: Identify performance bottlenecks
 
