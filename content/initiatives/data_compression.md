@@ -7,7 +7,7 @@ template = "initiatives/initiative.html"
 category = ["infrastructure"]
 
 [extra]
-summary = "<p>Compression algorithms are used in a vast number of protocols and file formats throughout all of computing.Implemented in C, these libraries encounter regular security issues despite receiving extensive industry-wide scrutiny.</p>"
+summary = "<p>Almost all content sent over the Internet undergoes data compression using algorithms like zlib and zstd.</p>"
 
 funders = [
     "devolutions", 
@@ -15,7 +15,8 @@ funders = [
     "chainguard", 
     "tweedegolf", 
     "nlnetfoundation", 
-    "ngi-zero-core"
+    "ngi-zero-core",
+    "isrg"
 ]
 
 blogposts = [
@@ -42,9 +43,9 @@ Our initiative aims to create **memory-safe** implementations of compression lib
 
 For zlib, we've created an initial implementation based on zlib-ng, called `zlib-rs`, with a focus on maintaining excellent performance while introducing memory safety. The initial development of `zlib-rs` was started and partly funded by [Prossimo](https://www.memorysafety.org/initiative/zlib/).
 
-In April 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29).
+In April 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29). In Nov 2024 an audit by [ISRG](https://www.abetterinternet.org/) was succesfully completed, and optimizations for Webassembly were included in a [new release](https://github.com/trifectatechfoundation/zlib-rs/releases).
 
-The development of `bzip2` started Oct 2024.
+The development of `bzip2`, the 2nd project in this initiative, started Oct 2024. Unlike in `zlib-rs` we will use `c2rust` to translate the original bzip2 C code to Rust. A first release is expected in Feb 2025.
 
 ### What's Next
 

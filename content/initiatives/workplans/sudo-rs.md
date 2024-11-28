@@ -5,7 +5,7 @@ template = "initiatives/workplans/workplan.html"
 
 [extra]
 backLink = "/initiatives/privilege-boundary"
-backTitle = "Privilege boundary"
+backTitle = "Back to initiative: Privilege boundary"
 +++
 
 ### Current work

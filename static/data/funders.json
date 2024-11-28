@@ -58,5 +58,9 @@
     {
         "image": "elaadnl",
         "url": "https://elaad.nl/en/"
+    },
+    {
+        "image": "isrg",
+        "url": "https://www.abetterinternet.org/"
     }
 ]

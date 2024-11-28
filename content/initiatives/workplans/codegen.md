@@ -5,7 +5,7 @@ template = "initiatives/workplans/workplan.html"
 
 [extra]
 backLink = "/initiatives/codegen"
-backTitle = "Make Rust Faster Than C"
+backTitle = "Back to initiative: Making Rust Faster Than C"
 +++
 
 ## Work plan - Phase 1

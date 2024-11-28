@@ -16,6 +16,11 @@
 @use './components/triangle';
 @use './components/footer';
 
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 .logo {
   color: inherit;
   font-size: var(--text-size-md);
@@ -230,6 +235,12 @@
   }
 }
 
-.markdown em {
-  font-style: italic;
+.markdown {
+  em {
+    font-style: italic;
+  }
+}
+
+h2, h3 {
+  scroll-margin-top: 10rem;
 }

@@ -1,5 +1,5 @@
 +++
-title = "Automated Demand Response"
+title = "Smart grid protocols"
 slug = "automated-demand-response"
 template = "initiatives/initiative.html"
 
@@ -8,7 +8,7 @@ category = ["infrastructure"]
 
 [extra]
 
-summary = "<p>With the rise of renewable energy resources and ongoing electrification, automated demand response plays a crucial role in optimizing the use of our electricity grid.</p>"
+summary = "<p>As renewable energy resources increase secure Smart grid protocols are vital for optimizing our electricity grid.</p>"
 
 funders = [
  "tweedegolf",   
@@ -21,7 +21,7 @@ blogposts = [
 
 ### Automated Demand Response
 
-With the rise of renewable energy resources and ongoing electrification, automated demand response plays a crucial role in optimizing the use of our electricity grid. 
+With the rise of renewable energy resources and ongoing electrification secure Smart grid protocols, like Automated Demand Response, play a crucial role in optimizing the use of our electricity grid. 
 
 This project is building a modern, open-source implementation of OpenADR 3.0, the latest version of OpenADR, the automated demand response standard that's being developed by the [OpenADR Alliance](https://www.openadr.org/).
 

@@ -7,7 +7,7 @@ template = "initiatives/initiative.html"
 category = ["infrastructure"]
 
 [extra]
-summary = "<p>The sudo and su utilities mediate a critical privilege boundary on almost every open-source operating system that powers the Internet.</p>"
+summary = "<p>The sudo utility mediates a critical privilege boundary on every open-source operating system that powers the Internet.</p>"
 
 funders = [
     "prossimo",

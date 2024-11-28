@@ -2,25 +2,11 @@
   position: relative;
   border-block-end: 1px solid var(--color-secondary-400);
   padding-block-end: 3rem;
+  margin-block-start: 3rem;
 
   .partners-title {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1.5rem;
-
-    h2, h3 {
-      grid-column: 1 / span 12;
-    }
-
-    @media (min-width: 62rem) {
-      h2, h3 {
-        grid-column: 4 / span 6;
-      }
-    }
-  }
-
-  >*+* {
-    margin-block-start: calc(0.5 * var(--text-size-md) * var(--line-height));
+    text-align: center;
+    font-style: italic;
   }
 
   &::after {
@@ -64,8 +50,8 @@
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-block: 2rem;
-    padding-inline: 1.5rem;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
     text-align: center;
   }
 
@@ -140,6 +126,11 @@
 
     &.elaadnl {
       background-image: url('/funders/elaadnl.png');
+    }
+
+    &.isrg {
+      background-image: url('/funders/isrg.svg');
+      width: 5rem; 
     }
   }
 }

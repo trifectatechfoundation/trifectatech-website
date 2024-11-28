@@ -6,8 +6,10 @@
 </div>
 <div class="paragraph">
     <div class="markdown">
+        <a href={{ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
         {{ page.content | safe }}
-        <a href={{ page.extra.backLink }} class="btn btn-secondary"><< {{ page.extra.backTitle }}</a>
+        <br />
+        <a href={{ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
     </div>
 </div>
 {% endblock %}

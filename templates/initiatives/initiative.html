@@ -6,13 +6,14 @@
 <div class="hero">
     <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
 </div>
+
+{% include "components/funders.html" %}
+
 <div class="paragraph">
     <div class="markdown">
         {{ page.content | safe }}
     </div>
 </div>
-
-{% include "components/funders.html" %}
 
 {% set length = page.extra.blogposts | length -%}
 {% if length > 0 -%}
