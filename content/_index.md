@@ -15,7 +15,10 @@ funders = [
     "rustedu",
     "tweedegolf",
     "rustfoundation",
-    "devolutions"
+    "devolutions",
+    "chainguard",
+    "isrg",
+    "elaadnl"
 ]
 
 blogposts = [
