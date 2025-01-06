@@ -1,15 +1,20 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
 <div class="hero">
     <h1>{{ page.title | safe }}: <span>workplan</span></h1>
 </div>
+
+{% set parent_page = get_page(path=page.extra.backLink ~ ".md") %}
+{{ macros::page_funders(page=parent_page.extra.funders) }}
+
 <div class="paragraph">
     <div class="markdown">
-        <a href={{ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
+        <a href={{ "/" ~ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
         {{ page.content | safe }}
         <br />
-        <a href={{ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
+        <a href={{ "/" ~ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
     </div>
 </div>
 {% endblock %}

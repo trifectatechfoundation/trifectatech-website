@@ -5,7 +5,7 @@ slug = "data-compression"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
-backLink = "/initiatives/data-compression"
+backLink = "initiatives/data-compression"
 backTitle = "Back to initiative: Data compression"
 +++
 

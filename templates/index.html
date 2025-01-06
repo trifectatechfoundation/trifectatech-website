@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
 {% include "components/hero.html" %}
@@ -28,7 +29,7 @@
     </div>
 </div>
 
-{% include "components/funders.html" %}
+{{ macros::page_funders(page=page.extra.funders) }}
 
 {% include "components/initiative_listing.html" %}
 

@@ -4,11 +4,21 @@ slug = "sudo-rs"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
-backLink = "/initiatives/privilege-boundary"
+backLink = "initiatives/privilege-boundary"
 backTitle = "Back to initiative: Privilege boundary"
 +++
 
+## Roadmap
+
+[Current development](#current-work) (Oct 2024 - Apr 2025) includes increasing cross-platform support and improve compatibility with the original sudo utility.
+
+[Future work](#future-work) (*pending funding*) includes Improved Compatibility, Usability Enhancements, and Enterprise features.
+
+In 2023 and 2024 we [completed milestones 0-3](#completed-milestones) and released the first versions of sudo-rs.
+
 ### Current work
+
+**Milestone 4: Maintenance and portability**
 
 * Port sudo and su to FreeBSD
 * Improve compatibility with the original sudo utility
@@ -18,7 +28,9 @@ backTitle = "Back to initiative: Privilege boundary"
 
 This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/).
 
-### Future Roadmap
+--- 
+
+### Future work
 
 **Improved Compatibility**
 
@@ -38,7 +50,9 @@ This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/).
 * SELinux support
 * AppArmor support
 
-### Completed Milestones in the Initial Development Phase
+--- 
+
+### Completed milestones
 
 **Milestone 0: Preparation**
 
