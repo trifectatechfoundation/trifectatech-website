@@ -13,8 +13,8 @@ funders = [
     "prossimo",
     "nlnetfoundation",
     "ngi-zero-core",
-    "ngi-zero-entrust",
-    "tweedegolf"
+    "tweedegolf",
+    "aws"
 ]
 
 blogposts = [
@@ -26,11 +26,6 @@ blogposts = [
     "Two core Unix-like utilities, sudo and su, are getting rewrites in Rust"
 ]
 +++
-
-
-
-
-
 
 ### Sudo-rs
 
@@ -56,11 +51,10 @@ See [the sudo-rs roadmap](/initiatives/workplans/sudo-rs)</a>.
 ### Links
 
 - [GitHub](https://github.com/memorysafety/sudo-rs)
+- [crates.io](https://crates.io/crates/sudo-rs)
 
 ### History
 
 The initial development of sudo-rs was started and funded by the [Internet Security Research Group](https://www.abetterinternet.org/) as part of the [Prossimo project](https://www.memorysafety.org/). A joint development effort between [Tweede golf](https://tweedegolf.nl/en) and [Ferrous Systems](https://ferrous-systems.com/) resulted in the first release. 
 
-In July 2024 the [sudo-rs moved to the Trifecta Tech Foundation](https://www.memorysafety.org/).
-
-        
+In July 2024 the [sudo-rs moved to the Trifecta Tech Foundation](https://www.memorysafety.org/blog/trifecta-tech-foundation-sudo-su/).

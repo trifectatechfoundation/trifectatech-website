@@ -18,7 +18,8 @@ funders = [
     "devolutions",
     "chainguard",
     "isrg",
-    "elaadnl"
+    "elaadnl",
+    "aws"
 ]
 
 blogposts = [
