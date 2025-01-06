@@ -1,10 +1,12 @@
+{% macro page_funders(page) %}
+
 {% set funders = load_data(path = "data/funders.json") %}
 <div class="partners">
     <div class="partners-title">
         <h4>Funders & supporters</h4>
     </div>
     <div class="funders">
-        {% for name in page.extra.funders %}
+        {% for name in page %}
             {% for funder in funders %}
                 {% if funder.image == name %}
                 <a class="card-link" href="{{funder.url}}">
@@ -17,3 +19,5 @@
         {% endfor %}
     </div>
 </div>
+
+{% endmacro page_funders %}

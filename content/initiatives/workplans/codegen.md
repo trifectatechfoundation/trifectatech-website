@@ -4,7 +4,7 @@ slug = "codegen"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
-backLink = "/initiatives/codegen"
+backLink = "initiatives/codegen"
 backTitle = "Back to initiative: Making Rust Faster Than C"
 +++
 
