@@ -13,8 +13,8 @@ funders = [
     "prossimo",
     "nlnetfoundation",
     "ngi-zero-core",
-    "ngi-zero-entrust",
-    "tweedegolf"
+    "tweedegolf",
+    "aws"
 ]
 
 blogposts = [
@@ -27,11 +27,6 @@ blogposts = [
 ]
 +++
 
-
-
-
-
-
 ### Sudo-rs
 
 The sudo and su utilities mediate a critical privilege boundary on almost every open-source operating system
@@ -43,22 +38,23 @@ designed to minimize attack surface.
 ### Project status
 
 Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
-It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux.
+It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux, and [Serpent OS](https://serpentos.com/), an experimental next evolution in Linux distribution.
 
-Current development includes increasing cross-platform support and improve compatibility with the original sudo utility.
+[Current development](/initiatives/workplans/sudo-rs#current-work) (Oct 2024 - Apr 2025) includes increasing cross-platform support and improve compatibility with the original sudo utility.
 
 We'd like to thank Todd Miller, maintainer of the original sudo utility, for his advice and guidance on our implementation.
 
 ### Roadmap
 
-See <a href="/initiatives/workplans/sudo-rs">the sudo-rs roadmap</a>.
+See [the sudo-rs roadmap](/initiatives/workplans/sudo-rs)</a>.
 
 ### Links
 
 - [GitHub](https://github.com/memorysafety/sudo-rs)
+- [crates.io](https://crates.io/crates/sudo-rs)
 
 ### History
 
-The initial development of sudo-rs was started and funded by the [Internet Security Research Group](https://www.abetterinternet.org/) as part of the [Prossimo project](https://www.memorysafety.org/). A joint development effort between [Tweede golf](https://tweedegolf.nl/en) and [Ferrous Systems](https://ferrous-systems.com/) resulted in the first release. In July 2024 the [sudo-rs moved to the Trifecta Tech Foundation](https://www.memorysafety.org/).
+The initial development of sudo-rs was started and funded by the [Internet Security Research Group](https://www.abetterinternet.org/) as part of the [Prossimo project](https://www.memorysafety.org/). A joint development effort between [Tweede golf](https://tweedegolf.nl/en) and [Ferrous Systems](https://ferrous-systems.com/) resulted in the first release. 
 
-        
+In July 2024 the [sudo-rs moved to the Trifecta Tech Foundation](https://www.memorysafety.org/blog/trifecta-tech-foundation-sudo-su/).
