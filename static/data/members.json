@@ -10,5 +10,13 @@
     {
         "image": "openinfra",
         "link": "https://openinfra.dev"
+    },
+    {
+        "image": "anbi",
+        "link": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/business-public-benefit-organisations/public_benefit_organisations/what_is_pbo/what_is_a_pbo"
+    },
+    {
+        "image": "ngosource",
+        "link": "https://www.ngosource.org/about-equivalency-determination-on-file-badge"
     }
 ]
