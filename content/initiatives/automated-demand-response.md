@@ -41,12 +41,14 @@ Currently (November 2024) the project is seeing its first external contributions
 
 ### What's Next
 
-After inital funding by ElaadNL and Tweede golf in 2024, the project is currently (November 2204) **seeking a total of EUR 40.000 in funding** for:
+After inital funding by ElaadNL and Tweede golf in 2024, the project is currently (November 2024) **seeking funding** for:
 
-**In Dec 2024 / Jan 2025:**
+**In Q1 2025:**
+
 + The first field-test-ready release 
 
-**During 2025:**
+**Q2-Q4 2025:**
+
 + Ongoing development and maintenance
 + Continued community building and contributor support
 + Additional releases when new (minor) versions of the OpenADR standard are published
