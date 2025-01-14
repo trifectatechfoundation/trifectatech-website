@@ -137,21 +137,28 @@
 
 .membership {
   .image {
+    min-height: 4rem;
+
     &.openssf {
       background-image: url('/memberships/openssf.svg');
     }
-  }
-
-  .image {
+  
     &.linuxfoundation {
       background-image: url('/memberships/linuxfoundation.svg');
     }
-  }
-
-  .image {
+ 
     &.openinfra {
-      min-height: 3.25rem;
       background-image: url('/memberships/openinfra.png');
+    }
+ 
+    &.anbi {
+      max-height: 3rem;
+      background-image: url('/memberships/anbi.svg');
+    }
+
+    &.ngosource {
+      
+      background-image: url('/memberships/ngosource.png');
     }
   }
 }

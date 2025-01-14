@@ -1,28 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+{% set_global page_split = page.content | split(pat="======") %}
+{% set_global content1 = page_split.0 %}
+{% set_global content2 = page_split.1 %}
   
 <div class="hero">
   <h1><span>About us</span></h1>
 </div>
 <div class="paragraph">
   <div class="markdown">
-    <h2>Trifecta Tech Foundation</h2>
-    <p>
-      Trifecta Tech Foundation develops and maintains digital commons, open-source software and open standards for vital systems. 
-    </p>
-    <p>
-      We are a non-profit and are recognized by the Netherlands Tax Authority as a Public Benefit Organisation (ANBI), the equivalent of a 501(c)(3) organisation in the US.
-    </p>
-    <h3>Contact us</h3>
-    <p>
-      Castellastraat 26 <br />
-      6512 EX Nijmegen <br />
-      The Netherlands <br /> <br />
-
-      <a href="tel:+31243010484">+31 24 30 10 484</a><br />
-      <a href="mailto:info@trifectatech.org">info@trifectatech.org</a><br />
-    </p>
+    {{ content1 | safe }}
   </div>
 </div>
 
@@ -30,25 +19,7 @@
 
 <div class="paragraph">
   <div class="markdown">
-    <h3>Information</h3>
-    <p>
-      Legal name: Stichting Trifecta Tech Foundation<br />
-      Chamber of Commerce Registration (KvK): 93645546<br />
-      Tax Registration Number (RSIN): 866479004<br />
-      <br />
-      Bank account holder: Stichting Trifecta Tech<br />
-      Bank account nr: NL84ABNA0134624378<br />
-      SWIFT/BIC: ABNANL2A<br />
-    </p>
-    <h3>Documents</h3>
-    <ul>
-      <li>
-        <a href="/docs/statuten-Stichting-Trifecta-Tech-Foundation.pdf">Statuten</a> (Bylaws, In Dutch)
-      </li>
-      <li>
-        <a href="/docs/bylaws-Stichting-Trifecta-Tech-Foundation.pdf">Bylaws</a> (certified translation)
-      </li>
-    </ul>
+    {{ content2 | safe }}
   </div>
 </div>
 
