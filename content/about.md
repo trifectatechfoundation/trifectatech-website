@@ -8,7 +8,7 @@ template = "about.html"
 
 Trifecta Tech Foundation develops and maintains digital commons, open-source software and open standards for vital systems.
 
-We are a non-profit and are recognized by the Netherlands Tax Authority as a Public Benefit Organisation (ANBI). We are certified by NGOsource as a US 501(c)(3) equivalent Public Charity.
+We are a non-profit recognized by the Netherlands Tax Authority as a Public Benefit Organisation (ANBI). We have a valid *Equivalency Determination (ED)* issued by NGOsource certifying us as a US 501(c)(3) equivalent Public Charity.
 
 ### Contact us
 
