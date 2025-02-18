@@ -17,9 +17,9 @@ funders = [
 blogposts = [
 ]
 +++
-Rust, being a systems language, should be best in class for performance-critical software. 
+Rust, being a systems language, should be best in class for performance-sensitive software. 
 
-While the performance difference with C is small, it currently blocks performance-critical Rust implementations from being widely adopted. Why go through a challenging migration only to end up with a 1% performance drop or a 2% additional battery drain?
+While the performance difference with C is small, it currently blocks performance-sensitive Rust implementations from being widely adopted. Why go through a challenging migration only to end up with a 1% performance drop or a 2% additional battery drain?
 
 Our mission is to make critical infrastructure software safer. Performance considerations must be removed as a blocking argument against Rust to achieve this goal.
 
@@ -47,9 +47,7 @@ A significant coordinated effort is needed to make Rust faster than C; we by no 
 
 ### Work plan
 
-We are preparing a plan and are seeking both input as well as funding to support our effort for this initiative. Have a look at our [preliminary workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
-
-Meanwhile, we will continue to work on stabilizing the RFC as a first step.
+We are preparing a plan and are seeking both input as well as funding to support our effort for this initiative. Have a look at our [workplan](/initiatives/workplans/codegen/) or contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
 
 ### Links
 

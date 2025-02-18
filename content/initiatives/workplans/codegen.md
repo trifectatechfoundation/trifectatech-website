@@ -23,12 +23,12 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 2: Identify performance bottlenecks
 
-- Research the performance challenges in key projects (e.g. Servo, RfL, serde, NVMe driver, c2rust, rav1d, ripgrep)
-- Talk to expert rust project members to document direction and bottlenecks of improving the backend
+- Research the performance challenges in key projects (e.g. Servo, Rust for Linux, serde, NVMe driver, rav1d, ripgrep)
+- Talk to the maintainers of these key project to pinpoint bottlenecks, and to rust team members to find and help document improvements to the backend
 - Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
 - Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
 
-Timeline: Jan 2025 - Mar 2025  
+Timeline: Mar 2025 - May 2025  
 Effort: 6 person-weeks  
 Status: *pending funding*
 
@@ -40,7 +40,7 @@ The documented projects identified in Milestone 2 are cases where the compiler b
 - document improvements that are blocked on open questions in rustc
 - submit PRs for rustc issues that can be fixed without (much) coordination
 
-Timeline: Apr 2025 - Jun 2025  
+Timeline: May 2025 - Jul 2025  
 Effort: 8 person-weeks  
 Status: *pending funding*
 
