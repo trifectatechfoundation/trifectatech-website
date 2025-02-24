@@ -2,7 +2,7 @@
 title = "zlib-rs is faster than C"
 slug = "zlib-rs-is-faster-than-c"
 authors = ["Folkert de Vries"]
-date = "2025-02-24"
+date = "2025-02-25"
 
 [taxonomies]
 tags = ["zlib-rs", "data compression"] 

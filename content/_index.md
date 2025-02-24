@@ -23,9 +23,9 @@ funders = [
 ]
 
 blogposts = [
-    "Trifecta Tech Foundation is the new home for memory safe zlib",
+    "zlib-rs is faster than C",
+    "Trifecta Tech Foundation joins Nonprofit Cyber",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
-    "Trifecta Tech Foundation: Open infrastructure software in the public interest",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
     "A safe Internet requires secure time",
     "On Rust, Memory Safety, and Open Source Infrastructure"
