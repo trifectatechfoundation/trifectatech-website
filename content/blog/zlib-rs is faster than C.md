@@ -53,7 +53,7 @@ Like before, our benchmark is decompressing a compressed version of silesia-smal
 
 #### versus zlib-ng
 
-![decompression (ng vs. rs) (2)](https://hackmd.io/_uploads/SJ2Tf5l91x.png)
+![decompression (ng vs. rs)](/blog/zlib-rs-faster-than-zlib-ng-decompression.png)
 
 We're now significantly faster than zlib-ng for all but the smallest chunk size. A chunk size of `2^4 = 16` bytes is very unlikely to be relevant for performance in practice because the input can just be buffered and then decompressed in larger chunks.
 
@@ -79,7 +79,7 @@ We are however significantly faster than zlib-ng at the more relevant chunk size
 
 For decompression, the zlib implementation used in the chromium project (found [here](https://chromium.googlesource.com/chromium/src/third_party/zlib/), which we use via [a modified version of `libz-sys`](https://github.com/folkertdev/libz-chromium-sys)) is often faster than zlib-ng. However, we also beat it at this benchmark for the most relevant chunk sizes.
 
-![decompression (chromium vs. rs) (2)](https://hackmd.io/_uploads/rkGGyax91x.png)
+![decompression (chromium vs. rs)](/blog/zlib-rs-faster-than-zlib-chromium-decompression.png)
 
 
 Interestingly, zlib-chromium is mostly faster for the smaller chunk sizes, while for larger chunk sizes performance is fairly comparable to zlib-ng.
@@ -105,7 +105,7 @@ Interestingly, zlib-chromium is mostly faster for the smaller chunk sizes, while
 
 We've been chipping away at compression too (shoutout to [Brian Pane](https://github.com/brian-pane), who contributed numerous PRs in this area), but see more mixed results. 
 
-![compression (1)](https://hackmd.io/_uploads/HkFTR3xc1g.png)
+![compression (ng vs. rs)](/blog/zlib-rs-faster-than-c-compression.png)
 
 
 On x86_64 linux, we are faster for some of the compression levels that matter most, about 6% at the default level of 6, and over 10% at the "best compression" level 9. But we're still slightly slower for most of the other levels when comparing to zlib-ng.
