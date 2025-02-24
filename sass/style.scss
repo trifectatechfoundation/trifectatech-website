@@ -209,7 +209,11 @@ html {
 .markdown table {
 
   margin-block-start: 0.25rem;
+  width: 100%;
   
+  code {
+    font-family: monospace;
+  }
   
   td, th {
     font-size: 0.8rem;
