@@ -213,4 +213,4 @@ Still, it is encouraging that this effort has paid of, and that we are extremely
 
 ### Support us
 
-We need your financial backing to maintain our software and start new projects. Please get in touch with us via donate@trifectatech.org, if you are interested in financially supporting us. More: [trifectatech.org/support](https://trifectatech.org/support/)
+We need your financial backing to maintain our software and start new projects. Please [get in touch with us](/support), if you are interested in financially supporting us.

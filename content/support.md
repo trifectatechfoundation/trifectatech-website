@@ -10,7 +10,7 @@ Our initiatives *Data compression*, *Time synchronization*, *Smart grid protocol
 
 Your support backs our mission to **strengthen critical infrastructure software** by creating building blocks that are robust and inherently safer.
 
-Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting us.
+Please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org), if you are interested in financially supporting us.
 
 ### Join Prossimo, Sovereign Tech Fund, SIDN fonds, and NLnet Foundation
 

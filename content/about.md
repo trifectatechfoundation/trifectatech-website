@@ -17,7 +17,7 @@ Castellastraat 26
 The Netherlands  
   
 [+31 24 30 10 484](tel:+31243010484)  
-[info@trifectatech.org](mailto:info@trifectatech.org)
+[contact@trifectatech.org](mailto:contact@trifectatech.org)
 
 <!-- 6x '=' is used to split the content into blocks -->
 ======

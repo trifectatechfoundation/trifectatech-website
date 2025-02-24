@@ -38,7 +38,7 @@ Trifecta Tech Foundation aims to mature the zlib-rs project and support its main
 
 Work on Webassembly optimizations, kindly funded by [Devolutions](https://devolutions.net/), is underway. A security audit by Prossimo is nearing completion and is expected to be done in November 2024\. When successfully finished, the Trifecta Tech Foundation team will continue to work with Mozilla, who are interested in potentially shipping zlib-rs in Firefox.
 
-That said, work on zlib-rs is not yet complete. Trifecta Tech Foundation is seeking funding to make the initial implementation ready for production. [Contact](mailto:donate@trifectatech.org) us if you’re interested.
+That said, work on zlib-rs is not yet complete. Trifecta Tech Foundation is seeking funding to make the initial implementation ready for production. [Contact us](/support) if you’re interested.
 
 ---
 

@@ -64,9 +64,7 @@ Our **key priorities for 2025** are:
 
 ### Get in touch!
 
-If this work is valuable to you, please consider funding the project. Get in touch with us via <a href="mailto:donate@trifectatech.org">donate@trifectatech.org</a> to learn more.
-
-Thank you!
+If this work is valuable to you, please consider funding the project. Please [get in touch with us](/support) to learn more.
 
 ### Links
 

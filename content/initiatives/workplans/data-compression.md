@@ -29,7 +29,7 @@ Work on zlib-rs is in progress. An audited release [is available](https://github
 |---|---|---|
 | in progress | &euro; 250.000 | 62% |
 
-We're seeking funding for Milestone 3, that completes our implementation. Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting memory-safe zlib. 
+We're seeking funding for Milestone 3, that completes our implementation. Please [get in touch with us](/support), if you are interested in financially supporting memory-safe zlib. 
 
 We offer technical support services for organizations wanting to adopt zlib-rs.
 
@@ -63,7 +63,7 @@ See [past milestones](/initiatives/workplans/zlib-completed-milestones).
 - **a rust crate** that implements decompression and multi-threaded compression, and can be integrated with the rust [`zstd`](https://crates.io/crates/zstd) crate.
 - **a dynamic library:** the `libzstd-rs` dynamic library defines an interface identical to `libzstd`, and is a drop-in replacement for that library. 
 
-We're currently seeking funding to start the project. Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting the development of memory-safe zstd.
+We're currently seeking funding to start the project. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
 
 **Project status "zstd"**
 

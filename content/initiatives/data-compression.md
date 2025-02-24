@@ -40,7 +40,7 @@ Our initiative aims to create **memory-safe** implementations of compression lib
 - **bzip2**: a file compression program that is widely deployed and supported e.g. as part of zip.
 - **xz**: a compression format that provides very good compression, but is comparatively slow. Commonly used for large file downloads.
 
-Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting the development of memory-safe zlib, zstd or xz. We offer technical support services for organizations wanting to adopt our data compression software.
+Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zlib, zstd or xz. We offer technical support services for organizations wanting to adopt our data compression software.
 
 ### What We've Done
 
@@ -65,7 +65,7 @@ The high level goals for the four projects are:
 
 For per project details, see [the workplan](/initiatives/workplans/data-compression).
 
-Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting the development of memory-safe zlib, zstd or xz.
+Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zlib, zstd or xz.
 
 ### Links
 
