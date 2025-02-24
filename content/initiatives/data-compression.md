@@ -20,6 +20,7 @@ funders = [
 ]
 
 blogposts = [
+    "zlib-rs is faster than C",
     "The fastest WASM zlib",
     "Trifecta Tech Foundation is the new home for memory safe zlib",
     "Current zlib-rs performance",
