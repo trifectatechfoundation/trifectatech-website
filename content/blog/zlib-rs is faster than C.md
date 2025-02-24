@@ -1,6 +1,6 @@
 +++
 title = "zlib-rs is faster than C"
-slug = "zlib-rs-is-faster-than-C"
+slug = "zlib-rs-is-faster-than-c"
 authors = ["Folkert de Vries"]
 date = "2025-02-24"
 
@@ -9,6 +9,7 @@ tags = ["zlib-rs", "data compression"]
 
 [extra]
 link = "/blog/zlib-rs-is-faster-than-c"
+image = "/blog/zlib-rs-vs-zlib-ng.png"
 source = "Trifecta Tech Foundation"
 excerpt = "zlib-rs is now (to our knowledge) the fastest api-compatible zlib implementation for decompression, and beat the competition in the most important compression cases too."
 +++
