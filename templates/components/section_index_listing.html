@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block meta_content %}
+{{ super() }}
 {% if section.title == "List of blog posts" %}
     <link rel="canonical" href="https://trifectatech.org/news/">
 {% endif %}
