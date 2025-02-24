@@ -136,4 +136,4 @@ Our implementation is mostly done, and clearly performs extremely well. However,
 
 To complete the work and improve performance and e.g. packaging, we're seeking funding for the amount of €95.000. See the [workplan](/initiatives/workplans/data-compression/#workplan-zlib-rs) for details.
 
-Please [contact us](/about) if you are interested in financially supporting zlib-rs.
+Please [contact us](/support) if you are interested in financially supporting zlib-rs.
