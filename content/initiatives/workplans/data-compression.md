@@ -37,11 +37,11 @@ We offer technical support services for organizations wanting to adopt zlib-rs.
 
 **Milestone 3: Complete release, packaging and adoption**
 
-- **Performance work:** performance work for various platforms, eg. avx-512 (x86_64) instruction set.
-- **Implementation of remaining API functions:** implement remaining functions that must be provided to be a complete drop-in replacement. See [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
+- **Performance work:** performance work for various platforms, e.g. algorithmic improvements and using avx512 instruction
+- **Implementation of remaining API functions:** implement remaining functions that must be provided to be a complete drop-in replacement, see [this issue](https://github.com/memorysafety/zlib-rs/issues/49)
 - **Audit:** a third party security audit
-- **1-year maintenance**
-- **Packaging & adoption:** provide packages for distributions and do work to support adoption
+- **One year of maintenance**
+- **Packaging & adoption:** support adoption and provide packages for Debian 
 
 Status: *Pending funding*. Requested funding €95.000.
 
