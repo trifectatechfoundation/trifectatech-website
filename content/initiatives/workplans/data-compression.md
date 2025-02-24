@@ -14,56 +14,62 @@ backTitle = "Back to initiative: Data compression"
 Current projects in this initiative include:
 
 - [zlib-rs](#workplan-zlib-rs) - *in progress*
-- [bzip2-rs](#workplan-bzip2-rs) - *in progress*
 - [zstd](#workplan-zstd) - *pending funding*
+- [bzip2-rs](#workplan-bzip2-rs) - *in progress*
 - [xz](#workplan-xz) - *pending funding*
 
 
 ## Workplan zlib-rs
 
 Work on zlib-rs is in progress. An audited release [is available](https://github.com/trifectatechfoundation/zlib-rs).  
-The project aims to provide a memory-safe implementation of zlib with on-par performance compared to C/C++ counterparts.
 
 ### Project status
 
 | status | funding target | funded | 
 |---|---|---|
-| in progress | &euro; 190.000 | 16% |
+| in progress | &euro; 250.000 | 62% |
 
-We're currently seeking funding for Milestone 3, a stable release. Please get in touch with us via donate@trifectatech.org, if you are interested in financially supporting zlib-rs.
+We're seeking funding for Milestone 3, that completes our implementation. Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting memory-safe zlib. 
 
-### Future milestones
+We offer technical support services for organizations wanting to adopt zlib-rs.
 
-**Milestone 3: Stable release zlib-rs**
+### Upcoming milestones
 
-- **On-par performance:** to strengthen our adoption story, we aim to match zlib-ng performance for both compression and decompression. On standard x86_64 processors, we are within a couple percent of this goal. This work item includes completing or implementing SIMD support for the neon (aarch64), and SSE and avx-512 (x86_64) instruction sets.
-- **Implementation:** the current zlib-rs project misses some functions that are rarely used in practice, but must be provided to be a proper drop-in replacement. The missing functions are tracked in [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
-- **audit** a third party security audit
-- **1 year maintenance**
-- **Stable release** 
+**Milestone 3: Complete release, packaging and adoption**
+
+- **Performance work:** performance work for various platforms, eg. avx-512 (x86_64) instruction set.
+- **Implementation of remaining API functions:** implement remaining functions that must be provided to be a complete drop-in replacement. See [this issue](https://github.com/memorysafety/zlib-rs/issues/49).
+- **Audit:** a third party security audit
+- **1-year maintenance**
+- **Packaging & adoption:** provide packages for distributions and do work to support adoption
+
+Status: *Pending funding*. Requested funding €95.000.
+
+### Future work
 
 **Milestone 4: Above par performance**
 
 - further performance optimizations
 - implementent [improved codegen for state machines](https://github.com/rust-lang/rfcs/pull/3720)
 
---- 
+See [past milestones](/initiatives/workplans/zlib-completed-milestones).
 
-### Completed milestones
+---
 
-**Milestone 1: Release 0.2.x**
+## Workplan zstd
 
-- **Implementation** Implement zlib compression and decompression in pure rust
-- **Implementation** `libz-rs` dynamic library that defines an interface identical to `libz`, and is a drop-in replacement for that library.
-- **Benchmarking** Benchmarking versus zlib-ng 
-- **Integrate** Integrate with [flate2](https://github.com/rust-lang/flate2-rs)
+### zstd milestones
 
-**Milestone 2: Release 0.4.0**
+- **a rust crate** that implements decompression and multi-threaded compression, and can be integrated with the rust [`zstd`](https://crates.io/crates/zstd) crate.
+- **a dynamic library:** the `libzstd-rs` dynamic library defines an interface identical to `libzstd`, and is a drop-in replacement for that library. 
 
-- **Audit:** ISRG audit, fuzzing
-- **Benchmarking:** Benchmark on CI (partial). Benchmarking on more architectures versus zlib-ng and zlib-chromium
-- **Wasm optimizations:** SIMD optimizations for Webassembly
-- **Implementation:** Improvements and fixes
+We're currently seeking funding to start the project. Please get in touch with us via [donate@trifectatech.org](mailto:donate@trifectatech.org), if you are interested in financially supporting the development of memory-safe zstd.
+
+**Project status "zstd"**
+
+| status | funding target | funded | 
+|---|---|---|
+| pending funding | &euro; 200.000 | 0% |
 
 ---
 
@@ -85,6 +91,7 @@ Work on bzip2-rs is in progress. The project aims to provide a memory-safe imple
 - **a dynamic library:** the `libbz2-rs` dynamic library defines an interface identical to `libbz2`, and is a drop-in replacement for that library. It produces byte-for-byte identical output for identical input.
 - **a binary**: the `bzip2` binary is written in safe rust and provides bzip2 (de)compression functionality on the command line. 
 
+Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Future milestones
 
@@ -105,20 +112,7 @@ Work on bzip2-rs is in progress. The project aims to provide a memory-safe imple
 |---|---|---|
 | pending funding | &euro; 100.000 | 0% |
 
----
 
-## Workplan zstd
-
-### zstd milestones
-
-- **a rust crate** that implements decompression and multi-threaded compression, and can be integrated with the rust [`zstd`](https://crates.io/crates/zstd) crate.
-- **a dynamic library:** the `libzstd-rs` dynamic library defines an interface identical to `libzstd`, and is a drop-in replacement for that library. 
-
-**Project status "zstd"**
-
-| status | funding target | funded | 
-|---|---|---|
-| pending funding | &euro; 175.000 | 0% |
 
 
 

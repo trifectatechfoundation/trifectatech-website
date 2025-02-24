@@ -134,6 +134,6 @@ zlib-rs can be used both as a rust crate in rust projects. For rust projects, we
 
 Our implementation is mostly done, and clearly performs extremely well. However, we're missing some [less commonly used API functions](https://github.com/trifectatechfoundation/zlib-rs/issues/49) related to gzip files that would make us a complete drop-in replacement in all cases.
 
-We're currently seeking funding, €95.000,-, to complete zlib-rs and work on performance and packaging, see the [workplan](https://trifectatech.org/initiatives/workplans/data-compression/#workplan-zlib-rs).
+To complete the work and improve performance and eg. packaging, we're seeking funding for the amount of €95.000. See the [workplan](/initiatives/workplans/data-compression/#workplan-zlib-rs) for details.
 
-Please [contact us](https://trifectatech.org/about/) if you are interested in financially supporting zlib-rs.
+Please [contact us](/about) if you are interested in financially supporting zlib-rs.
