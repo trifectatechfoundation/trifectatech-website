@@ -130,7 +130,7 @@ For most users, decompression is the most relevant operation, and even for compr
 
 ## Conclusion
 
-zlib-rs can be used both as a rust crate in rust projects. For rust projects, we recommend using the `1.1.0` release of the [flate2](https://crates.io/crates/flate2) crate with the `zlib-rs` feature flag. For use in C projects, zlib-rs can be built as a C dynamic library (see [instructions](https://github.com/trifectatechfoundation/zlib-rs/tree/main/libz-rs-sys-cdylib)) and used in any project that uses zlib today.
+zlib-rs can be used both in C projects and as a rust crate in rust projects. For rust projects, we recommend using the `1.1.0` release of the [flate2](https://crates.io/crates/flate2) crate with the `zlib-rs` feature flag. For use in C projects, zlib-rs can be built as a C dynamic library (see [instructions](https://github.com/trifectatechfoundation/zlib-rs/tree/main/libz-rs-sys-cdylib)) and used in any project that uses zlib today.
 
 Our implementation is mostly done, and clearly performs extremely well. However, we're missing some [less commonly used API functions](https://github.com/trifectatechfoundation/zlib-rs/issues/49) related to gzip files that would make us a complete drop-in replacement in all cases.
 
