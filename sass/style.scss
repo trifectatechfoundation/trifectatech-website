@@ -68,6 +68,10 @@ html {
   p {
     code {
       background-color: var(--color-inline-code);
+      border: 1px solid #ccc;
+      padding: 2px;
+      font-family: monospace;
+      font-size: var(--text-size-sm);
     }
   }
 
