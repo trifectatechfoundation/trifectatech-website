@@ -2,7 +2,7 @@
 title = "Translating bzip2 with c2rust"
 slug = "translating-bzip2-with-c2rust"
 authors = ["Folkert de Vries"]
-date = "2025-02-24"
+date = "2025-03-10"
 
 [taxonomies]
 tags = ["bzip2-rs", "data compression"] 
