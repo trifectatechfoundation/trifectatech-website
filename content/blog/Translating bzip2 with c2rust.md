@@ -9,7 +9,6 @@ tags = ["bzip2-rs", "data compression"]
 
 [extra]
 link = "/blog/translating-bzip2-with-c2rust"
-image = "/blog/zlib-rs-vs-zlib-ng.png"
 source = "Trifecta Tech Foundation"
 excerpt = "We've been hard at work on libbzip2-rs, a 100% Rust drop-in compatible implementation the bzip2 compression and decompression functionality."
 +++
