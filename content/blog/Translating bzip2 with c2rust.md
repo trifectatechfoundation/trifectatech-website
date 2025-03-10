@@ -350,3 +350,5 @@ While much of this post focusses on cases where `c2rust` does not provide idioma
 Overall we're very happy with this experiment, and we do intend to use `c2rust` again for other components of our [data compression initiative](https://trifectatech.org/initiatives/data-compression/), starting with some of the remaining portions of zlib-rs.
 
 You can look at the  [libbzip2-rs](https://github.com/trifectatechfoundation/libbzip2-rs) source code on github, and use it today if your project uses the [bzip2](https://crates.io/crates/bzip2) crate, by enabling the `libbz2-rs-sys` feature gate.
+
+This work has been kindly funded by [NLnet Foundation](https://nlnet.nl/).
