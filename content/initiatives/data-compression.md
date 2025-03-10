@@ -20,6 +20,7 @@ funders = [
 ]
 
 blogposts = [
+    "Translating bzip2 with c2rust",
     "zlib-rs is faster than C",
     "The fastest WASM zlib",
     "Trifecta Tech Foundation is the new home for memory safe zlib",

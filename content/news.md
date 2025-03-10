@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Translating bzip2 with c2rust",
     "zlib-rs is faster than C",
     "Trifecta Tech Foundation joins Nonprofit Cyber",
     "The fastest WASM zlib",

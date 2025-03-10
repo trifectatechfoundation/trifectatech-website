@@ -10,6 +10,8 @@
   --color-secondary-200: rgb(var(--color-secondary-200-rgb));
 
   --color-table-row: #eee;
+
+  --color-inline-code: #ebebeb;
  
   --text-size-ratio: 1.414;
   --text-size-base: 1rem;
@@ -45,6 +47,8 @@
     --color-secondary-400: rgb(var(--color-secondary-400-rgb));
     --color-secondary-300: rgb(var(--color-secondary-300-rgb));
     --color-secondary-200: rgb(var(--color-secondary-200-rgb));
+
+    --color-inline-code: #1f293d;
 
     --color-bars-icon: var(--color-secondary-200);
     --color-quote: var(--color-secondary-200);
