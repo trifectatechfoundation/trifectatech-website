@@ -17,6 +17,8 @@ Over the past couple of months we've been hard at work on [libbzip2-rs](https://
 
 For this project, we used [`c2rust`](https://github.com/immunant/c2rust) for the initial translation from the bzip2 C code to a Rust implementation. The generated Rust code has now been cleaned up and made safe where possible. This post describes our experiences using c2rust for this project.
 
+The work on the project is kindly funded by [NLnet Foundation](https://nlnet.nl/).
+
 ## Using c2rust
 
 `c2rust` is an incredibly useful tool developed by [Immunant](https://immunant.com/) and [Galois](https://www.galois.com/). It takes a C code base, and turns it into Rust code. You can try it online at [c2rust.com](https://c2rust.com/).
