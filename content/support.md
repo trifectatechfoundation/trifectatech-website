@@ -12,6 +12,8 @@ Your support backs our mission to **strengthen critical infrastructure software*
 
 Please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org), if you are interested in financially supporting us.
 
+To back our ongoing maintenance work there is also the option to [become a sponsor to Trifecta Tech Foundation on GitHub](https://github.com/sponsors/trifectatechfoundation).
+
 ### Join Prossimo, Sovereign Tech Fund, SIDN fonds, and NLnet Foundation
 
 Your backing ensures that we can continue to improve the security of vital infrastructure.  
