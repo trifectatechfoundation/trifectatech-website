@@ -7,8 +7,6 @@ date = "2024-08-08"
 [taxonomies]
 tags = ["zlib-rs", "data compression"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 Our [`zlib-rs`](https://github.com/memorysafety/zlib-rs) project implements a drop-in replacement for `libz.so`, a dynamic library that is widely used to perform gzip (de)compression.

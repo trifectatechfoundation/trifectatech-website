@@ -7,8 +7,6 @@ date = "2024-10-30"
 [taxonomies]
 tags = ["ntpd-rs", "time synchonization"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 We previously talked about how [secure time is required for a safe internet](https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time). We mentioned how we want to increase the adoption of NTS, the secure time synchronization standard built on top of NTP. For this, we proposed to develop a public NTS pool. In this article, we expand on what pooling is, and what is required to enable an NTS pool.

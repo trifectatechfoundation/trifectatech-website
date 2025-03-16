@@ -7,8 +7,6 @@ date = "2025-03-10"
 [taxonomies]
 tags = ["bzip2-rs", "data compression"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 Over the past couple of months we've been hard at work on [libbzip2-rs](https://github.com/trifectatechfoundation/libbzip2-rs), a 100% Rust drop-in compatible implementation the bzip2 compression and decompression functionality.

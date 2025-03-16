@@ -5,10 +5,8 @@ date = 2024-07-15
 authors = ["Erik Jonkers"]
 
 [taxonomies]
-tags=["announcement"]
+tags=["announcement"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 Today, we are proud to announce the Trifecta Tech Foundation. 

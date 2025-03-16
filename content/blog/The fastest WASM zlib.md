@@ -7,8 +7,6 @@ date = "2024-11-19"
 [taxonomies]
 tags = ["zlib-rs", "data compression"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 This year we started work on [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs), an implementation of [Zlib](https://en.wikipedia.org/wiki/Zlib) in Rust, with the goal of maintaining excellent performance while introducing memory safety.
