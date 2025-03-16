@@ -6,7 +6,10 @@ date = 2024-06-17
 tags = ["teach-rs", "education"]
 
 [extra]
-link = "https://tweedegolf.nl/en/blog/127/want-more-rust-break-the-cycle"
+externalLink = "https://tweedegolf.nl/en/blog/127/want-more-rust-break-the-cycle"
 source = "Tweede golf"
-excerpt = "How? By oxidizing education. That's right: introduce Rust in higher education making sure more students enter the job market."
 +++
+
+How? By oxidizing education. That's right: introduce Rust in higher education making sure more students enter the job market.
+
+<!-- more -->

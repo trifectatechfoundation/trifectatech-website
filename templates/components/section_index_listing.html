@@ -19,8 +19,8 @@
         <ul>
             {% for page in section.pages %}
             <li>
-                {% if section.title == "List of blog posts" %}
-                    <a href="{{page.extra.link}}"><strong>{{page.title}}</strong></a>
+                {% if section.title == "List of blog posts" and page.extra.externalLink is defined %}
+                    <a href="{{page.extra.externalLink}}"><strong>{{page.title}}</strong></a>
                 {% else %}
                     <a href="{{page.path}}"><strong>{{page.title}}</strong></a>
                 {% endif %}

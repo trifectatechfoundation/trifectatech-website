@@ -5,8 +5,12 @@
   <h1><span>News and blogs</span></h1>
 </div>
 <div class="paragraph markdown">
-    <div>
-        {% include "components/bloglist.html" %}
-    </div>
+  <div class="feeds">
+    {{ load_data(path="static/rss.svg") | safe }}
+    <a href="/rss.xml">RSS feed</a>
+  </div>
+  <div>
+    {% include "components/bloglist.html" %}
+  </div>
 </div>
 {% endblock content %}

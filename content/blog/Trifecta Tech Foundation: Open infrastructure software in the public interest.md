@@ -8,12 +8,12 @@ authors = ["Erik Jonkers"]
 tags=["announcement"]
 
 [extra]
-link = "/blog/trifecta-tech-foundation-announcement"
 source = "Trifecta Tech Foundation"
-excerpt = "Today, we are proud to announce the Trifecta Tech Foundation."
 +++
 
 Today, we are proud to announce the Trifecta Tech Foundation. 
+
+<!-- more -->
 
 The Internet, and our vital systems for water, energy, and communication, require safe software. 
 

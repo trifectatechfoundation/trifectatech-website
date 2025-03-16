@@ -8,12 +8,12 @@ date = "2024-11-19"
 tags = ["zlib-rs", "data compression"] 
 
 [extra]
-link = "/blog/fastest-wasm-zlib"
 source = "Trifecta Tech Foundation"
-excerpt = "WASM has its own SIMD instructions these days. We know that SIMD is incredibly effective for the zlib algorithms, and were excited to use the WASM SIMD instructions."
 +++
 
 This year we started work on [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs), an implementation of [Zlib](https://en.wikipedia.org/wiki/Zlib) in Rust, with the goal of maintaining excellent performance while introducing memory safety.
+
+<!-- more -->
 
 Webassembly support was not on our initial roadmap, but when we got talking with [Devolutions](https://devolutions.net/) at this year's RustConf and they offered to support this milestone (thank you!), we were eager to get to work.
 

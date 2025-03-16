@@ -8,12 +8,12 @@ date = "2024-11-07"
 tags = ["zlib-rs", "data compression"] 
 
 [extra]
-link = "/blog/new-home-for-memory-safe-zlib"
 source = "Trifecta Tech Foundation"
-excerpt = "Zlib-rs, an open source memory safe implementation of zlib, has a new long-term home at the Trifecta Tech Foundation"
 +++
 
 Today we're pleased to announce that the recently developed open source memory safe implementation of zlib – [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) – initiated by ISRG's [Prossimo project](https://www.memorysafety.org) now has a new long-term home at our Trifecta Tech Foundation.
+
+<!-- more -->
 
 *This announcement is also published on ISRG's [Prossimo website](https://www.memorysafety.org/zlib-to-trifecta-tech)*.
 

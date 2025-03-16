@@ -115,6 +115,10 @@ html {
         display: block;
         text-decoration: underline;
       }
+
+      h3 {
+        margin-block-end: 1rem;
+      }
     }
 
     &:not(:last-child) {
@@ -257,4 +261,22 @@ html {
 
 h2, h3 {
   scroll-margin-top: 10rem;
+}
+
+.feeds {
+  text-align: right;
+  padding-right: 0.5rem;
+
+  a {
+    text-decoration-color: var(--color-primary-400);
+  }
+
+  svg {
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: -0.175rem;
+    path {
+      fill: var(--color-primary-400);
+    }
+  }
 }

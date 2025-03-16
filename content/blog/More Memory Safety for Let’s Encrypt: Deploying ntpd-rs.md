@@ -6,8 +6,10 @@ date = 2024-06-24
 tags = ["ntpd-rs"]
 
 [extra]
-link = "https://letsencrypt.org/2024/06/24/ntpd-rs-deployment"
+externalLink = "https://letsencrypt.org/2024/06/24/ntpd-rs-deployment"
 source = "Let's Encrypt"
-excerpt = "When we look at the general security posture of Let’s Encrypt, one of the things that worries us most is how much of the operating system and network infrastructure is written in unsafe languages like C and C++."
 +++
 
+When we look at the general security posture of Let’s Encrypt, one of the things that worries us most is how much of the operating system and network infrastructure is written in unsafe languages like C and C++.
+
+<!-- more -->

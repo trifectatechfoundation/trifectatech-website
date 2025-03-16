@@ -6,7 +6,10 @@ date = 2023-05-17
 tags = ["sudo-rs"]
 
 [extra]
-link = "https://tweedegolf.nl/en/blog/91/reimplementing-sudo-in-rust"
+externalLink = "https://tweedegolf.nl/en/blog/91/reimplementing-sudo-in-rust"
 source = "Tweede golf"
-excerpt = "A drop-in replacement for all common modern use cases of sudo."
 +++
+
+A drop-in replacement for all common modern use cases of sudo.
+
+<!-- more -->
