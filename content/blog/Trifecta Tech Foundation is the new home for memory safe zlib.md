@@ -7,15 +7,13 @@ date = "2024-11-07"
 [taxonomies]
 tags = ["zlib-rs", "data compression"] 
 
-[extra]
-source = "Trifecta Tech Foundation"
 +++
 
 Today we're pleased to announce that the recently developed open source memory safe implementation of zlib – [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) – initiated by ISRG's [Prossimo project](https://www.memorysafety.org) now has a new long-term home at our Trifecta Tech Foundation.
 
 <!-- more -->
 
-*This announcement is also published on ISRG's [Prossimo website](https://www.memorysafety.org/zlib-to-trifecta-tech)*.
+*This announcement is also published on ISRG's [Prossimo website](https://www.memorysafety.org/blog/zlib-to-trifecta-tech/)*.
 
 In 2023, Prossimo set out to develop a strategy, raise funds, and select a contractor for a memory safe zlib implementation in 2023. They did this because data compression algorithms, and zlib in particular, are used in a vast number of protocols and file formats throughout all of computing. In the past, compression libraries have encountered [memory safety vulnerabilities](https://www.memorysafety.org/docs/memory-safety/), a common phenomenon for libraries written in C/C++ and a class of issues that critical system software should not suffer from.
 

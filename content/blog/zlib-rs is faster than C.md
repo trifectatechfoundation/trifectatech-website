@@ -9,7 +9,7 @@ tags = ["zlib-rs", "data compression"]
 
 [extra]
 image = "/blog/zlib-rs-vs-zlib-ng.png"
-source = "Trifecta Tech Foundation"
+
 +++
 
 We've released version [0.4.2](https://crates.io/crates/libz-rs-sys) of [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs), featuring a number of substantial performance improvements. We are now (to our knowledge) the fastest api-compatible zlib implementation for decompression, and beat the competition in the most important compression cases too.

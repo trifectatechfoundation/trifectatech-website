@@ -17,5 +17,7 @@
             <span class="tag"><a href="{{url}}">{{tag}}</a></span>
         {% endif -%}
     {% endfor -%}
-    <span class="tag">source: {{page.extra.source}}</span>            
+    {% if page.extra.source -%}
+        <span class="tag">source: {{page.extra.source}}</span>    
+    {% endif -%}        
 </div>

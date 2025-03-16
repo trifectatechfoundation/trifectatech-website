@@ -105,7 +105,7 @@ html {
   > li {
     --shadow: 0.5rem;
     background-color: var(--color-secondary-200);
-    padding: 1.5rem;
+    padding: 1.5rem 0.5rem 1.5rem 1.5rem;
     position: relative;
 
     a.card-link {
@@ -263,7 +263,7 @@ h2, h3 {
   scroll-margin-top: 10rem;
 }
 
-.feeds {
+.news .feeds {
   text-align: right;
   padding-right: 0.5rem;
 
