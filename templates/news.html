@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% set rss = get_url(path="/rss-feed.xml") %}
+{% set atom = get_url(path="/atom-feed.xml") %}
 <div class="hero">
   <h1><span>News and blogs</span></h1>
 </div>
 <div class="news paragraph markdown">
   <div class="feeds">
     {{ load_data(path="static/rss.svg") | safe }}
-    <a href="/rss-feed.xml">RSS</a> <a href="/atom-feed.xml">Atom</a>
+    <a href={{rss}}>RSS</a> <a href={{atom}}>Atom</a>
   </div>
   <div>
     {% include "components/bloglist.html" %}
