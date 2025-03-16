@@ -9,6 +9,7 @@ build_search_index = false
 
 title = "Trifecta Tech Foundation"
 generate_feeds = true
+feed_filenames = ["atom-feed.xml", "rss-feed.xml"]
 
 taxonomies = [
     {name = "tags", render = true},
