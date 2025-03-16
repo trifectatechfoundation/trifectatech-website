@@ -1,8 +1,14 @@
 {%  set page = post -%}
-<a class="card-link" href="{{post.extra.link}}">
+{% if post.extra.externalLink is defined -%}
+{% set pageLink = post.extra.externalLink %}
+{% else -%}
+{% set pageLink = post.path %}
+{% endif -%}
+<a class="card-link" href={{pageLink}}>
     {% include "components/blogpost_metablock.html" -%}
     <h3>{{post.title}}</h3>
-    <p><br />{{post.extra.excerpt}}
-        <strong>Read more ...</strong>
+    <p>
+        {{ post.summary | striptags | safe }}
     </p>
+    <strong>Read more ...</strong>
 </a>

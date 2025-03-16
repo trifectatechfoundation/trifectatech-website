@@ -8,12 +8,12 @@ date = "2024-08-08"
 tags = ["zlib-rs", "data compression"] 
 
 [extra]
-link = "/blog/current-zlib-rs-performance"
 source = "Trifecta Tech Foundation"
-excerpt = "A crucial aspect of making zlib-rs successful is solid performance. In this post we'll see how the implementation performs today, and how we measure that performance."
 +++
 
 Our [`zlib-rs`](https://github.com/memorysafety/zlib-rs) project implements a drop-in replacement for `libz.so`, a dynamic library that is widely used to perform gzip (de)compression.
+
+<!-- more -->
 
 Of course, `zlib-rs` is written in rust, and while we aim for a safe implementation, a crucial aspect of making this project successful is solid performance. The original zlib implementation does not make good use of modern hardware, and the bar for zlib performance is set by the [`zlib-ng`](https://github.com/zlib-ng/zlib-ng) fork of zlib. It drops some legacy support, and makes good use of modern CPU capabilities like SIMD instructions. It is not uncommon for zlib-ng to be 2X faster than stock zlib.
 

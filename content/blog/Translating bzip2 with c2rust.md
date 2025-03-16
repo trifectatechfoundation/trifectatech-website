@@ -8,12 +8,12 @@ date = "2025-03-10"
 tags = ["bzip2-rs", "data compression"] 
 
 [extra]
-link = "/blog/translating-bzip2-with-c2rust"
 source = "Trifecta Tech Foundation"
-excerpt = "We've been hard at work on libbzip2-rs, a 100% Rust drop-in compatible implementation the bzip2 compression and decompression functionality."
 +++
 
 Over the past couple of months we've been hard at work on [libbzip2-rs](https://github.com/trifectatechfoundation/libbzip2-rs), a 100% Rust drop-in compatible implementation the bzip2 compression and decompression functionality.
+
+<!-- more -->
 
 For this project, we used [`c2rust`](https://github.com/immunant/c2rust) for the initial translation from the bzip2 C code to a Rust implementation. The generated Rust code has now been cleaned up and made safe where possible. This post describes our experiences using c2rust for this project.
 

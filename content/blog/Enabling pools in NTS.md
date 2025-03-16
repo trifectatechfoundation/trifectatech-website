@@ -8,12 +8,12 @@ date = "2024-10-30"
 tags = ["ntpd-rs", "time synchonization"] 
 
 [extra]
-link = "/blog/enabling-pools-in-nts"
 source = "Trifecta Tech Foundation"
-excerpt = "The Network Time Protocol is the last major security gap in universally used Internet protocols. Pools of secure time servers (NTS) are the solution; what is an NTS pool and how can we build them?"
 +++
 
 We previously talked about how [secure time is required for a safe internet](https://tweedegolf.nl/en/blog/122/a-safe-internet-requires-secure-time). We mentioned how we want to increase the adoption of NTS, the secure time synchronization standard built on top of NTP. For this, we proposed to develop a public NTS pool. In this article, we expand on what pooling is, and what is required to enable an NTS pool.
+
+<!-- more -->
 
 ## What is pooling?
 
