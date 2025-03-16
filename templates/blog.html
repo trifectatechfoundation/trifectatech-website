@@ -7,8 +7,16 @@
             <h1>{{ page.title | safe }}</h1>
             <br />
             {% include "components/blogpost_metablock.html" %}
-            <div class="blog-body">          
-                {{ page.content | safe }}      
+            <div class="blog-body">
+                {{ page.content | safe }}
+                <br />
+                <div>
+                    {% if page.extra.externalLink is defined -%}
+                    <a href={{page.extra.externalLink}}>>> Read more on <strong>{{page.extra.source}}</strong></a>
+                    {% endif -%}
+                    <br />
+                </div>
+                <hr />
             </div>
         </article>
     </div>
