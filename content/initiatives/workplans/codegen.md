@@ -28,9 +28,9 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 - Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
 - Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
 
-Timeline: Mar 2025 - May 2025  
+Timeline: Apr 2025 - Jun 2025  
 Effort: 6 person-weeks  
-Status: *pending funding*
+Status: *In progress*. Kindly funded by [AWS](https://aws.amazon.com/).
 
 ### Milestone 3: Experiments for improved codegen
 
@@ -40,7 +40,7 @@ The documented projects identified in Milestone 2 are cases where the compiler b
 - document improvements that are blocked on open questions in rustc
 - submit PRs for rustc issues that can be fixed without (much) coordination
 
-Timeline: May 2025 - Jul 2025  
+Timeline: May 2025 - Aug 2025  
 Effort: 8 person-weeks  
 Status: *pending funding*
 

@@ -11,7 +11,7 @@ category = ["ecosystem"]
 summary = "<p>Our mission is to make critical infrastructure software safer. For that to happen in all relevant areas, performance considerations must be removed as a blocking counter-argument to the memory safe language Rust.</p>"
 
 funders = [
-    "tweedegolf", "nlnetfoundation", "ngi-zero-core"
+    "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
 ]
 
 blogposts = [
