@@ -37,24 +37,26 @@ The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](
 
 ### Current Status
 
-As of February 2025, the project is **gaining early traction** and is actively seeking **seeking additional funding**, as outlined in this [blog post](https://tweedegolf.nl/en/blog/146/openleadr-3-0-initial-traction-and-future-plans).
+As of March 2025, the project is **gaining early traction**, in particular in the Netherlands, and is actively seeking **seeking additional funding** for the items listed below.
 
 ### What's Next
 
-As soon as funding is secured, we'll deliver an **official field-test-ready release**. This way, (early) adopters can have greater confidence in the project's long-term sustainability.
+As soon as additional funding is secured, we'll deliver an **official field-test-ready release**. This way, (early) adopters can have greater confidence in the project's long-term sustainability.
 
 Our **key priorities for 2025** are:
 
-**Q1 2025:**
+**Q2 2025:**
 
 + Official field-test-ready release 
 
 **Q2-Q4 2025:**
 
-+ Ongoing development and maintenance.
++ Support for Dutch DSOs and CPOs who are adopting OpenLEADR 3.0 - **funded**.
++ Bugfixes and maintenance - **funded**.
 + Continued community building and contributor support.
 + Addtional releases to align with new (minor) versions of the OpenADR standard.
 + Preparation for a long-term support (LTS) release.
++ WebSocket-based notification mechanism.
 
 **Additionally** we're eager to:
 
