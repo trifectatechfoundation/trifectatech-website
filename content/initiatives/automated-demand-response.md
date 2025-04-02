@@ -21,11 +21,11 @@ blogposts = [
 
 ### Automated Demand Response
 
-With the rise of renewable energy resources and ongoing electrification secure smart grid protocols, like Automated Demand Response, play a crucial role in optimizing the use of our electricity grid. 
+As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid. 
 
-This project is building a modern, open-source implementation of OpenADR 3.0, the latest version of OpenADR, the automated demand response standard that's being developed by the [OpenADR Alliance](https://www.openadr.org/).
+Automated Demand Response, ADR, enables utilities and aggregators to manage decentralized energy production. This project implements open-source OpenADR 3.0, the standard the [OpenADR Alliance](https://www.openadr.org/) is developing.
 
-Written in [Rust](https://www.rust-lang.org/), our implementation is fast, lightweight, reliable, and can be used in many different environments. It will be an important building block for a multitude of digital products and services required for the further electrification of our energy systems and the energy transition.
+Written in [Rust](https://www.rust-lang.org/), our implementation is fast, reliable, and suitable for many environments. It is a building block for a multitude of digital products and services underpinning the energy transition.
 
 ### What We've Done
 
