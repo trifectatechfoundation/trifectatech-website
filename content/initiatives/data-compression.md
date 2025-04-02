@@ -16,7 +16,8 @@ funders = [
     "tweedegolf", 
     "nlnetfoundation", 
     "ngi-zero-core",
-    "isrg"
+    "isrg",
+    "min-bzk"
 ]
 
 blogposts = [

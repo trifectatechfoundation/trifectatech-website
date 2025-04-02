@@ -26,7 +26,7 @@ In 2023 and 2024 we [completed milestones 0-3](#completed-milestones) and releas
 * Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis.
 * Improved environment handling (SETENV)
 
-This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/).
+This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/) and the [Ministry of the Interior of the Netherlands](https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations).
 
 --- 
 

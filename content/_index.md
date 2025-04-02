@@ -11,6 +11,7 @@ funders = [
     "ngi-zero-core",
     "ngi-zero-entrust",
     "ngi-assure",
+    "min-bzk",
     "stf",
     "rustedu",
     "tweedegolf",

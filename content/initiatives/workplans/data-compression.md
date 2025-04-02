@@ -91,7 +91,7 @@ Work on bzip2-rs is in progress. The project aims to provide a memory-safe imple
 - **a dynamic library:** the `libbz2-rs` dynamic library defines an interface identical to `libbz2`, and is a drop-in replacement for that library. It produces byte-for-byte identical output for identical input.
 - **a binary**: the `bzip2` binary is written in safe rust and provides bzip2 (de)compression functionality on the command line. 
 
-Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
+Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/) and the [Ministry of the Interior of the Netherlands](https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations).
 
 ### Future milestones
 
