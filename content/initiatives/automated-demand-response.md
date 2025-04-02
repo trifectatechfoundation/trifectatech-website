@@ -8,7 +8,7 @@ category = ["infrastructure"]
 
 [extra]
 
-summary = "<p>As renewable energy resources increase secure Smart grid protocols are vital for optimizing our electricity grid.</p>"
+summary = "<p>As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid.</p>"
 
 funders = [
  "tweedegolf",   
@@ -21,17 +21,19 @@ blogposts = [
 
 ### Automated Demand Response
 
-With the rise of renewable energy resources and ongoing electrification secure smart grid protocols, like Automated Demand Response, play a crucial role in optimizing the use of our electricity grid. 
+As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid. 
 
-This project is building a modern, open-source implementation of OpenADR 3.0, the latest version of OpenADR, the automated demand response standard that's being developed by the [OpenADR Alliance](https://www.openadr.org/).
+Automated Demand Response, ADR, enables utilities and aggregators to manage decentralized energy production. This project implements open-source OpenADR 3.0, the standard the [OpenADR Alliance](https://www.openadr.org/) is developing.
 
-Written in [Rust](https://www.rust-lang.org/), our implementation is fast, lightweight, reliable, and can be used in many different environments. It will be an important building block for a multitude of digital products and services required for the further electrification of our energy systems and the energy transition.
+Written in [Rust](https://www.rust-lang.org/), our implementation is fast, reliable, and suitable for many environments. It is a building block for a multitude of digital products and services underpinning the energy transition.
 
 ### What We've Done
 
 [Tweede golf](https://tweedegolf.nl/en) started development in June 2024 with initial funding from [ElaadNL](https://elaad.nl/en/), the Knowledge & Innovation center for the joint Dutch grid operators that researches and tests smart and sustainable charging of electric vehicles.
 
-To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024. OpenLEADR were already hosting an OpenADR 2.0b implementation written in Python.
+To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024.
+
+Trifecta Tech Foundation ensures that financial support is allocated responsibly and sustainably.
 
 The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs) and the project is now often referred to as OpenLEADR 3.0.
 
