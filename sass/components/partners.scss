@@ -56,7 +56,7 @@
   }
 
   .image {
-    min-height: 3rem;
+    min-height: 3.5rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,10 @@
     }
 
     &.min-bzk {
-      background-image: url('/funders/min-bzk.svg');
+      background-image: url('/funders/min-bzk.png');
+      @media (min-width: 62rem) {
+        width: 10rem;
+      }
     }
   }
 }
