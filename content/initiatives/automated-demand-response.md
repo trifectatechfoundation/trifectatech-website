@@ -8,7 +8,7 @@ category = ["infrastructure"]
 
 [extra]
 
-summary = "<p>As renewable energy resources increase secure Smart grid protocols are vital for optimizing our electricity grid.</p>"
+summary = "<p>As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid.</p>"
 
 funders = [
  "tweedegolf",   
@@ -31,7 +31,9 @@ Written in [Rust](https://www.rust-lang.org/), our implementation is fast, reli
 
 [Tweede golf](https://tweedegolf.nl/en) started development in June 2024 with initial funding from [ElaadNL](https://elaad.nl/en/), the Knowledge & Innovation center for the joint Dutch grid operators that researches and tests smart and sustainable charging of electric vehicles.
 
-To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024. OpenLEADR were already hosting an OpenADR 2.0b implementation written in Python.
+To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024.
+
+Trifecta Tech Foundation ensures that financial support is allocated responsibly and sustainably.
 
 The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs) and the project is now often referred to as OpenLEADR 3.0.
 
