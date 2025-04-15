@@ -13,6 +13,8 @@ I'm fascinated by the creative use of SIMD instructions. When you first learn ab
 
 <!-- more -->
 
+*This article was originally posted on the [Tweede golf blog](https://tweedegolf.nl/en/blog/153/simd-in-zlib-rs-part-1-autovectorization-and-target-features). Tweede golf backs Trifecta Tech Foundation's open-source infrastructure projects by contributing effort and code.*
+
 The best way I've found to learn how SIMD can be used is to look at examples, and see how they work and perform. This article is the first in a series of 3 looking at our use of SIMD in [the zlib-rs project](https://github.com/trifectatechfoundation/zlib-rs). We'll look at the instructions, but more so at how we use our understanding of SIMD to speed up the library as a whole.
 
 In this article we'll look at how compilers already use SIMD behind the scenes, how we can determine whether the compiler is doing a good job, and how to gracefully upgrade to faster implementations of a function if the current CPU has additional capabilities.
