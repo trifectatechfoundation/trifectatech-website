@@ -21,6 +21,7 @@ funders = [
 ]
 
 blogposts = [
+    "SIMD in zlib-rs (part 1): Autovectorization and target features",
     "Translating bzip2 with c2rust",
     "zlib-rs is faster than C",
     "The fastest WASM zlib",
