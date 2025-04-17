@@ -41,7 +41,7 @@ Work on teach-rs continues:
 - Documentation: improving documentation quality and availability
 - Visibility: improving the visibility of teach-rs to potential users and contributors
 
-Support us? See [trifecta.org/support](/support).
+Support us? See [trifectatech.org/support](/support).
 
 ### Links
 

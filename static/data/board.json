@@ -2,19 +2,19 @@
     {
         "name": "Erik Jonkers",
         "image": "erik",
-        "email": "erik@trifecta.org",
+        "email": "erik@trifectatech.org",
         "role": "Chair"
     },
     {
         "name": "Hugo van de Pol",
         "image": "hugo",
-        "email": "hugo@trifecta.org",
+        "email": "hugo@trifectatech.org",
         "role": "Secretary"
     },
     {
         "name": "Marlon Baeten",
         "image": "marlon",
-        "email": "marlon@trifecta.org",
+        "email": "marlon@trifectatech.org",
         "role": "Treasurer"
     }
 ]

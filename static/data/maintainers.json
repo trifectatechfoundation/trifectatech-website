@@ -2,7 +2,7 @@
     {
         "name": "Ruben Nijveld",
         "image": "ruben",
-        "email": "ruben@trifecta.org",
+        "email": "ruben@trifectatech.org",
         "role": "Software engineer",
         "tags": [
             "Pendulum",
@@ -13,7 +13,7 @@
     {
         "name": "David Venhoek",
         "image": "david",
-        "email": "david@trifecta.org",
+        "email": "david@trifectatech.org",
         "role": "Security software engineer",
         "tags": [
             "Pendulum"
@@ -33,7 +33,7 @@
     {
         "name": "Mark Schoolderman",
         "image": "marc",
-        "email": "mark@trifecta.org",
+        "email": "mark@trifectatech.org",
         "role": "Software engineer",
         "tags": [
             "sudo-rs",
@@ -44,7 +44,7 @@
     {
         "name": "Folkert de Vries",
         "image": "folkert",
-        "email": "folkert@trifecta.org",
+        "email": "folkert@trifectatech.org",
         "role": "Systems software engineer",
         "tags": [
             "zlib-rs",
@@ -55,7 +55,7 @@
     {
         "name": "Dion Dokter",
         "image": "dion",
-        "email": "dion@trifecta.org",
+        "email": "dion@trifectatech.org",
         "role": "Embedded software engineer",
         "tags": [
             "Pendulum"
@@ -65,7 +65,7 @@
     {
         "name": "Marlon Peeters",
         "image": "marlonp",
-        "email": "marlonpeeters@trifecta.org",
+        "email": "marlonpeeters@trifectatech.org",
         "role": "Software engineer",
         "tags": [
             "Pendulum"
@@ -75,7 +75,7 @@
     {
         "name": "Tamme Dittrich",
         "image": "tamme",
-        "email": "tamme@trifecta.org",
+        "email": "tamme@trifectatech.org",
         "role": "Software engineer",
         "tags": [
             "Pendulum"
@@ -85,7 +85,7 @@
     {
         "name": "Björn",
         "image": "bjorn",
-        "email": "bjorn@trifecta.org",
+        "email": "bjorn@trifectatech.org",
         "role": "Systems software engineer",
         "tags": [
             "zlib-rs"
