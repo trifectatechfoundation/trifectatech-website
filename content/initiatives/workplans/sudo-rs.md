@@ -29,7 +29,7 @@ In 2023 and 2024 we [completed milestones 0-3](#completed-work-items) and releas
 
 This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/) and the [Ministry of the Interior of the Netherlands](https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations).
 
-**Milestone 5: Features for Mainstream Adoption by Linux Distributions
+**Milestone 5: Features for Mainstream Adoption by Linux Distributions**
 
 * Course-grained shell escape prevention (NOEXEC) on Linux
 * AppArmor support
