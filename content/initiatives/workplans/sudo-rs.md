@@ -14,7 +14,7 @@ backTitle = "Back to initiative: Privilege boundary"
 
 [Future work](#future-work) (*pending funding*) includes Improved Compatibility, Usability Enhancements, and Enterprise features.
 
-In 2023 and 2024 we [completed milestones 0-3](#completed-milestones) and released the first versions of sudo-rs.
+In 2023 and 2024 we [completed milestones 0-3](#completed-work-items) and released the first versions of sudo-rs.
 
 ### Current work
 
