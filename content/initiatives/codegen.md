@@ -29,9 +29,9 @@ This initiative exists to contribute to change, to change Rust's performance sto
 
 Our work on [zlib-rs](/initiatives/data-compression/) put us on the path to improving the performance of state machines. Complex state machines are niche but foundational to many programs, such as parsers, interpreters, and networking protocols.
 
-Folkert de Vries wrote an [RFC](https://github.com/rust-lang/rfcs/pull/3720) to improve code generation for state machines and [bjorn3](https://github.com/bjorn3) implemented a [proof of concept in the Rust compiler](https://github.com/trifectatechfoundation/rust/tree/labeled-match).
+This work has now resulted in [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720), the [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258) project goal, and a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment.
 
-The proof is in the pudding: zlib-rs built using the PoC is **14% faster** in a relevant benchmark.
+This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199).
 
 We want to acknowledge the [work done in the Zig ecosystem](https://github.com/ziglang/zig/pull/21257) where our idea was taken from fairly directly, and thank [joshtriplett](https://github.com/joshtriplett), [jackh726](https://github.com/jackh726) and folks at the [codegen unconf at GOSIM 2024](https://hackmd.io/@Q66MPiW4T7yNTKOCaEb-Lw/gosim-unconf-rust-codegen) for providing feedback. 
 
@@ -51,8 +51,10 @@ We are preparing a plan and are seeking both input as well as funding to support
 
 ### Links
 
-- [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
-- [PoC RFC 3720 in the rust compiler](https://github.com/trifectatechfoundation/rust/tree/labeled-match) on Trifecta Tech Foundation's Github.
+- [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720)
+- [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258) project goal
+- [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment
 
+<!-- - [PoC RFC 3720 in the rust compiler](https://github.com/trifectatechfoundation/rust/tree/labeled-match) on Trifecta Tech Foundation's Github. -->
 
 
