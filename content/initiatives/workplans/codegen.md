@@ -19,7 +19,7 @@ backTitle = "Back to initiative: Making Rust Faster Than C"
 - Add experimental support for `#[loop_match]` to [c2rust](https://c2rust.com/)
 - Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
-Timeline: Nov 2024 - Mar 2025  
+Timeline: Nov 2024 - Jun 2025  
 Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 2: Identify performance bottlenecks
