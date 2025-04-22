@@ -18,41 +18,50 @@ In 2023 and 2024 we [completed milestones 0-3](#completed-milestones) and releas
 
 ### Current work
 
-**Milestone 4: Maintenance and portability**
+**Milestone 4: Maintenance and Portability**
 
 * Port sudo and su to FreeBSD
 * Improve compatibility with the original sudo utility
 * Support for often-used configuration options in /etc/sudoers
-* Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis.
+* Ability to configure /etc/sudoers options on a per-user, per-command, per-host basis
 * Improved environment handling (SETENV)
+* Customizable password prompt that can display more of the authentication context
 
 This work is funded by [NLnet Foundation](https://nlnet.nl/project/sudo-rs/) and the [Ministry of the Interior of the Netherlands](https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations).
+
+**Milestone 5: Features for Mainstream Adoption by Linux Distributions
+
+* Course-grained shell escape prevention (NOEXEC) on Linux
+* AppArmor support
+* sudoedit
+* Support for Linux Kernels prior to version 5.9
+
+This work is supported by [Canonical](https://discourse.ubuntu.com/t/carefully-but-purposefully-oxidising-ubuntu/56995).
 
 --- 
 
 ### Future work
 
-**Improved Compatibility**
+**Improved Cross-platform Compatibility**
 
 * Port sudo and su to other platforms (MacOS, NetBSD, ...)
+* Course-grained shell escape prevention (NOEXEC) on all supported platforms
 
 **Usability Enhancements**
 
-* Enhanced password prompt that display more of the security context
 * Support reading the doas configuration file
 * A migration guide and FAQ for users
 
 **Enterprise features**
 
-* Preventing shell escapes (NOEXEC, NOINTERCEPT)
-* sudoedit implementation
-* Improved audit trails (i.e. session recording)
+* Fine-grained shell escape prevention (NOINTERCEPT) on Linux
 * SELinux support
-* AppArmor support
+* Improved audit trails (i.e. session recording)
+* sudoreplay
 
 --- 
 
-### Completed milestones
+### Completed work items
 
 **Milestone 0: Preparation**
 
