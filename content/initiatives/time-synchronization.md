@@ -16,7 +16,8 @@ funders = [
     "sidnfonds",
     "ngi-zero-entrust",
     "ngi-assure",
-    "tweedegolf"
+    "tweedegolf",
+    "aws"
 ]
 
 blogposts = [
