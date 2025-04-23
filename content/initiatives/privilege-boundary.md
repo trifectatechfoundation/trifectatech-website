@@ -40,7 +40,7 @@ designed to minimize attack surface.
 ### Project status
 
 Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
-It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux, and [Serpent OS](https://serpentos.com/), an experimental next evolution in Linux distribution.
+It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux, and [AerynOS](https://aerynos.com/), an experimental next evolution in Linux distribution.
 
 [Current development](/initiatives/workplans/sudo-rs#current-work) (Oct 2024 - Apr 2025) includes increasing cross-platform support and improve compatibility with the original sudo utility.
 
