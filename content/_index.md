@@ -20,7 +20,8 @@ funders = [
     "chainguard",
     "isrg",
     "elaadnl",
-    "aws"
+    "aws",
+    "canonical"
 ]
 
 blogposts = [

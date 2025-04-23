@@ -15,7 +15,8 @@ funders = [
     "ngi-zero-core",
     "tweedegolf",
     "aws",
-    "min-bzk"
+    "min-bzk",
+    "canonical"
 ]
 
 blogposts = [

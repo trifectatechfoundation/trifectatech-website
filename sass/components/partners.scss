@@ -139,6 +139,10 @@
         width: 10rem;
       }
     }
+
+    &.canonical {
+      background-image: url('/funders/canonical.svg');
+    }
   }
 }
 
