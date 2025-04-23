@@ -42,9 +42,14 @@ This work is supported by [Canonical](https://discourse.ubuntu.com/t/carefully-b
 
 ### Future work
 
+**Internationalization**
+
+* Internationalization support	
+* Translating messages	
+
 **Improved Cross-platform Compatibility**
 
-* Port sudo and su to other platforms (MacOS, NetBSD, ...)
+* Port sudo and su to other platforms (MacOS, NetBSD)
 * Course-grained shell escape prevention (NOEXEC) on all supported platforms
 
 **Usability Enhancements**
