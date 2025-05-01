@@ -5,23 +5,25 @@ template = "index.html"
 [extra]
 
 funders = [
+    "aws",
     "nlnetfoundation",
+    "ngi-zero-core",
+    "min-bzk",
+    "canonical",
+    "tweedegolf"
+]
+
+supporters = [
     "prossimo",
     "sidnfonds",
-    "ngi-zero-core",
     "ngi-zero-entrust",
     "ngi-assure",
-    "min-bzk",
     "stf",
     "rustedu",
-    "tweedegolf",
     "rustfoundation",
     "devolutions",
     "chainguard",
-    "isrg",
-    "elaadnl",
-    "aws",
-    "canonical"
+    "isrg"
 ]
 
 blogposts = [

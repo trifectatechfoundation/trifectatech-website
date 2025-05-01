@@ -8,7 +8,7 @@
     <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
 </div>
 
-{{ macros::page_funders(page=page.extra.funders) }}
+{{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
 
 <div class="paragraph">
     <div class="markdown">

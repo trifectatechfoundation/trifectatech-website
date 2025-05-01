@@ -10,13 +10,16 @@ category = ["infrastructure"]
 summary = "<p>The sudo utility mediates a critical privilege boundary on every open-source operating system that powers the Internet.</p>"
 
 funders = [
-    "prossimo",
     "nlnetfoundation",
     "ngi-zero-core",
-    "tweedegolf",
-    "aws",
     "min-bzk",
     "canonical"
+]
+
+supporters = [
+    "prossimo",
+    "tweedegolf",
+    "aws"
 ]
 
 blogposts = [

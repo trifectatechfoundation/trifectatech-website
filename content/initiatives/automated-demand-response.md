@@ -15,6 +15,9 @@ funders = [
  "elaadnl",
 ]
 
+supporters = [
+]
+
 blogposts = [
 ]
 +++

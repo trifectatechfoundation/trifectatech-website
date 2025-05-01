@@ -14,6 +14,9 @@ funders = [
     "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
 ]
 
+supporters = [
+]
+
 blogposts = [
 ]
 +++

@@ -15,6 +15,9 @@ funders = [
     "rustfoundation"
 ]
 
+supporters = [
+]
+
 blogposts = [
     "Want more Rust? Break the cycle!"
 ]

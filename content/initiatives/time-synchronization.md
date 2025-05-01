@@ -10,11 +10,14 @@ category = ["infrastructure"]
 summary = "<p>Reliable, securely synchronized time is a building block for the Internet and other critical infrastructure.</p>"
 
 funders = [
+    "nlnetfoundation",
+    "ngi-zero-entrust",
+]
+
+supporters = [
     "stf",
     "prossimo",
-    "nlnetfoundation",
     "sidnfonds",
-    "ngi-zero-entrust",
     "ngi-assure",
     "tweedegolf",
     "aws"

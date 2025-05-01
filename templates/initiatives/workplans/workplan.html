@@ -7,7 +7,7 @@
 </div>
 
 {% set parent_page = get_page(path=page.extra.backLink ~ ".md") %}
-{{ macros::page_funders(page=parent_page.extra.funders) }}
+{{ macros::page_funders(currentFunders=parent_page.extra.funders, supporters=parent_page.extra.supporters) }}
 
 <div class="paragraph">
     <div class="markdown">
