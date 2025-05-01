@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Memory-safe sudo to become the default in Ubuntu",
     "SIMD in zlib-rs (part 1): Autovectorization and target features",
     "Translating bzip2 with c2rust",
     "zlib-rs is faster than C",
