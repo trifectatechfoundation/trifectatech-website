@@ -24,7 +24,7 @@ The decision to adopt sudo-rs is in line with Canonical’s commitment to [Caref
 
 Sudo-rs is part of the Trifecta Tech Foundation's [Privilege Boundary initiative](https://trifectatech.org/initiatives/privilege-boundary/), which aims to handle privilege escalation with memory-safe alternatives.
 
-> "While no piece of software - in any language - is flawless, we believe the transition to Rust in systems programming is a vital step forward. It is very exciting to see Ubuntu committing to sudo-rs and taking the lead in moving the needle."  
+> "While no piece of software - in any language - is flawless, we believe the transition to Rust in systems programming is a vital step forward. It is very exciting to see Ubuntu committing to sudo-rs and taking a leading role in moving the needle."  
 -- Erik Jonkers, Chair of the Trifecta Tech Foundation.
 
 
@@ -58,8 +58,8 @@ Learn more at https://canonical.com/
 
 ### Further Information
 
-- [sudo-rs Project Page on Trifecta Tech Foundation](https://trifectatech.org/projects/sudo-rs/)
-- [sudo-rs GitHub Repository](https://github.com/sudo-rs/sudo-rs)
+- [sudo-rs Project Page on Trifecta Tech Foundation](https://trifectatech.org/initiatives/privilege-boundary/)
+- [sudo-rs GitHub Repository](https://github.com/trifectatechfoundation/sudo-rs)
 - [Carefully but Purposefully Oxidising Ubuntu](https://discourse.ubuntu.com/t/carefully-but-purposefully-oxidising-ubuntu/56995)
 
 *For media inquiries, please contact Erik Jonkers, contact@trifectatech.org*
