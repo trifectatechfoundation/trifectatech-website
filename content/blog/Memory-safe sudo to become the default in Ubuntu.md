@@ -7,6 +7,9 @@ date = "2025-05-06"
 [taxonomies]
 tags = ["sudo-rs", "announcement"] 
 
+[extra]
+image = "/share-sudo-ubuntu.png"
+
 +++
 
 **May 6, 2025** – Ubuntu 25.10 is set to adopt **sudo-rs** by default. Sudo-rs is a memory-safe reimplementation of the widely-used `sudo` utility, written in the Rust programming language. 
