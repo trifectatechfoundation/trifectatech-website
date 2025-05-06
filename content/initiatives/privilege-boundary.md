@@ -23,6 +23,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Memory-safe sudo to become the default in Ubuntu",
     "A new home for memory safe sudo",
     "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
     "Sudo-rs dependencies: when less is better",
@@ -45,13 +46,13 @@ designed to minimize attack surface.
 Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
 It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux, and [AerynOS](https://aerynos.com/), an experimental next evolution in Linux distribution.
 
-[Current development](/initiatives/workplans/sudo-rs#current-work) (Oct 2024 - Apr 2025) includes increasing cross-platform support and improve compatibility with the original sudo utility.
+Work that aims for `sudo-rs` to become [the default in Ubuntu 25.10](/blog/memory-safe-sudo-to-become-the-default-in-ubuntu) started in April 2025 and is ongoing. See the milestone "Features for Mainstream Adoption by Linux Distributions" under [current development](/initiatives/workplans/sudo-rs#current-work).
 
 We'd like to thank Todd Miller, maintainer of the original sudo utility, for his advice and guidance on our implementation.
 
 ### Roadmap
 
-See [the sudo-rs roadmap](/initiatives/workplans/sudo-rs)</a>.
+For past, current and future development, see the [the sudo-rs roadmap](/initiatives/workplans/sudo-rs).
 
 ### Links
 

@@ -27,6 +27,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Memory-safe sudo to become the default in Ubuntu",
     "zlib-rs is faster than C",
     "Trifecta Tech Foundation joins Nonprofit Cyber",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
