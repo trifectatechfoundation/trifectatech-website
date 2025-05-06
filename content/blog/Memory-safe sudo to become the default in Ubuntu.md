@@ -49,12 +49,12 @@ Canonical plans to make sudo-rs the default in Ubuntu 25.10. This will allow tim
 
 ### About Trifecta Tech Foundation
 
-[**Trifecta Tech Foundation**](https://trifectatech.org) is a non-profit and a Public Benefit Organisation (501(c)(3) equivalant) that creates open-source building blocks for critical infrastructure software. Our initiatives Data compression, Time synchronization, Smart grid protocols and Privilege boundary, impact the digital security of millions of people. If you'd like to support our work, please contact us; see https://trifectatech.org/support/.
+[**Trifecta Tech Foundation**](https://trifectatech.org) is a non-profit and a Public Benefit Organisation (501(c)(3) equivalant) that creates open-source building blocks for critical infrastructure software. Our initiatives Data compression, Time synchronization, Smart grid protocols and Privilege boundary, impact the digital security of millions of people. If you'd like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support/).
 
 ### About Canonical
 
 **Canonical**, the publisher of **Ubuntu**, provides open source software, security, support and services. Canonical's portfolio covers critical systems, from the smallest devices to the largest clouds, from the kernel to containers, from databases to AI. With customers that include top tech brands, emerging startups, governments and home users, Canonical delivers trusted open source for everyone.
-Learn more at https://canonical.com/
+Learn more at [canonical.com](https://canonical.com/)
 
 ### Further Information
 
