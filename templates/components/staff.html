@@ -1,8 +1,8 @@
 <div class="team">
-  <h2>Maintainers</h2>
+  <h2>Staff engineers</h2>
   <div class="members">
-    {% set maintainers = load_data(path = "data/maintainers.json") -%}
-    {% for member in maintainers -%}
+    {% set staff = load_data(path = "data/staff.json") -%}
+    {% for member in staff -%}
     <div class="member">
       <div class="image {{member.image}}"></div>
       <div>

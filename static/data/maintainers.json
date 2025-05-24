@@ -1,26 +1,5 @@
 [
     {
-        "name": "Ruben Nijveld",
-        "image": "ruben",
-        "email": "ruben@trifectatech.org",
-        "role": "Software engineer",
-        "tags": [
-            "Pendulum",
-            "sudo-rs"
-        ],
-        "github": "https://github.com/rnijveld"
-    },
-    {
-        "name": "David Venhoek",
-        "image": "david",
-        "email": "david@trifectatech.org",
-        "role": "Security software engineer",
-        "tags": [
-            "Pendulum"
-        ],
-        "github": "https://github.com/davidv1992"
-    },
-    {
         "name": "Henk Oordt",
         "image": "henk",
         "email": "hd@oordt.dev",
@@ -37,7 +16,7 @@
         "role": "Software engineer",
         "tags": [
             "sudo-rs",
-            "Pendulum"
+            "ntpd-rs"
         ],
         "github": "https://github.com/squell"
     },
@@ -48,7 +27,7 @@
         "role": "Systems software engineer",
         "tags": [
             "zlib-rs",
-            "Pendulum"
+            "bzip2-rs"
         ],
         "github": "https://github.com/folkertdev"
     },
@@ -58,7 +37,7 @@
         "email": "dion@trifectatech.org",
         "role": "Embedded software engineer",
         "tags": [
-            "Pendulum"
+            "statime"
         ],
         "github": "https://github.com/diondokter"
     },
@@ -68,7 +47,8 @@
         "email": "marlonpeeters@trifectatech.org",
         "role": "Software engineer",
         "tags": [
-            "Pendulum"
+            "ntpd-rs",
+            "statime"
         ],
         "github": "https://github.com/cikzh"
     },
@@ -78,7 +58,8 @@
         "email": "tamme@trifectatech.org",
         "role": "Software engineer",
         "tags": [
-            "Pendulum"
+            "ntpd-rs",
+            "statime"
         ],
         "github": "https://github.com/tdittr"
     },
@@ -88,8 +69,9 @@
         "email": "bjorn@trifectatech.org",
         "role": "Systems software engineer",
         "tags": [
-            "zlib-rs"
+            "zlib-rs",
+            "bzip2-rs"
         ],
-        "github": "https://github.com/tdittr"
+        "github": "https://github.com/bjorn3"
     }
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ruben Nijveld",
+        "image": "ruben",
+        "email": "ruben@trifectatech.org",
+        "role": "Software engineer",
+        "tags": [
+            "ntpd-rs",
+            "statime",
+            "sudo-rs"
+        ],
+        "github": "https://github.com/rnijveld"
+    },
+    {
+        "name": "David Venhoek",
+        "image": "david",
+        "email": "david@trifectatech.org",
+        "role": "Security software engineer",
+        "tags": [
+            "ntpd-rs",
+            "statime"
+        ],
+        "github": "https://github.com/davidv1992"
+    }
+]
