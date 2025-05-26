@@ -24,7 +24,7 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 - Complete the [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258) Rust project goal
 - Merge the [`#[loop_match]` language experiment](https://github.com/rust-lang/rust/pull/138780)
-- Research the performance challenges in key projects (e.g. rav1d, ripgrep, zlib-rs, brotli-decompressor)
+- Research the performance challenges in key projects (e.g. rav1d, ripgrep, bzip-rs, zlib-rs, brotli-decompressor)
 - Talk to the maintainers of these key project to pinpoint bottlenecks, and to rust team members to find and help document improvements to the backend
 - Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
 - Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
