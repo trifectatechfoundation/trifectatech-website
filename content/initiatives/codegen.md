@@ -30,7 +30,9 @@ Our mission is to make critical infrastructure software safer. We must eliminate
 
 Our work on [zlib-rs](/initiatives/data-compression/) put us on the path to improving the performance of state machines. Complex state machines are niche but foundational to many programs, such as parsers, interpreters, and networking protocols.
 
-This work has now resulted in [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720), the [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258) project goal, and a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment. This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199).
+This work has now resulted in [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720) and a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment. 
+
+This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199).
 
 Part of the work in this initiative is a 2025h1 Rust project goal, see [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258).
 
