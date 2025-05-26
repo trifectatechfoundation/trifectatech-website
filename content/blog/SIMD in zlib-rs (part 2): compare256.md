@@ -1,14 +1,29 @@
-# simd in zlib-rs part 2: compare256
++++
+title = "SIMD in zlib-rs (part 2): compare256"
+slug = "simd-in-zlib-rs-part-2-compare256"
+authors = ["Folkert de Vries"]
+date = "2025-05-26"
 
-In [part 1](TODO) of the "SIMD in zlib-rs" series, we've seen that, with a bit of nudging, autovectorization can produce optimal code for some problems.
+[taxonomies]
+tags = ["zlib-rs", "simd"] 
 
-But that does not always work: with SIMD clever programmers can still beat the compiler. This time we'll look at a problem where the compiler is not currently capable of using the SIMD capabilities of modern CPUs effectively.
++++
+
+In [part 1](/blog/simd-in-zlib-rs-part-1-autovectorization-and-target-features) of the "SIMD in zlib-rs" series, we've seen that, with a bit of nudging, autovectorization can produce optimal code for some problems.
+
+But that does not always work: with SIMD clever programmers can still beat the compiler. 
+
+<!-- more -->
+
+This time we'll look at a problem where the compiler is not currently capable of using the SIMD capabilities of modern CPUs effectively.
+
+*This article was originally posted on the [Tweede golf blog](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256). Tweede golf backs Trifecta Tech Foundation's open-source infrastructure projects by contributing effort and code.*
 
 ## The problem
 
 The problem at hand is the `compare256` function below: given two `[u8; 256]` values, it counts, starting from the left, for how many positions their elements match until there is a mismatch.
 
-https://godbolt.org/z/7nzYKrhrT
+[godbolt.org/z/7nzYKrhrT](https://godbolt.org/z/7nzYKrhrT)
 
 ```rust
 pub fn compare256(src0: &[u8; 256], src1: &[u8; 256]) -> usize {
@@ -104,14 +119,14 @@ use core::arch::x86_64::{
 };
 ```
 
-- `__m128i` is a 128-bit integer type. it is stored in the `xmm` registers and used by the intrinsics
-- `_mm_loadu_si128` loads an `__m128i` from a pointer
-- `_mm_cmpeq_epi8` performs element-wise equality
-- `_mm_movemask_epi8` converts the output of `_mm_cmpeq_epi8` (a `__m128i`) into a `u16`, with each bit indicating whether the element at that position was equal
+- `__m128i` is a 128-bit integer type. It is stored in the `xmm` registers and used by the intrinsics;
+- `_mm_loadu_si128` loads an `__m128i` from a pointer;
+- `_mm_cmpeq_epi8` performs element-wise equality;
+- `_mm_movemask_epi8` converts the output of `_mm_cmpeq_epi8` (a `__m128i`) into a `u16`, with each bit indicating whether the element at that position was equal.
 
 With those ingredients, this is our implementation:
 
-https://godbolt.org/z/11z1GavW9
+[godbolt.org/z/11z1GavW9](https://godbolt.org/z/11z1GavW9)
 
 ```rust
 #[target_feature(enable = "sse2,bmi1")]
@@ -169,12 +184,12 @@ The assembly is too long to include here because the loop is unrolled 16 times, 
         ret
 ```
 
-Some observations
+Some observations:
 
-- `_mm_loadu_si128` is lowered to the `movdqu` instruction
-- `_mm_cmpeq_epi8` is lowered as `pcmpeqb`
-- `_mm_movemask_epi8` is lowered as `pmovmskb`, note how its input is `xmm1`(a SIMD register) and its output is `eax` (a standard register)
-- when it is safe (no overlapping bits) the compiler will sometimes use a bitwise `or` instead of an `add` instruction 
+- `_mm_loadu_si128` is lowered to the `movdqu` instruction;
+- `_mm_cmpeq_epi8` is lowered as `pcmpeqb`;
+- `_mm_movemask_epi8` is lowered as `pmovmskb`, note how its input is `xmm1`(a SIMD register) and its output is `eax` (a standard register);
+- When it is safe (no overlapping bits). the compiler will sometimes use a bitwise `or` instead of an `add` instruction.
 
 ## Benchmarks
 
@@ -193,3 +208,5 @@ The benchmark setup can be found [here](https://gist.github.com/folkertdev/0561e
 This post shows a basic, but very effective, example of a custom SIMD implementation beating the compiler. Examples for other instruction sets (avx2, neon, wasm32) can be found in [compare256.rs](https://github.com/trifectatechfoundation/zlib-rs/blob/main/zlib-rs/src/deflate/compare256.rs).
 
 Next time: given our beautiful hand-crafted SIMD solutions, how do we efficiently pick the right one to use for the actual CPU we're running on?
+
+*Zlib-rs is part of Trifecta Tech Foundation's [Data compression initiative](/initiatives/data-compression). Please [contact us](/support) if you are interested in financially supporting zlib-rs.*

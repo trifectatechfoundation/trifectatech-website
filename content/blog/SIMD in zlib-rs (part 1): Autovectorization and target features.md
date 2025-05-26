@@ -184,6 +184,6 @@ When we put all of that into godbolt (https://godbolt.org/z/KjxbErc68), the outp
 
 This is a post about SIMD, but so far, no explicit SIMD was written. That is the point: sometimes the compiler actually does your job for you, and it is convenient to make use of it. We used to have custom implementations of `slide_hash_chain` for 128-bit and 256-bit registers, but it turned out the compiler could do it for us with less code and specifically less unsafe code. The compiler even optimizes on platforms that we never wrote dedicated implementations for, like RISC-V.
 
-But explicitly using SIMD is fun, and at times incredibly effective, which is why the next post in this series will focus on explicitly using SIMD to recognize whether two strings are equal.
+But explicitly using SIMD is fun, and at times incredibly effective, which is why [the next post in this series](/blog/simd-in-zlib-rs-part-2-compare256) will focus on explicitly using SIMD to recognize whether two strings are equal.
 
-Zlib-rs is part of Trifecta Tech Foundation's [Data compression initiative](/initiatives/data-compression). Please [contact us](/support) if you are interested in financially supporting zlib-rs.
+*Zlib-rs is part of Trifecta Tech Foundation's [Data compression initiative](/initiatives/data-compression). Please [contact us](/support) if you are interested in financially supporting zlib-rs.*
