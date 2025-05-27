@@ -11,7 +11,7 @@ tags = ["zlib-rs", "simd"]
 
 In [part 1](/blog/simd-in-zlib-rs-part-1-autovectorization-and-target-features) of the "SIMD in zlib-rs" series, we've seen that, with a bit of nudging, autovectorization can produce optimal code for some problems.
 
-But that does not always work: with SIMD clever programmers can still beat the compiler. 
+But that does not always work: with SIMD clever programmers can still beat the compiler.
 
 <!-- more -->
 
@@ -21,7 +21,7 @@ This time we'll look at a problem where the compiler is not currently capable of
 
 ## The problem
 
-The problem at hand is the `compare256` function below: given two `[u8; 256]` values, it counts, starting from the left, for how many positions their elements match until there is a mismatch.
+The problem at hand is the `compare256` function below: given two `[u8; 256]` values, it counts, starting from the left, for how many positions their elements match until there is a mismatch. This function is at the core of the zlib-rs compression algorithm that finds repetitions in the input.
 
 [godbolt.org/z/7nzYKrhrT](https://godbolt.org/z/7nzYKrhrT)
 
