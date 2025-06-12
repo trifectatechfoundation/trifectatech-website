@@ -10,9 +10,9 @@
         "github": "https://github.com/hdoordt"
     },
     {
-        "name": "Mark Schoolderman",
+        "name": "Marc Schoolderman",
         "image": "marc",
-        "email": "mark@trifectatech.org",
+        "email": "marc@trifectatech.org",
         "role": "Software engineer",
         "tags": [
             "sudo-rs",
