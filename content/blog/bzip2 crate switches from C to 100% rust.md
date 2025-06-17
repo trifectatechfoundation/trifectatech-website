@@ -67,7 +67,7 @@ More importantly, higher-level libraries or applications that use `bzip2` can no
 ## Audit
 
 The audit found one logic bug (an off-by-one error), and fixed some limitations in our fuzzer.
-Beyond that, there were no significant findings (yay!).  We do want to thank the reviewers from [Radically Open Security](https://www.radicallyopensecurity.com/), specifically Christian Reitter, for sharing their fuzzing experience. The full audit report can be found [here](https://git.radicallyopensecurity.com/ngi/ngicore-zip-linting-and-bzip2-in-rust/-/blob/main/target/NGICore%20bzip2%20in%20rust%20code%20audit%20report%202025%201.0.pdf?ref_type=heads).
+Beyond that, there were no significant findings (yay!).  We do want to thank the reviewers from [Radically Open Security](https://www.radicallyopensecurity.com/), specifically Christian Reitter, for sharing their fuzzing experience. The full audit report can be found [here](https://github.com/trifectatechfoundation/libbzip2-rs/blob/main/docs/audits/NGICore%20bzip2%20in%20rust%20code%20audit%20report%202025%201.0.pdf).
 
 ## Conclusion
 
