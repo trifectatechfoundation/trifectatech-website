@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "bzip2 crate switches from C to 100% rust",
     "SIMD in zlib-rs (part 2): compare256",
     "Memory-safe sudo to become the default in Ubuntu",
     "SIMD in zlib-rs (part 1): Autovectorization and target features",

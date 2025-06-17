@@ -24,6 +24,7 @@ supporters = [
 ]
 
 blogposts = [
+    "bzip2 crate switches from C to 100% rust",
     "SIMD in zlib-rs (part 2): compare256",
     "SIMD in zlib-rs (part 1): Autovectorization and target features",
     "Translating bzip2 with c2rust",
