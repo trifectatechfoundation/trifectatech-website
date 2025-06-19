@@ -77,4 +77,4 @@ The `bzip2` crate is faster now. You can go back to never having to think about 
 
 - [Alex Crichton](https://github.com/alexcrichton) for sharing maintainership of the `bzip2` crate
 - [Radically Open Security](https://www.radicallyopensecurity.com/) for the audit and sharing their expertise
-- [NLnet Foundation](https://nlnet.nl/) for funding this work
+- [NLnet Foundation](https://nlnet.nl/) for funding this work through the [e-Commons Fund](https://nlnet.nl/thema/e-CommonsFund.html), a fund established with financial support from the Dutch Ministry of the Interior (Ministerie van Binnenlandse Zaken en Koninkrijksrelaties).
