@@ -12,7 +12,8 @@ summary = "<p>Almost all content sent over the Internet undergoes data compressi
 funders = [
     "nlnetfoundation", 
     "ngi-zero-core",
-    "min-bzk"
+    "min-bzk",
+    "astral"
 ]
 
 supporters = [

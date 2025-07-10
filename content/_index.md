@@ -10,6 +10,7 @@ funders = [
     "ngi-zero-core",
     "min-bzk",
     "canonical",
+    "astral",
     "tweedegolf"
 ]
 

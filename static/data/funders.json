@@ -70,5 +70,9 @@
     {
         "image": "canonical",
         "url": "https://canonical.com"
+    },
+    {
+        "image": "astral",
+        "url": "https://astral.sh"
     }
 ]
