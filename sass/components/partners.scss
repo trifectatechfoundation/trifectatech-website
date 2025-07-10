@@ -52,7 +52,7 @@
 .funder {
   align-items: center;
   justify-content: center;
-  background-color: rgba(230, 154, 141, 0.05);
+  background-color: var(--color-secondary-400-opaque);
   display: flex;
   gap: 0.75rem;
   position: relative;

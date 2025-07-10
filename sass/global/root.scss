@@ -8,6 +8,8 @@
   --color-secondary-400: rgb(var(--color-secondary-400-rgb));
   --color-secondary-300: rgb(var(--color-secondary-300-rgb));
   --color-secondary-200: rgb(var(--color-secondary-200-rgb));
+  --color-secondary-400-opaque: rgba(230, 154, 141, 0.05); // // --color-secondary-400-rgb
+
 
   --color-table-row: #eee;
 
@@ -47,6 +49,7 @@
     --color-secondary-400: rgb(var(--color-secondary-400-rgb));
     --color-secondary-300: rgb(var(--color-secondary-300-rgb));
     --color-secondary-200: rgb(var(--color-secondary-200-rgb));
+    --color-secondary-400-opaque: rgba(255,235,210, 0.05); // --color-secondary-400-rgb
 
     --color-inline-code: #1f293d;
 
