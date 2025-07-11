@@ -14,7 +14,7 @@ image = "/blog/ntpv5.jpg"
 
 ![NTP version 5](/blog/ntpv5.jpg)
 
-Our Network Time Protocol implementation, **[ntpd-rs](https://github.com/pendulum-project/ntpd-rs/)**, now provides expertimental support of NTP version 5. It is available in the [latest release](https://github.com/pendulum-project/ntpd-rs/releases/tag/v1.6.0).
+Our Network Time Protocol implementation, **[ntpd-rs](https://github.com/pendulum-project/ntpd-rs/)**, now provides experimental support of NTP version 5. It is available in the [latest release](https://github.com/pendulum-project/ntpd-rs/releases/tag/v1.6.0).
 
 <!-- more -->
 
