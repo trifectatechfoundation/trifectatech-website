@@ -13,15 +13,20 @@ backTitle = "Back to initiative: Data compression"
 
 Current projects in this initiative include:
 
-- [zlib-rs](#workplan-zlib-rs) - *in progress*
-- [zstd](#workplan-zstd) - *pending funding*
-- [bzip2-rs](#workplan-bzip2-rs) - *in progress*
+- [zlib-rs](#workplan-zlib-rs) - *released*
+- [zstd](#workplan-zstd) - *in progress*
+- [bzip2-rs](#workplan-bzip2-rs) - *released*
 - [xz](#workplan-xz) - *pending funding*
 
 
 ## Workplan zlib-rs
 
-Work on zlib-rs is in progress. An audited release [is available](https://github.com/trifectatechfoundation/zlib-rs).  
+An audited release [is available](https://github.com/trifectatechfoundation/zlib-rs). 
+
+Work on zlib-rs continues: we're seeking funding for Milestone 3, that completes our implementation. 
+Please [get in touch with us](/support), if you are interested in financially supporting memory-safe zlib. 
+
+We offer technical support services for organizations wanting to adopt zlib-rs.
 
 ### Project status
 
@@ -29,13 +34,9 @@ Work on zlib-rs is in progress. An audited release [is available](https://github
 |---|---|---|
 | in progress | &euro; 250.000 | 62% |
 
-We're seeking funding for Milestone 3, that completes our implementation. Please [get in touch with us](/support), if you are interested in financially supporting memory-safe zlib. 
-
-We offer technical support services for organizations wanting to adopt zlib-rs.
-
 ### Upcoming milestones
 
-**Milestone 3: Complete release, packaging and adoption**
+**Milestone 3: Performance, packaging and adoption**
 
 - **Performance work:** performance work for various platforms, e.g. algorithmic improvements and using avx512 instruction
 - **Implementation of remaining API functions:** implement remaining functions that must be provided to be a complete drop-in replacement, see [this issue](https://github.com/memorysafety/zlib-rs/issues/49)
@@ -58,18 +59,20 @@ See [past milestones](/initiatives/workplans/zlib-completed-milestones).
 
 ## Workplan zstd
 
+Work on zstd started in July 2025. The first milestone is the decompression portion of the library.
+
 ### zstd milestones
 
-- **a rust crate** that implements decompression and multi-threaded compression, and can be integrated with the rust [`zstd`](https://crates.io/crates/zstd) crate.
-- **a dynamic library:** the `libzstd-rs` dynamic library defines an interface identical to `libzstd`, and is a drop-in replacement for that library. 
+- **decoder** Publish a crate to crates.io that contains the C interface, and a C dynamic library for zstd decompression that is API-compatible. 
+- **encoder** Adds API-compatible zstd compression.
 
-We're currently seeking funding to start the project. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
+Now the decompression is in development, we're seeking funding for the encoder. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
 
 **Project status "zstd"**
 
 | status | funding target | funded | 
 |---|---|---|
-| pending funding | &euro; 200.000 | 0% |
+| in progress | &euro; 200.000 | 45% |
 
 ---
 
