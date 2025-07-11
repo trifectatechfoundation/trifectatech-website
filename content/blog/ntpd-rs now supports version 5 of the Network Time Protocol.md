@@ -5,7 +5,7 @@ authors = ["Ruben Nijveld","Erik Jonkers"]
 date = "2025-07-11"
 
 [taxonomies]
-tags = ["nptd-rs", "time-synchronization"] 
+tags = ["ntpd-rs", "time-synchronization"] 
 
 [extra]
 image = "/blog/ntpv5.jpg"
