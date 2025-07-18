@@ -2,19 +2,35 @@
 title = "Support us"
 slug = "support"
 template = "support.html"
+
+
+[extra]
+
+supporters = [
+    "nlnetfoundation", 
+    "prossimo",
+    "stf", 
+    "isrg",
+    "ngi-zero-core",
+    "canonical"
+]
+
+funders = [
+]
 +++
 
-We need your financial backing to maintain our [initiatives](/initiatives) and start new developments. 
+Trifecta Tech Foundation 100% relies on the support from funders to maintain our [initiatives](/initiatives) and start new developments. 
 
-Our initiatives *Data compression*, *Time synchronization*, *Smart grid protocols* and *Privilege boundary*, impact the digital security of millions of people.
+Your support backs our mission to **strengthen critical infrastructure software**. 
 
-Your support backs our mission to **strengthen critical infrastructure software** by creating building blocks that are robust and inherently safer.
+Our initiatives, [Data compression](/initiatives/data-compression), [Time synchronization](/initiatives/time-synchronization), [Smart grid protocols](/initiatives/automated-demand-response) and [Privilege boundary](/initiatives/privilege-boundary), impact the digital security of millions of people.
 
-Please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org), if you are interested in financially supporting us.
+### Sponsorship Levels
 
-To back our ongoing maintenance work there is also the option to [become a sponsor to Trifecta Tech Foundation on GitHub](https://github.com/sponsors/trifectatechfoundation).
+For organizations considering structurally supporting us, we offer a Gold (&euro; 40.000/year) and a Silver (&euro; 20.000/year) sponsorship level. Please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org), if you are interested.
 
-### Join Prossimo, Sovereign Tech Fund, SIDN fonds, and NLnet Foundation
+If you are an individual or small company looking to back our ongoing maintenance work, a good option is to [support us via GitHub](https://github.com/sponsors/trifectatechfoundation). GitHub support starts at &euro; 1,- one-time to &euro; 200,-/month; all contributions are highly appriciated.
 
-Your backing ensures that we can continue to improve the security of vital infrastructure.  
-You'll join [Prossimo](https://www.memorysafety.org/), [Sovereign Tech Fund](https://www.sovereigntechfund.de/), [SIDN fonds](https://www.sidnfonds.nl/excerpt) and [NLnet Foundation](https://nlnet.nl/), world leading organizations striving for an open and secure internet, who have previously donated to or funded one of our projects.
+### Join ISRG, Sovereign Tech Agency, Canonical, and NLnet Foundation
+
+Your backing ensures that we can continue to improve the security of vital infrastructure. You'll join world leading organizations striving for an open and secure internet, such as [Internet Security Research Group](https://www.abetterinternet.org/), [Sovereign Tech Fund](https://www.sovereign.tech/), [Canonical](https://canonical.com) and [NLnet Foundation](https://nlnet.nl/).

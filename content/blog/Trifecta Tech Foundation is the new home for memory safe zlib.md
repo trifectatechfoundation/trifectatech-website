@@ -17,7 +17,7 @@ Today we're pleased to announce that the recently developed open source memory s
 
 In 2023, Prossimo set out to develop a strategy, raise funds, and select a contractor for a memory safe zlib implementation in 2023. They did this because data compression algorithms, and zlib in particular, are used in a vast number of protocols and file formats throughout all of computing. In the past, compression libraries have encountered [memory safety vulnerabilities](https://www.memorysafety.org/docs/memory-safety/), a common phenomenon for libraries written in C/C++ and a class of issues that critical system software should not suffer from.
 
-Prossimo contracted [Tweede golf](https://tweedegolf.nl/) in December of 2023 for an initial implementation based on zlib-ng, with a focus on maintaining excellent performance while introducing memory safety. The project was made possible through funding provided by [Chainguard](https://www.chainguard.dev/) and a time investment by Tweede golf. 
+Prossimo contracted [Tweede golf](https://tweedegolf.nl/) in December of 2023 for an initial implementation based on zlib-ng, with a focus on maintaining excellent performance while introducing memory safety. The project was made possible through funding provided by [Chainguard](https://www.chainguard.dev/) and Tweede golf. 
 
 An early release of the zlib-compatible dynamic library is available on [crates.io](https://crates.io/crates/libz-rs-sys).
 

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
 <div class="hero">
@@ -7,7 +8,7 @@
 <div class="paragraph">
     <div class="markdown">
         {{ page.content | safe }}
-        <img src="/funders/trifecta-funders.png" />
     </div>
 </div>
+{{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
 {% endblock content %}

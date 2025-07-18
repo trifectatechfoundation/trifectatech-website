@@ -2,6 +2,7 @@
 
 {% set funders = load_data(path = "data/funders.json") %}
 <div class="partners">
+    {% if currentFunders %}
     <div class="partners-title current-funders">
         <h3>Funders</h3>
     </div>
@@ -18,6 +19,7 @@
             {% endfor %}
         {% endfor %}
     </div>
+    {% endif %}
     {% if supporters %}
     <div class="partners-title supporters">
         <h4>Supporters & Past funders</h4>

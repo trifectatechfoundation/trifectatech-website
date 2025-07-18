@@ -7,9 +7,10 @@ template = "index.html"
 funders = [
     "aws",
     "nlnetfoundation",
+    "chainguard",
     "ngi-zero-core",
-    "min-bzk",
     "canonical",
+    "min-bzk",
     "astral",
     "tweedegolf"
 ]
@@ -23,7 +24,6 @@ supporters = [
     "rustedu",
     "rustfoundation",
     "devolutions",
-    "chainguard",
     "isrg"
 ]
 

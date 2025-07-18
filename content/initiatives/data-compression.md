@@ -11,6 +11,7 @@ summary = "<p>Almost all content sent over the Internet undergoes data compressi
 
 funders = [
     "nlnetfoundation", 
+    "chainguard", 
     "ngi-zero-core",
     "min-bzk",
     "astral"
@@ -19,7 +20,6 @@ funders = [
 supporters = [
     "devolutions", 
     "prossimo", 
-    "chainguard", 
     "tweedegolf", 
     "isrg"
 ]
