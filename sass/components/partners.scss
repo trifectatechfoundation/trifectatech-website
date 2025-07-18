@@ -131,6 +131,9 @@
 
     &.chainguard {
       background-image: url('/funders/chainguard-2025.svg');
+      @media (min-width: 62rem) {
+        width: 8rem;
+      }
     }
 
     &.devolutions {
