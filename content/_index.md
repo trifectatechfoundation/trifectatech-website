@@ -12,6 +12,7 @@ funders = [
     "canonical",
     "min-bzk",
     "astral",
+    "icann",
     "tweedegolf"
 ]
 

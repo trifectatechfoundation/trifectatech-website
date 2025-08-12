@@ -4,17 +4,13 @@
 <div class="partners">
     {% if currentFunders %}
     <div class="partners-title current-funders">
-        <h3>Funders</h3>
+        <h3>Supporters & funders</h3>
     </div>
     <div class="funders current-funders">
         {% for name in currentFunders %}
             {% for funder in funders %}
                 {% if funder.image == name %}
-                <a class="card-link" href="{{funder.url}}">
-                    <div class="funder">
-                        <div class="image {{funder.image}}"></div>
-                    </div>
-                </a>
+                    {{ macros::funder_tile(funder=funder) }}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -22,17 +18,13 @@
     {% endif %}
     {% if supporters %}
     <div class="partners-title supporters">
-        <h4>Supporters & Past funders</h4>
+        <h4>Past supporters & funders</h4>
     </div>
     <div class="funders supporters">
         {% for name in supporters %}
             {% for funder in funders %}
                 {% if funder.image == name %}
-                <a class="card-link" href="{{funder.url}}">
-                    <div class="funder">
-                        <div class="image {{funder.image}}"></div>
-                    </div>
-                </a>
+                    {{ macros::funder_tile(funder=funder) }}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -40,4 +32,72 @@
     {% endif %}
 </div>
 
+<style>
+.funder {
+    scroll-margin-top: 10rem;
+}
+
+.funder .expand,
+.funder .collapse {
+    text-decoration: none;
+}
+
+.funder .info {
+    width: 100%;
+}
+
+.funder .info p,
+.funder .info .label,
+.funder .info .support,
+.funder .info a {
+    font-size: x-small;
+}
+
+.funder .info .label
+{
+    font-size: x-small;
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+}
+
+.funder .info a.collapse {
+    text-align: center;
+}
+
+.funders .expand {
+    font-size: x-small;
+}
+
+{% for funder in funders %}
+#{{funder.image}} {
+    display: none;
+    scroll-margin-top: 24rem;
+}
+
+#{{funder.image}}:target {
+    display: block;
+}
+{% endfor %}
+</style>
+
 {% endmacro page_funders %}
+
+{% macro funder_tile(funder) %}
+<div class="funder card-link" href="#{{funder.image}}-top">
+    <a class="expand" href="#{{funder.image}}">
+        <div class="image {{funder.image}}"></div>
+    </a>
+    <div id="{{funder.image}}" class="info">
+        <span class="label">Name</span>
+        <p>{{funder.name}}</p>
+        <span class="label">Website</span>
+        <a title="{{funder.name}}" href="{{funder.url}}">{{funder.url}}</a>
+        {% if funder.support %}
+        <span class="label">Support</span>
+        <p class="support">{{funder.support}}</p>
+        {% endif %}
+        <br /><a class="collapse" href="#{{funder.image}}-top">X</a>
+    </div>
+</div>
+{% endmacro funder_tile %}

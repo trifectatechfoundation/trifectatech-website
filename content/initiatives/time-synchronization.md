@@ -12,6 +12,7 @@ summary = "<p>Reliable, securely synchronized time is a building block for the I
 funders = [
     "nlnetfoundation",
     "ngi-zero-entrust",
+    "icann"
 ]
 
 supporters = [
