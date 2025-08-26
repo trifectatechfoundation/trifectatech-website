@@ -33,42 +33,6 @@
 </div>
 
 <style>
-.funder {
-    scroll-margin-top: 10rem;
-}
-
-.funder .expand,
-.funder .collapse {
-    text-decoration: none;
-}
-
-.funder .info {
-    width: 100%;
-}
-
-.funder .info p,
-.funder .info .label,
-.funder .info .support,
-.funder .info a {
-    font-size: x-small;
-}
-
-.funder .info .label
-{
-    font-size: x-small;
-    font-weight: bold;
-    display: block;
-    margin-top: 1rem;
-}
-
-.funder .info a.collapse {
-    text-align: center;
-}
-
-.funders .expand {
-    font-size: x-small;
-}
-
 {% for funder in funders %}
 #{{funder.image}} {
     display: none;
@@ -85,19 +49,17 @@
 
 {% macro funder_tile(funder) %}
 <div class="funder card-link" href="#{{funder.image}}-top">
-    <a class="expand" href="#{{funder.image}}">
-        <div class="image {{funder.image}}"></div>
-    </a>
-    <div id="{{funder.image}}" class="info">
-        <span class="label">Name</span>
-        <p>{{funder.name}}</p>
-        <span class="label">Website</span>
-        <a title="{{funder.name}}" href="{{funder.url}}">{{funder.url}}</a>
+    <div class="image {{funder.image}}"></div>
+
+    <dialog>
+        <h3>{{funder.name}}</h3>
         {% if funder.support %}
-        <span class="label">Support</span>
-        <p class="support">{{funder.support}}</p>
+        <div>
+          <strong>Support</strong>
+          <p class="support">{{funder.support}}</p>
+        </div>
         {% endif %}
-        <br /><a class="collapse" href="#{{funder.image}}-top">X</a>
-    </div>
+        <a class="btn btn-primary" title="{{funder.name}}" href="{{funder.url}}">Go to website</a>
+    </dialog>
 </div>
 {% endmacro funder_tile %}
