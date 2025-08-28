@@ -51,6 +51,7 @@
   justify-content: start;
   background-color: var(--color-bg-logo);
   display: flex;
+  justify-content: center;
   gap: 0.75rem;
   position: relative;
   padding: 0rem;
@@ -69,7 +70,7 @@
   .image {
     min-height: 3.5rem;
     background-size: contain;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 5rem;
     pointer-events: none;
@@ -170,22 +171,33 @@
 }
 
 .funder dialog {
-  width: min(calc(100% - 8rem), 34rem);
+  align-items: center;
   background-color: var(--color-secondary-200);
-  padding: 3rem;
   border: 1px solid var(--color-secondary-400);
-  position: relative;
-  text-align: center;
   color: var(--color-primary-400);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  position: fixed;
+  text-align: center;
+  width: min(calc(100% - 8rem), 34rem);
 
   > * + * {
     margin-block-start: 2rem;
+  }
+
+  > .image {
+    min-height: auto !important;
+    aspect-ratio: 16 / 9;
+    max-width: 12rem;
+    width: 100% !important;
   }
 }
 
 .funder dialog::backdrop {
   background-color: rgba(var(--color-primary-400-rgb), 0.5);
 }
+
 
 .membership {
   .image {

@@ -36,6 +36,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
   buttons.forEach(b => b.addEventListener('click', openModal));
 
   function openModal(event) {
+    event.preventDefault(); // Prevent scroll to top
+    console.log('hello');
     const dialog = event.target.querySelector('dialog');
     if (!dialog) return;
     dialog.showModal();

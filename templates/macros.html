@@ -48,10 +48,11 @@
 {% endmacro page_funders %}
 
 {% macro funder_tile(funder) %}
-<div class="funder card-link" href="#{{funder.image}}-top">
+<div class="funder card-link">
     <div class="image {{funder.image}}"></div>
 
     <dialog>
+        <div class="image {{funder.image}}"></div>
         <h3>{{funder.name}}</h3>
         {% if funder.support %}
         <div>
