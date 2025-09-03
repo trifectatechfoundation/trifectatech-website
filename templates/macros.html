@@ -32,18 +32,7 @@
     {% endif %}
 </div>
 
-<style>
-{% for funder in funders %}
-#{{funder.image}} {
-    display: none;
-    scroll-margin-top: 24rem;
-}
 
-#{{funder.image}}:target {
-    display: block;
-}
-{% endfor %}
-</style>
 
 {% endmacro page_funders %}
 
@@ -51,16 +40,21 @@
 <div class="funder card-link">
     <div class="image {{funder.image}}"></div>
 
-    <dialog>
-        <div class="image {{funder.image}}"></div>
-        <h3>{{funder.name}}</h3>
-        {% if funder.support %}
-        <div>
-          <strong>Support</strong>
-          <p class="support">{{funder.support}}</p>
+    <div class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="image {{funder.image}}"></div>
+            <h3>{{funder.name}}</h3>
+            {% if funder.support %}
+            <div>
+              <strong>Support</strong>
+              <p class="support">{{funder.support}}</p>
+            </div>
+            {% endif %}
+            {% if funder.url %}
+            <a class="btn btn-primary" title="{{funder.name}}" href="{{funder.url}}" target="_blank" rel="noopener">Go to website</a>
+            {% endif %}
         </div>
-        {% endif %}
-        <a class="btn btn-primary" title="{{funder.name}}" href="{{funder.url}}">Go to website</a>
-    </dialog>
+    </div>
 </div>
 {% endmacro funder_tile %}

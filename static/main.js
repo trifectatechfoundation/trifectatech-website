@@ -31,28 +31,58 @@ document.addEventListener('DOMContentLoaded', ()=> {
     moon.style.display = 'none';
   }
 
-  const buttons = document.querySelectorAll('.funder.card-link');
-  const dialogs = document.querySelectorAll('.funder dialog');
-  buttons.forEach(b => b.addEventListener('click', openModal));
+  // Modal functionality
+  const funderCards = document.querySelectorAll('.funder.card-link');
+  
+  funderCards.forEach(card => {
+    card.addEventListener('click', function(event) {
+      
+      // Find the modal within this funder card
+      const modal = this.querySelector('.modal');
+      if (modal) {
+        modal.classList.add('open');
+        document.body.classList.add('modal-open');
+      }
+    });
+  });
 
-  function openModal(event) {
-    event.preventDefault(); // Prevent scroll to top
-    console.log('hello');
-    const dialog = event.target.querySelector('dialog');
-    if (!dialog) return;
-    dialog.showModal();
-
-    // Add outside click handler
-    function handleOutsideClick(e) {
-      if (e.target === dialog) {
-        dialog.close();
+  // Close modal when clicking outside or on close button
+  document.addEventListener('click', function(event) {
+    // Close if clicking on modal backdrop (outside content)
+    if (event.target.classList.contains('modal') && event.target.classList.contains('open')) {
+      closeModal(event.target);
+    }
+    
+    // Close if clicking on close button
+    if (event.target.classList.contains('modal-close')) {
+      const modal = event.target.closest('.modal');
+      if (modal) {
+        closeModal(modal);
       }
     }
-    dialog.addEventListener('click', handleOutsideClick);
-    dialog.addEventListener('close', function cleanup() {
-      dialog.removeEventListener('click', handleOutsideClick);
-      dialog.removeEventListener('close', cleanup);
-    });
+    
+    // Alternative: Close if clicking outside modal content
+    const openModal = document.querySelector('.modal.open');
+    if (openModal && !event.target.closest('.modal-content') && !event.target.closest('.funder.card-link')) {
+      closeModal(openModal);
+    }
+  });
+
+  // Close modal function
+  function closeModal(modal) {
+    modal.classList.remove('open');
+    document.body.classList.remove('modal-open');
   }
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      const openModal = document.querySelector('.modal.open');
+      if (openModal) {
+        closeModal(openModal);
+      }
+    }
+  });
+
 });
 
