@@ -8,7 +8,7 @@ category = ["infrastructure"]
 
 [extra]
 
-summary = "<p>As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid.</p>"
+summary = "<p>Secure smart grid protocols like OpenADR allow us to use more distributed renewable energy resources on our existing electrical grid.</p>"
 
 funders = [
  "tweedegolf",   
@@ -22,52 +22,35 @@ blogposts = [
 ]
 +++
 
-### Automated Demand Response
+### Smart grid protocol: OpenADR
 
-As renewable energy resources increase, secure smart grid protocols are vital to optimizing our electricity grid. 
+As the use of distributed energy resources increases, secure smart grid protocols are necessary to optimize the use of our existing physical grid infrastructure. 
 
-Automated Demand Response, ADR, enables utilities and aggregators to manage decentralized energy production. This project implements open-source OpenADR 3.0, the standard the [OpenADR Alliance](https://www.openadr.org/) is developing.
+One such protocols is OpenADR, which stands for Open Automated Demand Reponse. This is an open standard / protocol developed by the [OpenADR Alliance](https://www.openadr.org/). 
 
-Written in [Rust](https://www.rust-lang.org/), our implementation is fast, reliable, and suitable for many environments. It is a building block for a multitude of digital products and services underpinning the energy transition.
+OpenADR can be used by Distribution System Operators (DSOs) to implement so-called demand response programs. These send price signals or usage limits to large consumers when needed, thus reducing peak loads and alleviating pressure on the grid.
+
+Our project, called [OpenLEADR-rs](https://github.com/OpenLEADR/openleadr-rs), offers an open source implementation of **OpenADR version 3**, that is suitable for many environments. Written in Rust, it's a lightweight and reliable a building block for a multitude of digital products and services underpinning the energy transition.
 
 ### What We've Done
 
-[Tweede golf](https://tweedegolf.nl/en) started development in June 2024 with initial funding from [ElaadNL](https://elaad.nl/en/), the Knowledge & Innovation center for the joint Dutch grid operators that researches and tests smart and sustainable charging of electric vehicles.
+[Tweede golf](https://tweedegolf.nl/en) started development in **June 2024** with initial funding from [ElaadNL](https://elaad.nl/en/), the Knowledge & Innovation center for the joint Dutch grid operators that researches and tests smart and sustainable charging of electric vehicles.
 
-To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in October 2024.
+To enable global collaboration and ensure neutral governance, the project became part of the [Linux Energy Foundation OpenLEADR](https://lfenergy.org/projects/openleadr/) project  in **October 2024**.
 
-Trifecta Tech Foundation ensures that financial support is allocated responsibly and sustainably.
-
-The repository for the OpenADR 3.0 Rust implementation is called [openleadr-rs](https://github.com/OpenLEADR/openleadr-rs) and the project is now often referred to as OpenLEADR 3.0.
 
 ### Current Status
 
-As of March 2025, the project is **gaining early traction**, in particular in the Netherlands, and is actively seeking **seeking additional funding** for the items listed below.
+As of August 2025, the project is **gaining traction**, in particular in the Netherlands. Funding for maintenance until mid-2026 has been secured. Additionally, the project is **actively seeking funding** for future development and community involvement.
 
-### What's Next
+### Priorities
 
-As soon as additional funding is secured, we'll deliver an **official field-test-ready release**. This way, (early) adopters can have greater confidence in the project's long-term sustainability.
-
-Our **key priorities for 2025** are:
-
-**Q2 2025:**
-
-+ Official field-test-ready release 
-
-**Q2-Q4 2025:**
-
-+ Support for Dutch DSOs and CPOs who are adopting OpenLEADR 3.0 - **funded**.
-+ Bugfixes and maintenance - **funded**.
-+ Continued community building and contributor support.
-+ Addtional releases to align with new (minor) versions of the OpenADR standard.
-+ Preparation for a long-term support (LTS) release.
-+ WebSocket-based notification mechanism.
-
-**Additionally** we're eager to:
-
-+ Further contribute to the development of the OpenADR 3.0 specification.
-+ Take on a more active role in the OpenADR community.
-+ Further invest in community building for the project itself.
++ Publishing an official field-test-ready release
++ Implementing OpenADR 3.1
++ Implementing an alternative (non-MQTT) notification mechanism
++ Improving the testing infrastructure
++ Continuing involvement in the development of the OpenADR specification
++ Continuing community building and contributor support
 
 ### Get in touch!
 
