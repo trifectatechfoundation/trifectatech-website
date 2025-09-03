@@ -1,78 +1,103 @@
 [
     {
+        "name": "NLnet Foundation",
         "image": "nlnetfoundation",
         "url": "https://nlnet.nl"
     },
     {
+        "name": "Prossimo",
         "image": "prossimo",
         "url": "https://memorysafety.org"
     },
     {
+        "name": "SIDN Fonds",
         "image": "sidnfonds",
         "url": "https://sidnfonds.nl"
     },
     {
+        "name": "AWS",
         "image": "aws",
         "url": "https://aws.amazon.com"
     },
     {
+        "name": "NGI Zero Core",
         "image": "ngi-zero-core",
         "url": "https://nlnet.nl/core"
     },
     {
+        "name": "NGI Zero Entrust",
         "image": "ngi-zero-entrust",
         "url": "https://nlnet.nl/entrust"
     },
     {
+        "name": "NGI Assure",
         "image": "ngi-assure",
         "url": "https://nlnet.nl/assure"
     },
     {
+        "name": "Sovereign Tech Agency",
         "image": "stf",
-        "url": "https://sovereigntechfund.de"
+        "url": "https://www.sovereign.tech/"
     },
     {
+        "name": "Rust Edu",
         "image": "rustedu",
         "url": "https://rust-edu.org"
     },
     {
+        "name": "Chainguard",
         "image": "chainguard",
         "url": "https://chainguard.dev"
     },
     {
+        "name": "Tweede golf",
         "image": "tweedegolf",
         "url": "https://tweedegolf.nl"
     },
     {
+        "name": "Rust Foundation",
         "image": "rustfoundation",
         "url": "https://foundation.rust-lang.org"
     },
     {
+        "name": "Devolutions",
         "image": "devolutions",
         "url": "https://devolutions.net"
     },
     {
+        "name": "Cisco",
         "image": "cisco",
         "url": "https://cisco.com"
     },
     {
+        "name": "eLaad",
         "image": "elaadnl",
         "url": "https://elaad.nl/en/"
     },
     {
+        "name": "Internet Security Research Group",
         "image": "isrg",
         "url": "https://www.abetterinternet.org/"
     },
     {
+        "name": "Ministry of the Interior of the Netherlands",
         "image": "min-bzk",
         "url": "https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations"
     },
     {
+        "name": "Canonical",
         "image": "canonical",
         "url": "https://canonical.com"
     },
     {
+        "name": "Astral",
         "image": "astral",
         "url": "https://astral.sh"
+    },
+    {
+        "name": "Internet Corporation for Assigned Names and Numbers (ICANN)",
+        "support": "ICANN supports our project `Secure Time for a Safe Internet` through the ICANN Grant Program.",
+        "image": "icann",
+        "url": "https://www.icann.org/"
     }
 ]

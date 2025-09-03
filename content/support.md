@@ -7,12 +7,12 @@ template = "support.html"
 [extra]
 
 supporters = [
-    "nlnetfoundation", 
-    "prossimo",
+    "nlnetfoundation",
     "stf", 
     "isrg",
     "ngi-zero-core",
-    "canonical"
+    "canonical",
+    "icann"
 ]
 
 funders = [

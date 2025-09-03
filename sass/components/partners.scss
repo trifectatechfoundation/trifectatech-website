@@ -42,22 +42,21 @@
 
     &.current-funders {
       grid-template-columns: repeat(3, 1fr);
-      .funder {
-        padding: 1rem 0;
-      }
     }
   }
 }
 
 .funder {
   align-items: center;
-  justify-content: center;
-  background-color: var(--color-secondary-400-opaque);
+  justify-content: start;
+  background-color: var(--color-bg-logo);
   display: flex;
+  justify-content: center;
   gap: 0.75rem;
   position: relative;
   padding: 0rem;
   margin-top: 0.5rem;
+  cursor: pointer;
 
   @media (min-width: 62rem) {
     align-items: center;
@@ -71,9 +70,10 @@
   .image {
     min-height: 3.5rem;
     background-size: contain;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 5rem;
+    pointer-events: none;
 
     @media (min-width: 62rem) {
       width: 7rem;
@@ -163,8 +163,38 @@
     &.astral {
       background-image: url('/funders/astral.svg');
     }
+
+    &.icann {
+      background-image: url('/funders/icann-logo-globe-with-name.png');
+    }
   }
 }
+
+.funder dialog {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  position: fixed;
+  text-align: center;
+  width: min(calc(100% - 8rem), 34rem);
+
+  > * + * {
+    margin-block-start: 2rem;
+  }
+
+  > .image {
+    min-height: auto !important;
+    aspect-ratio: 16 / 9;
+    max-width: 12rem;
+    width: 100% !important;
+  }
+}
+
+.funder dialog::backdrop {
+  background-color: rgba(var(--color-primary-400-rgb), 0.5);
+}
+
 
 .membership {
   .image {

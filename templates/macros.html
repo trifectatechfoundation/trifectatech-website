@@ -4,17 +4,13 @@
 <div class="partners">
     {% if currentFunders %}
     <div class="partners-title current-funders">
-        <h3>Funders</h3>
+        <h3>Supporters & funders</h3>
     </div>
     <div class="funders current-funders">
         {% for name in currentFunders %}
             {% for funder in funders %}
                 {% if funder.image == name %}
-                <a class="card-link" href="{{funder.url}}">
-                    <div class="funder">
-                        <div class="image {{funder.image}}"></div>
-                    </div>
-                </a>
+                    {{ macros::funder_tile(funder=funder) }}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -22,17 +18,13 @@
     {% endif %}
     {% if supporters %}
     <div class="partners-title supporters">
-        <h4>Supporters & Past funders</h4>
+        <h4>Past supporters & funders</h4>
     </div>
     <div class="funders supporters">
         {% for name in supporters %}
             {% for funder in funders %}
                 {% if funder.image == name %}
-                <a class="card-link" href="{{funder.url}}">
-                    <div class="funder">
-                        <div class="image {{funder.image}}"></div>
-                    </div>
-                </a>
+                    {{ macros::funder_tile(funder=funder) }}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -40,4 +32,29 @@
     {% endif %}
 </div>
 
+
+
 {% endmacro page_funders %}
+
+{% macro funder_tile(funder) %}
+<div class="funder card-link">
+    <div class="image {{funder.image}}"></div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="image {{funder.image}}"></div>
+            <h3>{{funder.name}}</h3>
+            {% if funder.support %}
+            <div>
+              <strong>Support</strong>
+              <p class="support">{{funder.support}}</p>
+            </div>
+            {% endif %}
+            {% if funder.url %}
+            <a class="btn btn-primary" title="{{funder.name}}" href="{{funder.url}}" target="_blank" rel="noopener">Go to website</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endmacro funder_tile %}

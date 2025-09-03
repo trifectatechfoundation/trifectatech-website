@@ -6,15 +6,16 @@
 @use './global/typography';
 
 @use './components/buttons';
+@use './components/footer';
 @use './components/hero';
 @use './components/markdown';
+@use './components/modal';
 @use './components/nav';
 @use './components/paragraph';
+@use './components/partners.scss';
 @use './components/projects';
 @use './components/team.scss';
-@use './components/partners.scss';
 @use './components/triangle';
-@use './components/footer';
 
 html {
   box-sizing: border-box;

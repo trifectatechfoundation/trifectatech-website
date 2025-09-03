@@ -10,6 +10,8 @@
   --color-secondary-200: rgb(var(--color-secondary-200-rgb));
   --color-secondary-400-opaque: rgba(230, 154, 141, 0.05); // // --color-secondary-400-rgb
 
+  --color-bg-logo: rgba(0,0,0, 0.075);
+
 
   --color-table-row: #eee;
 
@@ -58,5 +60,7 @@
     --color-footer: var(--color-secondary-200);
     --color-text-button: var(--color-secondary-200);
     --color-table-row: rgb(49,50,62);
+
+    --color-bg-logo: rgba(255,255,255, 0.175);
   }
 }
