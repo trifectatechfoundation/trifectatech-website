@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Improving state machine code generation",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "bzip2 crate switches from C to 100% rust",
     "SIMD in zlib-rs (part 2): compare256",

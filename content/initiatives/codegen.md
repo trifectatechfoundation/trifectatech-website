@@ -18,6 +18,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Improving state machine code generation"
 ]
 +++
 Rust, being a systems language, should be best in class for performance-sensitive software. 
