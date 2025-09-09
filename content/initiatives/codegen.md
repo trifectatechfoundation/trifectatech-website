@@ -8,7 +8,7 @@ category = ["ecosystem"]
 
 [extra]
 
-summary = "<p>Our mission is to make critical infrastructure software safer. We must eliminate performance considerations as a barrier for adoptiong the memory safe languange Rust in order to achieve this goal.</p>"
+summary = "<p>Our mission is to make critical infrastructure software safer. We must eliminate performance considerations as a barrier for adopting the memory safe languange Rust in order to achieve this goal.</p>"
 
 funders = [
     "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
@@ -33,7 +33,7 @@ Our work on [zlib-rs](/initiatives/data-compression/) put us on the path to impr
 
 This work has now resulted in [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720) and a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment. 
 
-This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199).
+This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199), and a blog post explaining loop-match is [here](/blog/improving-state-machine-code-generation/).
 
 Part of the work in this initiative is a 2025h1 Rust project goal, see [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258).
 
@@ -51,7 +51,7 @@ We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial ef
 
 ### What's next
 
-The current initial work shows that there is room for improvement. While outperforming C by 5% is unlikely, even a shift from -2% to +2% would significantly improve Rust's story and, more importantly, its impact. We believe the gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
+The current initial work shows that there is room for improvement. While outperforming C by 5% is unlikely, even a shift from slightly slower to slightly faster would significantly improve Rust's story and, more importantly, its impact. We believe the gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
 
 In the next phase, a significant coordinated effort is needed to make Rust faster than C. We by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
 
