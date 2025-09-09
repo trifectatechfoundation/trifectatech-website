@@ -112,7 +112,10 @@ nav {
     translate: 0 100%;
     background-color: var(--color-secondary-200);
     width: 100%;
-    max-width: 16rem;
+    max-width: 18rem;
+    @media (max-width: 31rem) {
+      max-width: calc(100% - 2rem);
+    }
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -129,7 +132,7 @@ nav {
     a {
       display: block;
       color: inherit;
-      padding-block: 0.75rem;
+      padding-block: 0.5rem;
       text-decoration: none;
 
       &:not(:first-child, .subitem) {

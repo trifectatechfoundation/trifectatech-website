@@ -17,7 +17,7 @@ backTitle = "Back to initiative: Making Rust Faster Than C"
 - Add experimental support for `#[loop_match]` to [c2rust](https://c2rust.com/)
 - Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
-Timeline: Nov 2024 - Jun 2025  
+Timeline: Nov 2024 - Dec 2025  
 Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 2: Identify performance bottlenecks
@@ -29,8 +29,7 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 - Use c2rust to find small code samples where clang generates better assembly than rustc for (effectively) equivalent input
 - Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
 
-Timeline: Apr 2025 - Jun 2025  
-Effort: 6 person-weeks  
+Timeline: Apr 2025 - Dec 2025  
 Status: *In progress*. Kindly funded by [AWS](https://aws.amazon.com/).
 
 ## Phase 2
@@ -47,5 +46,5 @@ The steps in organizing this phase include at least:
 - Execute the plan
 - Be faster than C ⚡
 
-Timeline estimate: Oct 2025 - Dec 2026  
+Timeline estimate: 2026 - 2027  
 Effort estimate: 2 person-years
