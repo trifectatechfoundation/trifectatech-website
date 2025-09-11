@@ -166,7 +166,7 @@ Why is `loop_match` faster than the LLVM flag? We believe that the underlying re
 - The analysis must be more conservative, or it might make the final program slower.
 - This analysis runs at the very end of the compilation pipeline, which means that earlier passes can't use its results.
 
-The large increase in `branch_misses` for both optimized programs appears to be highly CPU-specific. On other machines (where the speedup is actually larger) we don't observe such a large increase. We do have some ideas for more optimal code generation even the state is updated with a value that is not compile-time known, which may help here.
+The large increase in `branch_misses` for both optimized programs appears to be highly CPU-specific. On other machines (where the speedup is actually larger) we don't observe such a large increase. We do have some ideas for more optimal code generation, even when the state is updated with a value that is not compile-time known, which may help here.
 
 ### Decompression in `zlib-rs`
 
