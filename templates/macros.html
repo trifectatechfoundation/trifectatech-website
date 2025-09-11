@@ -45,14 +45,27 @@
             <button class="modal-close" aria-label="Close modal">&times;</button>
             <div class="image {{funder.image}}"></div>
             <h3>{{funder.name}}</h3>
-            {% if funder.support %}
-            <div>
-              <strong>Support</strong>
-              <p class="support">{{funder.support}}</p>
-            </div>
-            {% endif %}
             {% if funder.url %}
             <a class="btn btn-primary" title="{{funder.name}}" href="{{funder.url}}" target="_blank" rel="noopener">Go to website</a>
+            {% endif %}
+            {% if funder.projects %}
+            <div class="support markdown">
+            <strong>Support</strong>
+            <ul>  
+            {% for project in funder.projects %}           
+                <li class="project">
+                    In {{project.year}}: support for 
+                    {% if project.name %}
+                    <i>{{project.name}}</i>, part of 
+                    {% endif %}
+                    our <i>{{project.initiative}}</i> initiative.
+                    {% if project.supportType %}
+                        {{project.supportType}}
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+            </div>
             {% endif %}
         </div>
     </div>

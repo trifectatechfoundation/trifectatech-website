@@ -2,7 +2,28 @@
     {
         "name": "NLnet Foundation",
         "image": "nlnetfoundation",
-        "url": "https://nlnet.nl"
+        "url": "https://nlnet.nl",
+        "projects": [
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2024-2025"
+            },
+            {
+                "initiative": "data-compression",
+                "name": "bzip2-rs",
+                "year": "2024-2025"
+            },
+            {
+                "initiative": "codegen",
+                "year": "2025"
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": "2025-2026"
+            }
+        ]
     },
     {
         "name": "Prossimo",
@@ -17,12 +38,42 @@
     {
         "name": "AWS",
         "image": "aws",
-        "url": "https://aws.amazon.com"
+        "url": "https://aws.amazon.com",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": "2022-2023",
+                "supportType": "AWS co-funded the first version of ntpd-rs through Prossimo."
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2023",
+                "supportType": "AWS co-funded the development of sudo-rs through Prossimo."
+            },
+            {
+                "initiative": "codegen",
+                "year": "2025"
+            }
+        ]
     },
     {
         "name": "NGI Zero Core",
         "image": "ngi-zero-core",
-        "url": "https://nlnet.nl/core"
+        "url": "https://nlnet.nl/core",
+        "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "bzip2-rs",
+                "year": "2025"
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2024-2025"
+            }
+        ]
     },
     {
         "name": "NGI Zero Entrust",
@@ -47,12 +98,45 @@
     {
         "name": "Chainguard",
         "image": "chainguard",
-        "url": "https://chainguard.dev"
+        "url": "https://chainguard.dev",
+        "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "zlib-rs",
+                "year": "2024",
+                "supportType": "Chainguard funded initial development of zlib-rs through Prossimo."
+            },
+            {
+                "initiative": "data-compression",
+                "name": "zstd-rs",
+                "year": "2025"
+            }
+        ]
     },
     {
         "name": "Tweede golf",
         "image": "tweedegolf",
-        "url": "https://tweedegolf.nl"
+        "url": "https://tweedegolf.nl",
+        "projects":[
+            {
+                "initiative": "data-compression",
+                "name": "zlib-rs",
+                "year": "2024",
+                "supportType": "Tweede golf provided in-kind support for the bulk of the development of zlib-rs."
+            },
+            {
+                "initiative": "automated-demand-response",
+                "name": "openleadr-rs",
+                "year": "2024-2025",
+                "supportType": "Tweede golf provided in-kind support for the bulk of the development and maintenance of openleadr-rs."
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2024-2026",
+                "supportType": "Tweede golf provides in-kind support for maintenance."
+            }
+        ]
     },
     {
         "name": "Rust Foundation",
@@ -62,7 +146,14 @@
     {
         "name": "Devolutions",
         "image": "devolutions",
-        "url": "https://devolutions.net"
+        "url": "https://devolutions.net",
+        "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "zlib-rs",
+                "year": "2024"
+            }
+        ]
     },
     {
         "name": "Cisco",
@@ -82,22 +173,55 @@
     {
         "name": "Ministry of the Interior of the Netherlands",
         "image": "min-bzk",
-        "url": "https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations"
+        "url": "https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations",
+        "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "bzip2-rs",
+                "year": "2025"
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2024-2025"
+            }
+        ]
     },
     {
         "name": "Canonical",
         "image": "canonical",
-        "url": "https://canonical.com"
+        "url": "https://canonical.com",
+        "projects": [
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": "2025"
+            }
+        ]
     },
     {
         "name": "Astral",
         "image": "astral",
-        "url": "https://astral.sh"
+        "url": "https://astral.sh",
+        "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "zstd-rs",
+                "year": "2025"
+            }
+        ]
     },
     {
         "name": "Internet Corporation for Assigned Names and Numbers (ICANN)",
-        "support": "ICANN supports our project `Secure Time for a Safe Internet` through the ICANN Grant Program.",
         "image": "icann",
-        "url": "https://www.icann.org/"
+        "url": "https://www.icann.org/",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "supportType": "Support provided through the ICANN Grant Program.",
+                "name": "Secure Time for a Safe Internet",
+                "year": "2025-2027"
+            }
+        ]
     }
 ]
