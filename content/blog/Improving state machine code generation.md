@@ -17,7 +17,7 @@ This post shows what `loop_match` is and why we're extremely excited about it.
 
 ## Motivation
 
-We first ran into rust's sup-par code generation for state machines when we were porting [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) from C to rust. When looking at state machines written in C, it is quite common to see a `switch` with cases where one will implicitly fall through into the next.
+We first ran into rust's subpar code generation for state machines when we were porting [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) from C to rust. When looking at state machines written in C, it is quite common to see a `switch` with cases where one will implicitly fall through into the next.
 
 ```c
 switch (a) {
