@@ -21,8 +21,7 @@ The full statement can be read [here](/docs/improving-europes-cybersecurity-post
 
 The executive summary reads: 
 
-> “The number of cybersecurity incidents that affect European citizens and businesses is rising at an alarming rate. 70% of the vulnerabilities in major digital systems built on decades-old technologies share the same root cause and can be prevented by using modern, memory-safe
-technology.
+> “The number of cybersecurity incidents that affect European citizens and businesses is rising at an alarming rate. 70% of the vulnerabilities in major digital systems built on decades-old technologies share the same root cause and can be prevented by using modern, memory-safe technology.
 
 > This technology is mature, perfectly fits Europe’s forthcoming secure-by-design approach to cybersecurity, and is the most effective way to protect Europe’s cybersecurity, to reduce cybersecurity costs, and to foster innovation.
 
