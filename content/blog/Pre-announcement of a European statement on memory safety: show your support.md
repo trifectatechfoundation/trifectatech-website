@@ -21,14 +21,14 @@ The full statement can be read [here](/docs/improving-europes-cybersecurity-post
 
 The executive summary reads: 
 
-“The number of cybersecurity incidents that affect European citizens and businesses is rising at an alarming rate. 70% of the vulnerabilities in major digital systems built on decades-old technologies share the same root cause and can be prevented by using modern, memory-safe
+> “The number of cybersecurity incidents that affect European citizens and businesses is rising at an alarming rate. 70% of the vulnerabilities in major digital systems built on decades-old technologies share the same root cause and can be prevented by using modern, memory-safe
 technology.
 
-This technology is mature, perfectly fits Europe’s forthcoming secure-by-design approach to cybersecurity, and is the most effective way to protect Europe’s cybersecurity, to reduce cybersecurity costs, and to foster innovation.
+> This technology is mature, perfectly fits Europe’s forthcoming secure-by-design approach to cybersecurity, and is the most effective way to protect Europe’s cybersecurity, to reduce cybersecurity costs, and to foster innovation.
 
-However, its adoption rate is slow due to a lack of short-term economic incentives. We’ve now left the door wide open: attackers eagerly exploit vulnerabilities in our major digital systems.
+> However, its adoption rate is slow due to a lack of short-term economic incentives. We’ve now left the door wide open: attackers eagerly exploit vulnerabilities in our major digital systems.
 
-The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
+> The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
 
 ## How to show support
 
