@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Frequently Asked Questions about sudo-rs",
     "Improving state machine code generation",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "bzip2 crate switches from C to 100% rust",

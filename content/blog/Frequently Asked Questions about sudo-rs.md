@@ -14,11 +14,11 @@ With [sudo-rs coming to Ubuntu 25.10](https://trifectatech.org/blog/memory-safe-
 
 You can find the FAQ in [the sudo-rs GitHub repository](https://github.com/trifectatechfoundation/sudo-rs/blob/main/FAQ.md). The document covers a wide range of questions, from technical decisions made by the sudo-rs team, to vulnerabilities in both sudo-rs and original sudo. Some examples:
 
-- [What is the advantage of rewriting sudo in Rust?](#What-is-the-advantage-of-rewriting-sudo-in-Rust)
-- [Why did you get rid of the GNU license?](#Why-did-you-get-rid-of-the-GNU-license)
-- [If I do grep unsafe why do I find hundreds of occurrences?](##If-I-do-grep-unsafe-why-do-I-find-hundreds-of-occurrences)
-- [What about doas?](##What-about-doas)
-- [Are there actual memory safety vulnerabilities in the original sudo?](##Are-there-actual-memory-safety-vulnerabilities-in-the-original-sudo)
+- [What is the advantage of rewriting sudo in Rust?](#what-is-the-advantage-of-rewriting-sudo-in-rust)
+- [Why did you get rid of the GNU license?](#why-did-you-get-rid-of-the-gnu-license)
+- [If I do grep unsafe why do I find hundreds of occurrences?](#if-i-do-grep-unsafe-why-do-i-find-hundreds-of-occurrences)
+- [What about doas?](#what-about-doas)
+- [Are there actual memory safety vulnerabilities in the original sudo?](#are-there-actual-memory-safety-vulnerabilities-in-the-original-sudo)
 
 ... etc. 
 
@@ -26,11 +26,9 @@ You can find the FAQ in [the sudo-rs GitHub repository](https://github.com/trife
 
 The reasons that were mentioned in the [blog post](https://tweedegolf.nl/en/blog/91/reimplementing-sudo-in-rust) announcing sudo-rs still hold true:
 
-1. Obviously, better memory safety. In C a programmer needs to pay attention at every turn to check that memory is being used correctly. The Rust programming language helps the programmer avoid mistakes by tracking data allocation "at compile time". On top of that, it performs runtime checks to prevent the worst possible outcome in case mistakes do happen.
-
-2. Rust can be used as a systems language, like C, but it also facilitates programming at a much higher level of abstraction. For example, parts of the business logic of sudo-rs are implemented using `enum` types, and evaluated by chaining Rust "iterators" together. And of course our entire code base leans into the ease-of-use offered by `Option` and `Result` types. To achieve the same thing in C, a programmer would need to explicitly implement the logic underpinning those concept themselves. (Which is what you will find that original sudo has done---and that added complexity is where bugs can thrive).
-
-3. A rewrite is also a good time for a rethink. As in every realistic piece of software, there are many many code paths in original sudo [that are seldom exercised](https://www.stratascale.com/vulnerability-alert-CVE-2025-32463-sudo-chroot) in normal usage. Bugs can lurk there as well, undiscovered for years until someone takes a look. But, if some code paths are seldomly executed, why include them at all? This of course is the lesson that OpenBSD's `doas` teaches us.
+- Obviously, better memory safety. In C a programmer needs to pay attention at every turn to check that memory is being used correctly. The Rust programming language helps the programmer avoid mistakes by tracking data allocation "at compile time". On top of that, it performs runtime checks to prevent the worst possible outcome in case mistakes do happen.
+- Rust can be used as a systems language, like C, but it also facilitates programming at a much higher level of abstraction. For example, parts of the business logic of sudo-rs are implemented using `enum` types, and evaluated by chaining Rust "iterators" together. And of course our entire code base leans into the ease-of-use offered by `Option` and `Result` types. To achieve the same thing in C, a programmer would need to explicitly implement the logic underpinning those concept themselves. (Which is what you will find that original sudo has done---and that added complexity is where bugs can thrive).
+- A rewrite is also a good time for a rethink. As in every realistic piece of software, there are many many code paths in original sudo [that are seldom exercised](https://www.stratascale.com/vulnerability-alert-CVE-2025-32463-sudo-chroot) in normal usage. Bugs can lurk there as well, undiscovered for years until someone takes a look. But, if some code paths are seldomly executed, why include them at all? This of course is the lesson that OpenBSD's `doas` teaches us.
 
 ## Why did you get rid of the GNU license?
 
@@ -81,7 +79,7 @@ This is not say that you should not use OpenDoas. TTY hijacking attack might not
 
 Serious vulnerabilities in sudo are listed by the developer of C-based sudo, Todd Miller, on https://www.sudo.ws/security/advisories/. The first page lists several memory safety vulnerabilities (anything that says “buffer overflow”, “heap overflow" or “double free”). One of the oldest ones we know of is from 2001, published in Phrack https://phrack.org/issues/57/8 under the whimsical name “Vudo”, which quite dramatically showed an attacker gaining full access on a system that it only had limited access to.
 
-A good recent example is the “Baron Samedit” bug that was discovered by security firm Qualys in 2021, which like “Vudo" would cause an uncontrolled privilege escalation. There are many websites and YouTube videos that illustrate it. It is formally identified as CVE-2021-3156 and is described at https://www.sudo.ws/security/advisories/unescape_overflow/
+A good recent example is the “Baron Samedit” bug that was discovered by security firm Qualys in 2021, which like “Vudo" would cause an uncontrolled privilege escalation. There are many websites and YouTube videos that illustrate it. It is formally identified as CVE-2021-3156 and is described at https://www.sudo.ws/security/advisories/unescape_overflow/.
 
 Now, the fine point here of course is: "Baron Samedit” was discovered by security researchers who were working together with the developer of C-based sudo. If you want to know if any of these sudo vulnerabilities have been used to cause harm to systems, we need only look at CISA, that does include it (https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-117a) in its list of “commonly exploited” vulnerabilities of 2021.
 
@@ -94,3 +92,9 @@ Note that in real-world attacks, sudo vulnerabilities would usually be combined 
 ## Read more FAQs
 
 If your curiosity hasn't been sated yet, read more [here](https://github.com/trifectatechfoundation/sudo-rs/blob/main/FAQ.md).
+
+---
+
+### About Trifecta Tech Foundation
+
+[**Trifecta Tech Foundation**](https://trifectatech.org) is a non-profit and a Public Benefit Organisation (501(c)(3) equivalant) that creates open-source building blocks for critical infrastructure software. Our initiatives Data compression, Time synchronization, Smart grid protocols and Privilege boundary, impact the digital security of millions of people. If you'd like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support/).
