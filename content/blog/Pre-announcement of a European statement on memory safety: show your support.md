@@ -14,9 +14,10 @@ strategy, and to act accordingly. If you feel the same way, please consider stat
 <!-- more -->
 
 The statement is a result of many discussions among both developers and industry stakeholders (to whom we owe many thanks for their contributions), having established a lack of awareness from EU and national policy makers. This contrasts heavily to the high level of awareness for memory safety, and even [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. In light of the upcoming Cyber Resilience Act in Europe, which mandates a secure-by-design development process, memory safety, if left unaddressed, is now threatening to become a missed opportunity.
-The statement
 
-The full statement can be read here: [TODO link]
+## The statement
+
+The full statement can be read [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251007.pdf). 
 
 The executive summary reads: 
 
@@ -28,7 +29,8 @@ This technology is mature, perfectly fits Europe’s forthcoming secure-by-desig
 However, its adoption rate is slow due to a lack of short-term economic incentives. We’ve now left the door wide open: attackers eagerly exploit vulnerabilities in our major digital systems.
 
 The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
-How to show support
+
+## How to show support
 
 If you agree with our position that memory safety should be on the EU and national cybersecurity agendas, please consider signing this statement to show your support. You can either sign the statement as an individual or as an organisation.
 
@@ -36,15 +38,16 @@ Indicating your support is easy: send an email to [Hugo van de Pol](hugo@trifect
 
 If you know someone who might do the same, please feel free to send them this web page and/or [the PDF of the statement](TODO link).
 
-List of participating individuals and organisations
+## List of participating individuals and organisations
+
 Authors:
-Tara Tarakiyee
-Hugo van de Pol
+- Tara Tarakiyee
+- Hugo van de Pol
 
 Supporting organizations:
-Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS
-Tweede golf   
-Trifecta Tech Foundation
+- Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS
+- Tweede golf   
+- Trifecta Tech Foundation
 
 Supporting individuals:
 - 
