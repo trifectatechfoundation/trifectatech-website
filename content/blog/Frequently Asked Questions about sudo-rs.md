@@ -2,7 +2,7 @@
 title = "Frequently Asked Questions about sudo-rs"
 slug = "frequently-asked-question-about-sudo-rs"
 authors = ["Marc Schoolderman"]
-date = "2025-10-08"
+date = "2025-10-07"
 
 [taxonomies]
 tags = ["sudo-rs"]
