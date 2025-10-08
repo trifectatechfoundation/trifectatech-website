@@ -47,9 +47,10 @@ Authors:
 ... *more tba*
 
 Supporting organizations:
-- Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS
-- Tweede golf   
-- Trifecta Tech Foundation
+- [Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS](https://ict-research.nl/groups/special-interest-groups/sigsec/)
+- [Tweede golf](https://tweedegolf.nl/en)   
+- [Trifecta Tech Foundation](https://trifectatech.org/)
+- [Stackable](https://stackable.tech/en/)
 
 ... *more tba*
 
