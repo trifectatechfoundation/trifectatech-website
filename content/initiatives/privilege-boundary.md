@@ -23,6 +23,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Frequently Asked Questions about sudo-rs",
     "Memory-safe sudo to become the default in Ubuntu",
     "A new home for memory safe sudo",
     "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
