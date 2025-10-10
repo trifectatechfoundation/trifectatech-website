@@ -29,7 +29,7 @@ supporters = [
 ]
 
 blogposts = [
-    "Pre-announcement of a European statement on memory safety: show your support",
+    "Support the call for memory safety incentives in European cybersecurity policies",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "Memory-safe sudo to become the default in Ubuntu",
     "zlib-rs is faster than C",
