@@ -23,6 +23,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "Frequently Asked Questions about sudo-rs",
     "Memory-safe sudo to become the default in Ubuntu",
     "A new home for memory safe sudo",
@@ -47,7 +48,7 @@ designed to minimize attack surface.
 Sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. 
 It has since been packaged for Debian, Fedora and Ubuntu and is also being adopted by security-focused distributions such as NixOS and Wolfi Linux, and [AerynOS](https://aerynos.com/), an experimental next evolution in Linux distribution.
 
-Work that aims for `sudo-rs` to become [the default in Ubuntu 25.10](/blog/memory-safe-sudo-to-become-the-default-in-ubuntu) started in April 2025 and is ongoing. See the milestone "Features for Mainstream Adoption by Linux Distributions" under [current development](/initiatives/workplans/sudo-rs#current-work).
+In October 2025, `sudo-rs` [became the default sudo in Ubuntu 25.10](https://canonical.com/blog/canonical-releases-ubuntu-25-10-questing-quokka).
 
 We'd like to thank Todd Miller, maintainer of the original sudo utility, for his advice and guidance on our implementation.
 
@@ -58,6 +59,7 @@ For past, current and future development, see the [the sudo-rs roadmap](/initiat
 ### Links
 
 - [GitHub](https://github.com/memorysafety/sudo-rs)
+- [FAQ](https://github.com/trifectatechfoundation/sudo-rs/blob/main/FAQ.md)
 - [crates.io](https://crates.io/crates/sudo-rs)
 
 ### History

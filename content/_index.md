@@ -29,12 +29,10 @@ supporters = [
 ]
 
 blogposts = [
+    "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
-    "Memory-safe sudo to become the default in Ubuntu",
     "zlib-rs is faster than C",
     "Trifecta Tech Foundation joins Nonprofit Cyber",
-    "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
-    "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
-    "On Rust, Memory Safety, and Open Source Infrastructure"
+    "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs"
 ]
 +++
