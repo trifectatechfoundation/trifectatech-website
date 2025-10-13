@@ -1,5 +1,5 @@
 +++
-title = "Support the call for memory safety incentives in European cybersecurity policies"
+title = "Support the call for Memory Safety incentives in European cybersecurity policies"
 slug = "support-memory-safety-incentives-in-european-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
 date = 2025-10-13
@@ -8,11 +8,13 @@ date = 2025-10-13
 tags=["announcement"]
 +++
 
-In light of the upcoming Cyber Resilience Act in Europe, which mandates a secure-by-design development process, we call on organisations and individuals to sign our statement "Improving Europe's cybersecurity posture through memory safety".
+**With the upcoming Cyber Resilience Act in Europe, mandating a secure-by-design development process, we urge organisations and individuals to support our statement "Improving Europe's cybersecurity posture through memory safety".**
 
 <!-- more -->
 
-Input for this statement comes from industry experts at Siemens Mobility, Sovereign Tech Agency, Tweede golf, OpenSSF, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
+The statement is a joint effort by secure-by-design experts at leading organizations, including Siemens Mobility, Sovereign Tech Agency, OpenSSF, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
+
+See the [How to show support](#how-to-show-support) section to add your name to the call.
 
 Executive summary: 
 
@@ -26,13 +28,17 @@ The supporting organisations call on European and national policymakers to act, 
 
 The full statement can be read [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251008.pdf). 
 
-[Tara Tarakiyee and I](#authors) authored the statement as a result of many discussions with developers and industry stakeholders, having established a lack of awareness from EU and national policy makers. This contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. With the CRA on its way, and the examples of CISA et al at our disposal, now is the time to act.
+## The time is now
+
+Having established a lack of awareness from EU and national policy makers, [Tara Tarakiyee and myself, Hugo van de Pol](#authors) initiated and led joint discussions with security experts and industry stakeholders, and authored the statement as a result.
+
+This lack of awareness contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. With the CRA on its way, and the examples of CISA et al at our disposal, now is the time for the EU to act.
 
 ## How to show support
 
-If you agree with our position that memory safety should be on the EU and national cybersecurity agendas, please consider signing this statement to show your support. You can either sign the statement as an individual or as an organisation.
+If you agree with our position that memory safety should be on the EU and national cybersecurity agendas, please consider adding your name this statement to show your support. You can support the statement as an organisation or as an individual.
 
-Indicating your support is easy: **send an email to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I%20support%20the%20Memory%20Safety%20Statement) in which you state your name or the name of the supporting organisation.** 
+Indicating your support is easy: **send an email to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I%20support%20the%20Memory%20Safety%20Statement) in which you state the name of the supporting organisation, or your name and affiliation.**
 
 If you know someone who might do the same, please feel free to send them this web page and/or [the PDF of the statement](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251008.pdf).
 
@@ -51,6 +57,6 @@ Supporting individuals:
 *tba*
 
 ## Authors
-[Tara Tarakiyee](https://www.linkedin.com/in/tarakiyee/) is a Technologist at [Sovereign Tech Agency](https://www.sovereign.tech/), who works on designing supporting and mobilizing resources to encourage, sustain and maintain the FOSS ecosystem. 
+[Tara Tarakiyee](https://www.linkedin.com/in/tarakiyee/) is a Technologist at [Sovereign Tech Agency](https://www.sovereign.tech/), who works on designing supporting and mobilizing resources to encourage, sustain and maintain our open digital infrastructure.
 
 [Hugo van de Pol](https://www.linkedin.com/in/hugo-van-de-pol-90665215/) is Director at [Tweede golf](https://tweedegolf.nl/en) and Board member at [Trifecta Tech Foundation](https://trifectatech.org/), who has been advocating the use of memory-safe technologies like Rust for years. 
