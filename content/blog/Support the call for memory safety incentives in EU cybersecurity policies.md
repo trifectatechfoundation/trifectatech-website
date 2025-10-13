@@ -1,14 +1,14 @@
 +++
-title = "Support the call for Memory Safety incentives in European cybersecurity policies"
-slug = "support-memory-safety-incentives-in-european-cybersecurity-policies"
+title = "Support the call for Memory Safety incentives in EU cybersecurity policies"
+slug = "support-memory-safety-incentives-in-eu-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
-date = 2025-10-13
+date = 2025-10-20
 
 [taxonomies]
 tags=["announcement"]
 +++
 
-**With the upcoming Cyber Resilience Act in Europe, mandating a secure-by-design development process, we urge organisations and individuals to support our statement "Improving Europe's cybersecurity posture through memory safety".**
+**With the upcoming Cyber Resilience Act in the EU mandating a secure-by-design development process, we urge organisations and individuals to support our statement "Improving Europe's cybersecurity posture through memory safety".**
 
 <!-- more -->
 
@@ -36,7 +36,9 @@ This lack of awareness contrasts heavily to [the proactive involvement of the Cy
 
 ## How to show support
 
-If you agree with our position that memory safety should be on the EU and national cybersecurity agendas, please consider adding your name this statement to show your support. You can support the statement as an organisation or as an individual.
+If you agree with our position that memory safety should be on the EU and national cybersecurity agendas, please consider adding your name to this statement to show your support. You can support the statement as an organisation or as an individual.
+
+Having your name on the statement does not come with any further commitments; it is simply to indicate your agreement with the statement.
 
 Indicating your support is easy: **send an email to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I%20support%20the%20Memory%20Safety%20Statement) in which you state the name of the supporting organisation, or your name and affiliation.**
 
