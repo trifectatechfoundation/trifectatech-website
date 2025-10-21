@@ -12,7 +12,7 @@ tags=["announcement"]
 
 <!-- more -->
 
-The statement is a joint effort by secure-by-design experts at leading organizations, including Siemens Mobility, Sovereign Tech Agency, OpenSSF, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
+The statement is a joint effort by secure-by-design experts at leading organizations, including Siemens Mobility, Sovereign Tech Agency, OpenSSF, Google, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
 
 See the [How to show support](#how-to-show-support) section to add your name to the call.
 
@@ -62,3 +62,15 @@ Supporting individuals:
 [Tara Tarakiyee](https://www.linkedin.com/in/tarakiyee/) is a Technologist at [Sovereign Tech Agency](https://www.sovereign.tech/), who works on designing supporting and mobilizing resources to encourage, sustain and maintain our open digital infrastructure.
 
 [Hugo van de Pol](https://www.linkedin.com/in/hugo-van-de-pol-90665215/) is Director at [Tweede golf](https://tweedegolf.nl/en) and Board member at [Trifecta Tech Foundation](https://trifectatech.org/), who has been advocating the use of memory-safe technologies like Rust for years. 
+
+## Contributors
+
+Contributions to this statement were made by:
+- Benjamin Schilling
+- Christian (fukami) Horchert, CrabNebula Ltd.
+- Rebecca Rumbul, Rust Foundation
+- Josh Aas, Internet Security Research Group
+- Jeffrey Vander Stoep, Google
+- prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
+- Erik Poll, Radboud University
+
