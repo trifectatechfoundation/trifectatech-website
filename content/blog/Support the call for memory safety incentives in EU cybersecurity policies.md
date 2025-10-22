@@ -73,4 +73,5 @@ Contributions to this statement were made by:
 - Jeffrey Vander Stoep, Google
 - prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
 - Erik Poll, Radboud University
+- Thomas Rooijakkers, TNO
 
