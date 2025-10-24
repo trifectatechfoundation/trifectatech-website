@@ -23,7 +23,7 @@ Trifecta Tech Foundation 100% relies on the support from funders to maintain our
 
 Your support backs our mission to **strengthen critical infrastructure software**. 
 
-Our initiatives, [Data compression](/initiatives/data-compression), [Time synchronization](/initiatives/time-synchronization), [Smart grid protocols](/initiatives/automated-demand-response) and [Privilege boundary](/initiatives/privilege-boundary), impact the digital security of millions of people.
+Our initiatives, [Data compression](/initiatives/data-compression), [Time synchronization](/initiatives/time-synchronization) and [Privilege boundary](/initiatives/privilege-boundary), impact the digital security of millions of people.
 
 ### Sponsorship Levels
 
