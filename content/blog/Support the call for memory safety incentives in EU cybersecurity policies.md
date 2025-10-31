@@ -2,13 +2,13 @@
 title = "Support the call for Memory Safety incentives in EU cybersecurity policies"
 slug = "support-memory-safety-incentives-in-eu-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
-date = 2025-10-20
+date = 2025-10-31
 
 [taxonomies]
 tags=["announcement"]
 +++
 
-**With the upcoming Cyber Resilience Act in the EU mandating a secure-by-design development process, we urge organisations and individuals to support our statement "Improving Europe's cybersecurity posture through memory safety".**
+**With the upcoming Cyber Resilience Act in the EU mandating a secure-by-design development process, we urge organisations and individuals to support our statement *"Improving Europe's cybersecurity posture through memory safety"*.**
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ The full statement can be read [here](/docs/improving-europes-cybersecurity-post
 
 ## The time is now
 
-Having established a lack of awareness from EU and national policy makers, [Tara Tarakiyee and myself, Hugo van de Pol](#authors) initiated and led joint discussions with security experts and industry stakeholders, and authored the statement as a result.
+Having established a lack of awareness from EU and national policy makers, [Tara Tarakiyee and myself, Hugo van de Pol](#about-the-authors) initiated and led joint discussions with security experts and industry stakeholders, and authored the statement as a result.
 
 This lack of awareness contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. With the CRA on its way, and the examples of CISA et al at our disposal, now is the time for the EU to act.
 
@@ -43,6 +43,19 @@ Having your name on the statement does not come with any further commitments; it
 Indicating your support is easy: **send an email to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I%20support%20the%20Memory%20Safety%20Statement) in which you state the name of the supporting organisation, or your name and affiliation.**
 
 If you know someone who might do the same, please feel free to send them this web page and/or [the PDF of the statement](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251008.pdf).
+
+## Contributors
+
+Contributions to this statement were made by:
+- Josh Aas, Internet Security Research Group
+- Rebecca Rumbul, Rust Foundation
+- Thomas Rooijakkers, TNO
+- Jeffrey Vander Stoep, Google
+- Benjamin Schilling
+- Christian (fukami) Horchert, CrabNebula Ltd.
+- prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
+- Erik Poll, Radboud University
+- Harry van Haaren, Openchip
 
 ## List of participating individuals and organisations
 
@@ -58,21 +71,8 @@ Supporting individuals:
 
 *tba*
 
-## Authors
+## About the authors
 [Tara Tarakiyee](https://www.linkedin.com/in/tarakiyee/) is a Technologist at [Sovereign Tech Agency](https://www.sovereign.tech/), who works on designing supporting and mobilizing resources to encourage, sustain and maintain our open digital infrastructure.
 
 [Hugo van de Pol](https://www.linkedin.com/in/hugo-van-de-pol-90665215/) is Director at [Tweede golf](https://tweedegolf.nl/en) and Board member at [Trifecta Tech Foundation](https://trifectatech.org/), who has been advocating the use of memory-safe technologies like Rust for years. 
-
-## Contributors
-
-Contributions to this statement were made by:
-- Benjamin Schilling
-- Christian (fukami) Horchert, CrabNebula Ltd.
-- Rebecca Rumbul, Rust Foundation
-- Josh Aas, Internet Security Research Group
-- Jeffrey Vander Stoep, Google
-- prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
-- Erik Poll, Radboud University
-- Thomas Rooijakkers, TNO
-- Harry van Haaren, Openchip
 
