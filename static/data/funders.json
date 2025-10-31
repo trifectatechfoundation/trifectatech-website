@@ -125,12 +125,6 @@
                 "supportType": "Tweede golf provided in-kind support for the bulk of the development of zlib-rs."
             },
             {
-                "initiative": "automated-demand-response",
-                "name": "openleadr-rs",
-                "year": "2024-2025",
-                "supportType": "Tweede golf provided in-kind support for the bulk of the development and maintenance of openleadr-rs."
-            },
-            {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
                 "year": "2024-2026",
@@ -159,11 +153,6 @@
         "name": "Cisco",
         "image": "cisco",
         "url": "https://cisco.com"
-    },
-    {
-        "name": "eLaad",
-        "image": "elaadnl",
-        "url": "https://elaad.nl/en/"
     },
     {
         "name": "Internet Security Research Group",
