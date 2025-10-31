@@ -8,11 +8,11 @@ date = 2025-10-31
 tags=["announcement"]
 
 [extra]
-image = "/blog/mem-safety-statement-share-image.jpg"
+image = "/blog/mem-safety-statement-share-image-w1600.jpg"
 
 +++
 
-![Improving Europe's cybersecurity posture through memory safety](/blog/mem-safety-statement-share-image.jpg)
+![Improving Europe's cybersecurity posture through memory safety](/blog/mem-safety-statement-share-image-w1600.jpg)
 
 **With the upcoming Cyber Resilience Act in the EU mandating a secure-by-design development process, we urge organisations and individuals to support our statement *"Improving Europe's cybersecurity posture through memory safety"*.**
 
