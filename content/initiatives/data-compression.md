@@ -42,7 +42,7 @@ Compression algorithms are used in a vast number of protocols and file formats t
 
 Our initiative creates **memory-safe** implementations of compression libraries:
 
-- **zlib**: a widely-used compression library, used primarily on the web to provide gzip compression.
+- [**zlib**](/projects/zlib-rs/): a widely-used compression library, used primarily on the web to provide gzip compression.
 - **zstd**: a modern successor to zlib, providing better compression faster. 
 - **bzip2**: a file compression program that is widely deployed and supported e.g. as part of zip.
 - **xz**: a compression format that is commonly used for large file downloads.

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+{% set lastWord = page.title | split(pat=" ") | last | safe -%}
+{% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
+<div class="hero">
+    <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
+    <div>
+        <a href="#">Repository</a> | <a href="#">Documentation</a> | <a href="#">News</a> | <a href="#">Roadmap</a>
+        <strong><a href="/initiatives/data-compression/">Initiative: Data compression</a></strong>
+    </div>
+</div>
+
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+    </div>
+</div>
+
+{{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
+
+{% set length = page.extra.blogposts | length -%}
+{% if length > 0 -%}
+<div class="paragraph">
+    <div class="markdown">
+        <h2>Blog and news</h2>
+        {% include "components/bloglist.html" %}
+    </div>
+    <div>
+        <a href="/news" class="btn btn-primary">
+            <div class="triangle-ornament top"></div>
+            <div class="triangle-ornament bottom"></div>
+            All news
+        </a>
+    </div>
+</div>
+{% endif -%}
+
+{% endblock %}
