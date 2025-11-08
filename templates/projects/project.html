@@ -2,13 +2,17 @@
 {% import "macros.html" as macros %}
 
 {% block content %}
-{% set lastWord = page.title | split(pat=" ") | last | safe -%}
-{% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
-<div class="hero">
-    <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
-    <div>
-        <a href="#">Repository</a> | <a href="#">Documentation</a> | <a href="#">News</a> | <a href="#">Roadmap</a>
-        <strong><a href="/initiatives/data-compression/">Initiative: Data compression</a></strong>
+<div class="project">
+    <div class="project-menu">
+        <ul>
+            {% set links = page.extra.links %}
+            {% for link in links %}
+            <li><a href="{{link.href}}" class="btn btn-secondary">{{ link.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="hero">
+        <h1><span>{{ page.title | safe }}</span></h1>
     </div>
 </div>
 
@@ -24,7 +28,7 @@
 {% if length > 0 -%}
 <div class="paragraph">
     <div class="markdown">
-        <h2>Blog and news</h2>
+        <h2 id="news">Blog and news</h2>
         {% include "components/bloglist.html" %}
     </div>
     <div>

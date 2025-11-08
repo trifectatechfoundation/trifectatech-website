@@ -1,8 +1,8 @@
-<div class="projects">
+<div class="initiatives">
     {% set categories = get_taxonomy(kind="category") %}
     {% set infrastructureItems = categories.items | filter(attribute="name", value="infrastructure") | first %}
     {% set ecosystemItems = categories.items | filter(attribute="name", value="ecosystem") | first %}
-    <div class="project-title">
+    <div class="initiative-title">
         <h2 id="infrastructure">Infrastructure projects</h2>
     </div>
     <div class="items">
@@ -10,7 +10,7 @@
         {% include "components/initiative_item_summary.html" %}
         {% endfor %}
     </div>
-    <div class="project-title">        
+    <div class="initiative-title">        
         <h2 id="ecosystem">Ecosystem projects</h2>
     </div>
     <div class="items">
