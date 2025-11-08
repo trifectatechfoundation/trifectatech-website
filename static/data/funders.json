@@ -207,8 +207,8 @@
         "projects": [
             {
                 "initiative": "time-synchronization",
-                "supportType": "Support provided through the ICANN Grant Program.",
-                "name": "Secure Time for a Safe Internet",
+                "supportType": "Support provided for our Secure Time for a Safe Internet application, through the ICANN Grant Program.",
+                "name": "nts-pool",
                 "year": "2025-2027"
             }
         ]
