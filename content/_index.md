@@ -21,7 +21,7 @@ supporters = [
     "sidnfonds",
     "ngi-zero-entrust",
     "ngi-assure",
-    "stf",
+    "sta",
     "rustedu",
     "rustfoundation",
     "devolutions",

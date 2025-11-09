@@ -8,7 +8,7 @@ template = "support.html"
 
 supporters = [
     "nlnetfoundation",
-    "stf", 
+    "sta", 
     "isrg",
     "ngi-zero-core",
     "canonical",

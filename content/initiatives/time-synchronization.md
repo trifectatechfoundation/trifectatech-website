@@ -16,7 +16,7 @@ funders = [
 ]
 
 supporters = [
-    "stf",
+    "sta",
     "prossimo",
     "sidnfonds",
     "ngi-assure",

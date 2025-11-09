@@ -4,7 +4,7 @@ slug = "zlib-rs"
 template = "projects/project.html"
 
 [extra]
-summary = "<p>zlib-rs is an implementation of the widely-used compression library zlib in Rust. It  provides excellent performance while introducing memory safety.</p>"
+summary = "<p>zlib-rs is an implementation of the widely-used compression library zlib in Rust. It provides excellent performance while introducing memory safety.</p>"
 
 links = [
     { name = "GitHub", href = "https://github.com/trifectatechfoundation/zlib-rs" },
