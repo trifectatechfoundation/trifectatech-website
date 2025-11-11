@@ -61,7 +61,8 @@ Contributions to this statement were made by:
 - Christian (fukami) Horchert, CrabNebula Ltd.
 - prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
 - Erik Poll, Radboud University
-- Harry van Haaren, Openchip
+- Harry van Haaren, Openchip,
+- Marius Gläß, Bundesamt für Sicherheit in der Informationstechnik
 
 ## List of participating individuals and organisations
 
