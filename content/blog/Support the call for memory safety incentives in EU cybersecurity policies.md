@@ -67,8 +67,11 @@ Contributions to this statement were made by:
 ## List of participating individuals and organisations
 
 Supporting organizations:
+- [Internet Security Research Group](https://www.abetterinternet.org/)
+- [Tauri](https://v2.tauri.app/)
+- [Rust Foundation](https://rustfoundation.org/)
 - [Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS](https://ict-research.nl/groups/special-interest-groups/sigsec/)
-- [Tweede golf](https://tweedegolf.nl/en)   
+- [Tweede golf](https://tweedegolf.nl/en)
 - [Trifecta Tech Foundation](https://trifectatech.org/)
 - [Stackable](https://stackable.tech/en/)
 
