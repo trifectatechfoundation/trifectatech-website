@@ -9,6 +9,12 @@ category = ["infrastructure"]
 [extra]
 summary = "<p>Almost all content sent over the Internet undergoes data compression using algorithms like zlib and zstd.</p>"
 
+projects = [
+    "zlib-rs",
+    "zstd-rs",
+    "bzip-rs"
+]
+
 funders = [
     "nlnetfoundation", 
     "chainguard", 

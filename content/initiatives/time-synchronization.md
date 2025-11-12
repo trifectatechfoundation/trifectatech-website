@@ -9,6 +9,12 @@ category = ["infrastructure"]
 [extra]
 summary = "<p>Reliable, securely synchronized time is a building block for the Internet and other critical infrastructure.</p>"
 
+projects = [
+    "ntpd-rs",
+    "statime",
+    "nts-pool"
+]
+
 funders = [
     "nlnetfoundation",
     "ngi-zero-entrust",

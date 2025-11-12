@@ -4,9 +4,23 @@
 {% block content %}
 {% set lastWord = page.title | split(pat=" ") | last | safe -%}
 {% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
-<div class="hero">
-    <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
+<div class="hero-container">
+    {% set length = page.extra.projects | length -%}
+    {% if length > 0 -%}
+    <div class="hero-menu">
+        <ul>
+            {% set projects = page.extra.projects %}
+            {% for project in projects %}
+            <li><a href="/projects/{{project}}" class="btn btn-secondary">{{ project }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif -%}
+    <div class="hero">
+        <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
+    </div>
 </div>
+
 
 {{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
 

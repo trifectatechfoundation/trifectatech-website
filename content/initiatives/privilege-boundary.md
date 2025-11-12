@@ -9,6 +9,12 @@ category = ["infrastructure"]
 [extra]
 summary = "<p>The sudo utility mediates a critical privilege boundary on every open-source operating system that powers the Internet.</p>"
 
+projects = [
+    "sudo-rs",
+    "allowd",
+    "ssh-server"
+]
+
 funders = [
     "nlnetfoundation",
     "ngi-zero-core",
