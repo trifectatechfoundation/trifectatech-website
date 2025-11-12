@@ -2,7 +2,7 @@
 title = "Support the call for Memory Safety incentives in EU cybersecurity policies"
 slug = "support-memory-safety-incentives-in-eu-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
-date = 2025-10-31
+date = 2025-11-12
 
 [taxonomies]
 tags=["announcement"]
@@ -32,7 +32,7 @@ However, its adoption rate is slow due to a lack of short-term economic incentiv
 <br/> <br/>
 The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
 
-The full statement can be read [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251008.pdf). 
+The full statement can be read [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf). 
 
 ## The time is now
 
@@ -48,7 +48,27 @@ Having your name on the statement does not come with any further commitments; it
 
 Indicating your support is easy: **send an email to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I%20support%20the%20Memory%20Safety%20Statement) in which you state the name of the supporting organisation, or your name and affiliation.**
 
-If you know someone who might do the same, please feel free to send them this web page and/or [the PDF of the statement](/docs/improving-europes-cybersecurity-posture-through-memory-safety-v20251008.pdf).
+If you know someone who might do the same, please feel free to send them this web page and/or [the PDF of the statement](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf).
+
+---
+
+## List of supporters
+
+Supporting organizations:
+- [Internet Security Research Group](https://www.abetterinternet.org/)
+- [Tauri](https://v2.tauri.app/)
+- [Rust Foundation](https://rustfoundation.org/)
+- [Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS](https://ict-research.nl/groups/special-interest-groups/sigsec/)
+- [Tweede golf](https://tweedegolf.nl/en)
+- [Trifecta Tech Foundation](https://trifectatech.org/)
+- [Stackable](https://stackable.tech/en/)
+
+... *more tba*
+
+<!-- Supporting individuals:
+
+*tba* -->
+<br />
 
 ## Contributors
 
@@ -61,21 +81,10 @@ Contributions to this statement were made by:
 - Christian (fukami) Horchert, CrabNebula Ltd.
 - prof. dr. H.J. Bos, Vrije Universiteit Amsterdam
 - Erik Poll, Radboud University
-- Harry van Haaren, Openchip
+- Harry van Haaren, Openchip,
+- Marius Gläß, Bundesamt für Sicherheit in der Informationstechnik
 
-## List of participating individuals and organisations
-
-Supporting organizations:
-- [Special Interest Group Cybersecurity of ICT Research Platform Netherlands (IPN) and ACCSS](https://ict-research.nl/groups/special-interest-groups/sigsec/)
-- [Tweede golf](https://tweedegolf.nl/en)   
-- [Trifecta Tech Foundation](https://trifectatech.org/)
-- [Stackable](https://stackable.tech/en/)
-
-... *more tba*
-
-Supporting individuals:
-
-*tba*
+---
 
 ## About the authors
 [Tara Tarakiyee](https://www.linkedin.com/in/tarakiyee/) is a Technologist at [Sovereign Tech Agency](https://www.sovereign.tech/), who works on designing supporting and mobilizing resources to encourage, sustain and maintain our open digital infrastructure.
