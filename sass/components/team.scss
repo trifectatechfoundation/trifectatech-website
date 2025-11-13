@@ -47,7 +47,7 @@
     max-height: 4rem;
 
     @media (min-width: 62rem) {
-      background-image: url('ornament-separator.svg');
+      background-image: var(--ornament-separator);
       width: 100%;
       height: 3rem;
       right: auto;

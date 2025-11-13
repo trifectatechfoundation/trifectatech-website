@@ -1,0 +1,10 @@
+{% set categories = get_taxonomy(kind="category") %}
+{% set infrastructureItems = categories.items | filter(attribute="name", value="infrastructure") | first %}
+{% for initiative in infrastructureItems.pages %}
+    {% set projects = initiative.extra.projects %}
+    <ul>
+    {% for project in projects %}    
+        <li><a class="subitem" href="/projects/{{project}}">{{ project }}</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}
