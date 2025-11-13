@@ -39,11 +39,11 @@ blogposts = [
 
 zlib-rs is an implementation of the widely-used compression library zlib in Rust. It  provides excellent performance while introducing memory safety. It is part of our [Data compression initiative](/initiatives/data-compression/). 
 
-### About
+### What we've done
 
 The initial development of `zlib-rs` was started and funded by [Prossimo](https://www.memorysafety.org/initiative/zlib/) and [Tweede golf](https://tweedegolf.nl/en). In 2024, an early release of zlib-rs was [integrated in flate2](https://github.com/rust-lang/flate2-rs/releases/tag/1.0.29) and an audit by [ISRG](https://www.abetterinternet.org/) was succesfully completed. Optimizations for Webassembly were included.
 
-During 2025, zlib-rs was adopted [by many projects](https://github.com/trifectatechfoundation/zlib-rs/network/dependents) and we achieved our goal of on-par performance, see [/blog/zlib-rs-is-faster-than-c/](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/).
+During 2025, zlib-rs was adopted [by 3000+ projects](https://github.com/trifectatechfoundation/zlib-rs/network/dependents) and we achieved our goal of on-par performance, see [/blog/zlib-rs-is-faster-than-c/](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/).
 
 
 ### Roadmap

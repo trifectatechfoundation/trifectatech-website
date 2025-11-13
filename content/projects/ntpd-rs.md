@@ -28,18 +28,29 @@ supporters = [
 ]
 
 blogposts = [
+    "ntpd-rs now supports version 5 of the Network Time Protocol",
+    "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
+    "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",
+    "Sovereign Tech Fund invests in Pendulum"
 ]
 +++
 
-Tbd. 
+ntpd-rs is a tool for synchronizing your computer's clock, implementing the Network Time Protocol (NTP) and Network Time Security (NTS) protocols. It is written in Rust, with a focus on security and stability, and includes both client and server support.
 
-### About
+ntpd-rs is part of our [Time synchronization initiative](/initiatives/time-synchronization/).
 
-Tbd.
+### What we've done
+
+ntpd-rs, is stable. It is packaged for, for example, Fedora, Debian and Ubuntu and [deployed at Let's Encrypt](https://letsencrypt.org/2024/06/24/ntpd-rs-deployment).
 
 ### Roadmap
 
-Tbd
+- 2025 Q3-Q4: Support for NTPv5  
+- 2026 Q1: Experimental support for Client Server PTP in ntpd-rs (funded by Meinberg)
+
+### History
+
+The initial development of ntpd-rs was started and funded by the [Internet Security Research Group](https://www.abetterinternet.org/) as part of the [Prossimo project](https://www.memorysafety.org/).
 
 ### Support us
 

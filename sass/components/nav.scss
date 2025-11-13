@@ -110,7 +110,6 @@ nav {
     border-width: 1px 0px;
     border-color: var(--color-primary-400);
     border-style: solid;
-    // padding: 1rem 1rem;
     translate: 0 100%;
     background-color: var(--color-secondary-200-off);
     width: calc(100vw);
@@ -130,7 +129,7 @@ nav {
 
     .menu-panel-container {
       margin-inline: auto;
-      width: min(100% - 3rem, 75rem);
+      width: min(100%, 75rem);
     }
 
     .submenu {
@@ -142,8 +141,8 @@ nav {
       }
       
       &.main {
-        margin-block-start: 1.5rem;
-        margin-block-end: 1.5rem;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
       }
       &.software {
         background-color: var(--color-inline-code);
