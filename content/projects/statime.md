@@ -53,6 +53,8 @@ In late 2025, we started the experimental implementation of the novel [Client Se
 - 2026 Q3: Automotive profile (pending funding)
 - 2026 Q4: Stable release of statime library (pending funding)
 
+For milestone details see [the Statime workplan](/initiatives/workplans/statime/).
+
 ### Support us
 
 Please [get in touch with us](/support), if you are interested in financially supporting us.
