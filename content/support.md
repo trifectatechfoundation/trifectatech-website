@@ -8,7 +8,7 @@ template = "support.html"
 
 supporters = [
     "nlnetfoundation",
-    "stf", 
+    "sta", 
     "isrg",
     "ngi-zero-core",
     "canonical",
@@ -19,15 +19,19 @@ funders = [
 ]
 +++
 
-Trifecta Tech Foundation 100% relies on the support from funders to maintain our [initiatives](/initiatives) and start new developments. 
-
-Your support backs our mission to **strengthen critical infrastructure software**. 
+Trifecta Tech Foundation 100% relies on the support from funders to maintain our projects and start new developments. Your support backs our mission to **strengthen critical infrastructure software**. 
 
 Our initiatives, [Data compression](/initiatives/data-compression), [Time synchronization](/initiatives/time-synchronization) and [Privilege boundary](/initiatives/privilege-boundary), impact the digital security of millions of people.
 
-### Sponsorship Levels
+### Sponsorship
 
-For organizations considering structurally supporting us, we offer a Gold (&euro; 40.000/year) and a Silver (&euro; 20.000/year) sponsorship level. Please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org), if you are interested.
+For project-specific feature funding, please get in touch with us via [contact@trifectatech.org](mailto:contact@trifectatech.org). In the Roadmap section of each project, you can find the milestones for which we are seeking funding.
+
+For organizations considering structurally supporting us, we offer these sponsorship levels:
+- Gold sponsor (&euro; 40.000/year)
+- Silver sponsor (&euro; 20.000/year)
+
+[Get in touch with us](mailto:contact@trifectatech.org) to learn more about sponsorship benefits.
 
 If you are an individual or small company looking to back our ongoing maintenance work, a good option is to [support us via GitHub](https://github.com/sponsors/trifectatechfoundation). GitHub support starts at &euro; 1,- one-time to &euro; 200,-/month; all contributions are highly appriciated.
 

@@ -6,12 +6,11 @@
     <h1>{{ page.title | safe }}: <span>workplan</span></h1>
 </div>
 
-{% set parent_page = get_page(path=page.extra.backLink ~ ".md") %}
-{{ macros::page_funders(currentFunders=parent_page.extra.funders, supporters=parent_page.extra.supporters) }}
+{% set project = get_page(path=page.extra.backLink ~ ".md") %}
+{{ macros::page_funders(currentFunders=project.extra.funders, supporters=project.extra.supporters) }}
 
 <div class="paragraph">
     <div class="markdown">
-        <a href={{ "/" ~ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>
         {{ page.content | safe }}
         <br />
         <a href={{ "/" ~ page.extra.backLink }}><< {{ page.extra.backTitle }}</a>

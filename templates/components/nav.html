@@ -1,4 +1,28 @@
 <nav>
+  <div class="menu-panel">
+    <div class="menu-panel-container">
+      <div class="submenu main">
+        <a href="/initiatives">Infrastructure initiatives</a>
+        <ul>
+          <li><a class="subitem" href="/initiatives/time-synchronization">Time synchronization</a></li>
+          <li><a class="subitem" href="/initiatives/privilege-boundary">Privilege boundary</a></li>
+          <li><a class="subitem" href="/initiatives/data-compression">Data compression</a></li>
+        </ul>
+        <a href="/initiatives">Ecosystem initiatives</a>
+        <ul>
+          <li><a class="subitem" href="/initiatives/codegen">Making Rust faster than C</a></li>
+          <li><a class="subitem" href="/initiatives/education">Education</a></li>
+        </ul>
+        <a href="/news">News & blogs</a>
+        <a href="/support">Support us</a>
+        <a href="/about">About</a>
+      </div>
+      <div class="submenu software">
+        <a href="/initiatives">Our projects</a>
+        {% include "components/nav-projects.html" %}
+      </div>
+    </div>
+    </div>
   <div class="container">
     {% include "components/logo.html" %}
     <div class="menu">
@@ -12,25 +36,6 @@
       </div>
       <div class="hamburger">
         {{ load_data(path="static/bars.svg") | safe }}
-      </div>
-    </div>
-    <div class="menu-panel">
-      <div>
-        <a href="/">Home</a>
-        <a href="/initiatives">Infrastructure projects</a>
-        <ul>
-          <li><a class="subitem" href="/initiatives/time-synchronization">Time synchronization</a></li>
-          <li><a class="subitem" href="/initiatives/privilege-boundary">Privilege boundary</a></li>
-          <li><a class="subitem" href="/initiatives/data-compression">Data compression</a></li>
-        </ul>
-        <a href="/initiatives">Ecosystem projects</a>
-        <ul>
-          <li><a class="subitem" href="/initiatives/codegen">Making Rust faster than C</a></li>
-          <li><a class="subitem" href="/initiatives/education">Education</a></li>
-        </ul>
-        <a href="/news">News & blogs</a>
-        <a href="/support">Support us</a>
-        <a href="/about">About</a>
       </div>
     </div>
   </div>

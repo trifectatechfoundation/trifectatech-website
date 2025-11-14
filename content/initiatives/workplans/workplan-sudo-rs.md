@@ -4,8 +4,8 @@ slug = "sudo-rs"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
-backLink = "initiatives/privilege-boundary"
-backTitle = "Back to initiative: Privilege boundary"
+backLink = "projects/sudo-rs"
+backTitle = "Back to project: sudo-rs"
 +++
 
 ## Roadmap
@@ -18,7 +18,12 @@ In 2025 we [completed milestones 4 and 5](#completed-work-items) improving both 
 
 ### Current work
 
-Currently there is no feature development in progress.  
+**Milestone 6**
+
+* Internationalization (i18n) support
+* Askpass
+
+This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
 
 --- 
 
@@ -26,7 +31,6 @@ Currently there is no feature development in progress.
 
 **Internationalization**
 
-* Internationalization support	
 * Translating messages	
 
 **Improved Cross-platform Compatibility**
@@ -36,7 +40,6 @@ Currently there is no feature development in progress.
 
 **Usability Enhancements**
 
-* Askpass support
 * Support reading the doas configuration file
 * A migration guide and FAQ for users
 

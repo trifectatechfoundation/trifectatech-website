@@ -54,9 +54,9 @@
             <ul>  
             {% for project in funder.projects %}           
                 <li class="project">
-                    In {{project.year}}: support for 
+                    In {{project.year|join(sep=", ") }}: support for 
                     {% if project.name %}
-                    <i>{{project.name}}</i>, part of 
+                    <i><a href="/projects/{{project.name}}">{{project.name}}</a></i>, part of 
                     {% endif %}
                     our <i>{{project.initiative}}</i> initiative.
                     {% if project.supportType %}

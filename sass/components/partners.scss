@@ -15,7 +15,7 @@
   }
 
   &::after {
-    background-image: url('ornament-separator.svg');
+    background-image: var(--ornament-separator);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -88,8 +88,8 @@
       background-image: url('/funders/nlnetfoundation.png');
     }
 
-    &.stf {
-      background-image: url('/funders/stf.svg');
+    &.sta {
+      background-image: url('/funders/sta.svg');
     }
 
     &.sidnfonds {
@@ -162,6 +162,10 @@
 
     &.icann {
       background-image: url('/funders/icann-logo-globe-with-name.png');
+    }
+
+    &.meinberg {
+      background-image: url('/funders/meinberg.svg');
     }
   }
 }

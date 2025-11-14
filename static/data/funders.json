@@ -7,21 +7,26 @@
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2024-2025"
+                "year": [2024, 2025]
             },
             {
                 "initiative": "data-compression",
                 "name": "bzip2-rs",
-                "year": "2024-2025"
+                "year": [2024, 2025]
             },
             {
                 "initiative": "codegen",
-                "year": "2025"
+                "year": [2025]
             },
             {
                 "initiative": "time-synchronization",
                 "name": "ntpd-rs",
-                "year": "2025-2026"
+                "year": [2023, 2025, 2026]
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2021, 2022, 2023]
             }
         ]
     },
@@ -33,7 +38,14 @@
     {
         "name": "SIDN Fonds",
         "image": "sidnfonds",
-        "url": "https://sidnfonds.nl"
+        "url": "https://sidnfonds.nl",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2023]
+            }
+        ]
     },
     {
         "name": "AWS",
@@ -43,18 +55,18 @@
             {
                 "initiative": "time-synchronization",
                 "name": "ntpd-rs",
-                "year": "2022-2023",
+                "year": [2022, 2023],
                 "supportType": "AWS co-funded the first version of ntpd-rs through Prossimo."
             },
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2023",
+                "year": [2023],
                 "supportType": "AWS co-funded the development of sudo-rs through Prossimo."
             },
             {
                 "initiative": "codegen",
-                "year": "2025"
+                "year": [2025]
             }
         ]
     },
@@ -66,29 +78,65 @@
             {
                 "initiative": "data-compression",
                 "name": "bzip2-rs",
-                "year": "2025"
+                "year": [2025]
             },
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2024-2025"
+                "year": [2024, 2025]
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2025, 2026]
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "allowd",
+                "year": [2026]
             }
         ]
     },
     {
         "name": "NGI Zero Entrust",
         "image": "ngi-zero-entrust",
-        "url": "https://nlnet.nl/entrust"
+        "url": "https://nlnet.nl/entrust",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2023]
+            }
+        ]
     },
     {
         "name": "NGI Assure",
         "image": "ngi-assure",
-        "url": "https://nlnet.nl/assure"
+        "url": "https://nlnet.nl/assure",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2021, 2022, 2023]
+            }
+        ]
     },
     {
         "name": "Sovereign Tech Agency",
-        "image": "stf",
-        "url": "https://www.sovereign.tech/"
+        "image": "sta",
+        "url": "https://www.sovereign.tech/",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2023, 2024]
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2023, 2024]
+            }
+        ]
     },
     {
         "name": "Rust Edu",
@@ -103,13 +151,13 @@
             {
                 "initiative": "data-compression",
                 "name": "zlib-rs",
-                "year": "2024",
+                "year": [2024],
                 "supportType": "Chainguard funded initial development of zlib-rs through Prossimo."
             },
             {
                 "initiative": "data-compression",
                 "name": "zstd-rs",
-                "year": "2025"
+                "year": [2025]
             }
         ]
     },
@@ -121,14 +169,19 @@
             {
                 "initiative": "data-compression",
                 "name": "zlib-rs",
-                "year": "2024",
+                "year": [2024],
                 "supportType": "Tweede golf provided in-kind support for the bulk of the development of zlib-rs."
             },
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2024-2026",
+                "year": [2024, 2025, 2026],
                 "supportType": "Tweede golf provides in-kind support for maintenance."
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2023]
             }
         ]
     },
@@ -145,19 +198,43 @@
             {
                 "initiative": "data-compression",
                 "name": "zlib-rs",
-                "year": "2024"
+                "year": [2024]
             }
         ]
     },
     {
         "name": "Cisco",
         "image": "cisco",
-        "url": "https://cisco.com"
+        "url": "https://cisco.com",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2023]
+            }
+        ]
     },
     {
         "name": "Internet Security Research Group",
         "image": "isrg",
-        "url": "https://www.abetterinternet.org/"
+        "url": "https://www.abetterinternet.org/",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2023, 2024]
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": [2023, 2024]
+            },
+            {
+                "initiative": "data-compression",
+                "name": "zlib-rs",
+                "year": [2024, 2025]
+            }
+        ]
     },
     {
         "name": "Ministry of the Interior of the Netherlands",
@@ -167,12 +244,12 @@
             {
                 "initiative": "data-compression",
                 "name": "bzip2-rs",
-                "year": "2025"
+                "year": [2025]
             },
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2024-2025"
+                "year": [2024, 2025]
             }
         ]
     },
@@ -184,7 +261,7 @@
             {
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
-                "year": "2025"
+                "year": [2025]
             }
         ]
     },
@@ -196,7 +273,19 @@
             {
                 "initiative": "data-compression",
                 "name": "zstd-rs",
-                "year": "2025"
+                "year": [2025]
+            }
+        ]
+    },
+    {
+        "name": "Meinberg",
+        "image": "meinberg",
+        "url": "https://www.meinbergglobal.com/",
+        "projects": [
+            {
+                "initiative": "time-synchronization",
+                "name": "statime",
+                "year": [2025, 2026]
             }
         ]
     },
@@ -207,9 +296,9 @@
         "projects": [
             {
                 "initiative": "time-synchronization",
-                "supportType": "Support provided through the ICANN Grant Program.",
-                "name": "Secure Time for a Safe Internet",
-                "year": "2025-2027"
+                "supportType": "Support provided for our Secure Time for a Safe Internet application, through the ICANN Grant Program.",
+                "name": "nts-pool",
+                "year": [2025, 2026, 2027]
             }
         ]
     }

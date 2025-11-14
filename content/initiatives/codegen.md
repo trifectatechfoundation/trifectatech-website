@@ -10,6 +10,9 @@ category = ["ecosystem"]
 
 summary = "<p>Our mission is to make critical infrastructure software safer. We must eliminate performance considerations as a barrier for adopting the memory safe languange Rust in order to achieve this goal.</p>"
 
+projects = [
+]
+
 funders = [
     "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
 ]
