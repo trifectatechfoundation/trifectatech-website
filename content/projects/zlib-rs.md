@@ -16,7 +16,8 @@ links = [
 funders = [
     "nlnetfoundation", 
     "chainguard", 
-    "astral"
+    "astral",
+    "sta"
 ]
 
 supporters = [
@@ -37,7 +38,9 @@ blogposts = [
 ]
 +++
 
-zlib-rs is an implementation of the widely-used compression library zlib in Rust. It  provides excellent performance while introducing memory safety. It is part of our [Data compression initiative](/initiatives/data-compression/). 
+zlib-rs is an implementation of the widely-used compression library zlib in Rust. It  provides excellent performance while introducing memory safety. 
+
+zlib-rs is part of our [Data compression initiative](/initiatives/data-compression/). 
 
 ### What we've done
 
@@ -45,10 +48,9 @@ The initial development of `zlib-rs` was started and funded by [Prossimo](https:
 
 During 2025, zlib-rs was adopted [by 3000+ projects](https://github.com/trifectatechfoundation/zlib-rs/network/dependents) and we achieved our goal of on-par performance, see [/blog/zlib-rs-is-faster-than-c/](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/).
 
-
 ### Roadmap
 
-Work has started on a mature Rust API for zlib-rs that is expected to be released in February 2026. See [the zlib-rs workplan](/initiatives/workplans/data-compression) for milestone details.
+Work has started on a mature Rust API for zlib-rs that is expected to be released in February 2026. See [the zlib-rs workplan](/initiatives/workplans/zlib-rs) for milestone details.
 
 ### Support zlib-rs
 

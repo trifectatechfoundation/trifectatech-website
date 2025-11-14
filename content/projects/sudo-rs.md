@@ -14,13 +14,14 @@ links = [
 ]
 
 funders = [
-    "nlnetfoundation",
-    "ngi-zero-core",
-    "min-bzk",
+    "sta",
     "canonical"
 ]
 
 supporters = [
+    "nlnetfoundation",
+    "ngi-zero-core",
+    "min-bzk",
     "prossimo",
     "tweedegolf",
     "aws"
@@ -39,9 +40,9 @@ blogposts = [
 ]
 +++
 
-The sudo and su utilities mediate a critical privilege boundary on almost every open-source operating system that powers the Internet.
+The sudo and su utilities mediate a critical privilege boundary on almost every open-source operating system that powers the Internet. Sudo-rs is a sudo alternative that doesn't suffer from memory safety vulnerabilities and is designed to minimize attack surface.
 
-Sudo-rs is a sudo alternative that doesn't suffer from memory safety vulnerabilities and is designed to minimize attack surface.
+Sudo-rs is part of our [Privilege Boundary initiative](/initiatives/privilege-boundary/).
 
 ### About
 
@@ -54,7 +55,13 @@ We'd like to thank Todd Miller, maintainer of the original sudo utility, for his
 
 ### Roadmap
 
-For past, current and future development, see the [the sudo-rs roadmap](/initiatives/workplans/sudo-rs).
+For past, current and future development, see the [the sudo-rs workplan](/initiatives/workplans/sudo-rs).
+
+### History
+
+The initial development of sudo-rs was started and funded by the [Internet Security Research Group](https://www.abetterinternet.org/) as part of the [Prossimo project](https://www.memorysafety.org/).
+
+In July 2024 the [sudo-rs moved to the Trifecta Tech Foundation](https://www.memorysafety.org/blog/trifecta-tech-foundation-sudo-su/).
 
 ### Support sudo-rs
 

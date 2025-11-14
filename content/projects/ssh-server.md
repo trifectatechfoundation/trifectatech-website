@@ -1,5 +1,5 @@
 +++
-title = "ssh-server"
+title = "SSH server in Rust"
 slug = "ssh-server"
 template = "projects/project.html"
 
@@ -7,13 +7,11 @@ template = "projects/project.html"
 summary = "<p>Tbd</p>"
 
 links = [
-    { name = "Roadmap", href = "#roadmap" },
-    { name = "News", href = "#news" }
+    { name = "Roadmap", href = "#roadmap" }
 ]
 
 funders = [
-    "", 
-    ""
+    "sta"
 ]
 
 supporters = [
@@ -24,15 +22,16 @@ blogposts = [
 ]
 +++
 
-Tbd. 
+The project is part of our [Privilege Boundary initiative](/initiatives/privilege-boundary/).
 
 ### About
 
-Tbd.
+More soon
 
 ### Roadmap
 
-Tbd
+- Q4 2025: Proof-of-concept implementation
+- 2026: Start of development (pending funding)
 
 ### Support us
 

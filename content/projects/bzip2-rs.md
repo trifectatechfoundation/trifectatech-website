@@ -14,12 +14,12 @@ links = [
 ]
 
 funders = [
-    "nlnetfoundation",
-    "ngi-zero-core",
-    "min-bzk"
 ]
 
 supporters = [
+    "nlnetfoundation",
+    "ngi-zero-core",
+    "min-bzk"
 ]
 
 blogposts = [
@@ -28,17 +28,26 @@ blogposts = [
 ]
 +++
 
-bzip2. 
+Bzip2 is a file compression program that is widely deployed and supported e.g. as part of zip.
+
+Using a `c2rust` translation of the original bzip2 C code as the starting point, we created a mature pure Rust implemenation that is now available as a drop-in replacement, and in the [bzip2 crate](https://crates.io/crates/bzip2).
+
+bzip2-rs is part of our [Data compression initiative](/initiatives/data-compression/). 
 
 ### About
 
-Tbd.
+The development of **bzip2**, started Oct 2024. We used `c2rust` to translate the original bzip2 C code to Rust.
 
+In June of 2025 we released version 0.6.0 of the bzip2 crate, that uses our 100% Rust implementation, see the blog post [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/).
+
+Releases are [available on GitHub](https://github.com/trifectatechfoundation/libbzip2-rs?tab=readme-ov-file#how-to-use-libbzip2-rs-in-your-project), and also through the [bzip2 crate](https://crates.io/crates/bzip2) we now maintain.
 
 ### Roadmap
 
-Tbd.
+No feature development is currently planned. See [the workplan](/initiatives/workplans/bzip2-rs).
 
-### Support bzip2-rs
+### Support us
 
-Please [get in touch with us](/support), if you are interested in financially supporting us. 
+Please [get in touch with us](/support), if you are interested in financially supporting the data compression initiative. 
+
+
