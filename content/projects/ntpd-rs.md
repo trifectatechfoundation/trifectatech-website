@@ -45,8 +45,10 @@ ntpd-rs, is stable. It is packaged for, for example, Fedora, Debian and Ubuntu a
 
 ### Roadmap
 
-- 2025 Q3-Q4: Support for NTPv5  
-- 2026 Q1: Experimental support for Client Server PTP in ntpd-rs (funded by Meinberg)
+- 2025 Q3-Q4: Support for NTPv5, updated as the spec evolves
+- 2025 Q4: Support for [NTS extensions for enabling pools](https://datatracker.ietf.org/doc/draft-venhoek-nts-pool/)
+- 2026 Q1: Experimental Client Server PTP with NTS (funded by Meinberg)
+- 2026 Q2: Clock synchronization library (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
 
 ### History
 

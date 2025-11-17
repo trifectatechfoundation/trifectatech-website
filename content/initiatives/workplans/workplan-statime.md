@@ -10,11 +10,11 @@ backTitle = "Back to project: Statime"
 
 ## Roadmap
 
-- 2026 Q1: [Experimental support for Client Server PTP in ntpd-rs](#milestone-4-client-server-ptp) (funded by Meinberg)
+- 2026 Q1: [Experimental Client Server PTP with NTS in ntpd-rs](#milestone-4-client-server-ptp) (funded by Meinberg)
 - 2026 Q2: [Clock synchronization library](#milestone-5-clock-synchronization-library) (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
-- 2026 Q3: [Stable release of statime-linux](#milestone-6-stable-release-of-statime-linux) (pending funding)
-- 2026 Q3: [Automotive profile](#milestone-7-automotive-profile) (pending funding)
-- 2026 Q4: [Stable release of statime library](#milestone-8-stable-release-of-statime-library) (pending funding)
+- 2026 Q4: [Stable release of statime-linux](#milestone-6-stable-release-of-statime-linux) (pending funding)
+- 2026 Q4: [Automotive profile](#milestone-7-automotive-profile) (pending funding)
+- 2027 Q1: [Stable release of statime library](#milestone-8-stable-release-of-statime-library) (pending funding)
 
 ---
 
@@ -22,12 +22,19 @@ backTitle = "Back to project: Statime"
 
 ### Milestone 4: Client Server PTP
 
+This milestone will add experimental Client Server PTP with NTS to ntpd-rs using the Statime library.
+During 2026, as the IEEE spec evolves, the implementation will be updated.
+
 * Experimental implementation for Client Server PTP in ntpd-rs
 * Updates to the implementation as the spec evolves
 
 This work is supported by [Meinberg](https://www.meinbergglobal.com/).
 
 ### Milestone 5: Clock synchronization library
+
+This milestone will extract shared clock synchronization functionality in ntpd-rs and and Statime. The result is a new library with potentially small improvements to clock synchronization performance.
+
+* More details soon
 
 This work is supported by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/).
 
@@ -37,7 +44,7 @@ This work is supported by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/).
 
 ### Milestone 6: Stable release of statime-linux
 
-The statime-linux is Statime's PTP daemon for Linux distributions. This milestone gets statime-linux ready for mainstream adoption.
+statime-linux is Statime's PTP daemon for Linux distributions. This milestone gets statime-linux ready for mainstream adoption.
 
 - **Binary:**: logs, config, observability improvements, statime-ctl	
 - **Binary docs:**: getting started, migration guide from PTP4Linux, config reference	
