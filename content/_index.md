@@ -10,13 +10,14 @@ funders = [
     "chainguard",
     "ngi-zero-core",
     "canonical",
-    "min-bzk",
     "astral",
     "icann",
+    "meinberg",
     "tweedegolf"
 ]
 
 supporters = [
+    "min-bzk",
     "prossimo",
     "sidnfonds",
     "ngi-zero-entrust",
