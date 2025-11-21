@@ -5,10 +5,13 @@
         margin: auto;
         padding-top: 2rem;
 
-        li {
-            display: inline-block;
-            padding-right: 0.5rem;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
 
+        li {
             a.btn-secondary {
                 padding-inline: 0.5rem;
                 height: 2rem;
