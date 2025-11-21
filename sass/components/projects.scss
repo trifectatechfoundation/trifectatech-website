@@ -1,20 +1,32 @@
 .hero-container {
     .hero-menu {
-        display: block;
-        text-align: center;
-        margin: auto;
-        padding-top: 2rem;
+        margin-block-start: 1.5rem;
+        display: flex;
+        justify-content: center;
 
         ul {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            width: 100%;
+            max-width: 36.75rem;
         }
 
         li {
-            a.btn-secondary {
-                padding-inline: 0.5rem;
-                height: 2rem;
+            flex: 1;
+
+            a {
+                width: 100%;
+                padding-inline: 0;
+
+                &:hover {
+                    background-color: var(--color-secondary-400);
+                }
+            }
+
+            &:not(:last-child) {
+                a {
+                    border-inline-end: 0;
+                }
             }
         }
     }
