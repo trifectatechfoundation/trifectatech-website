@@ -30,9 +30,9 @@ blogposts = [
 
 Bzip2 is a file compression program that is widely deployed and supported e.g. as part of zip.
 
-Using a `c2rust` translation of the original bzip2 C code as the starting point, we created a mature pure Rust implemenation that is now available as a drop-in replacement, and in the [bzip2 crate](https://crates.io/crates/bzip2).
+`bzip2-rs` is available as a [drop-in compatible C library](https://github.com/trifectatechfoundation/libbzip2-rs) and via the [bzip2 crate](https://crates.io/crates/bzip2). The implementation was created using [`c2rust`](https://c2rust.com/), and it is now faster than the C original.
 
-bzip2-rs is part of our [Data compression initiative](/initiatives/data-compression/). 
+bzip2-rs is part of our [Data compression initiative](/initiatives/data-compression/).
 
 ### About
 
@@ -48,6 +48,6 @@ No feature development is currently planned. See [the workplan](/initiatives/wor
 
 ### Support us
 
-Please [get in touch with us](/support), if you are interested in financially supporting the data compression initiative. 
+Please [get in touch with us](/support), if you are interested in financially supporting the data compression initiative.
 
 
