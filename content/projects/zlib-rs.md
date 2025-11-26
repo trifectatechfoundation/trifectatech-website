@@ -14,16 +14,16 @@ links = [
 ]
 
 funders = [
-    "nlnetfoundation", 
-    "chainguard", 
+    "nlnetfoundation",
+    "chainguard",
     "astral",
     "sta"
 ]
 
 supporters = [
-    "devolutions", 
-    "prossimo", 
-    "tweedegolf", 
+    "devolutions",
+    "prossimo",
+    "tweedegolf",
     "isrg"
 ]
 
@@ -38,9 +38,10 @@ blogposts = [
 ]
 +++
 
-zlib-rs is an implementation of the widely-used compression library zlib in Rust. It  provides excellent performance while introducing memory safety. 
+zlib-rs is an implementation of the widely-used compression library zlib in Rust.
+It is available as a drop-in compatible C library and as a Rust crate, and provides excellent performance while adding memory safety.
 
-zlib-rs is part of our [Data compression initiative](/initiatives/data-compression/). 
+zlib-rs is part of our [Data compression initiative](/initiatives/data-compression/).
 
 ### What we've done
 
