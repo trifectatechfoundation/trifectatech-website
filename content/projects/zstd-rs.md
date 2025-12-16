@@ -27,7 +27,7 @@ blogposts = [
 ]
 +++
 
-Zstandard is a modern successor to zlib, providing better compression faster. Zstd-rs is *in developement*; it aims to provide excellent performance while introducing memory safety.
+Zstandard is a modern successor to zlib, providing better compression faster. Zstd-rs is *in development*; it aims to provide excellent performance while introducing memory safety.
 
 The project will provide a dynamic library that is a drop-in replacement for C/C++ counterparts, but has compiled memory-safe Rust code inside. 
 
