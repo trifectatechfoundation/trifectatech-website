@@ -15,7 +15,9 @@ links = [
 funders = [
     "chainguard", 
     "astral",
-    "sta"
+    "sta",
+    "nlnetfoundation",
+    "ngi-zero-core"
 ]
 
 supporters = [
@@ -27,20 +29,22 @@ blogposts = [
 
 Zstandard is a modern successor to zlib, providing better compression faster. Zstd-rs is *in developement*; it aims to provide excellent performance while introducing memory safety.
 
-The project will provide a dynamic library that is a drop-in replacement for C/C++ counterparts, but has compiled memory-safe Rust code inside. For the high level goals, see our [Data compression initiative](/initiatives/data-compression/).
+The project will provide a dynamic library that is a drop-in replacement for C/C++ counterparts, but has compiled memory-safe Rust code inside. 
 
-Zstd-rs is part of our [Data compression initiative](/initiatives/data-compression/). 
+For the high level goals of our data compression projects, see our [Data compression initiative](/initiatives/data-compression/).
 
 ### About
 
-Development of zstd-rs began in July 2025, with the first release of the decoder planned for February 2026.
+Development of zstd-rs began in July 2025, with the first release of the decoder planned for March 2026.
+
+We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/), [Sovereign Tech Agency](https://sovereign.tech) and [NLnet Foundation](https://nlnet.nl) for their support.
 
 ### Roadmap
 
 - 2025 Q3: start of decoder implementation
-- 2025 Q4: dictBuilder feature
+- 2025 Q4: implementation of dictBuilder feature
 - 2026 Q1: release of decoder
-- 2026 Q2: release of encoder (pending funding)
+- 2026 Q2: start of encoder implementation (*pending funding*)
 
 For details see [the zstd-rs workplan](/initiatives/workplans/zstd-rs/).
 

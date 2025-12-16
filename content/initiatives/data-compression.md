@@ -66,7 +66,7 @@ In June 2025 we released a new version of the **bzip2** crate, see [the bzip2 pr
 
 ### What's Next
 
-Development of **zstd** began in July 2025, with the first release of the decoder planned for February 2026. We're currently seeking funding to complete work on the encoder side, see [zstd](/projects/zstd/). 
+Development of **zstd** began in July 2025, with the first release of the decoder planned for February 2026. We're currently seeking funding to complete work on the encoder side, see [zstd-rs](/projects/zstd-rs/). 
 
 Meanwhile, work on zlib-rs and bzip2-rs continues to improve the implementations, enhance performance, and expand adoption.
 
