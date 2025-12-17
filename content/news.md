@@ -7,7 +7,6 @@ template = "news.html"
 blogposts = [
     "Statement calling for memory safety incentives for EU cybersecurity policies",
     "Emulating avx-512 intrinsics in Miri",
-    "Support the call for memory safety incentives in EU cybersecurity policies",
     "Frequently Asked Questions about sudo-rs",
     "Improving state machine code generation",
     "ntpd-rs now supports version 5 of the Network Time Protocol",

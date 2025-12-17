@@ -1,8 +1,8 @@
 +++
-title = "Statement calling for memory safety incentives for EU cybersecurity policies"
+title = "Statement calling for memory safety incentives in EU cybersecurity policies"
 slug = "calling-for-memory-safety-incentives-in-eu-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
-date = 2025-12-15
+date = 2025-12-17
 
 [taxonomies]
 tags=["announcement"]
@@ -14,13 +14,13 @@ image = "/blog/mem-safety-statement-share-image-w1600.jpg"
 
 ![Improving Europe's cybersecurity posture through memory safety](/blog/mem-safety-statement-share-image-w1600.jpg)
 
-**Today we publish the statement *"Improving Europe's cybersecurity posture through memory safety"*, calling on European and national policymakers to provide clear incentives and support for the large-scale adoption of memory-safe technology**
+**Today we publish the statement *"Improving Europe's cybersecurity posture through memory safety"*, calling on European and national policymakers to provide clear incentives and support for the large-scale adoption of memory-safe technology.**
 
 <!-- more -->
 
 The statement is a joint effort by secure-by-design experts at leading organizations, including Siemens Mobility, Sovereign Tech Agency, OpenSSF, Google, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
 
-It has been ensorsed by European companies who are at the forefront of technologie, such as Infineon Technologies AG, as well as industry and academic experts, including experts from Signify, Volvo Cars, Radboud University, and TU Delft.
+It has been endorsed by European companies at the forefront of technology, such as Infineon Technologies AG, as well as industry and academic experts, including specialists at Signify, Volvo Cars, Radboud University, and TU Delft.
 
 Executive summary: 
 
@@ -32,7 +32,7 @@ However, its adoption rate is slow due to a lack of short-term economic incentiv
 <br/> <br/>
 The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
 
-**Download the full statement [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf).** 
+**View or download the full statement [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf).** 
 
 ## The time is now
 
@@ -41,7 +41,9 @@ Having established a lack of awareness from EU and national policy makers, [Tara
 This lack of awareness contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. With the CRA on its way, and the examples of CISA et al at our disposal, now is the time for the EU to act.
 
 ## Looking ahead
-We're looking forward to presenting our point of view to EU and national policy makers, and to continuing to raise awareness of the need for faster adoption of modern memory safe technologie in 2026. 
+We're looking forward to presenting our point of view to EU and national policy makers, and to continuing to raise awareness of the need for faster adoption of modern memory-safe technology in 2026. We're aiming to bring this statement to various industry events in 2026 and will keep you updated on where to find us.
+
+Our primary goal is to bring memory safety to the forefront of current policy discussions, and we need your help to do it. If you are involved in relevant European or national policy making, or know someone who might be, please reach out to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I'd%20like%20to%20help%20advocate%20for%20memory%20safety).
 
 ---
 
