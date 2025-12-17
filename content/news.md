@@ -5,7 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
-    "Statement calling for memory safety incentives for EU cybersecurity policies",
+    "Statement calling for memory safety incentives in EU cybersecurity policies",
     "Emulating avx-512 intrinsics in Miri",
     "Frequently Asked Questions about sudo-rs",
     "Improving state machine code generation",
