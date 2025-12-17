@@ -1,5 +1,5 @@
 +++
-title = "Statement calling for memory safety incentives in EU cybersecurity policies"
+title = "Calling for memory safety incentives in EU cybersecurity policies"
 slug = "calling-for-memory-safety-incentives-in-eu-cybersecurity-policies"
 authors = ["Hugo van de Pol"]
 date = 2025-12-17
@@ -20,7 +20,7 @@ image = "/blog/mem-safety-statement-share-image-w1600.jpg"
 
 The statement is a joint effort by secure-by-design experts at leading organizations, including Siemens Mobility, Sovereign Tech Agency, OpenSSF, Google, the Linux Foundation, the Rust Foundation, and national cybersecurity committees. 
 
-It has been endorsed by European companies at the forefront of technology, such as Infineon Technologies AG, as well as industry and academic experts, including specialists at Signify, Volvo Cars, Radboud University, and TU Delft.
+It has been endorsed by European companies at the forefront of technology, such as Infineon Technologies AG, as well as industry and academic experts, including specialists at Signify, Volvo Cars, Radboud University, and Delft University of Technology.
 
 Executive summary: 
 
@@ -32,18 +32,23 @@ However, its adoption rate is slow due to a lack of short-term economic incentiv
 <br/> <br/>
 The supporting organisations call on European and national policymakers to act, out of obligation as well as untapped opportunity: to provide clear incentives and support for the large-scale adoption of memory-safe technology.”
 
-**View or download the full statement [here](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf).** 
+View or download the full statement **[here](/docs/improving-europes-cybersecurity-posture-through-memory-safety.pdf)**.
+<br />
+<br />
 
 ## The time is now
 
-Having established a lack of awareness from EU and national policy makers, [Tara Tarakiyee and myself, Hugo van de Pol](#about-the-authors) initiated and led joint discussions with security experts and industry stakeholders, and authored the statement as a result.
+We have established a lack of awareness among EU and national policymakers. This contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. 
 
-This lack of awareness contrasts heavily to [the proactive involvement of the Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/securebydesign), among others, in the USA from 2023 onwards. With the CRA on its way, and the examples of CISA et al at our disposal, now is the time for the EU to act.
+With the CRA on its way, now is the time for the EU to act.
 
 ## Looking ahead
-We're looking forward to presenting our point of view to EU and national policy makers, and to continuing to raise awareness of the need for faster adoption of modern memory-safe technology in 2026. We're aiming to bring this statement to various industry events in 2026 and will keep you updated on where to find us.
+We're looking forward to presenting our point of view to EU and national policymakers, and to continuing to advocate for faster adoption of modern memory-safe technology in 2026. We're aiming to bring this statement to various events in 2026 and will keep you updated on where to find us.
 
-Our primary goal is to bring memory safety to the forefront of current policy discussions, and we need your help to do it. If you are involved in relevant European or national policy making, or know someone who might be, please reach out to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I'd%20like%20to%20help%20advocate%20for%20memory%20safety).
+## Get involved
+Our primary goal is to bring memory safety to the forefront of current policy discussions, and we need your help to do it. 
+
+If you are involved in relevant European or national policy making, or can put us in contact with someone who is, **please reach out to [Hugo van de Pol](mailto:hugo@trifectatech.org?subject=I'd%20like%20to%20help%20advocate%20for%20memory%20safety)**.
 
 ---
 

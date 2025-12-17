@@ -30,7 +30,7 @@ supporters = [
 ]
 
 blogposts = [
-    "Statement calling for memory safety incentives in EU cybersecurity policies",
+    "Calling for memory safety incentives in EU cybersecurity policies",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "zlib-rs is faster than C",
