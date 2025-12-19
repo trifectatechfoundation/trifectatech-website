@@ -70,9 +70,9 @@ If you are involved in relevant European or national policy making, or can put u
 
 ## Supporting individuals
 
-- Leon Bouwmeester, director of engineering at Hue Connected, Signify
+- Leon Bouwmeester, Director of Engineering at Hue Connected, Signify
 - Julius Gustavsson, Expert System Architect, Volvo Cars
-- Till Kamppeter, lead of OpenPrinting
+- Till Kamppeter, Lead of OpenPrinting
 - Mario Goffredo D'Andrea
 - Matthias Endler, Corrode
 - Bernard van Gastel, Radboud University
@@ -81,6 +81,7 @@ If you are involved in relevant European or national policy making, or can put u
 - Prof. Achim D. Brucker, University of Exeter (Chair in Cybersecurity)
 - Mathias Payer, Associate Professor at EPFL Alexios Voulimeneas, Assistant Professor at TU Delft
 - Prof. dr. Jaap-Henk Hoepman
+- Elric Milon, Senior Software Engineer, ABN AMRO
 
 <br />
 
