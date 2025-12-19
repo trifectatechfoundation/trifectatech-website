@@ -1,12 +1,12 @@
 +++
 
-title = "Zstd-rs"
+title = "Zstandard in Rust"
 slug = "zstd-rs"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
 backLink = "projects/zstd-rs"
-backTitle = "Back to project: Zstd-rs"
+backTitle = "Back to project: Zstandard in Rust"
 +++
 
 Work on zstd started in July 2025. The first milestone is the decompression portion of the library.
@@ -22,14 +22,14 @@ This milestone adds API-compatible zstd decompression functionality.
 - Initial c2rust translation
 - Improving the code quality of the translated code
 - Testing & fuzzing
-- Deliverable: experimental release of the zstd-rs library (libzstd-rs-sys)
+- Deliverable: experimental release of the zstd library (libzstd-rs-sys)
 
 This work is supported by [Chainguard](https://www.chainguard.dev/) and [Astral](https://astral.sh/).
 
 **Milestone 2: dictBuilder**
 
 - Implementation of the dictBuilder feature
-- Deliverable: release of the zstd-rs library (libzstd-rs-sys) including the dictBuilder feature
+- Deliverable: release of the zstd library (libzstd-rs-sys) including the dictBuilder feature
 
 This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
 
@@ -37,7 +37,7 @@ This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
 
 - Improving the performance of the translated code
 - Documentation
-- Deliverable: Release of the zstd-rs library (libzstd-rs-sys)
+- Deliverable: Release of the zstd library (libzstd-rs-sys)
 - Deliverable: Publish the crate containing the C interface and a C dynamic library that is API-compatible
 
 This work is supported by [NLnet Foundation](https://nlnet.nl).

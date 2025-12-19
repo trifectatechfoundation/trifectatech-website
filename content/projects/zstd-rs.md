@@ -1,10 +1,10 @@
 +++
-title = "zstd-rs"
+title = "Zstandard in Rust"
 slug = "zstd-rs"
 template = "projects/project.html"
 
 [extra]
-summary = "<p>zstd-rs is an implementation of Zstandard, a modern successor to zlib, providing better compression faster.</p>"
+summary = "<p>Zstandard in Rust is an implementation of Zstandard, a modern successor to zlib, providing better compression faster.</p>"
 
 links = [
     { name = "GitHub", href = "https://github.com/trifectatechfoundation/libzstd-rs-sys" },
@@ -27,7 +27,7 @@ blogposts = [
 ]
 +++
 
-Zstandard is a modern successor to zlib, providing better compression faster. Zstd-rs is *in development*; it aims to provide excellent performance while introducing memory safety.
+Zstandard is a modern successor to zlib, providing better compression faster. Zstandard in Rust is *in development*; it aims to provide excellent performance while introducing memory safety.
 
 The project will provide a dynamic library that is a drop-in replacement for C/C++ counterparts, but has compiled memory-safe Rust code inside. 
 
@@ -35,7 +35,7 @@ For the high level goals of our data compression projects, see our [Data compres
 
 ### About
 
-Development of zstd-rs began in July 2025, with the first release of the decoder planned for March 2026.
+Development of Zstandard in Rust began in July 2025, with the first release of the decoder planned for March 2026.
 
 We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/), [Sovereign Tech Agency](https://sovereign.tech) and [NLnet Foundation](https://nlnet.nl) for their support.
 
@@ -46,8 +46,8 @@ We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/)
 - 2026 Q1: release of decoder
 - 2026 Q2: start of encoder implementation (*pending funding*)
 
-For details see [the zstd-rs workplan](/initiatives/workplans/zstd-rs/).
+For details see [the workplan](/initiatives/workplans/zstd-rs/).
 
-### Support zstd-rs
+### Support Zstandard in Rust
 
 Please [get in touch with us](/support), if you are interested in financially supporting us. We offer technical support services for organizations wanting to adopt our data compression software.
