@@ -76,7 +76,7 @@ If you are involved in relevant European or national policy making, or can put u
 - Mario Goffredo D'Andrea
 - Matthias Endler, Corrode
 - Bernard van Gastel, Radboud University
-- Frederic Ameye
+- Frederic Ameye, SW strategy lead @ Renesas Electronics, former SW lead @ Renault Group
 - Irakli Tabagari
 - Prof. Achim D. Brucker, University of Exeter (Chair in Cybersecurity)
 - Mathias Payer, Associate Professor at EPFL Alexios Voulimeneas, Assistant Professor at TU Delft
