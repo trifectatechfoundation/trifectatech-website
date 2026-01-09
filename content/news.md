@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Video: sudo-rs and beyond (Ubuntu Summit 25.10)",
     "Calling for memory safety incentives in EU cybersecurity policies",
     "Emulating avx-512 intrinsics in Miri",
     "Support the call for memory safety incentives in EU cybersecurity policies",
