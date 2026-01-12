@@ -30,4 +30,4 @@ This also means that some parts of the original sudo are explicitly not in scope
 
 ### About Trifecta Tech Foundation
 
-[**Trifecta Tech Foundation**](https://trifectatech.org) is a non-profit and a Public Benefit Organisation (501(c)(3) equivalant) that creates open-source building blocks for critical infrastructure software. Our initiatives Data compression, Time synchronization, Smart grid protocols and Privilege boundary, impact the digital security of millions of people. If you'd like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support/).
+[**Trifecta Tech Foundation**](https://trifectatech.org) is a non-profit and a Public Benefit Organisation (501(c)(3) equivalant) that creates open-source building blocks for critical infrastructure software. Our initiatives Data compression, Time synchronization and Privilege boundary, impact the digital security of millions of people. If you'd like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support/).
