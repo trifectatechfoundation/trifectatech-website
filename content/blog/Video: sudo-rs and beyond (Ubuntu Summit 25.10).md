@@ -2,7 +2,7 @@
 title = "Video: sudo-rs and beyond (Ubuntu Summit 25.10)"
 slug = "video-sudo-rs-and-beyond"
 authors = ["Marc Schoolderman"]
-date = "2026-01-09"
+date = "2026-01-13"
 
 [taxonomies]
 tags = ["sudo-rs"]
