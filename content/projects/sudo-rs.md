@@ -28,6 +28,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Video: sudo-rs and beyond (Ubuntu Summit 25.10)",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "Frequently Asked Questions about sudo-rs",
     "Memory-safe sudo to become the default in Ubuntu",
