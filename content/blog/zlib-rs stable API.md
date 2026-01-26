@@ -5,14 +5,14 @@ authors = ["Folkert de Vries"]
 date = "2026-01-26"
 
 [taxonomies]
-tags = ["zlib-rs", "data compression"] 
+tags = ["zlib-rs", "data compression"]
 
 +++
 
-Since the first release in April 2024, zlib-rs has come a long way. It has seen major adoption over the last year, and, we're proud to say, is now feature complete. 
-We've released zlib-rs version 0.6, the first version with [a stable and complete API](https://docs.rs/zlib-rs/0.6.0/zlib_rs/) and offers full support for the `gz*` functions.
+Since the first release in April 2024, zlib-rs has come a long way. It has seen major adoption over the last year, and, we're proud to say, is now feature complete.
+We've released zlib-rs version 0.6, the first version with [a stable and complete API](https://docs.rs/zlib-rs/0.6.0/zlib_rs/).
 
-Features are nice, but seeing adoption grow is the cherry on the cake. Zlib-rs recently crossed 30M downloads, of which 25M+ over the last year, and is on track to become the default implementation in `flate2`.
+Features are nice, but seeing adoption grow is the cherry on the cake. Zlib-rs recently crossed 30M downloads, of which 25M+ were in the last year, and is on track to become the default implementation in `flate2`.
 
 This blog post is a quick round-up of the latest release, 0.6.0. The full release notes are [here](https://github.com/trifectatechfoundation/zlib-rs/releases/tag/v0.6.0)
 
@@ -20,9 +20,9 @@ This blog post is a quick round-up of the latest release, 0.6.0. The full releas
 
 ## Stable API
 
-The `zlib-rs` crate now has a stable API. It hides away most of the internals, but exposes enough for `flate2` and `rustls`. Generally we recommend to use `zlib-rs` via `flate2` in applications, but for truly low-level libraries using `zlib-rs` directly is now an option.
+The `zlib-rs` crate now has a stable API. It hides away most of the internals, but exposes enough for `flate2` and `rustls`. Generally we recommend to use `zlib-rs` via `flate2` in applications, but for low-level libraries using `zlib-rs` directly is now an option.
 
-Additionally `flate2` now uses the `zlib-rs` CRC32 checksum implementation when `zlib-rs` is used. That saves a dependency, which is always nice.
+Additionally `flate2` now uses the `zlib-rs` CRC32 checksum implementation when `zlib-rs` is used. Our implementation is faster, and it saves a dependency.
 
 ## C-compatible API
 
@@ -34,13 +34,13 @@ All exported functions now use `extern "C"` instead of `extern "C-unwind"`.
 
 This is a change we've wanted to make for a while, but held off on because we had rust crates using `libz-rs-sys`. Now that they instead use `zlib-rs` directly, we can focus more on C users in the `libz-rs-sys` crate.
 
-Normally, when rust functions panic, they start unwinding the stack. That is only valid when the caller anticipates that the callee might unwind. For rust functions this case is handled, but when exporting a function, the caller is likely not written in rust, and does not support stack unwinding. 
+Normally, when rust functions panic, they start unwinding the stack. That is only valid when the caller anticipates that the callee might unwind. For rust functions this case is handled, but when exporting a function, the caller is likely not written in rust, and does not support stack unwinding.
 
-If the callee does unwind, behavior is undefined. Although `libz-rs-sys` should not panic, causing UB when we somehow do is a massive footgun. So now we use `extern "C"`, which will instead abort the program at the FFI boundary. 
+If the callee does unwind into an unsuspecting caller, behavior is undefined. Although `libz-rs-sys` should not panic, causing UB when we somehow do is a massive footgun. So now we use `extern "C"`, which will instead abort the program at the FFI boundary.
 
 ### Support for `gz*` functions
 
-We've added functions like `gzread`, `gzwrite` and many others to the `libz-rs-sys` API. These were already available in `libz-rs-sys-cdylib`, and have now been promoted. Use the `gz` feature to expose them. Most of these functions were implemented by [@brian-pane](https://github.com/brian-pane).
+We've added functions like `gzread`, `gzwrite` and many others to the `libz-rs-sys` API. These were already available in `libz-rs-sys-cdylib`, and have now been promoted. They are still behind the `gz` feature, so enable that if you need these functions. Most of the `gz*` functions were implemented by [@brian-pane](https://github.com/brian-pane).
 
 In addition, we've implemented several other missing functions (like `inflateBack`), so that we're now fully compatible with the zlib and zlib-ng public API.
 
