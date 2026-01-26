@@ -1,5 +1,5 @@
 +++
-title = "zlib-rs: stable API"
+title = "zlib-rs: a stable API and 30M downloads"
 slug = "zlib-rs-stable-api"
 authors = ["Folkert de Vries"]
 date = "2026-01-26"
@@ -9,23 +9,22 @@ tags = ["zlib-rs", "data compression"]
 
 +++
 
-We've released zlib-rs version 0.6, the first version with a stable and complete API.
+Since the first release in April 2024, zlib-rs has come a long way. It has seen major adoption over the last year, and, we're proud to say, is now feature complete. 
+We've released zlib-rs version 0.6, the first version with [a stable and complete API](https://docs.rs/zlib-rs/0.6.0/zlib_rs/) and offers full support for the `gz*` functions.
 
-https://docs.rs/zlib-rs/0.6.0/zlib_rs/
+Features are nice, but seeing adoption grow is the cherry on the cake. Zlib-rs recently crossed 30M downloads, of which 25M+ over the last year, and is on track to become the default implementation in `flate2`.
 
-Furthermore, zlib-rs recently crossed 30M downloads, and is on track to become the default implementation in `flate2`. Below are some highlights of this release. The full release notes are at:
-
-https://github.com/trifectatechfoundation/zlib-rs/releases/tag/v0.6.0
+This blog post is a quick round-up of the latest release, 0.6.0. The full release notes are [here](https://github.com/trifectatechfoundation/zlib-rs/releases/tag/v0.6.0)
 
 <!-- more -->
 
-## `zlib-rs`
+## Stable API
 
 The `zlib-rs` crate now has a stable API. It hides away most of the internals, but exposes enough for `flate2` and `rustls`. Generally we recommend to use `zlib-rs` via `flate2` in applications, but for truly low-level libraries using `zlib-rs` directly is now an option.
 
 Additionally `flate2` now uses the `zlib-rs` CRC32 checksum implementation when `zlib-rs` is used. That saves a dependency, which is always nice.
 
-## `libz-rs-sys`
+## C-compatible API
 
 The `libz-rs-sys` crate is a C-compatible API built on top of `zlib-rs`. It can be compiled into a drop-in compatible C library.
 
