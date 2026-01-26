@@ -2,7 +2,7 @@
 title = "zlib-rs: a stable API and 30M downloads"
 slug = "zlib-rs-stable-api"
 authors = ["Folkert de Vries"]
-date = "2026-01-26"
+date = "2026-01-27"
 
 [taxonomies]
 tags = ["zlib-rs", "data compression"]
@@ -10,13 +10,15 @@ tags = ["zlib-rs", "data compression"]
 +++
 
 Since the first release in April 2024, zlib-rs has come a long way. It has seen major adoption over the last year, and, we're proud to say, is now feature complete.
-We've released zlib-rs version 0.6, the first version with [a stable and complete API](https://docs.rs/zlib-rs/0.6.0/zlib_rs/).
-
-Features are nice, but seeing adoption grow is the cherry on the cake. Zlib-rs recently crossed 30M downloads, of which 25M+ were in the last year, and is on track to become the default implementation in `flate2`.
-
-This blog post is a quick round-up of the latest release, 0.6.0. The full release notes are [here](https://github.com/trifectatechfoundation/zlib-rs/releases/tag/v0.6.0)
+We've released zlib-rs 0.6, the first version with [a stable and complete API](https://docs.rs/zlib-rs/0.6.0/zlib_rs/).
 
 <!-- more -->
+
+With this milestone, we now fully deliver on the promise of our [Data compression initiative](/initiatives/data-compression): real alternatives to C/C++ counterparts that reduce attack surface through memory safety and provide on-par performance.
+
+Features and promises are nice, but seeing adoption grow is the cherry on the cake: zlib-rs recently crossed 30M downloads, 25M+ in the last year, and is on track to become the default implementation in `flate2`, which is expected to further boost usage.
+
+This blog post is a quick round-up of the latest release, 0.6. The full release notes are [here](https://github.com/trifectatechfoundation/zlib-rs/releases/tag/v0.6.0).
 
 ## Stable API
 
@@ -43,6 +45,10 @@ If the callee does unwind into an unsuspecting caller, behavior is undefined. Al
 We've added functions like `gzread`, `gzwrite` and many others to the `libz-rs-sys` API. These were already available in `libz-rs-sys-cdylib`, and have now been promoted. They are still behind the `gz` feature, so enable that if you need these functions. Most of the `gz*` functions were implemented by [@brian-pane](https://github.com/brian-pane).
 
 In addition, we've implemented several other missing functions (like `inflateBack`), so that we're now fully compatible with the zlib and zlib-ng public API.
+
+## Thank yous
+
+For completing this final milestone we thank all the contributors, specifically [@brian-pane](https://github.com/brian-pane), and the [Sovereign Tech Fund](https://www.sovereign.tech/) for investing in the API stabilization. 
 
 ## What's next
 

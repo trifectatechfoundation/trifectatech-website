@@ -28,6 +28,7 @@ supporters = [
 ]
 
 blogposts = [
+    "zlib-rs stable API",
     "Emulating avx-512 intrinsics in Miri",
     "SIMD in zlib-rs (part 2): compare256",
     "SIMD in zlib-rs (part 1): Autovectorization and target features",
