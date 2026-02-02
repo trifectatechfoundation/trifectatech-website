@@ -22,6 +22,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Video: Securing time with NTS (FOSDEM26)",
     "Enabling pools in NTS",
     "A safe Internet requires secure time"
 ]

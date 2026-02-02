@@ -30,12 +30,11 @@ supporters = [
 ]
 
 blogposts = [
-    "Video: sudo-rs and beyond (Ubuntu Summit 25.10)",
+    "Video: Securing time with NTS (FOSDEM26)",
     "Calling for memory safety incentives in EU cybersecurity policies",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "zlib-rs is faster than C",
-    "Trifecta Tech Foundation joins Nonprofit Cyber",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs"
 ]
 +++
