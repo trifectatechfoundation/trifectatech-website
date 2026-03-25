@@ -5,7 +5,7 @@ authors = ["Folkert de Vries"]
 date = "2026-03-27"
 
 [taxonomies]
-tags = ["bzip2-rs", "zlib-rs", "data compression"] 
+tags = ["bzip2-rs", "zlib-rs", "zstd-rs", "data compression"] 
 
 +++
 
