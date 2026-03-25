@@ -2,7 +2,7 @@
 title = "Compression compiler contributions"
 slug = "compression-compiler-contributions"
 authors = ["Folkert de Vries"]
-date = "2026-03-27"
+date = "2026-03-30"
 
 [taxonomies]
 tags = ["bzip2-rs", "zlib-rs", "zstd-rs", "data compression"] 
