@@ -28,7 +28,7 @@ We get a lot of value out of clippy not only flagging issues, but increasingly b
  cargo clippy --fix -- --allow clippy::all --warn clippy::manual_div_ceil
 ```
 
-Sometimes the code that `c2rust` produces is so cursed that applying the `clippy --fix` produces invalid code. In https://github.com/rust-lang/rust-clippy/pull/15304 we fixed a bug where parentheses would cause `clippy::collapsible_if` to apply an incorrect suggestion:
+Sometimes the code that `c2rust` produces is so cursed that applying the `clippy --fix` produces invalid code. In [https://github.com/rust-lang/rust-clippy/pull/15304](https://github.com/rust-lang/rust-clippy/pull/15304) we fixed a bug where parentheses would cause `clippy::collapsible_if` to apply an incorrect suggestion:
 
 ```
 warning: this `if` statement can be collapsed
@@ -58,7 +58,7 @@ In other cases we spot a rewrite that isn't covered by an existing lint, but tha
 foo.offset(4)
 ```
 
-The `ptr_offset_by_literal` lint, added in https://github.com/rust-lang/rust-clippy/pull/15606, rewrites this to:
+The `ptr_offset_by_literal` lint, added in [https://github.com/rust-lang/rust-clippy/pull/15606](https://github.com/rust-lang/rust-clippy/pull/15606), rewrites this to:
 
 ```rust
 foo.add(4)
@@ -66,7 +66,7 @@ foo.add(4)
 
 Code using only `ptr::add` and not `ptr::sub` is much easier to convert to using slices.
 
-Along the way it turned out that the implementation of the related `ptr_offset_with_cast` lint, on which I heavily based my initial implementation, had accumulated some technical debt. My changes fell right in the middle of the [clippy feature freeze](https://blog.rust-lang.org/inside-rust/2025/06/21/announcing-the-clippy-feature-freeze/), so it was a perfect moment to fix that up too in https://github.com/rust-lang/rust-clippy/pull/15613.
+Along the way it turned out that the implementation of the related `ptr_offset_with_cast` lint, on which I heavily based my initial implementation, had accumulated some technical debt. My changes fell right in the middle of the [clippy feature freeze](https://blog.rust-lang.org/inside-rust/2025/06/21/announcing-the-clippy-feature-freeze/), so it was a perfect moment to fix that up too in [https://github.com/rust-lang/rust-clippy/pull/15613](https://github.com/rust-lang/rust-clippy/pull/15613).
 
 ## Contributions to Miri
 
@@ -77,11 +77,12 @@ We use Miri to test the unsafe code that we still have. I recently wrote about o
 My next goal is to also be able to run the zlib-rs AArch64 SIMD tests with Miri. For now that'll need some additional support in Miri itself, but with LLVM 23 we'll be able to only use portable intrinsics and the custom Miri support should no longer be needed.
 
 I want to stress that the Miri implementation is really only half the work. The other half is testing the implementation (sometimes giving rise to improving tests in e.g. `rust-lang/stdarch` as well), to make sure that the behavior is correct and that support never regresses.
+
 ### ICE when reading from a static array of function pointers
 
 In the first week of working on [libzstd-rs-sys](https://github.com/trifectatechfoundation/libzstd-rs-sys) we ran into `c2rust` producing some Rust code that Miri was unable to handle.  
 
- https://github.com/rust-lang/miri/issues/4501
+[https://github.com/rust-lang/miri/issues/4501](https://github.com/rust-lang/miri/issues/4501)
 
 This (cursed) static initialization code threw an internal compiler error in Miri. This was fixed by Ralf Jung.
 
@@ -99,16 +100,17 @@ fn main() {}
 
 ### Missing support for `libc::memset`
 
-https://github.com/rust-lang/miri/issues/4503
+[https://github.com/rust-lang/miri/issues/4503](https://github.com/rust-lang/miri/issues/4503)
 
 Miri supports some `libc` functions, like `memcpy`, but `memset` was missing. Newly `c2rust`-translated code would often hit a call to `memset` and fail early without running (and potentially finding errors in) the majority of the program. Support for `memset` was added by Vishruth Thimmaiah.
+
 ## Larger Features
 
 We've also contributed substantially to some larger features that we believe Rust should have to be an effective systems programming language. Note that these bigger features are never solo projects, they contain the (indirect) work of many contributors.
 
 ### `#![feature(cfg_select)]`
 
-https://github.com/rust-lang/rust/issues/152944
+[https://github.com/rust-lang/rust/issues/152944](https://github.com/rust-lang/rust/issues/152944)
 
 A much nicer way to write configuration predicates:
 
@@ -134,7 +136,7 @@ let is_unix_str = cfg_select! {
 We already use a custom version of this macro in some of our crates, but in rust 1.95 it will finally be available from std on stable Rust. I worked on implementing this macro as a built-in macro in the Rust compiler, and getting it through the stabilization process.
 ### `#![feature(c_variadic)]`
 
-https://github.com/rust-lang/rust/issues/44930
+[https://github.com/rust-lang/rust/issues/44930](https://github.com/rust-lang/rust/issues/44930)
 
 Rust can call c-variadic functions (like `libc::printf`), but defining them is unstable. This feature is required for completing the zlib-rs C api where we have these functions:
 
