@@ -25,6 +25,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing ntpd-rs in Ubuntu",
     "ISPCS paper: Estimating noise for clock-synchronizing Kalman filters",
     "Statime vs Linux PTP - Comparison of precision",
     "Sovereign Tech Fund invests in Pendulum"
