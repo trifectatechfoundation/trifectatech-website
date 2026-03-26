@@ -30,6 +30,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",
     "Calling for memory safety incentives in EU cybersecurity policies",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
