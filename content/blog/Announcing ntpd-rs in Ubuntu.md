@@ -2,7 +2,7 @@
 title = "Ubuntu to adopt ntpd-rs as the default time synchronization client and server"
 slug = "announcing-ntpd-rs-as-default-on-ubuntu"
 authors = ["Erik Jonkers"]
-date = "2025-05-06"
+date = "2026-03-26"
 
 [taxonomies]
 tags = ["ntpd-rs", "announcement"] 
