@@ -1,6 +1,6 @@
 +++
 title = "Fixing our own problems in the Rust compiler"
-slug = "compression-compiler-contributions"
+slug = "fixing-our-own-problems-in-the-rust-compiler"
 authors = ["Folkert de Vries"]
 date = "2026-03-30"
 
