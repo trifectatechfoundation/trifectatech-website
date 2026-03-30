@@ -1,5 +1,5 @@
 +++
-title = "Compression compiler contributions"
+title = "Fixing our own problems in the Rust compiler"
 slug = "compression-compiler-contributions"
 authors = ["Folkert de Vries"]
 date = "2026-03-30"
@@ -9,15 +9,16 @@ tags = ["bzip2-rs", "zlib-rs", "zstd-rs", "data compression"]
 
 +++
 
-Our work on using Rust in places where C is traditionally used frequently makes us hit limitations in Rust itself and the surrounding tooling. Over the years, we've become increasingly comfortable with fixing these issues ourselves.
+In our data compression projects, we use Rust where C is traditionally used. During the work, we've hit limitations in Rust itself and in the surrounding tooling. Over the years, we've become increasingly comfortable with fixing these issues ourselves.
 
 <!-- more -->
 
-Previously we have at times felt stuck by missing functionality in stable Rust, without a clear path forwards except to wait. In practice waiting has not turned out to be a fruitful strategy: the features that we need are niche, and rarely make it to the top of the to-do list of other Rust maintainers. 
+Previously, we felt stuck at times by missing functionality in stable Rust, without a clear path forward except to wait. In practice, waiting has not been a fruitful strategy: the features we need are niche and rarely make it to the top of Rust maintainers' to-do lists. 
 
-This post goes over some of the fixes and improvements that we've made as a part of Trifecta's compression initiative (`zlib-rs`, `libbzip2-rs` and `libzstd-rs-sys`) over the past year.
+In this post, I'll share some of the steps we took to get unstuck. It goes over some of the fixes and improvements that we've made as a part of Trifecta Tech's [Data compression initiative](/initiatives/data-compression) (`zlib-rs`, `libbzip2-rs` and `libzstd-rs-sys`) over the past year.
 
-At RustWeek I'll give a talk about ["stabilizing decade-old features"](https://2026.rustweek.org/talks/folkert/) with advice on how to start making these kinds of contributions yourself.
+In the same spirit, I'll give a talk about **["Stabilizing decade-old features"](https://2026.rustweek.org/talks/folkert/)** at RustWeek, with advice on how to start making these kinds of contributions yourself.
+
 ### Contributions to `clippy`
 
 We often use [c2rust](https://github.com/immunant/c2rust), an automatic translation tool that converts C to Rust. The Rust it produces is behaviorally equivalent to the C code, but far from idiomatic.
@@ -134,6 +135,7 @@ let is_unix_str = cfg_select! {
 ```
 
 We already use a custom version of this macro in some of our crates, but in rust 1.95 it will finally be available from std on stable Rust. I worked on implementing this macro as a built-in macro in the Rust compiler, and getting it through the stabilization process.
+
 ### `#![feature(c_variadic)]`
 
 [https://github.com/rust-lang/rust/issues/44930](https://github.com/rust-lang/rust/issues/44930)
