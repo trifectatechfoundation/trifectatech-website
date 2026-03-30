@@ -59,12 +59,16 @@ html {
     font-size: var(--text-size-xl);
   }
 
-  h2, h3 {
+  h2 {
     font-size: var(--text-size-lg);
   }
 
+  h3 {
+    font-size: calc( ( var(--text-size-md) + var(--text-size-lg) ) / 2 );
+  }
+
   h4, h5, h6 {
-    font-size: var(--text-size-lg);
+    font-size: var(--text-size-md);
   }
 
   p {

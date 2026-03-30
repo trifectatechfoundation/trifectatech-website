@@ -17,8 +17,7 @@ We're thrilled to announce that in upcoming releases, Ubuntu will be adopting nt
 
 Canonical will be funding Trifecta Tech Foundation to build new features, enhance security isolation, and ultimately deliver a unified, memory-safe time synchronization utility for the Linux ecosystem. 
 
-##### Learn more
-
+#### Learn more
 See Ubuntu's announcement to learn more about the project:<br /> [**"​Ntpd-rs: it’s about time!"**](https://discourse.ubuntu.com/t/ntpd-rs-its-about-time/79154/1).
 
 <br />

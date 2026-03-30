@@ -24,6 +24,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Compression compiler contributions"
 ]
 +++
 

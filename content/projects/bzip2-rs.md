@@ -23,6 +23,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Compression compiler contributions",
     "bzip2 crate switches from C to 100% rust",
     "Translating bzip2 with c2rust"
 ]

@@ -31,6 +31,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Compression compiler contributions",
     "zlib-rs stable API",
     "Emulating avx-512 intrinsics in Miri",
     "bzip2 crate switches from C to 100% rust",
