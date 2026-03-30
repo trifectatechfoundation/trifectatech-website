@@ -29,6 +29,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing ntpd-rs in Ubuntu",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
     "Providing official Fedora Linux RPM packages for ntpd-rs and sudo-rs",

@@ -32,6 +32,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "Enabling pools in NTS",
