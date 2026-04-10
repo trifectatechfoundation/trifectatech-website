@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Tail calls project goal",
     "Compression compiler contributions",
     "Announcing ntpd-rs in Ubuntu",
     "zlib-rs stable API",
