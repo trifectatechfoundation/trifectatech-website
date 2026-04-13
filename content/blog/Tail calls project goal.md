@@ -137,7 +137,7 @@ TABLE:
         .quad   decrement
 ```
 
-> NOTE: the assembly is complicated by the bounds check on `stream`. In a real example you'd add an additional instruction indicating "end of input", make sure the final stream element is that instruction, and skip the bounds check, see [https://godbolt.org/z/d1eYqe7WT](https://godbolt.org/z/d1eYqe7WT).
+*NOTE: the assembly is complicated by the bounds check on `stream`. In a real example you'd add an additional instruction indicating "end of input", make sure the final stream element is that instruction, and skip the bounds check, see [https://godbolt.org/z/d1eYqe7WT](https://godbolt.org/z/d1eYqe7WT).*
 
 To generate efficient assembly it is extremely important that all commonly-used values are passed via, and never leave, registers. Here we're limited by the calling convention that is used for the tail call, and specifically how many argument registers that calling convention has. On most modern platforms you get somewhere between 4 and 8 registers by default, although there are experimental LLVM calling conventions like `preserve_none` and `tailcc` that make more registers available.
 
