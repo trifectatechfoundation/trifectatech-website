@@ -55,7 +55,7 @@ We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial ef
 
 ### What's next
 
-The current initial work shows that there is room for improvement. While outperforming C is impossible, even a shift from slightly slower to slightly faster for certain performance-critical applications, would significantly improve Rust's story and, more importantly, its impact. We believe the gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
+The current initial work shows that there is room for improvement. While outperforming C is impossible in general, improving the performance of foundational systems libraries written in Rust furthers adoption, and hence the spreading of Rust's advantages like memory safety and portability. We believe the gap with C can be closed if we can better use Rust's advantages over C, e.g., having more information about the program that can be used to optimize.
 
 In the next phase, a coordinated effort is needed to make Rust faster than C. We by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
 

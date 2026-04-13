@@ -22,9 +22,9 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 3: Tail calls
 
-Guaranteed tail calls, goto and computed goto are techniques used in systems programming to squeeze out the last bit of performance.
+Guaranteed tail calls and computed goto are techniques used in systems programming to squeeze out the last bit of performance.
 
-- Implement tail calls
+- Improve support for guaranteed tail calls
 - Add “computed goto” codegen to loop_match
 - Improve the loop_match implementation in rustc_codegen_ssa
 
