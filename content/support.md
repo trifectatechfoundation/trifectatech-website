@@ -33,7 +33,7 @@ For organizations considering structurally supporting us, we offer these sponsor
 
 [Get in touch with us](mailto:contact@trifectatech.org) to learn more about sponsorship benefits.
 
-If you are an individual or small company looking to back our ongoing maintenance work, a good option is to [support us via GitHub](https://github.com/sponsors/trifectatechfoundation). GitHub support starts at &euro; 1,- one-time to &euro; 200,-/month; all contributions are highly appriciated.
+If you are an individual or small company looking to back our ongoing maintenance work, a good option is to [support us via GitHub](https://github.com/sponsors/trifectatechfoundation). GitHub support starts at &euro; 1,- one-time to &euro; 200,-/month; all contributions are highly appreciated.
 
 ### Join ISRG, Sovereign Tech Agency, Canonical, and NLnet Foundation
 
