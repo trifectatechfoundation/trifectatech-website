@@ -13,7 +13,7 @@ Tail calls in rust have been talked about for a long time, but especially from t
 
 <!-- more -->
 
-[Waffle](https://github.com/WaffleLapkin) and I have submitted a project goal to move explicit tail calls forward in 2026. We're not quite aiming for stabilization this year, but lining things up to hopefully stabilize in 2027.
+[Waffle](https://github.com/WaffleLapkin) and I have submitted a [project goal](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html) to move explicit tail calls forward in 2026. We're not quite aiming for stabilization this year, but lining things up to hopefully stabilize in 2027.
 
 This project goal needs funding. If guaranteed tail calls or the projects that use them are valuable to you or your team, [get in touch!](/support)
 
