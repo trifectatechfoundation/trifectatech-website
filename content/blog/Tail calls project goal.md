@@ -97,11 +97,9 @@ One crucial property of this construction is that the jump table is an inlining 
 Normally, inlining is one of the most beneficial optimizations that a compiler can perform,
 but for low-level code using tail calls, not inlining has two advantages:
 
-1. the dispatch logic is duplicated in each function. This is beneficial for branch prediction, because the branch predictor uses the address of the jump as part of its prediction. Without inlining, each function has its own jump. With inlining LLVM would simplify the control flow and the jump would be shared, reducing the accuracy of branch prediction.
+- The dispatch logic is duplicated in each function. This is beneficial for branch prediction, because the branch predictor uses the address of the jump as part of its prediction. Without inlining, each function has its own jump. With inlining LLVM would simplify the control flow and the jump would be shared, reducing the accuracy of branch prediction. <br/><br/> Historically this trick of duplicating the jump could give over 10% speedup. Modern branch predictors are much more accurate and the speedup is more in the 2% range these days. See also [this blog post](https://blog.nelhage.com/post/cpython-tail-call/) on benchmarking the CPython interpreter and [this paper](https://inria.hal.science/hal-01100647/document) that it links on "Branch Prediction and the Performance of Interpreters".
 
-   Historically this trick of duplicating the jump could give over 10% speedup. Modern branch predictors are much more accurate and the speedup is more in the 2% range these days. See also [this blog post](https://blog.nelhage.com/post/cpython-tail-call/) on benchmarking the CPython interpreter and [this paper](https://inria.hal.science/hal-01100647/document) that it links on "Branch Prediction and the Performance of Interpreters".
-
-2. each small function can be (manually) optimized in isolation, without uncommon paths (e.g. for error handling) degrading the fast path due to sub-optimal register allocation. In general compilers (and humans) are worse at optimizing large functions. See also [this blog post](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html) on writing a protobuf parser using tail calls.
+- Each small function can be (manually) optimized in isolation, without uncommon paths (e.g. for error handling) degrading the fast path due to sub-optimal register allocation. In general compilers (and humans) are worse at optimizing large functions. See also [this blog post](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html) on writing a protobuf parser using tail calls.
 
 The output assembly of the example above shows the two functions, starting with the `inc` and `dec` instruction respectively. The remainder of the function is the inlined dispatch logic that uses a `jmp` to a computed address (i.e. not to a compile-time known label).
 
@@ -165,7 +163,7 @@ So, we're in a cycle where Rust won't expose a buggy feature to users, and there
 
 Webassembly normally cannot perform tail calls: there just isn't an instruction for it. Only with the `tail-call` target feature do tail calls work. This is problematic for Rust, because we don't love making language features conditional on target features.
 
-Apparently the support that does exist with the target feature is also immature, and has [terrible performance](https://www.mattkeeter.com/blog/2026-04-05-tailcal) across interpreters.
+Apparently the support that does exist with the target feature is also immature, and has [terrible performance](https://www.mattkeeter.com/blog/2026-04-05-tailcall/) across interpreters.
 
 ### Powerpc
 
