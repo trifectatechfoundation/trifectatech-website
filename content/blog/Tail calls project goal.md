@@ -1,5 +1,5 @@
 +++
-title = "Tail calls project goal"
+title = "Rust should have stable tail calls"
 slug = "tail-calls-project-goal"
 authors = ["Folkert de Vries"]
 date = "2026-04-14"
