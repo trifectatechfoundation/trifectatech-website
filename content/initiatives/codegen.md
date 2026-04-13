@@ -21,6 +21,8 @@ supporters = [
 ]
 
 blogposts = [
+    "Tail calls project goal",
+    "Compression compiler contributions",
     "Improving state machine code generation"
 ]
 +++
@@ -34,17 +36,16 @@ Our mission is to make critical infrastructure software safer. We must eliminate
 
 Our work on [zlib-rs](/initiatives/data-compression/) put us on the path to improving the performance of state machines. Complex state machines are niche but foundational to many programs, such as parsers, interpreters, and networking protocols.
 
-This work has now resulted in [RFC 3720](https://github.com/rust-lang/rfcs/pull/3720) and a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment. 
-
-This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199), and a blog post explaining loop-match is [here](/blog/improving-state-machine-code-generation/).
-
-Part of the work in this initiative is a 2025h1 Rust project goal, see [improved state machine codegen](https://github.com/rust-lang/rust-project-goals/issues/258).
+This work has resulted in a [`#[loop_match]`](https://github.com/rust-lang/rust/pull/138780) language experiment. This language experiment achieves a **2.7X** speedup on some parsers, and a **7%** speedup in a zlib-rs benchmark. Exact numbers are [here](https://github.com/rust-lang/rust-project-goals/issues/258#issuecomment-2732965199), and a blog post explaining loop-match is [here](/blog/improving-state-machine-code-generation/).
 
 ### Work plan
 
-Work on milestone 1, *State machine codegen*, and milestone 2, *Identify performance bottlenecks*, is in progress, see our [workplan](/initiatives/workplans/codegen/).
+Work is in progress, see our [workplan](/initiatives/workplans/codegen/) for details.  
+The work includes:
+- the 2025H1 Rust Project Goal, ["improved state machine codegen"](https://github.com/rust-lang/rust-project-goals/issues/258), and
+- the 2026 Rust Project Goal ["Explicit tail calls & loop_match"](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html)
 
-For the next phase we are preparing a plan and seeking funding. Are you interested in supporting our effort to make Rust faster? Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
+We're seeking funding for the tail calls project goal (Milestone 3 in the [workplan](/initiatives/workplans/codegen/)). Please [get in touch with us](/support), if you are interested in financially supporting our effort.
 
 ### Acknowledgements
 
@@ -54,11 +55,11 @@ We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial ef
 
 ### What's next
 
-The current initial work shows that there is room for improvement. While outperforming C by 5% is unlikely, even a shift from slightly slower to slightly faster would significantly improve Rust's story and, more importantly, its impact. We believe the gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
+The current initial work shows that there is room for improvement. While outperforming C is impossible, even a shift from slightly slower to slightly faster for certain performance-critical applications, would significantly improve Rust's story and, more importantly, its impact. We believe the gap with C can be closed if we can better use Rust's advantages over C, i.e., having access to more information about how the compiler can optimize.
 
-In the next phase, a significant coordinated effort is needed to make Rust faster than C. We by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
+In the next phase, a coordinated effort is needed to make Rust faster than C. We by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
 
-For this next phase we are preparing a plan and seeking funding. Are you interested in supporting our effort to make Rust faster? Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
+For this next phase we are seeking funding. Are you interested in supporting our effort to make Rust faster? Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
 
 ### Links
 

@@ -30,7 +30,6 @@ supporters = [
 ]
 
 blogposts = [
-    "Tail calls project goal",
     "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",
     "Calling for memory safety incentives in EU cybersecurity policies",
