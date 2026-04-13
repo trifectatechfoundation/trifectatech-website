@@ -213,4 +213,4 @@ Finally there is the more experimental work to add computed `goto`-like function
 
 We believe that this work is essential for Rust to continue to deliver on the promise of being a modern systems programming language. That claim means that it must be possible to write extremely efficient programs like parsers (e.g. protobuf) and interpreters (e.g. wasm, python) in Rust without compromising on performance.
 
-As I've mentioned, [Waffle](https://github.com/WaffleLapkin) and I have submitted a project goal to this end, planning to do most of the work in 2026 and aiming for stabilization in 2027, and this effort needs funding. If guaranteed tail calls or the projects that use them are valuable to you or your team, [get in touch](mailto:contact@trifectatech.org)!
+To further this work, [Waffle](https://github.com/WaffleLapkin) and I have submitted a [project goal](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html), planning to do most of the work in 2026 and aiming for stabilization in 2027. This effort needs funding, so if guaranteed tail calls or the projects that use them are valuable to you or your team, [get in touch](/support)!
