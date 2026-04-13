@@ -9,7 +9,7 @@ tags = ["state machines"]
 
 +++
 
-Tail calls in rust have been talked about for a long time, but especially from the outside it looks like very little progress has been made. Let's change that!
+Tail calls in Rust have been talked about for a long time, but especially from the outside it looks like very little progress has been made. Let's change that!
 
 <!-- more -->
 
