@@ -150,13 +150,13 @@
         "projects": [
             {
                 "initiative": "data-compression",
-                "name": "zlib-rs",
+                "name": "libzlib-rs",
                 "year": [2024],
                 "supportType": "Chainguard funded initial development of zlib-rs through Prossimo."
             },
             {
                 "initiative": "data-compression",
-                "name": "zstd-rs",
+                "name": "libzstd-rs",
                 "year": [2025]
             }
         ]

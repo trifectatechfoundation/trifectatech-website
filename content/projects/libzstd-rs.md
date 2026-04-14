@@ -1,6 +1,6 @@
 +++
 title = "Zstandard in Rust"
-slug = "zstd-rs"
+slug = "libzstd-rs"
 template = "projects/project.html"
 
 [extra]
@@ -47,7 +47,7 @@ We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/)
 - 2026 Q1: release of decoder
 - 2026 Q2: start of encoder implementation (*pending funding*)
 
-For details see [the workplan](/initiatives/workplans/zstd-rs/).
+For details see [the workplan](/initiatives/workplans/libzstd-rs/).
 
 ### Support Zstandard in Rust
 

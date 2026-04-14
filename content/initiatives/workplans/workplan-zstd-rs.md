@@ -1,11 +1,11 @@
 +++
 
 title = "Zstandard in Rust"
-slug = "zstd-rs"
+slug = "libzstd-rs"
 template = "initiatives/workplans/workplan.html"
 
 [extra]
-backLink = "projects/zstd-rs"
+backLink = "projects/libzstd-rs"
 backTitle = "Back to project: Zstandard in Rust"
 +++
 

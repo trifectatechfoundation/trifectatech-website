@@ -5,7 +5,7 @@ authors = ["Folkert de Vries"]
 date = "2026-03-30"
 
 [taxonomies]
-tags = ["bzip2-rs", "zlib-rs", "zstd-rs", "data compression"] 
+tags = ["bzip2-rs", "zlib-rs", "libzstd-rs", "data compression"]
 
 +++
 
@@ -13,7 +13,7 @@ In our data compression projects, we use Rust where C is traditionally used. Dur
 
 <!-- more -->
 
-Previously, we felt stuck at times by missing functionality in stable Rust, without a clear path forward except to wait. In practice, waiting has not been a fruitful strategy: the features we need are niche and rarely make it to the top of Rust maintainers' to-do lists. 
+Previously, we felt stuck at times by missing functionality in stable Rust, without a clear path forward except to wait. In practice, waiting has not been a fruitful strategy: the features we need are niche and rarely make it to the top of Rust maintainers' to-do lists.
 
 In this post, I'll share some of the steps we took to get unstuck. It goes over some of the fixes and improvements that we've made as a part of Trifecta Tech's [Data compression initiative](/initiatives/data-compression) (`zlib-rs`, `libbzip2-rs` and `libzstd-rs-sys`) over the past year.
 
@@ -73,7 +73,7 @@ Along the way it turned out that the implementation of the related `ptr_offset_w
 
 ### Improved intrinsic support
 
-We use Miri to test the unsafe code that we still have. I recently wrote about our work on [emulating avx-512 intrinsics in Miri](https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/). Since then we've added support for a couple additional instructions for our `avx512vnni` implementation of adler32. 
+We use Miri to test the unsafe code that we still have. I recently wrote about our work on [emulating avx-512 intrinsics in Miri](https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/). Since then we've added support for a couple additional instructions for our `avx512vnni` implementation of adler32.
 
 My next goal is to also be able to run the zlib-rs AArch64 SIMD tests with Miri. For now that'll need some additional support in Miri itself, but with LLVM 23 we'll be able to only use portable intrinsics and the custom Miri support should no longer be needed.
 
@@ -81,7 +81,7 @@ I want to stress that the Miri implementation is really only half the work. The 
 
 ### ICE when reading from a static array of function pointers
 
-In the first week of working on [libzstd-rs-sys](https://github.com/trifectatechfoundation/libzstd-rs-sys) we ran into `c2rust` producing some Rust code that Miri was unable to handle.  
+In the first week of working on [libzstd-rs-sys](https://github.com/trifectatechfoundation/libzstd-rs-sys) we ran into `c2rust` producing some Rust code that Miri was unable to handle.
 
 [https://github.com/rust-lang/miri/issues/4501](https://github.com/rust-lang/miri/issues/4501)
 
@@ -144,7 +144,7 @@ Rust can call c-variadic functions (like `libc::printf`), but defining them is u
 
 ```rust
 pub unsafe extern "C" fn gzprintf(
-    file: gzFile, 
+    file: gzFile,
     format: *const c_char,
     va: ...) -> c_int {
     unsafe { gzvprintf(file, format, va) }
