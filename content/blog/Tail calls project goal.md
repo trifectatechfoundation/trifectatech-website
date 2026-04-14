@@ -177,13 +177,13 @@ On 64-bit powerpc a direct function call can be promoted to a tail call; on 32-b
 
 We've checked support on `x86`, `x86_64`, `aarch64`, `arm`, `s390x`, `riscv` and `loongarch`. Together with `wasm32` and `powerpc64le` they constitute the vast majority of Rust compilations. The remaining targets are niche and rarely used in production.
 
-Hence there seems to be rough consensus that we don't need to wait on LLVM support for these targets for shipping guaranteed tail calls. Nevertheless we'd of course love to see that support.
+Hence there seems to be rough consensus that we don't need to wait on LLVM support for the remaining targets before shipping guaranteed tail calls. Nevertheless we'd of course love to see that support.
 
 ## Rethinking the problem
 
 The narrative I present here is that tail calls are only actually useful for a very narrow set of libraries: those that implement a state machine, where the next states are only known at runtime, and are extremely performance-sensitive. Specifically, I'd argue that tail calls are only worth it if you were going to look at the generated assembly anyway.
 
-In terms of ergonomics, tail calls are a sacrifice: you need to manually pass your state in the available registers, passing large structs as individual fields. Your code is distributed over many tiny functions and not portable, and debugging code using tail calls is a pain. So, are tail calls actually the right solution for the problem?
+In terms of ergonomics, tail calls are a sacrifice: you need to manually pass your state in the available registers, passing large structs as individual fields. Your code is distributed over many tiny functions, not portable, and a pain to debug. So, are tail calls actually the right solution for the problem?
 
 In C there is an alternative approach for writing efficient state machines, which shares many of the characteristics of tail calls: the [computed goto](https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables). Maybe Rust should add something similar instead?
 
@@ -191,7 +191,7 @@ The idea here is that you make a jump table not of function pointers, but of lab
 
 A downside is that that you lose out on the ability to manually optimize the assembly output of small functions, but that might be offset by having the ability to store values on the stack across states and thus preventing repeated loads. At least for `zlib-rs`, which has a very large state struct, we found this to be advantageous.
 
-In LLVM a computed `goto` is represented using the `indirectbr` instruction.  Currently `rustc` cannot generate this instruction, but we plan to add it as an extension of `#[loop_match]`. This feature was a [Project Goal](https://rust-lang.github.io/rust-project-goals/2025h1/improve-rustc-codegen.html). I wrote about this earlier in [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/) . Currently `#[loop_match]` is only useful when the next state is statically known (e.g. state A always transitions to state B or C, or the Error state).
+In LLVM a computed `goto` is represented using the `indirectbr` instruction.  Currently `rustc` cannot generate this instruction, but we plan to add it as an extension of `#[loop_match]`, a feature that I worked on in a previous [Project Goal](https://rust-lang.github.io/rust-project-goals/2025h1/improve-rustc-codegen.html). I wrote about this earlier in [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/) . Currently `#[loop_match]` is only useful when the next state is statically known (e.g. state A always transitions to state B or C, or the Error state).
 
 This will continue to be experimental because the major challenge here is picking a syntax. That is not a discussion I'm particularly interested in, so I'd like to develop the backend capability first, show results, and then figure out how to actually express this in the language.
 
@@ -205,7 +205,7 @@ Next we plan to work on tail calls for `extern "Rust"` first, and separate tail 
 
 Next we'd like to work on `rustc` itself being able to codegen direct tail calls: when the callee is known, `rustc` can transform the call into a direct jump (effectively this inlines the call). This approach resolves some of the portability concerns, but  does not support the indirect call + jump table pattern, and hence does not really support serious use of guaranteed tail calls.
 
-Finally there is the more experimental work to add computed `goto`-like functionality to `#[loop_match]`, and to work on a custom `extern "tail"` calling convention that uses LLVM `tailcc` to loosen the same-signature restriction.
+Finally there is the more experimental work to add computed `goto`-like functionality to `#[loop_match]`, and to work on a custom `extern "tail"` calling convention that uses LLVM `tailcc` to loosen the same-signature restriction and provide more argument registers.
 
 ## Conclusion
 
