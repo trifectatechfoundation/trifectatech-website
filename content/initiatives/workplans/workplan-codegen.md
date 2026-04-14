@@ -8,7 +8,7 @@ backLink = "initiatives/codegen"
 backTitle = "Back to initiative: Making Rust Faster Than C"
 +++
 
-## Work plan - Phase 1
+## Work plan
 
 ### Milestone 1: State machine codegen
 
@@ -17,8 +17,25 @@ backTitle = "Back to initiative: Making Rust Faster Than C"
 - Add experimental support for `#[loop_match]` to [c2rust](https://c2rust.com/)
 - Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
 
-Timeline: Nov 2024 - Dec 2025  
+Timeline: Nov 2024 - Jun 2026 
 Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
+
+### Milestone 3: Tail calls
+
+Guaranteed tail calls and computed goto are techniques used in systems programming to squeeze out the last bit of performance.
+
+- Improve support for guaranteed tail calls
+- Add “computed goto” codegen to loop_match
+- Improve the loop_match implementation in rustc_codegen_ssa
+
+For more details see the 2026 Rust Project Goal ["Explicit tail calls & loop_match"](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html).
+
+Timeline: April 2026 - Dec 2026  
+Status: *Needs funding*.
+
+Please [get in touch with us](/support), if you are interested in financially supporting our effort.
+
+## Completed milestones
 
 ### Milestone 2: Identify performance bottlenecks
 
@@ -30,21 +47,6 @@ Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 - Document current cases where rustc generates suboptimal code, or fix the issues, if these are straightforward
 
 Timeline: Apr 2025 - Dec 2025  
-Status: *In progress*. Kindly funded by [AWS](https://aws.amazon.com/).
+Status: *Completed*. Kindly funded by [AWS](https://aws.amazon.com/).
 
-## Phase 2
 
-The work of Phase 1 will inform the next steps for this effort. We expect phase 2 will focus on high-reward improvements that require a larger, coordinated effort and collaboration.
-
-*We're in the process of gathering input for this phase. This includes understanding prior work and ideas, and balancing expected effort and expected reward. Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org) if you want to help.*
-
-The steps in organizing this phase include at least:
-
-- Create a coordinated plan
-- Get commitment of team members, contributers and backers
-- Secure funding
-- Execute the plan
-- Be faster than C ⚡
-
-Timeline estimate: 2026 - 2027  
-Effort estimate: 2 person-years
