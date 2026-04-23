@@ -30,6 +30,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Three years of Rusty sudo",
     "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",
     "Calling for memory safety incentives in EU cybersecurity policies",

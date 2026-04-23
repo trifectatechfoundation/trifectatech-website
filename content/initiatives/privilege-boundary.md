@@ -29,6 +29,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Three years of Rusty sudo",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "Frequently Asked Questions about sudo-rs",
     "Memory-safe sudo to become the default in Ubuntu",

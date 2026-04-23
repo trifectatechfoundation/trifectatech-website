@@ -28,6 +28,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Three years of Rusty sudo",
     "Video: sudo-rs and beyond (Ubuntu Summit 25.10)",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "Frequently Asked Questions about sudo-rs",
