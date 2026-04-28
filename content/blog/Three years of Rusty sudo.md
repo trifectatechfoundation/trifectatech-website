@@ -65,7 +65,7 @@ Security-minded people typically like to identify "the weakest link in the chain
 
 To be absolutely clear, this is not a vulnerability in either su or sudo *per se*, but rather a combination of technical peculiarities that allows them to be used as a crowbar to widen a pre-existing crack. The truly vulnerable part here was AppArmor, and to a lesser degree, `su` was lacking adequate hardening.
 
-So how do our versions of sudo and, also, our [re-implementation of su](https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#aim-of-the-project) fair in this attack scenario?
+So how do our versions of sudo and, also, our [re-implementation of su](https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#aim-of-the-project) fare in this attack scenario?
 
 **1.** `su-rs` uses the `use_pty` code from sudo-rs, which in turn is heavily based on Todd Miller's `use_pty` code, which has been extensively used over the years. Qualys tried, but was not able to trick it into writing AppArmor config files.  
      
