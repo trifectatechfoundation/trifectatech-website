@@ -1,15 +1,5 @@
 [
     {
-        "name": "Henk Oordt",
-        "image": "henk",
-        "email": "hd@oordt.dev",
-        "role": "Embedded software engineer",
-        "tags": [
-            "teach-rs"
-        ],
-        "github": "https://github.com/hdoordt"
-    },
-    {
         "name": "Marc Schoolderman",
         "image": "marc",
         "email": "marc@trifectatech.org",
@@ -19,17 +9,6 @@
             "ntpd-rs"
         ],
         "github": "https://github.com/squell"
-    },
-    {
-        "name": "Folkert de Vries",
-        "image": "folkert",
-        "email": "folkert@trifectatech.org",
-        "role": "Systems software engineer",
-        "tags": [
-            "zlib-rs",
-            "bzip2-rs"
-        ],
-        "github": "https://github.com/folkertdev"
     },
     {
         "name": "Dion Dokter",

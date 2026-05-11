@@ -21,5 +21,16 @@
             "statime"
         ],
         "github": "https://github.com/davidv1992"
+    },
+    {
+        "name": "Folkert de Vries",
+        "image": "folkert",
+        "email": "folkert@trifectatech.org",
+        "role": "Systems software engineer",
+        "tags": [
+            "zlib-rs",
+            "bzip2-rs"
+        ],
+        "github": "https://github.com/folkertdev"
     }
 ]
