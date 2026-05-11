@@ -30,7 +30,7 @@ Chamber of Commerce Registration (KvK): 93645546
 Tax Registration Number (RSIN): 866479004  
 VAT ID: NL866479004B01
   
-Bank account holder: Stichting Trifecta Tech  
+Bank account holder: Stichting Trifecta Tech Foundation  
 Bank name: ABN AMRO Bank N.V.  
 Bank account nr: NL84ABNA0134624378  
 SWIFT/BIC: ABNANL2A  
