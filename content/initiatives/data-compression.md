@@ -64,7 +64,7 @@ Please [get in touch with us](/support), if you are interested in financially su
 
 For **zlib**, we've created an implementation based on zlib-ng, called [`zlib-rs`](/projects/zlib-rs/). It provides on-par performance and is widely used.
 
-In June 2025 we released a new version of the **bzip2** crate, see [the bzip2 project page](/projects/bzip2/), that uses our 100% Rust implementation, [/blog/bzip2-crate-switches-from-c-to-rust/](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/).
+In June 2025 we released a new version of the **bzip2** crate, see [the bzip2 project page](/projects/bzip2-rs/), that uses our 100% Rust implementation, [/blog/bzip2-crate-switches-from-c-to-rust/](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/).
 
 ### What's Next
 
