@@ -31,6 +31,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing Zstandard in Rust",
     "Compression compiler contributions",
     "zlib-rs stable API",
     "Emulating avx-512 intrinsics in Miri",

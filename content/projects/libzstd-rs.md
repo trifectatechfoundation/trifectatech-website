@@ -24,6 +24,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing Zstandard in Rust",
     "Compression compiler contributions"
 ]
 +++

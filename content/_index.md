@@ -30,6 +30,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
     "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",

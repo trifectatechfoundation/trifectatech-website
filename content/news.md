@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
     "Tail calls project goal",
     "Compression compiler contributions",
