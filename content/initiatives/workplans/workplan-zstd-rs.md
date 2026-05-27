@@ -9,11 +9,31 @@ backLink = "projects/libzstd-rs"
 backTitle = "Back to project: Zstandard in Rust"
 +++
 
-Work on zstd started in July 2025. The first milestone is the decompression portion of the library.
-
-Now the decompression is in development, we're seeking funding for the *encoder*. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
+Work on zstd started in July 2025. The first three milestones are now completed.
 
 ### In progress milestones
+
+We're seeking funding for the *encoder*. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
+
+---
+
+### Future work
+
+**Milestone 4: Encoder implementation**
+
+This milestone adds API-compatible zstd compression.
+
+- Improving the code quality of the translated code
+- Improving the performance of the translated code
+- Testing & fuzzing
+- Audit
+- Create release and publish crates
+
+Please contact us if you are interested in supporting this milestone; see [trifectatech.org/support](https://trifectatech.org/support/). 
+
+---
+
+### Completed milestones
 
 **Milestone 1: Decoder implementation**
 
@@ -41,22 +61,6 @@ This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
 - Deliverable: Publish the crate containing the C interface and a C dynamic library that is API-compatible
 
 This work is supported by [NLnet Foundation](https://nlnet.nl).
-
----
-
-### Future work
-
-**Milestone 4: Encoder implementation**
-
-This milestone adds API-compatible zstd compression.
-
-- Improving the code quality of the translated code
-- Improving the performance of the translated code
-- Testing & fuzzing
-- Audit
-- Create release and publish crates
-
-Please contact us if you are interested in supporting this milestone; see [trifectatech.org/support](https://trifectatech.org/support/). 
 
 ---
 

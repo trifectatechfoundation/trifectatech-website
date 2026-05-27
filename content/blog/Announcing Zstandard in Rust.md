@@ -51,7 +51,7 @@ We have our own fork of the `zstd` that uses `libzstd-rs-sys` instead of the C l
 
 For the most commonly-used APIs this is straightforward. For the `experimental` features we run into some mismatches where `zstd-safe` uses an enum but we must use a `struct` for FFI safety.
 
-### Thanks to our sponsors
+## Thanks to our sponsors
 
 The work on the decompression side has been funded by [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/) and [NLnet Foundation](https://nlnet.nl/), we're grateful for their support! [Sovereign Tech Agency](https://sovereign.tech) invested in the dictionary builder, thank you!
 

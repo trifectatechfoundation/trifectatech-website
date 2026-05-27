@@ -20,7 +20,8 @@ funders = [
     "chainguard",
     "ngi-zero-core",
     "min-bzk",
-    "astral"
+    "astral",
+    "sta"
 ]
 
 supporters = [
