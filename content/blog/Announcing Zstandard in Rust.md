@@ -19,6 +19,8 @@ Zstd is a compression format that has been designed with modern CPUs in mind. It
 
 Using zstd in Rust is already supported via the [zstd](https://crates.io/crates/zstd) crate, so why bother with a whole new implementation?
 
+### Portability
+
 One practical advantage of Rust is that it is straightforward to write portable software. Currently the `zstd` crate compiles the C code from source, which requires a C toolchain for the target and for the target to be supported at all. Setting up a C toolchain on Windows or for webassembly can be a challenge, and isn't needed with a pure-Rust implementation. For Rust programmers, using dependencies written in Rust is a superior experience.
 
 ### Drop-in replacement
@@ -33,7 +35,7 @@ The [C reference implementation](https://github.com/facebook/zstd) is maintained
 
 The reference implementation was initially translated using [`c2rust`](https://c2rust.com/), and we have since completed the cleanup work for decompression and the dictionary builder. 
 
-We test our rust code (compiled into a C static library) with the the reference implementation's test suite. We additionally use fuzz testing and Miri, so we're confident in the correctness of our implementation.
+We test our Rust code (compiled into a C static library) with the the reference implementation's test suite. We additionally use fuzz testing and Miri, so we're confident in the correctness of our implementation.
 
 The release is available here: <TODO: link to release>.
 
@@ -41,9 +43,9 @@ This work has also had ecosystem benefits: we've found several limitations of Mi
 
 ### The cost of memory safety
 
-By default decompression performance of our implementation is a few percent slower than the C reference implementation. We believe we can justify this though, because with the `unsafe-performance-experimental` feature flag enabled we match C performance.
+By default decompression performance of our implementation is a few percent slower than the C reference implementation. We benchmark each merge in to `main` in our [benchmark suite](https://trifectatechfoundation.github.io/libzstd-rs-sys-bench/).
 
-This feature flag disables 4 bounds checks where data from the input is used to index into a data structure. For most users a ~3% performance regression is likely an acceptable price to pay for increased memory safety. If you really need that last bit of performance, you can enable the flag at your own risk. Its behavior matches C which also does not check the bounds and appears to run just fine in many production systems.
+We believe we can justify this regression though, because with the `unsafe-performance-experimental` feature flag enabled we match C performance. This feature flag disables 4 bounds checks where data from the input is used to index into a data structure. For most users a ~3% performance regression is likely an acceptable price to pay for increased memory safety. If you really do need that last bit of performance, you can enable the flag at your own risk. Its behavior in these four locations matches C which also does not check the bounds and appears to run just fine in many production systems.
 
 ## Future
 
