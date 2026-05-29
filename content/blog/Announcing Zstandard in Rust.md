@@ -9,7 +9,7 @@ tags = ["libzstd-rs", "announcement"]
 
 +++
 
-Over the past year we've been silently working on our third compression project. After [zlib](https://github.com/trifectatechfoundation/zlib-rs) and [bzip2](https://github.com/trifectatechfoundation/libbzip2-rs) we're taking on zstd with [libzstd-rs-sys](https://github.com/trifectatechfoundation/libzstd-rs-sys).
+Over the past year, we've been silently working on our third compression project. After [zlib](https://github.com/trifectatechfoundation/zlib-rs) and [bzip2](https://github.com/trifectatechfoundation/libbzip2-rs) we're now taking on zstd with [libzstd-rs-sys](https://github.com/trifectatechfoundation/libzstd-rs-sys), and are proud to announce its first release.
 
 <!-- more -->
 
