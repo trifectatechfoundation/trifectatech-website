@@ -77,7 +77,7 @@ Astral's mission is to make the Python ecosystem more productive. Learn more at 
 
 [**NLnet Foundation**](https://nlnet.nl/) is a recognised philanthropic non-profit foundation. The foundation stimulates network research and development in the domain of Internet technology. The articles of association for the NLnet Foundation state: "to promote the exchange of electronic information and all that is related or beneficial to that purpose". The prefered instrument of NLnet is awarding microgrants to small, independent projects supporting independent researchers and developers. Read more on [nlnet.nl](https://nlnet.nl/).
 
-[**Chainguard**](https://www.chainguard.dev/) builds trusted open source software for a secure-by-default stack. We believe in a world where engineering teams move at the speed of innovation, confident that every line of code is secure. We guard open source software from what could go wrong, so engineering teams can build what they want. Read more on [chainguard.dev](https://www.chainguard.dev/)
+[**Chainguard**](https://www.chainguard.dev/) builds trusted open source software for a secure-by-default stack. Read more on [chainguard.dev](https://www.chainguard.dev/)
 
 ### Further Information
 
