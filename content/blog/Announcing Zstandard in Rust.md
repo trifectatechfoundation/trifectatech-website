@@ -37,7 +37,7 @@ The reference implementation was initially translated using [`c2rust`](https://c
 
 We test our Rust code (compiled into a C static library) with the the reference implementation's test suite. We additionally use fuzz testing and Miri, so we're confident in the correctness of our implementation.
 
-The release is available here: <TODO: link to release>.
+The pre-release is available here: <TODO: link to release>.
 
 This work has also had ecosystem benefits: we've found several limitations of Miri (that are now resolved) and made contributions to Clippy. A more complete write-up of our recent contributions can be found [here](https://trifectatech.org/blog/fixing-our-own-problems-in-the-rust-compiler/). 
 
