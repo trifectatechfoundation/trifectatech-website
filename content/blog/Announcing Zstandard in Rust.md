@@ -2,7 +2,7 @@
 title = "Announcing Zstandard in Rust"
 slug = "announcing-zstandard-in-rust"
 authors = ["Folkert de Vries"]
-date = "2026-05-28"
+date = "2026-06-01"
 
 [taxonomies]
 tags = ["libzstd-rs", "announcement"] 
@@ -37,7 +37,7 @@ The reference implementation was initially translated using [`c2rust`](https://c
 
 We test our Rust code (compiled into a C static library) with the the reference implementation's test suite. We additionally use fuzz testing and Miri, so we're confident in the correctness of our implementation.
 
-The pre-release is available here: https://github.com/trifectatechfoundation/libzstd-rs-sys/releases/tag/v0.0.1-prerelease.2.
+The pre-release is available here: [github.com/trifectatechfoundation/libzstd-rs-sys/releases/tag/v0.0.1-prerelease.2](https://github.com/trifectatechfoundation/libzstd-rs-sys/releases/tag/v0.0.1-prerelease.2).
 
 This work has also had ecosystem benefits: we've found several limitations of Miri (that are now resolved) and made contributions to Clippy. A more complete write-up of our recent contributions can be found [here](https://trifectatech.org/blog/fixing-our-own-problems-in-the-rust-compiler/). 
 
@@ -52,6 +52,8 @@ We believe we can justify this regression though, because with the `unsafe-perfo
 We are looking for funding of the compression portion of this library. 
 
 Because of code sharing between compression and decompression, we have looked at the compression code a bit, but most of the cleanup work still needs to be done. We did set up benchmarks to ensure compression performance does not unexpectedly regress, and as mentioned we already use the reference implementation's test suite to check that we produce the correct result. 
+
+The remaining work is listed in [Milestone 4: Encoder implementation](https://trifectatech.org/initiatives/workplans/libzstd-rs/#future-work). If you’d like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support/).
 
 ### Ecosystem integration
 
