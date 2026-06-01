@@ -24,6 +24,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Announcing Zstandard in Rust",
     "Compression compiler contributions"
 ]
 +++
@@ -36,15 +37,15 @@ For the high level goals of our data compression projects, see our [Data compres
 
 ### About
 
-Development of Zstandard in Rust began in July 2025, with the first release of the decoder planned for March 2026.
+Development of Zstandard in Rust began in July 2025. In May of 2026 we released the first version that includes the decoder and the dictionaty builder.
 
 We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/), [Sovereign Tech Agency](https://sovereign.tech) and [NLnet Foundation](https://nlnet.nl) for their support.
 
 ### Roadmap
 
-- 2025 Q3: start of decoder implementation
-- 2025 Q4: implementation of dictBuilder feature
-- 2026 Q1: release of decoder
+- 2025 Q3: start of decoder implementation (*completed*)
+- 2025 Q4: implementation of dictBuilder feature (*completed*)
+- 2026 Q1: release of decoder (*completed*)
 - 2026 Q2: start of encoder implementation (*pending funding*)
 
 For details see [the workplan](/initiatives/workplans/libzstd-rs/).
