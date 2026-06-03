@@ -6,6 +6,11 @@ template = "support.html"
 
 [extra]
 
+silverSponsors = [
+    "aws",
+    "google"
+]
+
 supporters = [
     "nlnetfoundation",
     "sta", 

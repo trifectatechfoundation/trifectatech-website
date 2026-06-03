@@ -36,6 +36,17 @@
         "url": "https://memorysafety.org"
     },
     {
+        "name": "Google",
+        "image": "google",
+        "url": "https://google.com",
+        "sponsorships": [
+            {
+                "level": "Silver",
+                "year": [2026]
+            }
+        ]
+    },
+    {
         "name": "SIDN Fonds",
         "image": "sidnfonds",
         "url": "https://sidnfonds.nl",
@@ -51,6 +62,12 @@
         "name": "AWS",
         "image": "aws",
         "url": "https://aws.amazon.com",
+        "sponsorships": [
+            {
+                "level": "Silver",
+                "year": [2025, 2026]
+            }
+        ],
         "projects": [
             {
                 "initiative": "time-synchronization",
@@ -126,6 +143,21 @@
         "image": "sta",
         "url": "https://www.sovereign.tech/",
         "projects": [
+            {
+                "initiative": "data-compression",
+                "name": "libzstd-rs",
+                "year": [2025]
+            },
+            {
+                "initiative": "data-compression",
+                "name": "zlib-rs",
+                "year": [2025]
+            },
+            {
+                "initiative": "privilege-boundary",
+                "name": "sudo-rs",
+                "year": [2025]
+            },
             {
                 "initiative": "time-synchronization",
                 "name": "ntpd-rs",

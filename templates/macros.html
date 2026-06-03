@@ -4,7 +4,7 @@
 <div class="partners">
     {% if currentFunders %}
     <div class="partners-title current-funders">
-        <h3>Supporters & funders</h3>
+        <h3>Initiative supporters & funders</h3>
     </div>
     <div class="funders current-funders">
         {% for name in currentFunders %}
@@ -18,7 +18,7 @@
     {% endif %}
     {% if supporters %}
     <div class="partners-title supporters">
-        <h4>Past supporters & funders</h4>
+        <h4>Past initiative supporters & funders</h4>
     </div>
     <div class="funders supporters">
         {% for name in supporters %}
@@ -31,9 +31,6 @@
     </div>
     {% endif %}
 </div>
-
-
-
 {% endmacro page_funders %}
 
 {% macro funder_tile(funder) %}
@@ -67,7 +64,44 @@
             </ul>
             </div>
             {% endif %}
+            {% if funder.sponsorships %}
+            <div class="support markdown">
+            <strong>Sponsorship</strong>
+            <ul>  
+            {% for sponsorship in funder.sponsorships %}           
+                <li class="project">
+                    In {{sponsorship.year|join(sep=", ") }}: {{sponsorship.level}} sponsor.
+                </li>
+            {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
 {% endmacro funder_tile %}
+
+
+{% macro sponsors(silverSponsors) %}
+
+{% set funders = load_data(path = "data/funders.json") %}
+<div class="partners sponsors">
+    {% if silverSponsors %}
+    <div class="partners-title current-funders">
+        <h3>Silver sponsors</h3>
+    </div>
+    <div class="funders current-funders">
+        {% for name in silverSponsors %}
+            {% for funder in funders %}
+                {% if funder.image == name %}
+                    {{ macros::funder_tile(funder=funder) }}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+{% endmacro sponsors %}
+
+
