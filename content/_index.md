@@ -11,22 +11,22 @@ silverSponsors = [
 
 funders = [
     "nlnetfoundation",
-    "chainguard",
     "ngi-zero-core",
     "canonical",
-    "astral",
     "icann",
     "meinberg",
     "tweedegolf"
 ]
 
 supporters = [
+    "chainguard",
     "min-bzk",
     "prossimo",
     "sidnfonds",
     "ngi-zero-entrust",
     "ngi-assure",
     "sta",
+    "astral",
     "rustedu",
     "rustfoundation",
     "devolutions",

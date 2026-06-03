@@ -1,20 +1,23 @@
 .partners {
   position: relative;
-  border-block-end: 1px solid var(--color-secondary-400);
-  padding-block-end: 3rem;
+  &:not(.sponsors) {
+    border-block-end: 1px solid var(--color-secondary-400);
+    padding-block-end: 3rem;
+  }
   margin-block-start: 3rem;
 
   .partners-title {
     text-align: center;
     font-style: italic;
     padding-bottom: 0.5rem;
+    margin-block-start: 4.5rem;
 
     &.supporters {
       margin-top: 3rem;
     }
   }
 
-  &:not(&.sponsors)::after {
+  &:not(.sponsors)::after {
     background-image: var(--ornament-separator);
     background-position: center;
     background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 {% macro page_funders(currentFunders, supporters) %}
 
 {% set funders = load_data(path = "data/funders.json") %}
-<div class="partners sponsors">
+<div class="partners">
     {% if currentFunders %}
     <div class="partners-title current-funders">
         <h3>Initiative supporters & funders</h3>
@@ -64,6 +64,18 @@
             </ul>
             </div>
             {% endif %}
+            {% if funder.sponsorships %}
+            <div class="support markdown">
+            <strong>Sponsorship</strong>
+            <ul>  
+            {% for sponsorship in funder.sponsorships %}           
+                <li class="project">
+                    In {{sponsorship.year|join(sep=", ") }}: {{sponsorship.level}} sponsor.
+                </li>
+            {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -73,10 +85,10 @@
 {% macro sponsors(silverSponsors) %}
 
 {% set funders = load_data(path = "data/funders.json") %}
-<div class="partners">
+<div class="partners sponsors">
     {% if silverSponsors %}
     <div class="partners-title current-funders">
-        <h3>Silver Sponsors</h3>
+        <h3>Silver sponsors</h3>
     </div>
     <div class="funders current-funders">
         {% for name in silverSponsors %}
