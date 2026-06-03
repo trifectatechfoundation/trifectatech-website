@@ -36,6 +36,11 @@
         "url": "https://memorysafety.org"
     },
     {
+        "name": "Google",
+        "image": "google",
+        "url": "https://google.com"
+    },
+    {
         "name": "SIDN Fonds",
         "image": "sidnfonds",
         "url": "https://sidnfonds.nl",

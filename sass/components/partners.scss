@@ -14,7 +14,7 @@
     }
   }
 
-  &::after {
+  &:not(&.sponsors)::after {
     background-image: var(--ornament-separator);
     background-position: center;
     background-repeat: no-repeat;
@@ -116,6 +116,10 @@
     &.aws {
       background-image: url('/funders/aws.svg');
       width: 3.5rem;  
+    }
+
+    &.google {
+      background-image: url('/funders/google.png'); 
     }
 
     &.rustfoundation {

@@ -29,6 +29,7 @@
     </div>
 </div>
 
+{{ macros::sponsors(silverSponsors=page.extra.silverSponsors) }}
 {{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
 
 {% include "components/initiative_listing.html" %}

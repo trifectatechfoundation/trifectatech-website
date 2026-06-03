@@ -4,8 +4,12 @@ template = "index.html"
 
 [extra]
 
-funders = [
+silverSponsors = [
     "aws",
+    "google"
+]
+
+funders = [
     "nlnetfoundation",
     "chainguard",
     "ngi-zero-core",
