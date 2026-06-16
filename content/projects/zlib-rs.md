@@ -28,6 +28,7 @@ supporters = [
 ]
 
 blogposts = [
+    "zlib-rs in Firefox",
     "Compression compiler contributions",
     "zlib-rs stable API",
     "Emulating avx-512 intrinsics in Miri",

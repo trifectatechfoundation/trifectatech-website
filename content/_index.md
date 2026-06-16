@@ -34,6 +34,7 @@ supporters = [
 ]
 
 blogposts = [
+    "zlib-rs in Firefox",
     "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
     "Announcing ntpd-rs in Ubuntu",
