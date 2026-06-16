@@ -9,7 +9,7 @@ tags = ["zlib-rs", "data compression"]
 
 +++
 
-As of [150.0.0](https://www.firefox.com/en-US/firefox/150.0/releasenotes/), Firefox uses zlib-rs for gzip (de)compression. This is very exciting, and has both performance and safety advantages.
+As of [151.0.0](https://www.firefox.com/en-US/firefox/151.0/releasenotes/), Firefox uses zlib-rs for gzip (de)compression. This is very exciting, and has both performance and safety advantages.
 
 We first started talking to Mozilla engineers in summer 2024, and it took 2 years to actually get zlib-rs into production. What took us so long?
 
@@ -33,6 +33,8 @@ We could not reproduce the issue locally, and as more reports came in, a pattern
 This generation of CPUs is plagued by [instability and degradation issues](https://en.wikipedia.org/wiki/Raptor_Lake#Instability_and_degradation_issue). Something in our code was prone to triggering these issues, but of course we had no idea what, or even how to track it down.
 
 Eventually Fabian Giesen wrote ["Oodle 2.9.14 and Intel 13th/14th gen CPUs"](https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/), which identifies the problem as a particular instruction used in writing the result of Huffman coding to memory. Zlib also uses Huffman coding, and zlib-rs turned out to also use the offending instruction.
+
+Still, finding and shipping the solution in Firefox is not a quick fix. This May, shortly after the 151 release, Mozilla engineers shipped the patch, ["After a year, Firefox finally stops crashing on Intel's Raptor Lake CPUs — Mozilla releases new version patch critical flaw on Intel 13th-gen and 14th-gen CPUs"](https://www.tomshardware.com/software/mozilla-firefox/after-a-year-firefox-finally-stops-crashing-on-intels-raptor-lake-cpus-mozilla-releases-new-version-patch-critical-flaw-on-intel-13th-gen-and-14th-gen-cpus).
 
 ## Fixing the bug
 
@@ -75,7 +77,7 @@ pub fn push_dist(&mut self, dist: u16, len: u8) {
 }
 ```
 
-The fix in Firefox is [here](https://github.com/mozilla-firefox/firefox/commit/711ef51645a2#diff-945832833d688a990ab42ad9c84ce62a5258698d92bbcabbcdaabc2efbbda282). The patch has been [upstreamed](https://github.com/trifectatechfoundation/zlib-rs/pull/520) into zlib-rs and we will continue to carry that patch for the foreseeable future: it's a marginal amount of unsafe that is easily vetted. These are the sacrifices we make to run reliably on a variety of platforms.
+The fix in Firefox by Mike Hommey is [here](https://github.com/mozilla-firefox/firefox/commit/711ef51645a2#diff-945832833d688a990ab42ad9c84ce62a5258698d92bbcabbcdaabc2efbbda282). The patch has been [upstreamed](https://github.com/trifectatechfoundation/zlib-rs/pull/520) into zlib-rs and we will continue to carry that patch for the foreseeable future: it's a marginal amount of unsafe that is easily vetted. These are the sacrifices we make to run reliably on a variety of platforms.
 
 It turns out that LLVM 23 no longer emits the offending instruction, although I believe that is serendipitous and not deliberate. When we bump our MSRV to a version that requires LLVM 23 (e.g. for custom allocators and c-variadic functions) we can drop this workaround.
 
