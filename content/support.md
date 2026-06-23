@@ -6,6 +6,10 @@ template = "support.html"
 
 [extra]
 
+goldSponsors = [
+    "canonical"
+]
+
 silverSponsors = [
     "aws",
     "google"

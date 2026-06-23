@@ -82,10 +82,24 @@
 {% endmacro funder_tile %}
 
 
-{% macro sponsors(silverSponsors) %}
+{% macro sponsors(goldSponsors, silverSponsors) %}
 
 {% set funders = load_data(path = "data/funders.json") %}
 <div class="partners sponsors">
+    {% if goldSponsors %}
+    <div class="partners-title current-funders">
+        <h3>Gold sponsors</h3>
+    </div>
+    <div class="funders current-funders gold">
+        {% for name in goldSponsors %}
+            {% for funder in funders %}
+                {% if funder.image == name %}
+                    {{ macros::funder_tile(funder=funder) }}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
     {% if silverSponsors %}
     <div class="partners-title current-funders">
         <h3>Silver sponsors</h3>

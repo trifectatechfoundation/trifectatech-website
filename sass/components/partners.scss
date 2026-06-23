@@ -40,16 +40,28 @@
   gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
 
+  &.current-funders {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+  &.current-funders.gold {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
   @media (min-width: 62rem) {
     grid-template-columns: repeat(6, 1fr);
-
+    
     &.current-funders {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.current-funders.gold {
+      grid-template-columns: repeat(2, 1fr);  
     }
   }
 }
 
-.funder {
+.funders .funder {
   align-items: center;
   justify-content: start;
   background-color: rgba(255,255,255,0.25);
@@ -73,10 +85,10 @@
 
   .image {
     min-height: 3.5rem;
+    width: 5rem;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 5rem;
     pointer-events: none;
 
     @media (min-width: 62rem) {
@@ -118,7 +130,6 @@
 
     &.aws {
       background-image: url('/funders/aws.svg');
-      width: 3.5rem;  
     }
 
     &.google {
@@ -177,6 +188,35 @@
     }
   }
 }
+
+.funders {
+  &.current-funders {
+    
+    .funder {             
+      .image {
+        min-height: 4.5rem;
+        width: 5rem;
+      }
+
+      @media (min-width: 62rem) {
+        .image {
+          min-height: 5rem;
+          width: 8rem;
+        }
+      }
+    }
+  }
+
+  &.current-funders.gold {
+    .funder {        
+        .image {
+          min-height: 6rem;
+          width: 12rem;
+        }
+    }
+  }
+}
+
 
 .funder dialog {
   align-items: center;
