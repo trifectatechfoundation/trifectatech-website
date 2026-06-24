@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+<div class="hero">
+    <h1><span>{{ page.title | safe }}</span></h1>
+</div>
+<div class="paragraph">
+    <div class="markdown">
+        {{ page.content | safe }}
+    </div>
+</div>
+{% endblock content %}
