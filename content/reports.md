@@ -23,4 +23,4 @@ An abstract of our financial statements ("Kengetallen jaarrekening" in Dutch).
 
 A Public Benefit Organisation (Dutch: Algemeen Nut Beogende Instelling or ANBI) must use standard forms called "Standaardformulier publicatieplicht" for publishing data.
 
-Available soon
+- [Standaardformulier publicatieplicht ANBI 2024](/reports/Standaardformulier-publicatieplicht-2024-TTF.pdf)
