@@ -2,7 +2,7 @@
 title = "Trifecta Tech Foundation welcomes Canonical as Gold Sponsor"
 slug = "new-gold-sponsor-canonical"
 authors = ["Erik Jonkers"]
-date = "2026-07-07"
+date = "2026-06-30"
 
 [taxonomies]
 tags = [] 
@@ -12,13 +12,14 @@ image = "/blog/canonical-sponsor-announcement-trifecta-tech-foundation.png"
 
 +++
 
-Trifecta Tech Foundation is delighted to welcome Canonical as a new Gold sponsor! We're grateful for their €40 000/year contribution, which provides us with the flexible funding needed to sustain the maintenance work that keeps critical infrastructure software secure. 
+Trifecta Tech Foundation is delighted to welcome Canonical, the publisher of Ubuntu, as a new Gold sponsor! We're grateful for their €40,000/year contribution, which provides us with the flexible funding needed to sustain the maintenance work that keeps critical infrastructure software secure.
 
 <!-- more -->
 
-Canonical has set out to replace core system utilities with memory-safe Rust rewrites in Ubuntu, underlined by their recent support for various memory-safe components and their maintainers, including Trifecta Tech Foundation's [sudo-rs](/projects/sudo-rs). This aligns perfectly with our goals of making critical infrastructure software safer by reducing attack surface through robust, inherently safer components, and our mission to impact the digital security of hundreds of millions of people.
+Canonical has replaced many core system utilities with memory-safe Rust rewrites in [Ubuntu](/blog/memory-safe-sudo-to-become-the-default-in-ubuntu/), underlined by their recent support for various memory-safe components and their maintainers, including Trifecta Tech Foundation's [sudo-rs](/projects/sudo-rs). This aligns perfectly with our goals of making critical infrastructure software safer by reducing the attack surface through robust, inherently safer components, and our mission to impact the digital security of hundreds of millions of people.
 
-> TODO: Quote by Canonical
+> Increasing memory safety in Ubuntu is a critical part of improving the resilience of devices, servers and PCs worldwide. The adoption of sudo-rs by default in Ubuntu 26.04 LTS signaled a shift from "experimental feature" to "new security baseline" for memory safety. I'm delighted to be supporting the Trifecta Tech Foundation to continue the leadership of memory-safe alternatives to critical software for the benefit of the open source community.<br /><br /> 
+> Jon Seager, VP Engineering, Ubuntu
 
 Learn more about Canonical at [canonical.com](https://canonical.com).
 
