@@ -38,6 +38,7 @@ supporters = [
 ]
 
 blogposts = [
+    "New Gold Sponsor Canonical",
     "zlib-rs in Firefox",
     "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
