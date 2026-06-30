@@ -37,5 +37,5 @@ If you would also like to support our work, please contact us; see [trifectatech
 
 ### About Canonical
 
-Canonical, the publisher of Ubuntu, provides open source security, support, and services. Its portfolio covers critical systems, from the smallest devices to the largest clouds, from the kernel to containers, from databases to AI. With customers that include top tech brands, emerging startups, governments, and home users, Canonical delivers trusted open source for everyone. Learn more at https://canonical.com/. 
+Canonical, the publisher of Ubuntu, provides open source security, support, and services. Its portfolio covers critical systems, from the smallest devices to the largest clouds, from the kernel to containers, from databases to AI. With customers that include top tech brands, emerging startups, governments, and home users, Canonical delivers trusted open source for everyone. Learn more at [https://canonical.com/](https://canonical.com). 
 
