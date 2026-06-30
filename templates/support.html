@@ -10,7 +10,6 @@
         {{ page.content | safe }}
     </div>
 </div>
-<!-- {{ macros::sponsors(goldSponsors=page.extra.goldSponsors, silverSponsors=page.extra.silverSponsors) }} -->
-{{ macros::sponsors(goldSponsors=[], silverSponsors=page.extra.silverSponsors) }}
+{{ macros::sponsors(goldSponsors=page.extra.goldSponsors, silverSponsors=page.extra.silverSponsors) }}
 {{ macros::page_funders(currentFunders=page.extra.funders, supporters=page.extra.supporters) }}
 {% endblock content %}
