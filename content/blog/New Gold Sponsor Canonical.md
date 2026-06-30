@@ -5,7 +5,7 @@ authors = ["Erik Jonkers"]
 date = "2026-06-30"
 
 [taxonomies]
-tags = [] 
+tags = ["announcement"] 
 
 [extra]
 image = "/blog/canonical-sponsor-announcement-trifecta-tech-foundation.png"
