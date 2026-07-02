@@ -10,16 +10,6 @@ backTitle = "Back to initiative: Making Rust Faster Than C"
 
 ## Work plan
 
-### Milestone 1: State machine codegen
-
-- Improve [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
-- Identify key rust projects that benefit from `#[loop_match]` 
-- Add experimental support for `#[loop_match]` to [c2rust](https://c2rust.com/)
-- Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
-
-Timeline: Nov 2024 - Jun 2026 
-Status: *In progress*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
-
 ### Milestone 3: Tail calls
 
 Guaranteed tail calls and computed goto are techniques used in systems programming to squeeze out the last bit of performance.
@@ -31,11 +21,21 @@ Guaranteed tail calls and computed goto are techniques used in systems programmi
 For more details see the 2026 Rust Project Goal ["Explicit tail calls & loop_match"](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html).
 
 Timeline: April 2026 - Dec 2026  
-Status: *Needs funding*.
+Status: *In progress*. Kindly funded by [Tempo Labs](https://tempo.xyz/).
 
 Please [get in touch with us](/support), if you are interested in financially supporting our effort.
 
 ## Completed milestones
+
+### Milestone 1: State machine codegen
+
+- Improve [RFC 3720 (improved state machines)](https://github.com/rust-lang/rfcs/pull/3720)
+- Identify key rust projects that benefit from `#[loop_match]` 
+- Add experimental support for `#[loop_match]` to [c2rust](https://c2rust.com/)
+- Evaluate the improvement by comparing the performance of a freshly translated bzip2 using either the original or patched c2rust
+
+Timeline: Nov 2024 - April 2026 
+Status: *Completed*. Kindly funded by [NLnet Foundation](https://nlnet.nl/).
 
 ### Milestone 2: Identify performance bottlenecks
 
