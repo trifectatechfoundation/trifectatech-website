@@ -10,7 +10,7 @@ If you have any questions, please do not hestitate to [contact us](mailto:contac
 
 ### Annual reports
 
-Available soon!
+- [Annual Report 2025](/reports/Annual-report-2025.pdf)
 
 ### Financial Statements
 
