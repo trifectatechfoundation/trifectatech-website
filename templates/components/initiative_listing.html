@@ -3,7 +3,7 @@
     {% set infrastructureItems = categories.items | filter(attribute="name", value="infrastructure") | first %}
     {% set ecosystemItems = categories.items | filter(attribute="name", value="ecosystem") | first %}
     <div class="initiative-title">
-        <h2 id="infrastructure">Infrastructure projects</h2>
+        <h2 id="infrastructure">Infrastructure initiatives</h2>
     </div>
     <div class="items">
         {% for initiative in infrastructureItems.pages | reverse %}
@@ -11,7 +11,7 @@
         {% endfor %}
     </div>
     <div class="initiative-title">        
-        <h2 id="ecosystem">Ecosystem projects</h2>
+        <h2 id="ecosystem">Ecosystem initiatives</h2>
     </div>
     <div class="items">
         {% for initiative in ecosystemItems.pages %}
