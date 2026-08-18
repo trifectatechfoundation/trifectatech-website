@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "New Silver Sponsor Google",
     "New Gold Sponsor Canonical",
     "zlib-rs in Firefox",
     "Announcing Zstandard in Rust",
