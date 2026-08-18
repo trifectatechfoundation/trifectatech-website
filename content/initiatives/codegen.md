@@ -45,13 +45,13 @@ The work includes:
 - the 2025H1 Rust Project Goal, ["improved state machine codegen"](https://github.com/rust-lang/rust-project-goals/issues/258), and
 - the 2026 Rust Project Goal ["Explicit tail calls & loop_match"](https://rust-lang.github.io/rust-project-goals/2026/tail-call-loop-match.html)
 
-We're seeking funding for the tail calls project goal (Milestone 3 in the [workplan](/initiatives/workplans/codegen/)). Please [get in touch with us](/support), if you are interested in financially supporting our effort.
+Please [get in touch with us](/support), if you are interested in financially supporting our effort.
 
 ### Acknowledgements
 
 We want to acknowledge the [work done in the Zig ecosystem](https://github.com/ziglang/zig/pull/21257) where our idea was taken from fairly directly, and thank [joshtriplett](https://github.com/joshtriplett), [jackh726](https://github.com/jackh726) and folks at the [codegen unconf at GOSIM 2024](https://hackmd.io/@Q66MPiW4T7yNTKOCaEb-Lw/gosim-unconf-rust-codegen) for providing feedback. 
 
-We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial effort, and [NLnet](https://nlnet.nl) and [AWS](https://aws.amazon.com) for funding the milestone 1, *State machine codegen*, and milestone 2, *Identify performance bottlenecks*.
+We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial effort, and [NLnet](https://nlnet.nl), [AWS](https://aws.amazon.com) and [Tempo Labs](https://tempo.xyz/) for funding the milestone 1, *State machine codegen*, milestone 2, *Identify performance bottlenecks* and milestone 3, *Tail calls*.
 
 ### What's next
 

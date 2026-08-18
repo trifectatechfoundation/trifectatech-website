@@ -39,3 +39,5 @@ SWIFT/BIC: ABNANL2A
 
 *   [Statuten](/docs/statuten-Stichting-Trifecta-Tech-Foundation.pdf) (Bylaws, In Dutch)
 *   [Bylaws](/docs/bylaws-Stichting-Trifecta-Tech-Foundation.pdf) (certified translation)
+*   [Public Benefit Organisation Statement Dutch Tax Office](/docs/Public-benefit-organisation-statement-by-Dutch-Tax-Office-certified-English-translation.pdf) (certified translation)
+*   [Annual reports](/reports)
