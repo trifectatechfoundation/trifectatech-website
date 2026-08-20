@@ -16,12 +16,13 @@ Trifecta Tech Foundation is delighted to welcome Google as a new Silver sponsor!
 
 <!-- more -->
 
-The support comes from Google's Safe Coding team, who work on replacing common C(++) libraries with Rust alternatives, at scale. Their work aligns with our goals of making critical infrastructure software safer by reducing attack surface through robust, inherently safer components.
+The support comes from Google's Safe Coding Engineering team, who work on replacing common C(++) libraries with Rust alternatives, at scale. Their work aligns with our goals of making critical infrastructure software safer by reducing attack surface through robust, inherently safer components.
 
-Google [has long advocated for a Safe Coding strategy](https://storage.googleapis.com/gweb-research2023-media/pubtools/7665.pdf) (see also the recording of Bastian Kersting's [RustWeek 2026 talk](https://www.youtube.com/watch?v=mLzJfuaomZw) on this topic) and is now evaluating the feasibility of [Scaling Memory Safety](/) through AI-assisted rewrites after completing a pilot project.
+>  Trifecta Tech Foundation's approach to rewrite critical C dependencies, such as zlib, into Rust (with amazing performance gains!) is an important part of a comprehensive landscape of solutions for eliminating memory safety risks across key open-source software. <br /><br /> 
+> Bastian Kersting, Software Engineer in Google's Memory Safety team
 
-> Quote placeholder <br /><br /> 
-> Someone, role, Google
+Google [has long advocated for a Safe Coding strategy](https://storage.googleapis.com/gweb-research2023-media/pubtools/7665.pdf) and in particular, memory safety. Bastian Kersting's excellent [RustWeek 2026 talk](https://www.youtube.com/watch?v=mLzJfuaomZw) outlines this effort. The next step of evaluating the feasibility of AI-assisted rewrites is highlighted in the new blog post, [Scaling Memory Safety](/).
+
 
 ### Google's support
 
