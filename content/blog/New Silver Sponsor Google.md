@@ -16,9 +16,9 @@ Trifecta Tech Foundation is delighted to welcome Google as a new Silver sponsor!
 
 <!-- more -->
 
-The support comes from Google's Safe Coding team that works on replacing common C(++) libraries with Rust alternatives, at scale. Their work aligns with our goals of making critical infrastructure software safer by reducing attach surface through robust, inherently safer components.
+The support comes from Google's Safe Coding team, who work on replacing common C(++) libraries with Rust alternatives, at scale. Their work aligns with our goals of making critical infrastructure software safer by reducing attack surface through robust, inherently safer components.
 
-Google [has long advocated for a Safe Coding strategy](https://storage.googleapis.com/gweb-research2023-media/pubtools/7665.pdf) and is now evaluating the feasibility of [Scaling Memory Safety](/) through a pilot project for AI-assisted rewrites.
+Google [has long advocated for a Safe Coding strategy](https://storage.googleapis.com/gweb-research2023-media/pubtools/7665.pdf) (see also the recording of Bastian Kersting's [RustWeek 2026 talk](https://www.youtube.com/watch?v=mLzJfuaomZw) on this topic) and is now evaluating the feasibility of [Scaling Memory Safety](/) through AI-assisted rewrites after completing a pilot project.
 
 > Quote placeholder <br /><br /> 
 > Someone, role, Google
