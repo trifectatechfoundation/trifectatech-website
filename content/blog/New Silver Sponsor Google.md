@@ -1,8 +1,8 @@
 +++
-title = "Trifecta Tech Foundation welcomes Google as Silver Sponsor"
-slug = "new-silver-sponsor-google"
+title = "Trifecta Tech Foundation welcomes Google as Gold Sponsor"
+slug = "new-gold-sponsor-google"
 authors = ["Erik Jonkers"]
-date = "2026-08-24"
+date = "2026-08-31"
 
 [taxonomies]
 tags = ["data-compression"] 
@@ -12,7 +12,7 @@ image = "/blog/google-sponsor-announcement-trifecta-tech-foundation.png"
 
 +++
 
-Trifecta Tech Foundation is delighted to welcome Google as a new Silver sponsor! We're grateful for their €20,000/year sponsorship, a significant contribution to the flexible funding needed to sustain the maintenance work that keeps our critical infrastructure projects secure.
+Trifecta Tech Foundation is delighted to welcome Google as a new Gold sponsor! We're grateful for their €40,000/year sponsorship, a significant contribution to the flexible funding needed to sustain the maintenance work that keeps our critical infrastructure projects secure.
 
 <!-- more -->
 
