@@ -38,15 +38,13 @@ supporters = [
 ]
 
 blogposts = [
+    "BSI and the Sovereign Tech Agency endorse call for memory safety",
     "New Gold Sponsor Canonical",
     "zlib-rs in Firefox",
     "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
     "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",
-    "Calling for memory safety incentives in EU cybersecurity policies",
-    "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
-    "ntpd-rs now supports version 5 of the Network Time Protocol",
-    "zlib-rs is faster than C",
+    "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo"
 ]
 +++
