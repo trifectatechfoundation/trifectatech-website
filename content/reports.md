@@ -16,12 +16,14 @@ If you have any questions, please do not hestitate to [contact us](mailto:contac
 
 An abstract of our financial statements ("Kengetallen jaarrekening" in Dutch).
 
-- [Financial Statement 2025](/reports/Jaarrekening-2025-TTF.pdf)
-- [Financial Statement 2024](/reports/Jaarrekening-2024-TTF.pdf)
+- [Financial Statement 2025](/reports/Annual-Financial-statements-2025-TTF-EN.pdf)
+- [Financial Statement 2025 - Dutch](/reports/Jaarrekening-2025-TTF.pdf)
+- [Financial Statement 2024](/reports/Annual-Financial-statements-2024-TTF-EN.pdf)
+- [Financial Statement 2024 - Dutch](/reports/Jaarrekening-2024-TTF.pdf)
 
 ### Standard forms for Public Benefit Organisations in The Netherlands
 
-A Public Benefit Organisation (Dutch: Algemeen Nut Beogende Instelling or ANBI) must use standard forms called "Standaardformulier publicatieplicht" for publishing data.
+A Public Benefit Organisation (Dutch: Algemeen Nut Beogende Instelling or ANBI) must publish an annual standard form to report on activities and to publish financial data. See the Dutch Tax Offices ["Publishing ANBI information on a website" page](https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/business-public-benefit-organisations/public_benefit_organisations/publishing-anbi-information-on-a-website/) for details.
 
-- [Standaardformulier publicatieplicht ANBI 2025](/reports/Standaardformulier-publicatieplicht-2025-TTF.pdf)
-- [Standaardformulier publicatieplicht ANBI 2024](/reports/Standaardformulier-publicatieplicht-2024-TTF.pdf)
+- [Standard form ANBI 2025](/reports/Standard-form-publication-requirement-ANBI-TTF-2025-EN.pdf)
+- [Standard form ANBI 2024](/reports/Standard-form-publication-requirement-ANBI-TTF-2024-EN.pdf)
