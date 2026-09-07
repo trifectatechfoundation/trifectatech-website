@@ -16,8 +16,10 @@ If you have any questions, please do not hestitate to [contact us](mailto:contac
 
 An abstract of our financial statements ("Kengetallen jaarrekening" in Dutch).
 
-- [Financial Statement 2025](/reports/Jaarrekening-2025-TTF.pdf)
-- [Financial Statement 2024](/reports/Jaarrekening-2024-TTF.pdf)
+- [Financial Statement 2025 - English](/reports/Annual-Financial-statements-2025-TTF-EN.pdf)
+- [Financial Statement 2025 - Dutch](/reports/Jaarrekening-2025-TTF.pdf)
+- [Financial Statement 2024 - English](/reports/Annual-Financial-statements-2024-TTF-EN.pdf)
+- [Financial Statement 2024 - Dutch](/reports/Jaarrekening-2024-TTF.pdf)
 
 ### Standard forms for Public Benefit Organisations in The Netherlands
 
