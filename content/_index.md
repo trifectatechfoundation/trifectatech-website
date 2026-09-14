@@ -5,12 +5,12 @@ template = "index.html"
 [extra]
 
 goldSponsors = [
-    "canonical"
+    "canonical",
+    "google"
 ]
 
 silverSponsors = [
-    "aws",
-    "google"
+    "aws"
 ]
 
 funders = [

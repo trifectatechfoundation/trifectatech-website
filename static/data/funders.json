@@ -41,7 +41,7 @@
         "url": "https://google.com",
         "sponsorships": [
             {
-                "level": "Silver",
+                "level": "Gold",
                 "year": [2026]
             }
         ]
@@ -294,6 +294,17 @@
                 "initiative": "privilege-boundary",
                 "name": "sudo-rs",
                 "year": [2025]
+            },
+            {
+                "initiative": "time-synchronization",
+                "name": "ntpd-rs",
+                "year": [2026]
+            }
+        ],        
+        "sponsorships": [
+            {
+                "level": "Gold",
+                "year": [2026]
             }
         ]
     },
