@@ -2,7 +2,7 @@
 title = "Trifecta Tech Foundation welcomes Google as Gold Sponsor"
 slug = "new-gold-sponsor-google"
 authors = ["Erik Jonkers"]
-date = "2026-08-31"
+date = "2026-09-14"
 
 [taxonomies]
 tags = ["data-compression"] 
@@ -16,7 +16,9 @@ Trifecta Tech Foundation is delighted to welcome Google as a new Gold sponsor! W
 
 <!-- more -->
 
-The support comes from Google's Safe Coding Engineering team, who work on replacing common C(++) libraries with Rust alternatives, at scale. Their work aligns with our goals of making critical infrastructure software safer by reducing attack surface through robust, inherently safer components.
+This support is co-funded by Google's Safe Coding Engineering team and the Open Source Programs Office (OSPO). 
+
+The Safe Coding team focuses on replacing ubiquitous C/C++ libraries with memory-safe Rust alternatives at scale, while OSPO stewards Google’s long-term investments in foundational open-source ecosystems. Together, this joint commitment elevates Google to a Gold Sponsor, reinforcing the shared mission to make critical digital infrastructure inherently safer and more resilient.
 
 >  Trifecta Tech Foundation's approach to rewrite critical C dependencies, such as zlib, into Rust (with amazing performance gains!) is an important part of a comprehensive landscape of solutions for eliminating memory safety risks across key open-source software. <br /><br /> 
 > Bastian Kersting, Software Engineer in Google's Memory Safety team
