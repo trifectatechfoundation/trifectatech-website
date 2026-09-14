@@ -54,6 +54,8 @@ If you are involved in relevant European or national policy making, or can put u
 
 ## Supporting organisations
 
+- [The German Federal Office for Information Security (BSI)](https://www.bsi.bund.de/EN/Home/home_node.html)
+- [Sovereign Tech Agency](https://www.sovereign.tech/)
 - [Internet Security Research Group](https://www.abetterinternet.org/)
 - [Tauri](https://v2.tauri.app/)
 - [Rust Foundation](https://rustfoundation.org/)
