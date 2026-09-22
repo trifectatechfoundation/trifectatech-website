@@ -7,7 +7,8 @@
         "tags": [
             "ntpd-rs",
             "statime",
-            "sudo-rs"
+            "sudo-rs",
+            "nts-pool"
         ],
         "github": "https://github.com/rnijveld"
     },
@@ -18,7 +19,8 @@
         "role": "Security software engineer",
         "tags": [
             "ntpd-rs",
-            "statime"
+            "statime",
+            "nts-pool"
         ],
         "github": "https://github.com/davidv1992"
     },
@@ -29,8 +31,21 @@
         "role": "Systems software engineer",
         "tags": [
             "zlib-rs",
-            "bzip2-rs"
+            "bzip2-rs",
+            "libzstd-rs"
         ],
         "github": "https://github.com/folkertdev"
+    },
+    {
+        "name": "Marc Schoolderman",
+        "image": "marc",
+        "email": "marc@trifectatech.org",
+        "role": "Software engineer",
+        "tags": [
+            "sudo-rs",
+            "ntpd-rs",
+            "nts-pool"
+        ],
+        "github": "https://github.com/squell"
     }
 ]

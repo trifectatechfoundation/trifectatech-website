@@ -1,40 +1,29 @@
 [
     {
-        "name": "Marc Schoolderman",
-        "image": "marc",
-        "email": "marc@trifectatech.org",
+        "name": "Michiel",
+        "image": "michiel",
+        "email": "michiel@tweedegolf.com",
         "role": "Software engineer",
         "tags": [
-            "sudo-rs",
-            "ntpd-rs"
+            "libzstd-rs"
         ],
-        "github": "https://github.com/squell"
-    },
-    {
-        "name": "Dion Dokter",
-        "image": "dion",
-        "email": "dion@trifectatech.org",
-        "role": "Embedded software engineer",
-        "tags": [
-            "statime"
-        ],
-        "github": "https://github.com/diondokter"
+        "github": "https://github.com/michielp1807"
     },
     {
         "name": "Marlon Peeters",
         "image": "marlonp",
-        "email": "marlonpeeters@trifectatech.org",
+        "email": "marlonpeeters@tweedegolf.com",
         "role": "Software engineer",
         "tags": [
             "ntpd-rs",
-            "statime"
+            "nts-pool"
         ],
         "github": "https://github.com/cikzh"
     },
     {
         "name": "Tamme Dittrich",
         "image": "tamme",
-        "email": "tamme@trifectatech.org",
+        "email": "tamme@tweedegolf.com",
         "role": "Software engineer",
         "tags": [
             "ntpd-rs",
@@ -45,11 +34,12 @@
     {
         "name": "Björn",
         "image": "bjorn",
-        "email": "bjorn@trifectatech.org",
+        "email": "bjorn@tweedegolf.com",
         "role": "Systems software engineer",
         "tags": [
             "zlib-rs",
-            "bzip2-rs"
+            "bzip2-rs",
+            "libzstd-rs"
         ],
         "github": "https://github.com/bjorn3"
     }
