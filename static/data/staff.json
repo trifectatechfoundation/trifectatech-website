@@ -3,11 +3,10 @@
         "name": "Ruben Nijveld",
         "image": "ruben",
         "email": "ruben@trifectatech.org",
-        "role": "Software engineer",
+        "role": "Open source engineer",
         "tags": [
             "ntpd-rs",
             "statime",
-            "sudo-rs",
             "nts-pool"
         ],
         "github": "https://github.com/rnijveld"
@@ -16,7 +15,7 @@
         "name": "David Venhoek",
         "image": "david",
         "email": "david@trifectatech.org",
-        "role": "Security software engineer",
+        "role": "Open source engineer",
         "tags": [
             "ntpd-rs",
             "statime",
@@ -28,7 +27,7 @@
         "name": "Folkert de Vries",
         "image": "folkert",
         "email": "folkert@trifectatech.org",
-        "role": "Systems software engineer",
+        "role": "Open source engineer",
         "tags": [
             "zlib-rs",
             "bzip2-rs",
@@ -40,12 +39,23 @@
         "name": "Marc Schoolderman",
         "image": "marc",
         "email": "marc@trifectatech.org",
-        "role": "Software engineer",
+        "role": "Open source engineer",
         "tags": [
             "sudo-rs",
             "ntpd-rs",
             "nts-pool"
         ],
         "github": "https://github.com/squell"
+    },
+    {
+        "name": "Aelin Reidel",
+        "image": "aelin",
+        "email": "aelin@trifectatech.org",
+        "role": "Open source engineer",
+        "tags": [
+            "bzip-rs",
+            "ssh-server"
+        ],
+        "github": "https://github.com/Gelbpunkt"
     }
 ]

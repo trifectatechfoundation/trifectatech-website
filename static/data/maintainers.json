@@ -12,7 +12,7 @@
     {
         "name": "Marlon Peeters",
         "image": "marlonp",
-        "email": "marlonpeeters@tweedegolf.com",
+        "email": "mp@tweedegolf.com",
         "role": "Software engineer",
         "tags": [
             "ntpd-rs",
@@ -37,7 +37,6 @@
         "email": "bjorn@tweedegolf.com",
         "role": "Systems software engineer",
         "tags": [
-            "zlib-rs",
             "bzip2-rs",
             "libzstd-rs"
         ],
