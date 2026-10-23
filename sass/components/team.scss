@@ -120,10 +120,6 @@
       background-image: url('/people/folkert.jpg');
     }
 
-    &.henk {
-      background-image: url('/people/henk.jpg');
-    }
-
     &.marc {
       background-image: url('/people/marc.jpg');
     }
@@ -142,6 +138,10 @@
 
     &.bjorn {
       background-image: url('/people/bjorn.png');
+    }
+
+    &.aelin {
+      background-image: url('/people/aelin.jpg');
     }
   }
 }
