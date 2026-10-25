@@ -29,6 +29,7 @@ supporters = [
 ]
 
 blogposts = [
+    "OxiSH a modern memory-safe SSH server",
     "Three years of Rusty sudo",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo",
     "Frequently Asked Questions about sudo-rs",
@@ -48,9 +49,11 @@ The Privilege Boundary initiative provides alternative that don't suffer from me
 
 ### What We've Done
 
-Our sudo implemention, sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. It has since been packaged for Debian, Fedora and Ubuntu. In October 2025, `sudo-rs` [became the default sudo in Ubuntu 25.10](https://canonical.com/blog/canonical-releases-ubuntu-25-10-questing-quokka).
+Our sudo implemention, sudo-rs was [first released](https://www.memorysafety.org/blog/sudo-first-stable-release/) on Aug 29, 2023. It has since been packaged for Debian, Fedora and Ubuntu. 
 
-In late 2025, we started work on a proof-of-concept SSH server implementation in Rust.
+In October 2025, `sudo-rs` [became the default sudo in Ubuntu 25.10](https://canonical.com/blog/canonical-releases-ubuntu-25-10-questing-quokka), and later in Ubuntu 26.10 LTS.
+
+In early 2026 we started contributing to OxiSH, an SSH server implementation in Rust by Dirkjan Ochtman. We will continue this collaboration in 2027 with a joint development phase, see the [OxiSH](/projects/oxish/) project page.
 
 ### Roadmap
 
