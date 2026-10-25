@@ -45,12 +45,18 @@ ntpd-rs is part of our [Time synchronization initiative](/initiatives/time-synch
 
 ntpd-rs, is stable. It is packaged for, for example, Fedora, Debian and Ubuntu and [deployed at Let's Encrypt](https://letsencrypt.org/2024/06/24/ntpd-rs-deployment).
 
+## What's next
+
+2026 will see major developments for ntpd-rs, including support for NTS pooling and CSPTP, resulting in the release of ntpd-rs 2.0 at the end of the year.
+
+Additionally, work is in progress to support PTP in ntpd-rs as part of our quest to create a single time synchronization utility that supports both NTP and PTP.
+
 ### Roadmap
 
-- 2025 Q3-Q4: Support for NTPv5, updated as the spec evolves
-- 2025 Q4: Support for [NTS extensions for enabling pools](https://datatracker.ietf.org/doc/draft-venhoek-nts-pool/)
-- 2026 Q1: Experimental Client Server PTP with NTS (funded by [Meinberg](https://www.meinbergglobal.com/))
-- 2026 Q2: Clock synchronization library (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
+- 2026 Q3: Support for [NTS extensions for enabling pools](https://datatracker.ietf.org/doc/draft-venhoek-nts-pool/) in ntpd-rs
+- 2026 Q4: Experimental Client Server PTP with NTS (funded by [Meinberg](https://www.meinbergglobal.com/))
+- 2026 Q4: New clock synchronization library (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
+- 2027 Q1: Release of ntpd-rs 2.0
 
 ### History
 
