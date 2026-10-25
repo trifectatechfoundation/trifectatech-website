@@ -31,7 +31,7 @@ blogposts = [
 
 The Network Time Protocol is generally used completely unprotected, much like the web was before HTTPS; if our devices were to receive a manipulated timestamp, they wouldn’t know.
 
-This project provides a pool management system for NTS servers to facilitate the adoption of Network Time Security (NTS). 
+This project provides a pool management system for NTS servers to facilitate the adoption of Network Time Security (NTS), with the goal to eventually solve the problem of unprotected time on the internet.
 
 NTS Pool is part of our [Time synchronization initiative](/initiatives/time-synchronization/).
 

@@ -48,11 +48,9 @@ In late 2025, we started the experimental implementation of the novel [Client Se
 
 ### Roadmap
 
-- 2026 Q1: Experimental Client Server PTP with NTS in ntpd-rs (funded by [Meinberg](https://www.meinbergglobal.com/))
-- 2026 Q2: Clock synchronization library (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
-- 2026 Q4: Stable release of statime-linux (pending funding)
-- 2026 Q4: Automotive profile (pending funding)
-- 2027 Q1: Stable release of statime library (pending funding)
+- 2026 Q3: Experimental Client Server PTP with NTS in ntpd-rs (funded by [Meinberg](https://www.meinbergglobal.com/))
+- 2026 Q3: Clock synchronization library (funded by [NLnet](https://nlnet.nl/project/ntpd-rs-NTPv5/))
+- 2027: Automotive profile (pending funding)
 
 For milestone details see [the Statime workplan](/initiatives/workplans/statime/).
 

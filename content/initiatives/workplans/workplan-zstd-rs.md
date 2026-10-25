@@ -13,12 +13,6 @@ Work on zstd started in July 2025. The first three milestones are now completed.
 
 ### In progress milestones
 
-We're seeking funding for the *encoder*. Please [get in touch with us](/support), if you are interested in financially supporting the development of memory-safe zstd.
-
----
-
-### Future work
-
 **Milestone 4: Encoder implementation**
 
 This milestone adds API-compatible zstd compression.

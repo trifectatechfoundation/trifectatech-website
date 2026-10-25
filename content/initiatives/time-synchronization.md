@@ -18,6 +18,7 @@ projects = [
 funders = [
     "nlnetfoundation",
     "ngi-zero-core",
+    "canonical",
     "icann"
 ]
 
@@ -46,11 +47,15 @@ blogposts = [
 
 Reliable, securely synchronized time is a building block for the Internet and other critical infrastructure.
 
-[Project Pendulum](https://github.com/pendulum-project) is the home for our time synchronization projects. It provides modern implementations of the Network Time Protocol and Precision Time Protocol and creates open services that boost secure time synchronization.
+This initiative provides modern, memory-safe implementations of the Network Time Protocol and Precision Time Protocol and creates open services that boost secure time synchronization.
 
 ### What We've Done
 
 Our Network Time Protocol implementation, ntpd-rs, is stable. It is packaged for, for example, Fedora, Debian and Ubuntu and [deployed at Let's Encrypt](https://letsencrypt.org/2024/06/24/ntpd-rs-deployment).
+
+In 2025, we started work on a pool management system for NTS servers to facilitate the adoption of Network Time Security (NTS). This project completes in early 2027, see the [NTS Pool](/projects/nts-pool) project page.
+
+In July of 2026, work started to prepare ntpd-rs to become [the default time synchronization utility on Ubuntu](/blog/announcing-ntpd-rs-as-default-on-ubuntu/).
 
 ### Roadmap
 

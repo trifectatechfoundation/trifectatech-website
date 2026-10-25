@@ -11,18 +11,6 @@ backTitle = "Back to project: zlib-rs"
 
 Work on zlib-rs continues. Please [get in touch with us](/support), if you are interested in financially supporting memory-safe zlib. 
 
-### In progress milestones
-
-**Milestone 3: Rust Interface and Performance Improvements**
-
-- Experiments to improve performance using AVX512 instruction
-- Implementation of a Rust interface for zlib-rs
-- Deliverable: release of zlib-rs, including the Rust interface
-
-Status: *In progress*.
-
-This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
-
 ---
 
 ### Future work
@@ -64,6 +52,16 @@ Status: *Pending funding*. Requested funding €30.000.
 - **Implementation:** Improvements and fixes
 
 *Completed Nov 2024*
+
+**Milestone 3: Rust Interface and Performance Improvements**
+
+- Experiments to improve performance using AVX512 instruction
+- Implementation of a Rust interface for zlib-rs
+- Deliverable: release of zlib-rs, including the Rust interface
+
+*Completed Dec 2025*
+
+This work is supported by [Sovereign Tech Agency](https://sovereign.tech).
 
 
 

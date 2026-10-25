@@ -46,7 +46,8 @@ We thank [Chainguard](https://www.chainguard.dev/), [Astral](https://astral.sh/)
 - 2025 Q3: start of decoder implementation (*completed*)
 - 2025 Q4: implementation of dictBuilder feature (*completed*)
 - 2026 Q1: release of decoder (*completed*)
-- 2026 Q2: start of encoder implementation (*pending funding*)
+- 2026 Q3: start of encoder implementation (*in progress*)
+- 2027 Q1: release of encoder implementation
 
 For details see [the workplan](/initiatives/workplans/libzstd-rs/).
 
