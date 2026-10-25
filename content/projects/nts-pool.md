@@ -19,6 +19,7 @@ funders = [
 ]
 
 supporters = [
+    "sta"
 ]
 
 blogposts = [
@@ -34,13 +35,18 @@ This project provides a pool management system for NTS servers to facilitate the
 
 NTS Pool is part of our [Time synchronization initiative](/initiatives/time-synchronization/).
 
-### About
+### What we've done
 
-More soon.
+In 2024, we first wrote about [the importance of secure time synchronization](https://trifectatech.org/blog/a-safe-internet-requires-secure-time/) and [our proposed solutions for pools of NTS (Network Time Security) servers](https://trifectatech.org/blog/enabling-pools-in-nts/) aimed at increasing NTS adoption. Thanks to an investment from [Sovereign Tech Agency](https://sovereign.tech) our maintainers proposed an IETF standard and experimented with an implementation.
+
+In 2025, the ICANN Grant Program supported our project [Secure time for a Safe Internet](https://www.icann.org/en/grant-program/first-cycle-funded-projects#secure-time-safe-internet) for the development of services that implemenent two proposals for NTS pooling. The project will complete in early 2027.
 
 ### Roadmap
 
-More soon.
+- Q3 2026: Experimental service for NTS pooling
+- Q4 2026: Stable service for NTS pooling
+- Q1 2027: Completion of the [Secure time for a Safe Internet](https://www.icann.org/en/grant-program/first-cycle-funded-projects#secure-time-safe-internet) project
+- Q2-Q4 2027: Scaling of NTS pool services (pending funding)
 
 ### Support us
 
