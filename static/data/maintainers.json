@@ -1,5 +1,15 @@
 [
     {
+        "name": "Dirkjan Ochtman",
+        "image": "dirkjan",
+        "email": "dirkjan@ochtman.nl",
+        "role": "Open source Rust maintainer",
+        "tags": [
+            "oxish"
+        ],
+        "github": "https://github.com/djc"
+    },
+    {
         "name": "Michiel",
         "image": "michiel",
         "email": "michiel@tweedegolf.com",
