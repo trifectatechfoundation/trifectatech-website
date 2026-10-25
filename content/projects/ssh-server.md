@@ -1,6 +1,7 @@
 +++
 title = "OxiSH: memory-safe SSH server"
 slug = "oxish"
+aliases = ["/projects/ssh-server/"]
 template = "projects/project.html"
 
 [extra]
