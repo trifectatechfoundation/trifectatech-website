@@ -1,6 +1,6 @@
 +++
-title = "SSH server in Rust"
-slug = "ssh-server"
+title = "OxiSH: memory-safe SSH server"
+slug = "oxish"
 template = "projects/project.html"
 
 [extra]

@@ -12,7 +12,7 @@ summary = "<p>The sudo utility mediates a critical privilege boundary on every o
 projects = [
     "sudo-rs",
     "allowd",
-    "ssh-server"
+    "oxish"
 ]
 
 funders = [
@@ -54,6 +54,6 @@ In late 2025, we started work on a proof-of-concept SSH server implementation in
 
 ### Roadmap
 
-See the [sudo-rs](/projects/sudo-rs/), [allowd](/projects/allowd/) and [SSH server](/projects/ssh-server/) project pages.
+See the [sudo-rs](/projects/sudo-rs/), [allowd](/projects/allowd/) and [OxiSH](/projects/oxish/) project pages.
 
 

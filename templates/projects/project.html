@@ -2,9 +2,11 @@
 {% import "macros.html" as macros %}
 
 {% block content %}
+{% set lastWord = page.title | split(pat=" ") | last | safe -%}
+{% set otherWords = page.title | replace(from = lastWord, to = "") | safe -%}
 <div class="hero-container">
     <div class="hero">
-        <h1 class="text-center"><span>{{ page.title | safe }}</span></h1>
+        <h1>{{ otherWords }} <span>{{ lastWord }}</span></h1>
     </div>
     <div class="hero-menu">
         <ul>
