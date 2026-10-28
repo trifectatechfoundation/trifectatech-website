@@ -71,7 +71,7 @@ html {
     font-size: var(--text-size-md);
   }
 
-  p {
+  p, ol, ul {
     code {
       background-color: var(--color-inline-code);
       border: 1px solid #ccc;
