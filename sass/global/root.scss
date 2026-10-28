@@ -29,6 +29,8 @@
   --text-size-2xl: calc(var(--text-size-xl) * var(--text-size-ratio));
   --text-size-3xl: calc(var(--text-size-2xl) * var(--text-size-ratio));
 
+  --text-size-inline-code: calc((var(--text-size-md) + var(--text-size-sm)) / 2);
+
   --line-height: 1.5;
   --line-height-tight: 1.125;
 
