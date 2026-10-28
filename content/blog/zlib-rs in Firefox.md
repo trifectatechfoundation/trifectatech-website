@@ -57,7 +57,7 @@ pub fn push_dist(&mut self, dist: u16, len: u8) {
 
 This code is dead simple: we assign three byte values to consecutive indices of an array. But the assembly for this function (with LLVM 22) has this move from `ch` to memory, which is bits 8-15 of the RCX register:
 
-```assembly
+```asm
 mov     byte ptr [rsi + rdi + 1], ch
 ```
 
