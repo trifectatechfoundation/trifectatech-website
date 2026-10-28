@@ -9,13 +9,13 @@
             {% include "components/blogpost_metablock.html" %}
             <div class="blog-body">
                 {{ page.content | safe }}
+                {% if page.extra.externalLink is defined -%}
                 <br />
                 <div>
-                    {% if page.extra.externalLink is defined -%}
                     <a href={{page.extra.externalLink}}>>> Read more on <strong>{{page.extra.source}}</strong></a>
-                    {% endif -%}
                     <br />
                 </div>
+                {% endif -%}
                 <hr />
             </div>
         </article>
