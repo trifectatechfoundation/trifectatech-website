@@ -102,6 +102,11 @@ html {
       > * + * {
         margin-block-start: 1.5rem;
       }
+
+      ol {
+        list-style: auto;
+        padding: revert;
+      }
     }
   }
 }
