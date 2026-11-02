@@ -18,7 +18,7 @@ Time synchronization has traditionally happened over unsecured protocols. Even t
 
 A secure variant of NTP already exists, NTS (Network Time Security), but its adoption has been low at best. We believe that NTS should become the new default for most computers on the internet, just as HTTP was replaced with encrypted HTTPS.
 
-### A default location for secure time
+### A default location to retrieve secure time
 A major obstacle to NTS adoption is the lack of a good default location. For unsecured NTP, many vendors use the well-known [NTP pool](https://www.ntppool.org/en/), `pool.ntp.org`, as their default setting. This pool, however, cannot provide access to secure servers, due to the design of NTS. In short, for secure time, no standard pool exists and vendors cannot pick an NTS server suitable for all of their clients.
 
 This is why we’ve been working on alternative pooling solutions for NTS over the past two years, designed to provide free access to secure time for everyone. 
@@ -37,7 +37,7 @@ This project is funded by the Internet Corporation for Assigned Names and Number
 
 
 ### What's next
-Work on the project continues; our project partner [SIDN](https://www.sidnlabs.nl/en) is conducting measurements to report on the behavior of both pooling solutions, while we work on scaling sectime.org. We will publish a technical blog post soon that details the pros and cons of both proposals. Stay tuned!
+Work on the project continues; our project partner [SIDN](https://www.sidnlabs.nl/en) is conducting measurements to report on the behavior of both pooling solutions, while we work on scaling sectime.org. A technical blogpost that details the pros and cons of both proposals will be published soon. Stay tuned!
 
 For now, we invite anyone to [join our pool](https://sectime.org/), either as a server or as a client!
 
