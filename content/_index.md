@@ -19,7 +19,8 @@ funders = [
     "canonical",
     "icann",
     "meinberg",
-    "tweedegolf"
+    "tweedegolf",
+    "tempo"
 ]
 
 supporters = [

@@ -14,10 +14,11 @@ projects = [
 ]
 
 funders = [
-    "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
+    "tempo"
 ]
 
 supporters = [
+        "nlnetfoundation", "ngi-zero-core", "aws"
 ]
 
 blogposts = [
@@ -55,11 +56,9 @@ We also thank [Tweede golf](https://tweedegolf.nl) for supporting the initial ef
 
 ### What's next
 
-The current initial work shows that there is room for improvement. While outperforming C is impossible in general, improving the performance of foundational systems libraries written in Rust furthers adoption, and hence the spreading of Rust's advantages like memory safety and portability. We believe the gap with C can be closed if we can better use Rust's advantages over C, e.g., having more information about the program that can be used to optimize.
+The current work shows that there is room for improvement. While outperforming C is impossible in the general case, we believe the gap with C can be closed and in specific cases Rust can be faster. If we can make better use Rust's advantages over C, e.g., having more information available about a program, Rust can optimize better. Closing the performance gap of foundational systems libraries furthers adoption, and hence the spreading of Rust's advantages like memory safety and portability.
 
-In the next phase, a coordinated effort is needed to make Rust faster than C. We by no means think that we can do this alone. While a considerable effort, initial investigation indicates this a realistic goal and one where the expected effort is relatively small in comparison to the impact of the outcome.
-
-For this next phase we are seeking funding. Are you interested in supporting our effort to make Rust faster? Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
+Are you interested in supporting our effort to make Rust faster? Contact us via [rustfasterthanc@trifectatech.org](mailto:rustfasterthanc@trifectatech.org).
 
 ### Links
 
