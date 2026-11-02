@@ -14,10 +14,11 @@ projects = [
 ]
 
 funders = [
-    "tweedegolf", "nlnetfoundation", "ngi-zero-core", "aws"
+    "tempo"
 ]
 
 supporters = [
+        "nlnetfoundation", "ngi-zero-core", "aws"
 ]
 
 blogposts = [
