@@ -5,7 +5,7 @@ authors = ["Ruben Nijveld", "Erik Jonkers"]
 date = "2026-11-03"
 
 [taxonomies]
-tags = ["nts-pool", "time synchronization"] 
+tags = ["sectime", "time synchronization"] 
 
 +++
 
