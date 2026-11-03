@@ -45,13 +45,14 @@ For now, we invite anyone to [join our pool](https://sectime.org/), either as a 
 
 ### Resources
 
-- [NTS pool project](/projects/nts-pool/) on Trifecta Tech Foundation website
-- [IETF specification](#)
-- [Audit report](#)
-- [Time Synchronization initiative](/initiatives/time-synchronization/) on Trifecta Tech Foundation website
-- [NTS pool repository]() on GitHub
+- [IETF Active-Internet Draft "NTS extensions for enabling pools"](https://datatracker.ietf.org/doc/draft-ietf-ntp-nts-keyexchange-pool/)  
+- [Audit report "NTS Pool Protocol and Code Review"](https://github.com/pendulum-project/nts-pool/blob/main/documentation/audits/2026-nts-pool-protocol-and-code-review.pdf)
+- [Sectime repository](https://github.com/pendulum-project/nts-pool/) on GitHub
+- [Sectime project page](/projects/nts-pool/) on Trifecta Tech Foundation website
+- [Time Synchronization initiative page](/initiatives/time-synchronization/) on Trifecta Tech Foundation website
 - [Enabling pools in NTS](/blog/enabling-pools-in-nts/) on Trifecta Tech Foundation blog
-- [Secure Time for a Safe Internet grant](https://www.icann.org/en/grant-program/first-cycle-funded-projects#secure-time-safe-internet) on icann.org.
+- [Secure Time for a Safe Internet](https://www.icann.org/en/grant-program/first-cycle-funded-projects#secure-time-safe-internet) project section on icann.org.
 
 ### About 
+
 Trifecta Tech Foundation is a non-profit and a Public Benefit Organization (501(c)(3) equivalent) that creates open-source building blocks for critical infrastructure software. Our initiatives on data compression, time synchronization, and privilege boundary impact the digital security of millions of people. If you’d like to support our work, please contact us; see [trifectatech.org/support](https://trifectatech.org/support).
