@@ -7,6 +7,9 @@ date = "2026-11-05"
 [taxonomies]
 tags = ["sectime", "time synchronization"] 
 
+[extra]
+image = "/blog/ntp-with-pools.png"
+
 +++
 
 **Trifecta Tech Foundation has launched [sectime.org](https://sectime.org), a public pool of secure NTS servers, with the goal of eventually providing secure time synchronization by default for all devices on the internet.**
