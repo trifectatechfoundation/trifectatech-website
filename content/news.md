@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Introducing sectime",
     "New Gold Sponsor Google",
     "BSI and the Sovereign Tech Agency endorse call for memory safety",
     "OxiSH a modern memory-safe SSH server",

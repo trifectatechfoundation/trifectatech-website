@@ -3,7 +3,7 @@ title = "Statime vs Linux PTP: Comparison of precision"
 date = 2024-07-08
 
 [taxonomies]
-tags = ["time synchonization", "Statime"]
+tags = ["time synchronization", "Statime"]
 
 [extra]
 source = "Tweede golf"

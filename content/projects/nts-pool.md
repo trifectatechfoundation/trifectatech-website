@@ -1,6 +1,7 @@
 +++
-title = "NTS Pool"
-slug = "nts-pool"
+title = "Sectime.org"
+slug = "sectime"
+aliases = ["/projects/nts-pool/"]
 template = "projects/project.html"
 
 [extra]
@@ -9,6 +10,7 @@ summary = "<p>A pool management system for NTS servers.</p>"
 initiative = { name = "Time Synchronization", slug = "/initiatives/time-synchronization" }
 
 links = [
+    { name = "Website", href="https://sectime.org" },
     { name = "GitHub", href = "https://github.com/pendulum-project/nts-pool" },
     { name = "Roadmap", href = "#roadmap" },
     { name = "News", href = "#news" },
@@ -23,6 +25,7 @@ supporters = [
 ]
 
 blogposts = [
+    "Introducing sectime",
     "Video: Securing time with NTS (FOSDEM26)",
     "Enabling pools in NTS",
     "A safe Internet requires secure time"
@@ -31,9 +34,9 @@ blogposts = [
 
 The Network Time Protocol is generally used completely unprotected, much like the web was before HTTPS; if our devices were to receive a manipulated timestamp, they wouldn’t know.
 
-This project provides a pool management system for NTS servers to facilitate the adoption of Network Time Security (NTS), with the goal to eventually solve the problem of unprotected time on the internet.
+This project provides a pool management system for NTS servers, [Sectime.org](https://sectime.org) to facilitate the adoption of Network Time Security (NTS), with the goal to eventually solve the problem of unprotected time on the internet.
 
-NTS Pool is part of our [Time synchronization initiative](/initiatives/time-synchronization/).
+Sectime is part of our [Time synchronization initiative](/initiatives/time-synchronization/).
 
 ### What we've done
 
@@ -46,7 +49,7 @@ In 2025, the ICANN Grant Program supported our project [Secure time for a Safe I
 - Q3 2026: Experimental service for NTS pooling
 - Q4 2026: Stable service for NTS pooling
 - Q1 2027: Completion of the [Secure time for a Safe Internet](https://www.icann.org/en/grant-program/first-cycle-funded-projects#secure-time-safe-internet) project
-- Q2-Q4 2027: Scaling of NTS pool services (pending funding)
+- Q2 2027 - Q4 2028: Scaling of the sectime.org NTS pool services (pending funding)
 
 ### Support us
 

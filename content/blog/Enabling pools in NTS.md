@@ -5,7 +5,7 @@ authors = ["Ruben Nijveld"]
 date = "2024-10-30"
 
 [taxonomies]
-tags = ["ntpd-rs", "time synchonization"] 
+tags = ["sectime", "time synchronization"] 
 
 +++
 
