@@ -22,7 +22,7 @@ A secure variant of NTP already exists, NTS (Network Time Security), but its ado
 A major obstacle to NTS adoption is the lack of a good default location. For unsecured NTP, many vendors use the well-known [NTP pool](https://www.ntppool.org/en/), `pool.ntp.org`, as their default setting. The NTP pool, however, cannot provide access to secure servers, due to the design of NTS. 
 
 In short, for secure time, no standard pool exists and vendors cannot pick an NTS-enabled server suitable for all of their clients.
-One option is to configure a default NTS server. But this makes clients depend on a single server, which will often be far away from them, as shown below:
+One option is to configure a default NTS server. But this makes clients depend on a single server, which will often be far away from them, reducing accuracy and reliability, as shown below:
 
 ![NTS-enabled NTP server selection without pools](/blog/ntp-without-pools.png)
 
