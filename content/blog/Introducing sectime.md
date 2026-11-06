@@ -8,7 +8,7 @@ date = "2026-11-05"
 tags = ["sectime", "time synchronization"] 
 
 [extra]
-image = "/blog/ntp-with-pools.png"
+image = "/blog/ntp-with-pools-1200.png"
 
 +++
 
@@ -37,7 +37,7 @@ One option is to configure a default NTS server. But this makes clients depend o
 
 To remove this barrier to NTS adoption, we've been working on alternative pooling solutions for NTS over the past two years, designed to provide access to secure time for everyone. The pool answers the client's question: "Which secure server is best for me?"
 
-![NTS-enabled NTP server selection using a pool of servers](/blog/ntp-with-pools.png)
+![NTS-enabled NTP server selection using a pool of servers](/blog/ntp-with-pools-1200.png)
 <p style="margin-top: 0;">
     <span style="display: inline-block; width: 100%;font-size: smaller;text-align: center;font-style: italic;">
         Image: NTS-enabled NTP server selection using a pool of servers
