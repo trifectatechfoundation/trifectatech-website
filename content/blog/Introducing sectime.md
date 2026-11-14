@@ -19,7 +19,7 @@ image = "/blog/ntp-with-pools-1200.png"
 ### Why does it matter?
 Time synchronization has traditionally happened over unsecured protocols. Even today most time synchronization over the internet is done via unsecured NTP (Network Time Protocol) packets. But the internet has changed, and unsecured protocols are no longer sufficient given the threats the modern digital world faces. 
 
-A secure variant of NTP already exists, NTS (Network Time Security), but its adoption has been low at best. We believe that NTS should become the new default for most computers on the internet, just as HTTP was replaced with encrypted HTTPS.
+A secure variant of NTP already exists, NTS (Network Time Security), but its adoption remains low. While no reliable global measurement exists, we estimate it accounts for less than 1% of all time synchronization requests. We believe that NTS should become the new default for most computers on the internet, just as HTTPS replaced plain HTTP.
 
 ### A default location to retrieve secure time
 A major obstacle to NTS adoption is the lack of a good default location. For unsecured NTP, many vendors use the well-known [NTP pool](https://www.ntppool.org/en/), `pool.ntp.org`, as their default setting. The NTP pool, however, cannot provide access to secure servers, due to the design of NTS. 
