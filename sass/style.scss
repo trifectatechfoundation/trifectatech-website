@@ -235,6 +235,8 @@ html {
 
   margin-block-start: 0.25rem;
   width: 100%;
+  display: inline-block;
+  overflow-x: auto;
 
   code {
     font-family: monospace;

@@ -33,6 +33,7 @@ supporters = [
 ]
 
 blogposts = [
+    "A new name for ntpd-rs - Statime",
     "Introducing sectime",
     "Announcing ntpd-rs in Ubuntu",
     "Video: Securing time with NTS (FOSDEM26)",

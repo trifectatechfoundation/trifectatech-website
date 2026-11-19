@@ -39,6 +39,7 @@ supporters = [
 ]
 
 blogposts = [
+    "A new name for ntpd-rs - Statime",
     "Introducing sectime",
     "New Gold Sponsor Google",
     "BSI and the Sovereign Tech Agency endorse call for memory safety",
@@ -47,7 +48,6 @@ blogposts = [
     "Announcing Zstandard in Rust",
     "Three years of Rusty sudo",
     "Announcing ntpd-rs in Ubuntu",
-    "Video: Securing time with NTS (FOSDEM26)",
     "Canonical releases Ubuntu 25-10 with sudo-rs as the default sudo"
 ]
 +++

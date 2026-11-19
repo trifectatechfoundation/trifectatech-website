@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "A new name for ntpd-rs - Statime",
     "Introducing sectime",
     "New Gold Sponsor Google",
     "BSI and the Sovereign Tech Agency endorse call for memory safety",

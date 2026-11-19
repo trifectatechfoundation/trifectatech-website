@@ -29,6 +29,7 @@ supporters = [
 ]
 
 blogposts = [
+    "A new name for ntpd-rs - Statime",
     "Announcing ntpd-rs in Ubuntu",
     "ntpd-rs now supports version 5 of the Network Time Protocol",
     "More Memory Safety for Let’s Encrypt: Deploying ntpd-rs",
