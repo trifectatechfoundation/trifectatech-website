@@ -93,6 +93,11 @@ html {
     }
   }
 
+  sup a {
+    font-size: 80%;
+    vertical-align: super;
+  }
+
   .meta {
     margin-block-end: 1.5rem;
   }

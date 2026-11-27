@@ -25,6 +25,14 @@ taxonomies = [
     # {name = "ecosystem"},
 ]
 
+[markdown]
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
+
 [markdown.highlighting]
 # Syntax highlighting (Giallo, Zola >= 0.22). Themes: https://github.com/getzola/giallo#built-in
 theme = "github-dark"

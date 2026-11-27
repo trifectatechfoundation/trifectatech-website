@@ -1,4 +1,4 @@
-footer {
+footer:not(.footnotes) {
   background-color: var(--color-secondary-400);
   color: var(--color-footer);
   padding-block: 3rem;

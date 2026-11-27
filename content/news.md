@@ -5,6 +5,7 @@ template = "news.html"
 
 [extra]
 blogposts = [
+    "Implementing 128-bit atomics in Cranelift",
     "A new name for ntpd-rs - Statime",
     "Introducing sectime",
     "New Gold Sponsor Google",
